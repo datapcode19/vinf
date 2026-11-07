@@ -1,0 +1,682 @@
+{
+  "results": [
+    {
+      "width": 1920,
+      "path": "index.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 1920,
+      "path": "pages/vf3.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 1920,
+      "path": "pages/product.html?id=vf6",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 1920,
+      "path": "pages/product.html?id=kinet",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 1920,
+      "path": "pages/warranty.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 1920,
+      "path": "pages/battery.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 1920,
+      "path": "pages/catalog.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 1920,
+      "path": "pages/compare.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 1920,
+      "path": "pages/test-drive.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 1920,
+      "path": "pages/reference.html?route=ve-chung-toi",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 1920,
+      "path": "404.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 1920,
+      "path": "pages/rescue.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 1440,
+      "path": "index.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 1440,
+      "path": "pages/vf3.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 1440,
+      "path": "pages/product.html?id=vf6",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 1440,
+      "path": "pages/product.html?id=kinet",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 1440,
+      "path": "pages/warranty.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 1440,
+      "path": "pages/battery.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 1440,
+      "path": "pages/catalog.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 1440,
+      "path": "pages/compare.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 1440,
+      "path": "pages/test-drive.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 1440,
+      "path": "pages/reference.html?route=ve-chung-toi",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 1440,
+      "path": "404.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 1440,
+      "path": "pages/rescue.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 1366,
+      "path": "index.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 1366,
+      "path": "pages/vf3.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 1366,
+      "path": "pages/product.html?id=vf6",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 1366,
+      "path": "pages/product.html?id=kinet",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 1366,
+      "path": "pages/warranty.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 1366,
+      "path": "pages/battery.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 1366,
+      "path": "pages/catalog.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 1366,
+      "path": "pages/compare.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 1366,
+      "path": "pages/test-drive.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 1366,
+      "path": "pages/reference.html?route=ve-chung-toi",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 1366,
+      "path": "404.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 1366,
+      "path": "pages/rescue.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 1024,
+      "path": "index.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 1024,
+      "path": "pages/vf3.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 1024,
+      "path": "pages/product.html?id=vf6",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 1024,
+      "path": "pages/product.html?id=kinet",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 1024,
+      "path": "pages/warranty.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 1024,
+      "path": "pages/battery.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 1024,
+      "path": "pages/catalog.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 1024,
+      "path": "pages/compare.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 1024,
+      "path": "pages/test-drive.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 1024,
+      "path": "pages/reference.html?route=ve-chung-toi",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 1024,
+      "path": "404.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 1024,
+      "path": "pages/rescue.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 768,
+      "path": "index.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 768,
+      "path": "pages/vf3.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 768,
+      "path": "pages/product.html?id=vf6",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 768,
+      "path": "pages/product.html?id=kinet",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 768,
+      "path": "pages/warranty.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 768,
+      "path": "pages/battery.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 768,
+      "path": "pages/catalog.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 768,
+      "path": "pages/compare.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 768,
+      "path": "pages/test-drive.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 768,
+      "path": "pages/reference.html?route=ve-chung-toi",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 768,
+      "path": "404.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 768,
+      "path": "pages/rescue.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 390,
+      "path": "index.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 390,
+      "path": "pages/vf3.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 390,
+      "path": "pages/product.html?id=vf6",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 390,
+      "path": "pages/product.html?id=kinet",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 390,
+      "path": "pages/warranty.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 390,
+      "path": "pages/battery.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 390,
+      "path": "pages/catalog.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 390,
+      "path": "pages/compare.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 390,
+      "path": "pages/test-drive.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 390,
+      "path": "pages/reference.html?route=ve-chung-toi",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 390,
+      "path": "404.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 390,
+      "path": "pages/rescue.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 375,
+      "path": "index.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 375,
+      "path": "pages/vf3.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 375,
+      "path": "pages/product.html?id=vf6",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 375,
+      "path": "pages/product.html?id=kinet",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 375,
+      "path": "pages/warranty.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 375,
+      "path": "pages/battery.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 375,
+      "path": "pages/catalog.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 375,
+      "path": "pages/compare.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 375,
+      "path": "pages/test-drive.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 375,
+      "path": "pages/reference.html?route=ve-chung-toi",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 375,
+      "path": "404.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    },
+    {
+      "width": 375,
+      "path": "pages/rescue.html",
+      "overflow": false,
+      "notice": false,
+      "top": 0,
+      "external": 0
+    }
+  ],
+  "links": 94,
+  "errors": [],
+  "broken": [],
+  "interactions": "VF3 version/gallery/tabs/modal/refresh/history; Kinet 5 colors; VF6 Plus; warranty accordion PASS",
+  "visualComparison": "UNVERIFIED: no production screenshot",
+  "supplemental": "Catalog VF3 link + reduced motion + shared menu keyboard ArrowDown/Escape PASS"
+}

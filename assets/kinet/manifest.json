@@ -1,0 +1,44 @@
+[
+  {
+    "file": "assets/kinet/hero.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/e-scooter/kinet/hinh-anh-vinfast-kinet-hero-banner-mobile.webp",
+    "role": "Kinet / hero",
+    "permission": "User confirmed educational image use, 2026-11-07",
+    "reference": "https://vinfastauto.com/vn_vi/xe-may-dien-vinfast-kinet"
+  },
+  {
+    "file": "assets/kinet/front.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/e-scooter/updated/kinet/kinet-front-view-mobile.webp",
+    "role": "Kinet / front",
+    "permission": "User confirmed educational image use, 2026-11-07",
+    "reference": "https://vinfastauto.com/vn_vi/xe-may-dien-vinfast-kinet"
+  },
+  {
+    "file": "assets/kinet/screen.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/e-scooter/updated/kinet/kinet-detail-01-screen-mobile.webp",
+    "role": "Kinet / screen",
+    "permission": "User confirmed educational image use, 2026-11-07",
+    "reference": "https://vinfastauto.com/vn_vi/xe-may-dien-vinfast-kinet"
+  },
+  {
+    "file": "assets/kinet/storage.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/e-scooter/updated/kinet/kinet-detail-02-storage-mobile.webp",
+    "role": "Kinet / storage",
+    "permission": "User confirmed educational image use, 2026-11-07",
+    "reference": "https://vinfastauto.com/vn_vi/xe-may-dien-vinfast-kinet"
+  },
+  {
+    "file": "assets/kinet/suspension.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/e-scooter/updated/kinet/kinet-detail-04-shock-absorber-mobile.webp",
+    "role": "Kinet / suspension",
+    "permission": "User confirmed educational image use, 2026-11-07",
+    "reference": "https://vinfastauto.com/vn_vi/xe-may-dien-vinfast-kinet"
+  },
+  {
+    "file": "assets/kinet/brake.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/e-scooter/updated/kinet/kinet-detail-05-brake-mobile.webp",
+    "role": "Kinet / brake",
+    "permission": "User confirmed educational image use, 2026-11-07",
+    "reference": "https://vinfastauto.com/vn_vi/xe-may-dien-vinfast-kinet"
+  }
+]

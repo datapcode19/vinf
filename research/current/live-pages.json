@@ -1,0 +1,50 @@
+[
+  {
+    "url": "https://datapcode19.github.io/vinf/",
+    "width": 1440,
+    "status": 200,
+    "title": "Trang chủ — VinFast mô phỏng",
+    "errors": [],
+    "overflow": false
+  },
+  {
+    "url": "https://datapcode19.github.io/vinf/pages/product.html?id=vf6",
+    "width": 1440,
+    "status": 200,
+    "title": "VF 6 — Bản mô phỏng VinFast",
+    "errors": [],
+    "overflow": false
+  },
+  {
+    "url": "https://datapcode19.github.io/vinf/pages/vf3.html",
+    "width": 1440,
+    "status": 404,
+    "title": "Không tìm thấy trang — VinFast mô phỏng",
+    "errors": [],
+    "overflow": false
+  },
+  {
+    "url": "https://datapcode19.github.io/vinf/",
+    "width": 390,
+    "status": 200,
+    "title": "Trang chủ — VinFast mô phỏng",
+    "errors": [],
+    "overflow": false
+  },
+  {
+    "url": "https://datapcode19.github.io/vinf/pages/product.html?id=vf6",
+    "width": 390,
+    "status": 200,
+    "title": "VF 6 — Bản mô phỏng VinFast",
+    "errors": [],
+    "overflow": false
+  },
+  {
+    "url": "https://datapcode19.github.io/vinf/pages/vf3.html",
+    "width": 390,
+    "status": 404,
+    "title": "Không tìm thấy trang — VinFast mô phỏng",
+    "errors": [],
+    "overflow": false
+  }
+]

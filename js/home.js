@@ -1,3 +1,4 @@
+import {resolveRoute} from './routes.js';
 import {carGroups,scooterGroups} from '../data/home-products.js';
 import {homeMenus} from '../data/home-menu.js';
 import {tabsMarkup} from './components.js';
@@ -7,7 +8,7 @@ const shop=path=>'https://shop.vinfastauto.com/vn_vi/'+path;
 function productLink(product){
  const aliases={'vf-wild':'VF Wild','vf8-new':'VF 8 Thế hệ mới','vf-mpv7':'VF MPV 7','ecvan':'EC Van','feliz-2025':'Feliz 2025','drgnfly':'VF DrgnFly'};
  const entry=homeMenus.flatMap(m=>m.groups||[]).flatMap(g=>g.items).find(i=>i.name===(aliases[product.id]||product.name));
- return entry?.url||official('mua-xe-o-to-dien-truc-tuyen');
+ return resolveRoute(entry?.url||official('mua-xe-o-to-dien-truc-tuyen'));
 }
 function rangeMarkup(product){return `<dl class="home-specs">${product.stats.map(([label,value])=>`<div><dd>${value}</dd><dt>${label}</dt></div>`).join('')}</dl>`;}
 function showcase(id,group){return `<div class="home-showcase" data-showcase="${id}"><div class="model-picker" aria-label="Chọn mẫu xe">${group.items.map((p,i)=>`<button type="button" data-model="${i}" aria-pressed="${i===0}">${p.name}</button>`).join('')}</div><div class="showcase-vehicle"><button type="button" data-model-prev aria-label="Mẫu xe trước">‹</button><div class="showcase-image"><img data-model-image src="./${group.items[0].image}" alt="${group.items[0].name}" width="1200" height="637" loading="lazy"></div><button type="button" data-model-next aria-label="Mẫu xe tiếp theo">›</button></div><div class="showcase-info"><h3 data-model-name>${group.items[0].name}</h3><div data-model-specs>${rangeMarkup(group.items[0])}</div><p class="home-price" data-model-price>Giá niêm yết ${String(group.items[0].price).replace('.',',')} triệu đồng</p><a class="button" data-model-link href="${productLink(group.items[0])}" ${productLink(group.items[0]).startsWith('https:')?'target="_blank" rel="noopener noreferrer"':''}>Xem chi tiết</a><span class="visually-hidden" data-model-status role="status"></span></div></div>`;}

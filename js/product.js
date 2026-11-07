@@ -1,3 +1,4 @@
+import {extendKinet} from './kinet-sections.js';
 import {products,money} from '../data/products.js';
 import {prefix,pageURL} from './navigation.js';
 import {tabsMarkup,accordionMarkup} from './components.js';
@@ -11,6 +12,7 @@ export function renderProduct(main){
  {title:'Thông số',content:`<h2>Thông số đang chọn</h2><div id="spec-table"></div>`},
  {title:'Bảo hành',content:car?'<p>7 năm hoặc 160.000 km, tùy điều kiện nào đến trước; cần đối chiếu điều kiện áp dụng tại trang chính thức.</p>':'<p>Bảo hành xe 6 năm, pin 8 năm, không giới hạn số km theo nội dung trang tham chiếu.</p>'}
  ])}${accordionMarkup('source-note','Nguồn dữ liệu và giới hạn bản mô phỏng',`<p>Dữ liệu đọc ngày 07/11/2026. Giá trong đồ án không phải báo giá. Chưa tái tạo toàn bộ section và hiệu ứng của sản phẩm.</p><a href="${p.source}" target="_blank" rel="noopener noreferrer">Xem trang tham chiếu ↗</a>`)}</section>`;
+ if(!car)extendKinet(main);
  const table=main.querySelector('#spec-table');
  function updateTable(name,price,range){table.innerHTML=`<table><caption>${p.name} ${name}</caption><tbody><tr><th scope="row">Giá tham chiếu</th><td>${money(price)}</td></tr><tr><th scope="row">Quãng đường</th><td>${range}</td></tr></tbody></table>`;}
  updateTable(car?'Eco':'Đỏ Đen',p.price,p.range);

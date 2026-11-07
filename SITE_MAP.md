@@ -1,3 +1,5 @@
+> Cập nhật 08/11/2026: xem [trạng thái giai đoạn 1](PHASE_1_STATUS.md) và [độ bao phủ URL](URL_COVERAGE.md). Các ghi nhận bên dưới là lịch sử; không thay thế kết quả mới. Giai đoạn 1 chưa hoàn thành.
+
 # Sơ đồ website và phạm vi khảo sát
 
 > Cập nhật giai đoạn hiện tại: trang chủ là **IMPLEMENTED — UNVERIFIED**, hero và đối chiếu thị giác **BLOCKED**. Các trang con có sẵn giữ ở **IMPLEMENTED — UNVERIFIED** (nội dung tóm tắt; chưa clone đầy đủ), các trang chưa dựng là **NOT STARTED**. Không có trang **COMPLETED**. Chưa mở rộng trang con mới trước khi giải quyết giới hạn trang chủ. Chi tiết từng section ở `HOME_SECTIONS.md`; danh sách PASS cục bộ bên dưới chỉ phản ánh kiểm thử chức năng, không phải hoàn thành clone.

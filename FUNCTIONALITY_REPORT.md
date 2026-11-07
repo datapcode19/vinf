@@ -1,3 +1,16 @@
+> Cập nhật 08/11/2026: xem [trạng thái giai đoạn 1](PHASE_1_STATUS.md) và [độ bao phủ URL](URL_COVERAGE.md). Các ghi nhận bên dưới là lịch sử; không thay thế kết quả mới. Giai đoạn 1 chưa hoàn thành.
+
+| Chức năng cập nhật | JavaScript | Hoạt động / kiểm thử |
+|---|---|---|
+| Điều hướng cục bộ | `routes.js`, `home-chrome.js` | URL dựa trên `import.meta.url`, giữ `/vinf/`; ánh xạ nguồn sang entrypoint hoặc trang trạng thái. Kiểm tra 94 URL; không coi trang trạng thái là clone. |
+| Header chung | `navigation.js`, `components.js` | Không còn `.notice`; menu trên cả trang con; tabs thêm Up/Down. Kiểm tra Enter, ArrowDown, Escape và reduced motion. |
+| Phiên bản VF 3 | `vf3.js` | Eco/Plus đồng bộ ảnh, giá và `aria-pressed`; kiểm tra Plus 296 triệu, ảnh Plus, reload về Eco. |
+| Gallery VF 3 | `vf3.js`, `components.js` | 4 ảnh riêng, trước/sau/dots, trạng thái chỉ số. Kiểm tra ảnh thứ hai là xe đỏ; slide ẩn không nhận focus. |
+| CTA đặt cọc VF 3 | `vf3.js` | Dialog chỉ báo mô phỏng, không tạo đơn hàng hoặc dữ liệu; kiểm tra mở và Escape đóng. |
+| Kinet / cứu hộ | `kinet-sections.js`, `rescue.js` | Các section nội dung và ảnh nguồn; giữ bộ 5 màu Kinet, mục lục cứu hộ dùng anchor HTML. Không mô phỏng gọi cứu hộ. |
+
+Kiểm thử mới: `tests/phase-one.cjs`, `tests/home-interactions.cjs`. Những chuyển động đang triển khai chưa được xác nhận giống hành vi nguồn.
+
 # Báo cáo chức năng JavaScript
 
 Ngày: 07/11/2026. Dự án chạy bằng HTML5, CSS3 và ES modules JavaScript thuần trên static server. Không có framework, backend, database, thư viện UI hoặc bước build bắt buộc.

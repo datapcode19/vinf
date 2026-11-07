@@ -1,6 +1,6 @@
 // Chỉ dữ liệu tĩnh; không gọi API VinFast. Các số liệu là snapshot khảo sát.
 export const products = [
- {id:'vf3',name:'VF 3',group:'personal',segment:'MiniCar',seats:4,range:'210 km (NEDC)',price:285000000,image:'vf3.webp'},
+ {id:'vf3',name:'VF 3',group:'personal',segment:'MiniCar',seats:4,range:'215 km (NEDC)',price:285000000,image:'vf3.webp',detailPath:'vf3',source:'https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf3'},
  {id:'vf5',name:'VF 5',group:'personal',segment:'A-SUV',seats:5,range:'326,4 km (NEDC)',price:496000000,image:'vf5.webp'},
  {id:'vf6',name:'VF 6',group:'personal',segment:'B-SUV',seats:5,range:'485 km (NEDC)',price:646000000,image:'vf6-eco.webp',detail:true,
   source:'https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf6',

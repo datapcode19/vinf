@@ -1,0 +1,665 @@
+{
+  "scope": "Unique destinations from current header/footer; excludes external ecosystem sites and body-only CTAs",
+  "counts": {
+    "PARTIAL": 9,
+    "NOT STARTED": 73
+  },
+  "rows": [
+    {
+      "name": "Trang chủ",
+      "url": "https://vinfastauto.com/vn_vi",
+      "parent": "Root",
+      "local": "index.html",
+      "status": "PARTIAL",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Giới thiệu",
+      "url": "https://vinfastauto.com/vn_vi/ve-chung-toi",
+      "parent": "Header",
+      "local": "pages/reference.html?route=ve-chung-toi",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "VF 2",
+      "url": "https://vinfastauto.com/vn_vi/dat-coc-xe-vf2",
+      "parent": "Ô tô / Xe cá nhân",
+      "local": "pages/reference.html?route=dat-coc-xe-vf2",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "VF 3",
+      "url": "https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf3",
+      "parent": "Ô tô / Xe cá nhân",
+      "local": "pages/vf3.html",
+      "status": "PARTIAL",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "VF 5",
+      "url": "https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf5",
+      "parent": "Ô tô / Xe cá nhân",
+      "local": "pages/reference.html?route=dat-coc-xe-dien-vf5",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "VF 6",
+      "url": "./pages/product.html?id=vf6",
+      "parent": "Ô tô / Xe cá nhân",
+      "local": "pages/product.html?id=vf6",
+      "status": "PARTIAL",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "VF 7",
+      "url": "https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf7",
+      "parent": "Ô tô / Xe cá nhân",
+      "local": "pages/reference.html?route=dat-coc-xe-dien-vf7",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "VF MPV 7",
+      "url": "https://vinfastauto.com/vn_vi/dat-coc-xe-vf-mpv7",
+      "parent": "Ô tô / Xe cá nhân",
+      "local": "pages/reference.html?route=dat-coc-xe-vf-mpv7",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "VF 8",
+      "url": "https://vinfastauto.com/vn_vi/dat-coc-xe-vf8",
+      "parent": "Ô tô / Xe cá nhân",
+      "local": "pages/reference.html?route=dat-coc-xe-vf8",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "VF 8 Thế hệ mới",
+      "url": "https://vinfastauto.com/vn_vi/dat-coc-xe-vf8-the-all-new-2026",
+      "parent": "Ô tô / Xe cá nhân",
+      "local": "pages/reference.html?route=dat-coc-xe-vf8-the-all-new-2026",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "VF 9",
+      "url": "https://vinfastauto.com/vn_vi/dat-coc-xe-vf9",
+      "parent": "Ô tô / Xe cá nhân",
+      "local": "pages/reference.html?route=dat-coc-xe-vf9",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "VF Wild",
+      "url": "https://vinfastauto.com/vn_vi/dat-coc-xe-vf-wild",
+      "parent": "Ô tô / Xe cá nhân",
+      "local": "pages/reference.html?route=dat-coc-xe-vf-wild",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Minio Green",
+      "url": "https://vinfastauto.com/vn_vi/minio-green",
+      "parent": "Ô tô / Xe dịch vụ",
+      "local": "pages/reference.html?route=minio-green",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Herio Green",
+      "url": "https://vinfastauto.com/vn_vi/herio-green",
+      "parent": "Ô tô / Xe dịch vụ",
+      "local": "pages/reference.html?route=herio-green",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Nerio Green",
+      "url": "https://shop.vinfastauto.com/vn_vi/nerio-green.html",
+      "parent": "Ô tô / Xe dịch vụ",
+      "local": "pages/reference.html?route=nerio-green.html",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Limo Green",
+      "url": "https://vinfastauto.com/vn_vi/limo-green",
+      "parent": "Ô tô / Xe dịch vụ",
+      "local": "pages/reference.html?route=limo-green",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "EC Van",
+      "url": "https://vinfastauto.com/vn_vi/vinfast-ecvan",
+      "parent": "Ô tô / Xe dịch vụ",
+      "local": "pages/reference.html?route=vinfast-ecvan",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "EBus",
+      "url": "https://shop.vinfastauto.com/vn_vi/ebus.html",
+      "parent": "Ô tô / Xe dịch vụ",
+      "local": "pages/reference.html?route=ebus.html",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "VinFast Fadil",
+      "url": "https://shop.vinfastauto.com/vn_vi/o-to-vinfast-fadil.html",
+      "parent": "Ô tô / Động cơ xăng",
+      "local": "pages/reference.html?route=o-to-vinfast-fadil.html",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "VinFast Lux A2.0",
+      "url": "https://shop.vinfastauto.com/vn_vi/o-to-vinfast-lux-a.html",
+      "parent": "Ô tô / Động cơ xăng",
+      "local": "pages/reference.html?route=o-to-vinfast-lux-a.html",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "VinFast Lux SA2.0",
+      "url": "https://shop.vinfastauto.com/vn_vi/o-to-vinfast-lux-sa.html",
+      "parent": "Ô tô / Động cơ xăng",
+      "local": "pages/reference.html?route=o-to-vinfast-lux-sa.html",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "VinFast President",
+      "url": "https://shop.vinfastauto.com/vn_vi/o-to-vinfast-president.html",
+      "parent": "Ô tô / Động cơ xăng",
+      "local": "pages/reference.html?route=o-to-vinfast-president.html",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "So sánh xe",
+      "url": "https://shop.vinfastauto.com/vn_vi/so-sanh-xe-vinfast",
+      "parent": "Ô tô / Công cụ hỗ trợ khách hàng",
+      "local": "pages/compare.html",
+      "status": "PARTIAL",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Đăng ký lái thử",
+      "url": "https://shop.vinfastauto.com/vn_vi/dang-ky-lai-thu.html",
+      "parent": "Ô tô / Công cụ hỗ trợ khách hàng",
+      "local": "pages/test-drive.html",
+      "status": "PARTIAL",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Dự toán chi phí lăn bánh",
+      "url": "https://shop.vinfastauto.com/vn_vi/chi-phi-lan-banh",
+      "parent": "Ô tô / Công cụ hỗ trợ khách hàng",
+      "local": "pages/reference.html?route=chi-phi-lan-banh",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Dự toán vay trả góp",
+      "url": "https://shop.vinfastauto.com/vn_vi/du-toan-chi-phi-tra-gop",
+      "parent": "Ô tô / Công cụ hỗ trợ khách hàng",
+      "local": "pages/reference.html?route=du-toan-chi-phi-tra-gop",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Mua xe trực tuyến",
+      "url": "https://vinfastauto.com/vn_vi/mua-xe-o-to-dien-truc-tuyen",
+      "parent": "Ô tô / Công cụ hỗ trợ khách hàng",
+      "local": "pages/reference.html?route=mua-xe-o-to-dien-truc-tuyen",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Kinet",
+      "url": "./pages/product.html?id=kinet",
+      "parent": "Xe máy điện / Xe cao cấp",
+      "local": "pages/product.html?id=kinet",
+      "status": "PARTIAL",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Viper",
+      "url": "https://vinfastauto.com/vn_vi/xe-may-dien-vinfast-viper",
+      "parent": "Xe máy điện / Xe cao cấp",
+      "local": "pages/reference.html?route=xe-may-dien-vinfast-viper",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Vero X",
+      "url": "https://vinfastauto.com/vn_vi/xe-may-dien-verox",
+      "parent": "Xe máy điện / Xe cao cấp",
+      "local": "pages/reference.html?route=xe-may-dien-verox",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Kyo",
+      "url": "https://vinfastauto.com/vn_vi/xe-may-dien-vinfast-kyo",
+      "parent": "Xe máy điện / Xe trung cấp",
+      "local": "pages/reference.html?route=xe-may-dien-vinfast-kyo",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Feliz II",
+      "url": "https://vinfastauto.com/vn_vi/xe-may-dien-vinfast-feliz-II",
+      "parent": "Xe máy điện / Xe trung cấp",
+      "local": "pages/reference.html?route=xe-may-dien-vinfast-feliz-II",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Feliz 2025",
+      "url": "https://vinfastauto.com/vn_vi/xe-may-dien-feliz",
+      "parent": "Xe máy điện / Xe trung cấp",
+      "local": "pages/reference.html?route=xe-may-dien-feliz",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Feliz 2027",
+      "url": "https://vinfastauto.com/vn_vi/xe-may-dien-feliz-the-he-moi",
+      "parent": "Xe máy điện / Xe trung cấp",
+      "local": "pages/reference.html?route=xe-may-dien-feliz-the-he-moi",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Evo Grand Limited",
+      "url": "https://vinfastauto.com/vn_vi/xe-may-dien-evo-grand-limited",
+      "parent": "Xe máy điện / Xe phổ thông",
+      "local": "pages/reference.html?route=xe-may-dien-evo-grand-limited",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Evo Grand Premia",
+      "url": "https://vinfastauto.com/vn_vi/xe-may-dien-evo-grand-premia",
+      "parent": "Xe máy điện / Xe phổ thông",
+      "local": "pages/reference.html?route=xe-may-dien-evo-grand-premia",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Evo Grand II",
+      "url": "https://vinfastauto.com/vn_vi/xe-may-dien-vinfast-evo-grand-ii",
+      "parent": "Xe máy điện / Xe phổ thông",
+      "local": "pages/reference.html?route=xe-may-dien-vinfast-evo-grand-ii",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Evo",
+      "url": "https://vinfastauto.com/vn_vi/xe-may-dien-evo",
+      "parent": "Xe máy điện / Xe phổ thông",
+      "local": "pages/reference.html?route=xe-may-dien-evo",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Evo Grand",
+      "url": "https://vinfastauto.com/vn_vi/xe-may-dien-evo-grand",
+      "parent": "Xe máy điện / Xe phổ thông",
+      "local": "pages/reference.html?route=xe-may-dien-evo-grand",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Amio",
+      "url": "https://vinfastauto.com/vn_vi/xe-may-dien-vinfast-amio",
+      "parent": "Xe máy điện / Xe phổ thông",
+      "local": "pages/reference.html?route=xe-may-dien-vinfast-amio",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Amio S",
+      "url": "https://vinfastauto.com/vn_vi/xe-may-dien-vinfast-amio-s",
+      "parent": "Xe máy điện / Xe phổ thông",
+      "local": "pages/reference.html?route=xe-may-dien-vinfast-amio-s",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Amio S2",
+      "url": "https://vinfastauto.com/vn_vi/xe-may-dien-vinfast-amio-S2",
+      "parent": "Xe máy điện / Xe phổ thông",
+      "local": "pages/reference.html?route=xe-may-dien-vinfast-amio-S2",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Flazz",
+      "url": "https://vinfastauto.com/vn_vi/xe-may-dien-flazz",
+      "parent": "Xe máy điện / Xe phổ thông",
+      "local": "pages/reference.html?route=xe-may-dien-flazz",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Flazz Max",
+      "url": "https://vinfastauto.com/vn_vi/xe-may-dien-vinfast-flazz-max",
+      "parent": "Xe máy điện / Xe phổ thông",
+      "local": "pages/reference.html?route=xe-may-dien-vinfast-flazz-max",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "ZGoo",
+      "url": "https://vinfastauto.com/vn_vi/xe-may-dien-zgoo",
+      "parent": "Xe máy điện / Xe phổ thông",
+      "local": "pages/reference.html?route=xe-may-dien-zgoo",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Evo Lite",
+      "url": "https://vinfastauto.com/vn_vi/xe-may-dien-evo-lite",
+      "parent": "Xe máy điện / Xe phổ thông",
+      "local": "pages/reference.html?route=xe-may-dien-evo-lite",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "VF DrgnFly",
+      "url": "https://vinfastauto.com/vn_vi/xe-dap-dien-drgnfly",
+      "parent": "Xe máy điện / Xe phổ thông",
+      "local": "pages/reference.html?route=xe-dap-dien-drgnfly",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Evo Grand Lite",
+      "url": "https://vinfastauto.com/vn_vi/xe-may-dien-evo-grand-lite",
+      "parent": "Xe máy điện / Xe phổ thông",
+      "local": "pages/reference.html?route=xe-may-dien-evo-grand-lite",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Evo Lite Neo",
+      "url": "https://vinfastauto.com/vn_vi/xe-may-dien-evo-lite-neo",
+      "parent": "Xe máy điện / Xe phổ thông",
+      "local": "pages/reference.html?route=xe-may-dien-evo-lite-neo",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Tính chi phí sử dụng",
+      "url": "https://vinfastauto.com/vn_vi/tinh-chi-phi-su-dung-xmd",
+      "parent": "Xe máy điện / Công cụ hỗ trợ khách hàng",
+      "local": "pages/reference.html?route=tinh-chi-phi-su-dung-xmd",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Mua xe trực tuyến",
+      "url": "https://vinfastauto.com/vn_vi/mua-xe-may-dien-truc-tuyen",
+      "parent": "Xe máy điện / Công cụ hỗ trợ khách hàng",
+      "local": "pages/reference.html?route=mua-xe-may-dien-truc-tuyen",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Phụ kiện xe",
+      "url": "https://shop.vinfastauto.com/vn_vi/phu-kien",
+      "parent": "Header",
+      "local": "pages/reference.html?route=phu-kien",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Chính sách bảo hành",
+      "url": "./pages/warranty.html",
+      "parent": "Dịch vụ hậu mãi / Ô tô điện",
+      "local": "pages/warranty.html",
+      "status": "PARTIAL",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Dịch vụ bảo dưỡng",
+      "url": "https://vinfastauto.com/vn_vi/dich-vu-bao-duong-oto",
+      "parent": "Dịch vụ hậu mãi / Ô tô điện",
+      "local": "pages/reference.html?route=dich-vu-bao-duong-oto",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Dịch vụ sửa chữa",
+      "url": "https://vinfastauto.com/vn_vi/dich-vu-sua-chua-oto",
+      "parent": "Dịch vụ hậu mãi / Ô tô điện",
+      "local": "pages/reference.html?route=dich-vu-sua-chua-oto",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Thông tin cứu hộ",
+      "url": "https://vinfastauto.com/vn_vi/thong-tin-cuu-ho-oto",
+      "parent": "Dịch vụ hậu mãi / Ô tô điện",
+      "local": "pages/rescue.html",
+      "status": "PARTIAL",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Tra cứu tài liệu hướng dẫn",
+      "url": "https://vinfastauto.com/vn_vi/tai-lieu-o-to",
+      "parent": "Dịch vụ hậu mãi / Ô tô điện",
+      "local": "pages/reference.html?route=tai-lieu-o-to",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Chính sách bảo hành",
+      "url": "https://vinfastauto.com/vn_vi/chinh-sach-bao-hanh-xe-may-dien",
+      "parent": "Dịch vụ hậu mãi / Xe máy điện",
+      "local": "pages/reference.html?route=chinh-sach-bao-hanh-xe-may-dien",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Dịch vụ bảo dưỡng",
+      "url": "https://vinfastauto.com/vn_vi/dich-vu-bao-duong-xe-may-dien",
+      "parent": "Dịch vụ hậu mãi / Xe máy điện",
+      "local": "pages/reference.html?route=dich-vu-bao-duong-xe-may-dien",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Dịch vụ sửa chữa",
+      "url": "https://vinfastauto.com/vn_vi/dich-vu-sua-chua-xe-may-dien",
+      "parent": "Dịch vụ hậu mãi / Xe máy điện",
+      "local": "pages/reference.html?route=dich-vu-sua-chua-xe-may-dien",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Tra cứu tài liệu hướng dẫn",
+      "url": "https://vinfastauto.com/vn_vi/tai-lieu-xe-may-dien",
+      "parent": "Dịch vụ hậu mãi / Xe máy điện",
+      "local": "pages/reference.html?route=tai-lieu-xe-may-dien",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Chính sách bảo hành",
+      "url": "https://vinfastauto.com/vn_vi/chinh-sach-bao-hanh-ebus",
+      "parent": "Dịch vụ hậu mãi / Xe bus",
+      "local": "pages/reference.html?route=chinh-sach-bao-hanh-ebus",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Dịch vụ bảo dưỡng",
+      "url": "https://vinfastauto.com/vn_vi/dich-vu-bao-duong-ebus",
+      "parent": "Dịch vụ hậu mãi / Xe bus",
+      "local": "pages/reference.html?route=dich-vu-bao-duong-ebus",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Dịch vụ sửa chữa",
+      "url": "https://vinfastauto.com/vn_vi/dich-vu-sua-chua-ebus",
+      "parent": "Dịch vụ hậu mãi / Xe bus",
+      "local": "pages/reference.html?route=dich-vu-sua-chua-ebus",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Thông tin cứu hộ",
+      "url": "https://vinfastauto.com/vn_vi/thong-tin-cuu-ho-ebus",
+      "parent": "Dịch vụ hậu mãi / Xe bus",
+      "local": "pages/reference.html?route=thong-tin-cuu-ho-ebus",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Tra cứu tài liệu hướng dẫn",
+      "url": "https://vinfastauto.com/vn_vi/tai-lieu-ebus",
+      "parent": "Dịch vụ hậu mãi / Xe bus",
+      "local": "pages/reference.html?route=tai-lieu-ebus",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Tra cứu xưởng dịch vụ",
+      "url": "https://vinfastauto.com/vn_vi/tim-kiem-showroom-tram-sac",
+      "parent": "Dịch vụ hậu mãi / Tra cứu",
+      "local": "pages/reference.html?route=tim-kiem-showroom-tram-sac",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Đặt lịch dịch vụ",
+      "url": "https://shop.vinfastauto.com/vn_vi/dat-lich-dich-vu-bao-duong.html",
+      "parent": "Dịch vụ hậu mãi / Tra cứu",
+      "local": "pages/reference.html?route=dat-lich-dich-vu-bao-duong.html",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Pin và trạm sạc Ô tô điện",
+      "url": "./pages/battery.html",
+      "parent": "Pin và trạm sạc / Thông tin",
+      "local": "pages/battery.html",
+      "status": "PARTIAL",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Pin và trạm sạc Xe máy điện",
+      "url": "https://vinfastauto.com/vn_vi/dich-vu-pin-xe-may-dien",
+      "parent": "Pin và trạm sạc / Thông tin",
+      "local": "pages/reference.html?route=dich-vu-pin-xe-may-dien",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Lưu trữ năng lượng",
+      "url": "https://vinfastauto.com/vn_vi/vf-energy",
+      "parent": "Header",
+      "local": "pages/reference.html?route=vf-energy",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Về Vingroup",
+      "url": "https://vinfastauto.com/vn_vi/ve-vingroup",
+      "parent": "Footer / VinFast",
+      "local": "pages/reference.html?route=ve-vingroup",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Công ty",
+      "url": "https://vinfastauto.com/vn_vi/tin-tuc/cong-ty",
+      "parent": "Footer / Tin tức",
+      "local": "pages/reference.html?route=tin-tuc%2Fcong-ty",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Ô tô",
+      "url": "https://vinfastauto.com/vn_vi/tin-tuc/o-to-dien",
+      "parent": "Footer / Tin tức",
+      "local": "pages/reference.html?route=tin-tuc%2Fo-to-dien",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Xe máy điện",
+      "url": "https://vinfastauto.com/vn_vi/tin-tuc/xe-may-dien",
+      "parent": "Footer / Tin tức",
+      "local": "pages/reference.html?route=tin-tuc%2Fxe-may-dien",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Chính sách bảo vệ dữ liệu cá nhân",
+      "url": "https://vinfastauto.com/vn_vi/privacy-policy",
+      "parent": "Footer / Điều khoản chính sách",
+      "local": "pages/reference.html?route=privacy-policy",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Chính sách vận chuyển",
+      "url": "https://vinfastauto.com/vn_vi/dieu-khoan-phap-ly?collapseId=collapse-6",
+      "parent": "Footer / Điều khoản chính sách",
+      "local": "pages/reference.html?route=dieu-khoan-phap-ly%3FcollapseId%3Dcollapse-6",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Chính sách đổi trả",
+      "url": "https://vinfastauto.com/vn_vi/dieu-khoan-phap-ly?collapseId=collapse-5",
+      "parent": "Footer / Điều khoản chính sách",
+      "local": "pages/reference.html?route=dieu-khoan-phap-ly%3FcollapseId%3Dcollapse-5",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Miễn trừ trách nhiệm",
+      "url": "https://vinfastauto.com/vn_vi/dieu-khoan-phap-ly?collapseId=collapse-3",
+      "parent": "Footer / Điều khoản chính sách",
+      "local": "pages/reference.html?route=dieu-khoan-phap-ly%3FcollapseId%3Dcollapse-3",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Điều khoản ký kết thỏa thuận đặt cọc mua Ô tô VinFast",
+      "url": "https://vinfastauto.com/vn_vi/dieu-khoan-phap-ly?collapseId=collapse-4",
+      "parent": "Footer / Điều khoản chính sách",
+      "local": "pages/reference.html?route=dieu-khoan-phap-ly%3FcollapseId%3Dcollapse-4",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Hợp đồng và chính sách",
+      "url": "https://vinfastauto.com/vn_vi/hop-dong-va-chinh-sach",
+      "parent": "Footer / Điều khoản chính sách",
+      "local": "pages/reference.html?route=hop-dong-va-chinh-sach",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    },
+    {
+      "name": "Quy trình tiếp nhận, phản hồi thông tin và giải quyết phản ánh, yêu cầu, khiếu nại của khách hàng",
+      "url": "https://vinfastauto.com/vn_vi/dieu-khoan-phap-ly?collapseId=collapse-10",
+      "parent": "Footer / Điều khoản chính sách",
+      "local": "pages/reference.html?route=dieu-khoan-phap-ly%3FcollapseId%3Dcollapse-10",
+      "status": "NOT STARTED",
+      "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
+    }
+  ]
+}

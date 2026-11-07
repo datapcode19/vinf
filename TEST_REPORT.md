@@ -1,3 +1,9 @@
+> Cập nhật 08/11/2026: xem [trạng thái giai đoạn 1](PHASE_1_STATUS.md) và [độ bao phủ URL](URL_COVERAGE.md). Các ghi nhận bên dưới là lịch sử; không thay thế kết quả mới. Giai đoạn 1 chưa hoàn thành.
+
+Kết quả mới: **84 tổ hợp (12 URL × 7 viewport), 94 URL liên kết cục bộ, không tràn ngang/ảnh lỗi/lỗi JS trong các lượt đã chạy**. Có 34 screenshot tại `tests/phase-one/index.html`. Kiểm thử tương tác VF 3, VF 6, 5 màu Kinet, accordion, refresh/Back/Forward và menu/reduced motion đạt; trang chủ 8/8 nhóm đạt. Đã xem trực quan VF 3 desktop/mobile, Kinet mobile, cứu hộ desktop và trang chủ tablet. Không suy ra tương đồng nguồn từ các kết quả này.
+
+GitHub Pages được kiểm tra riêng: home/VF 6 HTTP 200, VF 3 HTTP 404 vì chưa xuất bản bản mới. Chi tiết `research/current/live-pages.json`. Chưa push.
+
 # Báo cáo kiểm thử thực tế
 
 > Lần dựng lại thân trang: kiểm tra mới ở `tests/home-visual/results.json`, `interactions.json`; 8/8 nhóm tương tác đạt, gồm 37 lựa chọn xe, menu, bàn phím, nhận tin mô phỏng và điều hướng. 70 tài sản được đọc kiểm tra; ảnh và font chạy cục bộ. Đã sửa lỗi dải chọn xe dài và chiều cao ảnh phụ kiện qua kiểm tra trực quan. Các kết quả dưới đây giữ làm lịch sử, không được dùng để khẳng định giao diện mới khớp production.

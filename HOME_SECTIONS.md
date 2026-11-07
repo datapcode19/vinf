@@ -1,4 +1,6 @@
-﻿# Trang chủ — trạng thái triển khai
+> Cập nhật 08/11/2026: xem [trạng thái giai đoạn 1](PHASE_1_STATUS.md) và [độ bao phủ URL](URL_COVERAGE.md). Các ghi nhận bên dưới là lịch sử; không thay thế kết quả mới. Giai đoạn 1 chưa hoàn thành.
+
+# Trang chủ — trạng thái triển khai
 
 Ngày: 07/11/2026. Bản cũ được giữ tại `backups/before-homepage-rebuild/`.
 

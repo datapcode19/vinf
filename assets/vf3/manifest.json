@@ -1,0 +1,82 @@
+[
+  {
+    "file": "assets/vf3/hero.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf3/xe-dien-vinfast-vf3-anh-bia-chay-cao-toc-desktop.webp",
+    "role": "VF 3 / hero",
+    "permission": "User confirmed educational image use, 2026-11-07",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf3",
+    "status": "Downloaded; layout unverified"
+  },
+  {
+    "file": "assets/vf3/eco.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf3/xe-dien-vinfast-vf3-chon-mau-nen-trang-logo-desktop.webp",
+    "role": "VF 3 / eco",
+    "permission": "User confirmed educational image use, 2026-11-07",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf3",
+    "status": "Downloaded; layout unverified"
+  },
+  {
+    "file": "assets/vf3/plus.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf3/hinh-anh-vinfast-vf3-eco-text-logo-banner-desktop.webp",
+    "role": "VF 3 / plus",
+    "permission": "User confirmed educational image use, 2026-11-07",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf3",
+    "status": "Downloaded; layout unverified"
+  },
+  {
+    "file": "assets/vf3/white.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf3/hinh-anh-vinfast-vf3-ngoai-that-mau-trang-desktop.webp",
+    "role": "VF 3 / white",
+    "permission": "User confirmed educational image use, 2026-11-07",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf3",
+    "status": "Downloaded; layout unverified"
+  },
+  {
+    "file": "assets/vf3/rear.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf3/xe-dien-vinfast-vf3-ngoai-that-phia-sau-mau-vang-desktop.webp",
+    "role": "VF 3 / rear",
+    "permission": "User confirmed educational image use, 2026-11-07",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf3",
+    "status": "Downloaded; layout unverified"
+  },
+  {
+    "file": "assets/vf3/front.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf3/xe-dien-vinfast-vf3-ngoai-that-mat-truoc-mau-do-do-thi-desktop.webp",
+    "role": "VF 3 / front",
+    "permission": "User confirmed educational image use, 2026-11-07",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf3",
+    "status": "Downloaded; layout unverified"
+  },
+  {
+    "file": "assets/vf3/city.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf3/xe-dien-vinfast-vf3-ngoai-that-mat-truoc-mau-vang-do-thi-desktop.webp",
+    "role": "VF 3 / city",
+    "permission": "User confirmed educational image use, 2026-11-07",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf3",
+    "status": "Downloaded; layout unverified"
+  },
+  {
+    "file": "assets/vf3/road.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf3/xe-dien-vinfast-vf3-chay-pho-mat-truoc-mau-vang-desktop.webp",
+    "role": "VF 3 / road",
+    "permission": "User confirmed educational image use, 2026-11-07",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf3",
+    "status": "Downloaded; layout unverified"
+  },
+  {
+    "file": "assets/vf3/interior.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf3/xe-dien-vinfast-vf3-noi-that-khoang-lai-man-hinh-cam-ung-desktop.webp",
+    "role": "VF 3 / interior",
+    "permission": "User confirmed educational image use, 2026-11-07",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf3",
+    "status": "Downloaded; layout unverified"
+  },
+  {
+    "file": "assets/vf3/outdoors.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf3/xe-dien-vinfast-vf3-trai-nghiem-da-ngoai-thien-nhien-desktop.webp",
+    "role": "VF 3 / outdoors",
+    "permission": "User confirmed educational image use, 2026-11-07",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf3",
+    "status": "Downloaded; layout unverified"
+  }
+]
