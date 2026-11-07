@@ -1,0 +1,46 @@
+[
+  {
+    "name": "battery-cover",
+    "file": "assets/accessories/battery-cover.png",
+    "source": "https://shop.vinfastauto.com/on/demandware.static/-/Sites-vinfast_vn_master/default/dw2aa5cf69/images/Accessory/EEP71061000/1.png",
+    "reference": "https://shop.vinfastauto.com/vn_vi/EEP71061000.html",
+    "status": "downloaded",
+    "role": "Khối phụ kiện trang chủ; ảnh đúng sản phẩm từ shop chính thức, chưa xác minh là ảnh home hiện hành",
+    "permission": "Người dùng xác nhận quyền sử dụng ảnh cho đồ án học tập.",
+    "width": 571,
+    "height": 570
+  },
+  {
+    "name": "robot-vf9",
+    "file": "assets/accessories/robot-vf9.png",
+    "source": "https://shop.vinfastauto.com/on/demandware.static/-/Sites-vinfast_vn_master/default/dw7ce728f8/images/Accessory/VINFASTVF9BUILDINGBLOCKS/bxh9-transformer-1.png",
+    "reference": "https://shop.vinfastauto.com/vn_vi/ACS10000246.html",
+    "status": "downloaded",
+    "role": "Khối phụ kiện trang chủ; ảnh đúng sản phẩm từ shop chính thức, chưa xác minh là ảnh home hiện hành",
+    "permission": "Người dùng xác nhận quyền sử dụng ảnh cho đồ án học tập.",
+    "width": 1140,
+    "height": 1140
+  },
+  {
+    "name": "umbrella",
+    "file": "assets/accessories/umbrella.png",
+    "source": "https://shop.vinfastauto.com/on/demandware.static/-/Sites-vinfast_vn_master/default/dw3fd041eb/images/Accessory/ACS40000094/1.png",
+    "reference": "https://shop.vinfastauto.com/vn_vi/ACS40000094.html",
+    "status": "downloaded",
+    "role": "Khối phụ kiện trang chủ; ảnh đúng sản phẩm từ shop chính thức, chưa xác minh là ảnh home hiện hành",
+    "permission": "Người dùng xác nhận quyền sử dụng ảnh cho đồ án học tập.",
+    "width": 570,
+    "height": 570
+  },
+  {
+    "name": "charger",
+    "file": "assets/accessories/charger.png",
+    "source": "https://shop.vinfastauto.com/on/demandware.static/-/Sites-vinfast_vn_master/default/dw626dfae2/images/Accessory/EEP69072176AB/01.png",
+    "reference": "https://shop.vinfastauto.com/vn_vi/EEP69072176AB.html",
+    "status": "downloaded",
+    "role": "Khối phụ kiện trang chủ; ảnh đúng sản phẩm từ shop chính thức, chưa xác minh là ảnh home hiện hành",
+    "permission": "Người dùng xác nhận quyền sử dụng ảnh cho đồ án học tập.",
+    "width": 539,
+    "height": 538
+  }
+]

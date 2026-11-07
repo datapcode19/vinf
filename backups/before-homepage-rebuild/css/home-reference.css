@@ -1,0 +1,17 @@
+/* Chỉ các điều chỉnh cần thiết cho nội dung menu/footer đã xác minh.
+   Chưa phải thông số layout đo từ screenshot trang gốc. Không ảnh hưởng trang con. */
+body[data-page="home"] .nav-direct>a{font-size:12px;display:block;padding:18px 7px;white-space:nowrap}
+body[data-page="home"] .mega-menu{gap:28px}
+body[data-page="home"] .mega-menu details{flex:1;min-width:0}
+body[data-page="home"] .sub-links a{font-size:14px;padding:8px 10px}
+body[data-page="home"] .external-marker{font-size:10px;color:#6a7078}
+body[data-page="home"] .footer-source-logo{width:160px;height:auto;margin-bottom:26px}
+body[data-page="home"] .footer-grid{grid-template-columns:1.5fr .75fr .75fr 1.5fr;gap:32px}
+body[data-page="home"] .footer-contact-row{display:grid;grid-template-columns:1fr 1fr 1fr;gap:32px;border-top:1px solid var(--line);padding-top:30px;margin-top:30px}
+body[data-page="home"] .header-inner{gap:12px;padding-inline:24px}
+body[data-page="home"] .nav-trigger{font-size:12px;padding-inline:6px;white-space:nowrap}
+body[data-page="home"] .brand{font-size:20px}
+@media(max-width:1200px) and (min-width:1051px){body[data-page="home"] .header-cta{display:none}}
+@media(max-width:1050px){body[data-page="home"] .nav-direct>a{font-size:16px;padding:18px 0;border-bottom:1px solid var(--line)}body[data-page="home"] .nav-trigger{font-size:16px}}
+@media(max-width:768px){body[data-page="home"] .footer-grid{grid-template-columns:1fr 1fr}body[data-page="home"] .footer-contact-row{grid-template-columns:1fr}}
+@media(max-width:480px){body[data-page="home"] .footer-grid{grid-template-columns:1fr}}

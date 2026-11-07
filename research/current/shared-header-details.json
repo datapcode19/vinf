@@ -1,0 +1,155 @@
+{
+  "text": "Giới thiệu\nÔ tô\nXe máy điện\nPhụ kiện xe\nDịch vụ hậu mãi\nPin và trạm sạc\nLưu trữ năng lượng\nTài khoản\nĐĂNG KÝ LÁI THỬ",
+  "children": [
+    {
+      "text": "",
+      "rect": {
+        "x": 50.5,
+        "y": -37.5,
+        "w": 110,
+        "h": 159
+      },
+      "font": "14px"
+    },
+    {
+      "text": "Giới thiệu",
+      "rect": {
+        "x": 222.640625,
+        "y": 30,
+        "w": 70.703125,
+        "h": 24
+      },
+      "font": "16px"
+    },
+    {
+      "text": "Ô tô",
+      "rect": {
+        "x": 313.34375,
+        "y": 30,
+        "w": 31.765625,
+        "h": 24
+      },
+      "font": "16px"
+    },
+    {
+      "text": "Xe cá nhân",
+      "rect": {
+        "x": 24,
+        "y": 93,
+        "w": 256,
+        "h": 52
+      },
+      "font": "16px"
+    },
+    {
+      "text": "Xe dịch vụ",
+      "rect": {
+        "x": 24,
+        "y": 161,
+        "w": 256,
+        "h": 52
+      },
+      "font": "16px"
+    },
+    {
+      "text": "Động cơ xăng",
+      "rect": {
+        "x": 24,
+        "y": 229,
+        "w": 256,
+        "h": 52
+      },
+      "font": "16px"
+    },
+    {
+      "text": "So sánh xe",
+      "rect": {
+        "x": 24,
+        "y": 394,
+        "w": 256,
+        "h": 56
+      },
+      "font": "16px"
+    },
+    {
+      "text": "Đăng ký lái thử",
+      "rect": {
+        "x": 24,
+        "y": 450,
+        "w": 256,
+        "h": 56
+      },
+      "font": "16px"
+    },
+    {
+      "text": "Dự toán chi phí lăn bánh",
+      "rect": {
+        "x": 24,
+        "y": 506,
+        "w": 256,
+        "h": 56
+      },
+      "font": "16px"
+    },
+    {
+      "text": "Dự toán vay trả góp",
+      "rect": {
+        "x": 24,
+        "y": 562,
+        "w": 256,
+        "h": 56
+      },
+      "font": "16px"
+    },
+    {
+      "text": "Mua xe trực tuyến",
+      "rect": {
+        "x": 24,
+        "y": 658,
+        "w": 256,
+        "h": 48
+      },
+      "font": "16px"
+    },
+    {
+      "text": "VF 2\n                                                                                \n                                                                                \n                                                                                    \n                                                                                        \n                                                                                            \n                                                                                                \n                                                                                                4 chỗ\n                                                                                            \n                                                                                        \n                                                                                            \n                                                                                                \n                                                                                                Xe đô thị cỡ nhỏ",
+      "rect": {
+        "x": 329,
+        "y": 109,
+        "w": 337.65625,
+        "h": 240
+      },
+      "font": "12px"
+    },
+    {
+      "text": "VF 3\n                                                                                \n                                                                                \n                                                                                    \n                                                                                        \n                                                                                            \n                                                                                                \n                                                                                                4 chỗ\n                                                                                            \n                                                                                        \n                                                                                            \n                                                                                                \n                                                                                                Xe đô thị cỡ nhỏ",
+      "rect": {
+        "x": 690.65625,
+        "y": 109,
+        "w": 337.671875,
+        "h": 240
+      },
+      "font": "12px"
+    },
+    {
+      "text": "VF 5\n                                                                                \n                                                                                \n                                                                                    \n                                                                                        \n                                                                                            \n                                                                                                \n                                                                                                5 chỗ\n                                                                                            \n                                                                                        \n                                                                                            \n                                                                                                \n                                                                                                Xe gia đình",
+      "rect": {
+        "x": 1052.328125,
+        "y": 109,
+        "w": 337.65625,
+        "h": 240
+      },
+      "font": "12px"
+    },
+    {
+      "text": "VF 6\n                                                                                \n                                                                                \n                                                                                    \n                                                                                        \n                                                                                            \n                                                                                                \n                                                                                                5 chỗ\n                                                                                            \n                                                                                        \n                                                                                            \n                                                                                                \n                                                                                                Xe gia đình",
+      "rect": {
+        "x": 329,
+        "y": 373,
+        "w": 337.65625,
+        "h": 240
+      },
+      "font": "12px"
+    }
+  ]
+}

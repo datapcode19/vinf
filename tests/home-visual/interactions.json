@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-07",
+  "checks": [
+    {
+      "name": "37 mẫu xe: tabs, tên, ảnh và thông số đồng bộ",
+      "status": "PASS"
+    },
+    {
+      "name": "Mega menu: sidebar, thumbnail, Escape và hover",
+      "status": "PASS"
+    },
+    {
+      "name": "Bàn phím tabs Home/End",
+      "status": "PASS"
+    },
+    {
+      "name": "Form nhận tin: sai email, thiếu đồng ý, hợp lệ; không gửi/lưu",
+      "status": "PASS"
+    },
+    {
+      "name": "Tài khoản: thông báo mô phỏng, Escape đóng dialog",
+      "status": "PASS"
+    },
+    {
+      "name": "Mobile: menu, đổi nhóm, điều hướng nội bộ, quay lại",
+      "status": "PASS"
+    },
+    {
+      "name": "Ảnh đang render, 9 khối nội dung và liên kết cục bộ",
+      "status": "PASS"
+    },
+    {
+      "name": "Không lỗi JS, tài sản runtime cục bộ",
+      "status": "PASS"
+    }
+  ]
+}

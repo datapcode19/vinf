@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-07",
+  "result": [
+    {
+      "width": 1440,
+      "overflow": false,
+      "referenceComparison": "BLOCKED: chưa có screenshot nguồn"
+    },
+    {
+      "width": 1366,
+      "overflow": false,
+      "referenceComparison": "BLOCKED: chưa có screenshot nguồn"
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "referenceComparison": "BLOCKED: chưa có screenshot nguồn"
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "referenceComparison": "BLOCKED: chưa có screenshot nguồn"
+    }
+  ],
+  "errors": []
+}

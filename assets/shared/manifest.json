@@ -1,0 +1,65 @@
+[
+  {
+    "file": "assets/shared/compare.webp",
+    "source": "https://shop.vinfastauto.com/on/demandware.static/Sites-app_vinfast_vn-Site/-/default/dw6a73df38/images/mega-menu/icons/compare.webp",
+    "reference": "https://shop.vinfastauto.com/vn_vi/phu-kien",
+    "role": "Icon công cụ hỗ trợ / menu",
+    "permission": "Người dùng xác nhận dùng hình ảnh cho đồ án học tập."
+  },
+  {
+    "file": "assets/shared/drive.webp",
+    "source": "https://shop.vinfastauto.com/on/demandware.static/Sites-app_vinfast_vn-Site/-/default/dw6bcd0b48/images/mega-menu/icons/drive.webp",
+    "reference": "https://shop.vinfastauto.com/vn_vi/phu-kien",
+    "role": "Icon công cụ hỗ trợ / menu",
+    "permission": "Người dùng xác nhận dùng hình ảnh cho đồ án học tập."
+  },
+  {
+    "file": "assets/shared/installment.webp",
+    "source": "https://shop.vinfastauto.com/on/demandware.static/Sites-app_vinfast_vn-Site/-/default/dw7e34293d/images/mega-menu/icons/installment.webp",
+    "reference": "https://shop.vinfastauto.com/vn_vi/phu-kien",
+    "role": "Icon công cụ hỗ trợ / menu",
+    "permission": "Người dùng xác nhận dùng hình ảnh cho đồ án học tập."
+  },
+  {
+    "file": "assets/shared/calculations.webp",
+    "source": "https://shop.vinfastauto.com/on/demandware.static/Sites-app_vinfast_vn-Site/-/default/dwa8b3ce6b/images/mega-menu/icons/calculations.webp",
+    "reference": "https://shop.vinfastauto.com/vn_vi/phu-kien",
+    "role": "Icon công cụ hỗ trợ / menu",
+    "permission": "Người dùng xác nhận dùng hình ảnh cho đồ án học tập."
+  },
+  {
+    "file": "assets/shared/payments.webp",
+    "source": "https://shop.vinfastauto.com/on/demandware.static/Sites-app_vinfast_vn-Site/-/default/dw55bc0caf/images/mega-menu/icons/payments.webp",
+    "reference": "https://shop.vinfastauto.com/vn_vi/phu-kien",
+    "role": "Icon công cụ hỗ trợ / menu",
+    "permission": "Người dùng xác nhận dùng hình ảnh cho đồ án học tập."
+  },
+  {
+    "file": "assets/shared/ebike.webp",
+    "source": "https://shop.vinfastauto.com/on/demandware.static/Sites-app_vinfast_vn-Site/-/default/dw5b5c5374/images/mega-menu/icons/ebike.webp",
+    "reference": "https://shop.vinfastauto.com/vn_vi/phu-kien",
+    "role": "Icon công cụ hỗ trợ / menu",
+    "permission": "Người dùng xác nhận dùng hình ảnh cho đồ án học tập."
+  },
+  {
+    "file": "assets/shared/repair.png",
+    "source": "https://shop.vinfastauto.com/on/demandware.static/Sites-app_vinfast_vn-Site/-/default/dw887cef9d/images/mega-menu/icons/repair.png",
+    "reference": "https://shop.vinfastauto.com/vn_vi/phu-kien",
+    "role": "Icon công cụ hỗ trợ / menu",
+    "permission": "Người dùng xác nhận dùng hình ảnh cho đồ án học tập."
+  },
+  {
+    "file": "assets/shared/money-bag.png",
+    "source": "https://shop.vinfastauto.com/on/demandware.static/Sites-app_vinfast_vn-Site/-/default/dw3483635c/images/mega-menu/icons/money-bag.png",
+    "reference": "https://shop.vinfastauto.com/vn_vi/phu-kien",
+    "role": "Icon công cụ hỗ trợ / menu",
+    "permission": "Người dùng xác nhận dùng hình ảnh cho đồ án học tập."
+  },
+  {
+    "file": "assets/shared/VinFast-logo.webp",
+    "source": "https://shop.vinfastauto.com/on/demandware.static/-/Sites-app_vinfast_vn-Library/default/dw352ea907/images/vfast/VinFast-logo.webp",
+    "reference": "https://shop.vinfastauto.com/vn_vi/phu-kien",
+    "role": "Logo header",
+    "permission": "Người dùng xác nhận dùng hình ảnh cho đồ án học tập."
+  }
+]

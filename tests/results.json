@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-07",
+  "results": [
+    {
+      "name": "Trang chủ, slider, tabs, bàn phím",
+      "status": "PASS"
+    },
+    {
+      "name": "Menu đa cấp, Escape, click ngoài",
+      "status": "PASS"
+    },
+    {
+      "name": "VF6 phiên bản đồng bộ giá, quãng đường, bảng",
+      "status": "PASS"
+    },
+    {
+      "name": "Kinet: cả năm màu thay ảnh đúng và ảnh tải được",
+      "status": "PASS"
+    },
+    {
+      "name": "Accordion mở / đóng bằng bàn phím",
+      "status": "PASS"
+    },
+    {
+      "name": "Tìm kiếm, lọc, không kết quả, reset, URL",
+      "status": "PASS"
+    },
+    {
+      "name": "So sánh hai mẫu và chặn trùng",
+      "status": "PASS"
+    },
+    {
+      "name": "Form rỗng, ngày sai, hợp lệ, dialog, reset; không lưu dữ liệu",
+      "status": "PASS"
+    },
+    {
+      "name": "Liên kết thật, Back/Forward và tải lại",
+      "status": "PASS"
+    },
+    {
+      "name": "404 ID và trang 404",
+      "status": "PASS"
+    },
+    {
+      "name": "Responsive 1440px: 9 trang, ảnh, liên kết nội bộ",
+      "status": "PASS"
+    },
+    {
+      "name": "Responsive 1366px: 9 trang, ảnh, liên kết nội bộ",
+      "status": "PASS"
+    },
+    {
+      "name": "Responsive 768px: 9 trang, ảnh, liên kết nội bộ",
+      "status": "PASS"
+    },
+    {
+      "name": "Responsive 390px: 9 trang, ảnh, liên kết nội bộ",
+      "status": "PASS"
+    },
+    {
+      "name": "Mobile navigation, cấp con và chuyển sang desktop",
+      "status": "PASS"
+    },
+    {
+      "name": "Console không lỗi; không yêu cầu mạng ngoài",
+      "status": "PASS"
+    }
+  ]
+}
