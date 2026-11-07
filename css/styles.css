@@ -8,3 +8,6 @@
 #site-header .notice {
     display: none;
 }
+#site-header .notice {
+    display: none !important;
+}
