@@ -1,0 +1,1722 @@
+[
+  {
+    "path": "index.html",
+    "width": 1440,
+    "status": "PASS",
+    "sections": [
+      {
+        "id": "site-header",
+        "class": "",
+        "text": "Giới thiệu\nÔ tô ⌄\nXe máy điện ⌄\nPhụ kiện xe\nDịch vụ hậu mãi ⌄\nPin và trạm sạc ⌄\nLưu trữ năng lượng\nTài khoản\nĐĂNG KÝ LÁI THỬ",
+        "box": {
+          "width": 1440,
+          "height": 84
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "home-hero",
+        "text": "VINFAST VF 6\n\nVF 6\nKhám phá\n←\n01\n02\n→\n1 / 2",
+        "box": {
+          "width": 1440,
+          "height": 650
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "oto",
+        "class": "home-section home-cars",
+        "text": "Xe cá nhân\nXe dịch vụ\nVF Wild\nVF 2\nVF 8 Thế hệ mới\nVF MPV 7\nVF 3\nVF 5\nVF 6\nVF 7\nVF 8\nVF 9\n‹\nVF Wild\nBán tải điện\nDòng xe\n5 chỗ\nSố chỗ ngồi\n~1.000 km (NEDC)\nDi chuyển kết hợp\n\nGiá niêm yết 860 triệu đồng\n\nXem chi tiết\nVF Wild, 1 / 10\n›",
+        "box": {
+          "width": 1280,
+          "height": 765
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "xe-may-dien",
+        "class": "home-section home-scooters",
+        "text": "Cao cấp\nTrung cấp\nPhổ thông\nViper\nKinet\nVero X\n‹\nViper\n70 km/h\nTốc độ tối đa\n~156 km/lần sạc\nQuãng đường 1 lần sạc\n3000 W\nCông suất tối đa\n\nGiá niêm yết 35 triệu đồng\n\nXem chi tiết\nViper, 1 / 3\n›",
+        "box": {
+          "width": 1440,
+          "height": 765
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "hau-mai",
+        "class": "home-section home-after-sales",
+        "text": "Đồng hành dài lâu - An tâm mọi cung đường\n\nĐặt khách hàng làm trung tâm, VinFast không ngừng hoàn thiện hệ sinh thái hậu mãi toàn diện với chính sách bảo hành hàng đầu, mạng lưới dịch vụ phủ rộng và đội ngũ hỗ trợ luôn sẵn sàng, mang đến sự an tâm trong suốt hành trình sở hữu xe.\n\nChính sách bảo hành ô tô\nChính sách bảo hành xe máy\nBảo hành đến 10 năm\n\nTùy từng dòng xe và pin.*\n\nCam kết thời gian sửa chữa\n\nMinh bạch, đúng thời gian cam kết.*\n\nXưởng dịch vụ toàn quốc\n\nLuôn sẵn sàng phục vụ khách hàng.",
+        "box": {
+          "width": 1280,
+          "height": 775
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "tuong-lai-xanh",
+        "class": "home-section home-green",
+        "text": "Mãnh liệt vì tương lai xanh\n\nHành trình chuyển đổi sang xe điện, hướng đến phát triển bền vững và giao thông xanh tại Việt Nam.",
+        "box": {
+          "width": 1280,
+          "height": 671
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "home-transition-image",
+        "text": "",
+        "box": {
+          "width": 1440,
+          "height": 720
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "he-sinh-thai",
+        "class": "home-section home-ecosystem",
+        "text": "Hệ sinh thái toàn diện\n\nCác dịch vụ đồng hành cùng khách hàng từ mua xe đến sử dụng hằng ngày.\n\nMua xe thuận tiện\n\nĐại lý trên toàn quốc và nền tảng mua xe trực tuyến.\n\nAn tâm hậu mãi\n\nXưởng dịch vụ, bảo hành và hỗ trợ khách hàng.\n\nNạp năng lượng dễ dàng\n\n155.000+ cổng sạc / tủ đổi pin theo nội dung tham chiếu.\n\nTìm Showroom & Trạm sạc",
+        "box": {
+          "width": 1280,
+          "height": 690
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "ho-tro-mua-xe",
+        "class": "home-section home-buy-tools",
+        "text": "Mua xe dễ dàng hơn\n\nCác công cụ hỗ trợ lựa chọn, trải nghiệm và dự tính chi phí sở hữu xe.\n\nĐăng ký lái thử\n↗\nSo sánh xe\n↗\nDự toán chi phí lăn bánh\n↗\nTính chi phí sử dụng xe máy điện\n↗\nDự toán chi phí trả góp\n↗",
+        "box": {
+          "width": 1440,
+          "height": 490
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "phu-kien",
+        "class": "home-section home-lifestyle",
+        "text": "Nâng tầm phong cách\n\nPhụ kiện chính hãng và dịch vụ kết nối dành cho xe VinFast.\n\nTấm che pin cao áp\nXem thêm\nBộ Xếp Hình Robot VinFast VF 9\nXem thêm\nÔ cao cấp\nXem thêm\nSạc tại nhà 3KW\nXem thêm\n\nVF ESTORE\n\nDịch vụ kết nối thông minh\nKhám phá ngay",
+        "box": {
+          "width": 1280,
+          "height": 1317
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "nhan-thong-tin",
+        "class": "home-newsletter",
+        "text": "Đăng ký nhận thông tin\n\nThông tin về chương trình khuyến mãi và dịch vụ VinFast.\n\nBản mô phỏng: dùng email ví dụ; thông tin không được gửi hoặc lưu.\nEmail mô phỏng\n→\nTôi đã đọc Chính sách Quyền riêng tư và hiểu đây là mô phỏng.",
+        "box": {
+          "width": 1440,
+          "height": 214
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "site-footer",
+        "class": "",
+        "text": "Công ty Cổ phần VinFast Việt Nam\n\nMST/MSDN: 0202357718\nCấp lần đầu ngày 19/06/2026.\n\nKhu Kinh tế Đình Vũ - Cát Hải, Đảo Cát Hải, Đặc khu Cát Hải, Thành phố Hải Phòng, Việt Nam.\n\nNgười đại diện: Thái Thị Thanh Hải\nChủ tịch Hội đồng quản trị.\n\nVinFast\nVề VinFast\nVề Vingroup\nShowroom & Đại lý\nTin tức\nCông ty\nÔ tô\nXe máy điện\nĐiều khoản chính sách\nChính sách bảo vệ dữ liệu cá nhân\nChính sách vận chuyển\nChính sách đổi trả\nMiễn trừ trách nhiệm\nĐiều khoản ký kết thỏa thuận đặt cọc mua Ô tô VinFast\nHợp đồng và chính sách\nQuy trình tiếp nhận, phản hồi thông tin và giải quyết phản ánh, yêu cầu, khiếu nại của khách hàng\nDịch vụ khách hàng\n\n1900 23 23 89 - Nhánh 1\n\nSpeak-up hotline\nvinfast.ethicspoint.com ↗\nHệ sinh thái\nVinhomes ↗\nVinmec ↗\nVinpearl ↗\n\nBản mô phỏng học tập — không phải dịch vụ chính thức. Không nhận đặt cọc, không thanh toán và không gửi dữ liệu cá nhân.",
+        "box": {
+          "width": 1440,
+          "height": 669
+        },
+        "font": "Mulish, Arial, sans-serif"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "path": "pages/vf5.html",
+    "width": 1440,
+    "status": "PASS",
+    "sections": [
+      {
+        "id": "site-header",
+        "class": "",
+        "text": "Giới thiệu\nÔ tô ⌄\nXe máy điện ⌄\nPhụ kiện xe\nDịch vụ hậu mãi ⌄\nPin và trạm sạc ⌄\nLưu trữ năng lượng\nTài khoản\nĐĂNG KÝ LÁI THỬ",
+        "box": {
+          "width": 1440,
+          "height": 84
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "vf5-source-hero",
+        "text": "VF 5\n\nTừ 496 triệu đồng\n\nThông số kỹ thuật",
+        "box": {
+          "width": 1440,
+          "height": 600
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "container detail-summary",
+        "text": "Vận hành\nQuãng đường NEDC\n326 km\nMô-men xoắn\n135 Nm\nBảo hành xe\n7 năm / 160.000 km\n\nBảo hành theo mốc đến trước. Quãng đường thực tế phụ thuộc điều kiện sử dụng.",
+        "box": {
+          "width": 1280,
+          "height": 286
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "container vf5-color-preview",
+        "text": "VF 5 Infinity Blanc",
+        "box": {
+          "width": 1280,
+          "height": 660
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "container",
+        "text": "Hình ảnh VF 5\n←\n1\n2\n3\n→\n1 / 3",
+        "box": {
+          "width": 1280,
+          "height": 947
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "soft-section",
+        "text": "Ngoại thất VF 5\nĐầu xe\n\nNhận diện chữ V mạ crôm.\n\nĐuôi xe\n\nDải chữ V phản quang.\n\nBánh xe\n\nLa-zăng nhôm 17 inch.",
+        "box": {
+          "width": 1440,
+          "height": 627
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "container",
+        "text": "Khoang hành khách\n5 chỗ\n\nChiều dài cơ sở 2.514 mm.\n\n6 túi khí\n\nTrang bị an toàn.\n\nMàn hình 8 inch\n\nGiải trí cảm ứng.",
+        "box": {
+          "width": 1280,
+          "height": 1027
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "vf5-specifications",
+        "class": "container",
+        "text": "Thông số VF 5\nKích thước\nPin & Sạc\nTrang bị\nDài × rộng × cao\t3.967 × 1.723 × 1.579 mm\nChiều dài cơ sở\t2.514 mm\nSố chỗ\t5\nMô-men xoắn\t135 Nm\n\nSố liệu tham chiếu ngày 08/11/2026. Giá không phải báo giá. Trang nguồn ghi đơn vị công suất “100 kW/hp”; chưa chuẩn hóa đơn vị này.",
+        "box": {
+          "width": 1280,
+          "height": 610
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "container detail-links",
+        "text": "Dịch vụ đồng hành\nBảo hành\nPin và trạm sạc\nĐăng ký lái thử mô phỏng",
+        "box": {
+          "width": 1280,
+          "height": 267
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "site-footer",
+        "class": "",
+        "text": "Công ty Cổ phần VinFast Việt Nam\n\nMST/MSDN: 0202357718\nCấp lần đầu ngày 19/06/2026.\n\nKhu Kinh tế Đình Vũ - Cát Hải, Đảo Cát Hải, Đặc khu Cát Hải, Thành phố Hải Phòng, Việt Nam.\n\nNgười đại diện: Thái Thị Thanh Hải\nChủ tịch Hội đồng quản trị.\n\nVinFast\nVề VinFast\nVề Vingroup\nShowroom & Đại lý\nTin tức\nCông ty\nÔ tô\nXe máy điện\nĐiều khoản chính sách\nChính sách bảo vệ dữ liệu cá nhân\nChính sách vận chuyển\nChính sách đổi trả\nMiễn trừ trách nhiệm\nĐiều khoản ký kết thỏa thuận đặt cọc mua Ô tô VinFast\nHợp đồng và chính sách\nQuy trình tiếp nhận, phản hồi thông tin và giải quyết phản ánh, yêu cầu, khiếu nại của khách hàng\nDịch vụ khách hàng\n\n1900 23 23 89 - Nhánh 1\n\nSpeak-up hotline\nvinfast.ethicspoint.com ↗\nHệ sinh thái\nVinhomes ↗\nVinmec ↗\nVinpearl ↗\n\nBản mô phỏng học tập — không phải dịch vụ chính thức. Không nhận đặt cọc, không thanh toán và không gửi dữ liệu cá nhân.",
+        "box": {
+          "width": 1440,
+          "height": 669
+        },
+        "font": "Mulish, Arial, sans-serif"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "path": "pages/viper.html",
+    "width": 1440,
+    "status": "PASS",
+    "sections": [
+      {
+        "id": "site-header",
+        "class": "",
+        "text": "Giới thiệu\nÔ tô ⌄\nXe máy điện ⌄\nPhụ kiện xe\nDịch vụ hậu mãi ⌄\nPin và trạm sạc ⌄\nLưu trữ năng lượng\nTài khoản\nĐĂNG KÝ LÁI THỬ",
+        "box": {
+          "width": 1440,
+          "height": 84
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "detail-intro container viper-intro",
+        "text": "XE MÁY ĐIỆN ĐỔI PIN\n\nVinFast Viper\n\n35 triệu đồng\n\nKhám phá Viper",
+        "box": {
+          "width": 1280,
+          "height": 580
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "container viper-colors",
+        "text": "Đỏ Tươi",
+        "box": {
+          "width": 1280,
+          "height": 666
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "container detail-summary",
+        "text": "Tốc độ tối đa\n70 km/h\nQuãng đường với 2 pin\n~156 km/lần sạc\nCông suất tối đa\n3.000 W\n\nTốc độ: người lái 65 kg, chế độ Sport. Quãng đường: thử nghiệm 30 km/h, có pin phụ; thực tế tùy điều kiện sử dụng.",
+        "box": {
+          "width": 1280,
+          "height": 239
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "soft-section",
+        "text": "Bảo hành Viper\nXe: 6 năm\n\nKhông giới hạn số km.\n\nPin: 8 năm\n\nKhông giới hạn số km.",
+        "box": {
+          "width": 1440,
+          "height": 298
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "container",
+        "text": "Pin tháo lắp\nHai khay pin\n\nPin LFP 1,5 kWh; tùy chọn thêm một pin cùng dung lượng.\n\nĐộng cơ\n\nBLDC Inhub. Tăng tốc 0–50 km/h trong 15 giây với người lái 65 kg.",
+        "box": {
+          "width": 1280,
+          "height": 298
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "container",
+        "text": "Trang bị Viper\nMàn hình TFT\nCốp xe\nGiảm chấn thủy lực\nPhanh\n\nĐĩa trước; cơ phía sau.",
+        "box": {
+          "width": 1280,
+          "height": 549
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "viper-specifications",
+        "class": "container",
+        "text": "Thông số Viper\nKích thước\nPin\nKết nối\nDài × rộng × cao\t1.907 × 692 × 1.135 mm\nYên cao\t780 mm\nGầm cao\t138 mm\nCốp khi lắp 2 pin\t10 L\n\nThông tin tham chiếu ngày 08/11/2026; giá không phải báo giá.",
+        "box": {
+          "width": 1280,
+          "height": 610
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "container detail-links",
+        "text": "Bảo hành xe máy\nDịch vụ pin\nĐăng ký lái thử mô phỏng",
+        "box": {
+          "width": 1280,
+          "height": 180
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "site-footer",
+        "class": "",
+        "text": "Công ty Cổ phần VinFast Việt Nam\n\nMST/MSDN: 0202357718\nCấp lần đầu ngày 19/06/2026.\n\nKhu Kinh tế Đình Vũ - Cát Hải, Đảo Cát Hải, Đặc khu Cát Hải, Thành phố Hải Phòng, Việt Nam.\n\nNgười đại diện: Thái Thị Thanh Hải\nChủ tịch Hội đồng quản trị.\n\nVinFast\nVề VinFast\nVề Vingroup\nShowroom & Đại lý\nTin tức\nCông ty\nÔ tô\nXe máy điện\nĐiều khoản chính sách\nChính sách bảo vệ dữ liệu cá nhân\nChính sách vận chuyển\nChính sách đổi trả\nMiễn trừ trách nhiệm\nĐiều khoản ký kết thỏa thuận đặt cọc mua Ô tô VinFast\nHợp đồng và chính sách\nQuy trình tiếp nhận, phản hồi thông tin và giải quyết phản ánh, yêu cầu, khiếu nại của khách hàng\nDịch vụ khách hàng\n\n1900 23 23 89 - Nhánh 1\n\nSpeak-up hotline\nvinfast.ethicspoint.com ↗\nHệ sinh thái\nVinhomes ↗\nVinmec ↗\nVinpearl ↗\n\nBản mô phỏng học tập — không phải dịch vụ chính thức. Không nhận đặt cọc, không thanh toán và không gửi dữ liệu cá nhân.",
+        "box": {
+          "width": 1440,
+          "height": 669
+        },
+        "font": "Mulish, Arial, sans-serif"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "path": "index.html",
+    "width": 1366,
+    "status": "PASS",
+    "sections": [
+      {
+        "id": "site-header",
+        "class": "",
+        "text": "Giới thiệu\nÔ tô ⌄\nXe máy điện ⌄\nPhụ kiện xe\nDịch vụ hậu mãi ⌄\nPin và trạm sạc ⌄\nLưu trữ năng lượng\nTài khoản\nĐĂNG KÝ LÁI THỬ",
+        "box": {
+          "width": 1366,
+          "height": 84
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "home-hero",
+        "text": "VINFAST VF 6\n\nVF 6\nKhám phá\n←\n01\n02\n→\n1 / 2",
+        "box": {
+          "width": 1366,
+          "height": 650
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "oto",
+        "class": "home-section home-cars",
+        "text": "Xe cá nhân\nXe dịch vụ\nVF Wild\nVF 2\nVF 8 Thế hệ mới\nVF MPV 7\nVF 3\nVF 5\nVF 6\nVF 7\nVF 8\nVF 9\n‹\nVF Wild\nBán tải điện\nDòng xe\n5 chỗ\nSố chỗ ngồi\n~1.000 km (NEDC)\nDi chuyển kết hợp\n\nGiá niêm yết 860 triệu đồng\n\nXem chi tiết\nVF Wild, 1 / 10\n›",
+        "box": {
+          "width": 1280,
+          "height": 765
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "xe-may-dien",
+        "class": "home-section home-scooters",
+        "text": "Cao cấp\nTrung cấp\nPhổ thông\nViper\nKinet\nVero X\n‹\nViper\n70 km/h\nTốc độ tối đa\n~156 km/lần sạc\nQuãng đường 1 lần sạc\n3000 W\nCông suất tối đa\n\nGiá niêm yết 35 triệu đồng\n\nXem chi tiết\nViper, 1 / 3\n›",
+        "box": {
+          "width": 1366,
+          "height": 765
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "hau-mai",
+        "class": "home-section home-after-sales",
+        "text": "Đồng hành dài lâu - An tâm mọi cung đường\n\nĐặt khách hàng làm trung tâm, VinFast không ngừng hoàn thiện hệ sinh thái hậu mãi toàn diện với chính sách bảo hành hàng đầu, mạng lưới dịch vụ phủ rộng và đội ngũ hỗ trợ luôn sẵn sàng, mang đến sự an tâm trong suốt hành trình sở hữu xe.\n\nChính sách bảo hành ô tô\nChính sách bảo hành xe máy\nBảo hành đến 10 năm\n\nTùy từng dòng xe và pin.*\n\nCam kết thời gian sửa chữa\n\nMinh bạch, đúng thời gian cam kết.*\n\nXưởng dịch vụ toàn quốc\n\nLuôn sẵn sàng phục vụ khách hàng.",
+        "box": {
+          "width": 1280,
+          "height": 775
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "tuong-lai-xanh",
+        "class": "home-section home-green",
+        "text": "Mãnh liệt vì tương lai xanh\n\nHành trình chuyển đổi sang xe điện, hướng đến phát triển bền vững và giao thông xanh tại Việt Nam.",
+        "box": {
+          "width": 1280,
+          "height": 671
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "home-transition-image",
+        "text": "",
+        "box": {
+          "width": 1366,
+          "height": 687
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "he-sinh-thai",
+        "class": "home-section home-ecosystem",
+        "text": "Hệ sinh thái toàn diện\n\nCác dịch vụ đồng hành cùng khách hàng từ mua xe đến sử dụng hằng ngày.\n\nMua xe thuận tiện\n\nĐại lý trên toàn quốc và nền tảng mua xe trực tuyến.\n\nAn tâm hậu mãi\n\nXưởng dịch vụ, bảo hành và hỗ trợ khách hàng.\n\nNạp năng lượng dễ dàng\n\n155.000+ cổng sạc / tủ đổi pin theo nội dung tham chiếu.\n\nTìm Showroom & Trạm sạc",
+        "box": {
+          "width": 1280,
+          "height": 690
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "ho-tro-mua-xe",
+        "class": "home-section home-buy-tools",
+        "text": "Mua xe dễ dàng hơn\n\nCác công cụ hỗ trợ lựa chọn, trải nghiệm và dự tính chi phí sở hữu xe.\n\nĐăng ký lái thử\n↗\nSo sánh xe\n↗\nDự toán chi phí lăn bánh\n↗\nTính chi phí sử dụng xe máy điện\n↗\nDự toán chi phí trả góp\n↗",
+        "box": {
+          "width": 1366,
+          "height": 490
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "phu-kien",
+        "class": "home-section home-lifestyle",
+        "text": "Nâng tầm phong cách\n\nPhụ kiện chính hãng và dịch vụ kết nối dành cho xe VinFast.\n\nTấm che pin cao áp\nXem thêm\nBộ Xếp Hình Robot VinFast VF 9\nXem thêm\nÔ cao cấp\nXem thêm\nSạc tại nhà 3KW\nXem thêm\n\nVF ESTORE\n\nDịch vụ kết nối thông minh\nKhám phá ngay",
+        "box": {
+          "width": 1280,
+          "height": 1317
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "nhan-thong-tin",
+        "class": "home-newsletter",
+        "text": "Đăng ký nhận thông tin\n\nThông tin về chương trình khuyến mãi và dịch vụ VinFast.\n\nBản mô phỏng: dùng email ví dụ; thông tin không được gửi hoặc lưu.\nEmail mô phỏng\n→\nTôi đã đọc Chính sách Quyền riêng tư và hiểu đây là mô phỏng.",
+        "box": {
+          "width": 1366,
+          "height": 214
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "site-footer",
+        "class": "",
+        "text": "Công ty Cổ phần VinFast Việt Nam\n\nMST/MSDN: 0202357718\nCấp lần đầu ngày 19/06/2026.\n\nKhu Kinh tế Đình Vũ - Cát Hải, Đảo Cát Hải, Đặc khu Cát Hải, Thành phố Hải Phòng, Việt Nam.\n\nNgười đại diện: Thái Thị Thanh Hải\nChủ tịch Hội đồng quản trị.\n\nVinFast\nVề VinFast\nVề Vingroup\nShowroom & Đại lý\nTin tức\nCông ty\nÔ tô\nXe máy điện\nĐiều khoản chính sách\nChính sách bảo vệ dữ liệu cá nhân\nChính sách vận chuyển\nChính sách đổi trả\nMiễn trừ trách nhiệm\nĐiều khoản ký kết thỏa thuận đặt cọc mua Ô tô VinFast\nHợp đồng và chính sách\nQuy trình tiếp nhận, phản hồi thông tin và giải quyết phản ánh, yêu cầu, khiếu nại của khách hàng\nDịch vụ khách hàng\n\n1900 23 23 89 - Nhánh 1\n\nSpeak-up hotline\nvinfast.ethicspoint.com ↗\nHệ sinh thái\nVinhomes ↗\nVinmec ↗\nVinpearl ↗\n\nBản mô phỏng học tập — không phải dịch vụ chính thức. Không nhận đặt cọc, không thanh toán và không gửi dữ liệu cá nhân.",
+        "box": {
+          "width": 1366,
+          "height": 669
+        },
+        "font": "Mulish, Arial, sans-serif"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "path": "pages/vf5.html",
+    "width": 1366,
+    "status": "PASS",
+    "sections": [
+      {
+        "id": "site-header",
+        "class": "",
+        "text": "Giới thiệu\nÔ tô ⌄\nXe máy điện ⌄\nPhụ kiện xe\nDịch vụ hậu mãi ⌄\nPin và trạm sạc ⌄\nLưu trữ năng lượng\nTài khoản\nĐĂNG KÝ LÁI THỬ",
+        "box": {
+          "width": 1366,
+          "height": 84
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "vf5-source-hero",
+        "text": "VF 5\n\nTừ 496 triệu đồng\n\nThông số kỹ thuật",
+        "box": {
+          "width": 1366,
+          "height": 569
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "container detail-summary",
+        "text": "Vận hành\nQuãng đường NEDC\n326 km\nMô-men xoắn\n135 Nm\nBảo hành xe\n7 năm / 160.000 km\n\nBảo hành theo mốc đến trước. Quãng đường thực tế phụ thuộc điều kiện sử dụng.",
+        "box": {
+          "width": 1280,
+          "height": 283
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "container vf5-color-preview",
+        "text": "VF 5 Infinity Blanc",
+        "box": {
+          "width": 1280,
+          "height": 656
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "container",
+        "text": "Hình ảnh VF 5\n←\n1\n2\n3\n→\n1 / 3",
+        "box": {
+          "width": 1280,
+          "height": 943
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "soft-section",
+        "text": "Ngoại thất VF 5\nĐầu xe\n\nNhận diện chữ V mạ crôm.\n\nĐuôi xe\n\nDải chữ V phản quang.\n\nBánh xe\n\nLa-zăng nhôm 17 inch.",
+        "box": {
+          "width": 1366,
+          "height": 623
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "container",
+        "text": "Khoang hành khách\n5 chỗ\n\nChiều dài cơ sở 2.514 mm.\n\n6 túi khí\n\nTrang bị an toàn.\n\nMàn hình 8 inch\n\nGiải trí cảm ứng.",
+        "box": {
+          "width": 1280,
+          "height": 1023
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "vf5-specifications",
+        "class": "container",
+        "text": "Thông số VF 5\nKích thước\nPin & Sạc\nTrang bị\nDài × rộng × cao\t3.967 × 1.723 × 1.579 mm\nChiều dài cơ sở\t2.514 mm\nSố chỗ\t5\nMô-men xoắn\t135 Nm\n\nSố liệu tham chiếu ngày 08/11/2026. Giá không phải báo giá. Trang nguồn ghi đơn vị công suất “100 kW/hp”; chưa chuẩn hóa đơn vị này.",
+        "box": {
+          "width": 1280,
+          "height": 606
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "container detail-links",
+        "text": "Dịch vụ đồng hành\nBảo hành\nPin và trạm sạc\nĐăng ký lái thử mô phỏng",
+        "box": {
+          "width": 1280,
+          "height": 264
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "site-footer",
+        "class": "",
+        "text": "Công ty Cổ phần VinFast Việt Nam\n\nMST/MSDN: 0202357718\nCấp lần đầu ngày 19/06/2026.\n\nKhu Kinh tế Đình Vũ - Cát Hải, Đảo Cát Hải, Đặc khu Cát Hải, Thành phố Hải Phòng, Việt Nam.\n\nNgười đại diện: Thái Thị Thanh Hải\nChủ tịch Hội đồng quản trị.\n\nVinFast\nVề VinFast\nVề Vingroup\nShowroom & Đại lý\nTin tức\nCông ty\nÔ tô\nXe máy điện\nĐiều khoản chính sách\nChính sách bảo vệ dữ liệu cá nhân\nChính sách vận chuyển\nChính sách đổi trả\nMiễn trừ trách nhiệm\nĐiều khoản ký kết thỏa thuận đặt cọc mua Ô tô VinFast\nHợp đồng và chính sách\nQuy trình tiếp nhận, phản hồi thông tin và giải quyết phản ánh, yêu cầu, khiếu nại của khách hàng\nDịch vụ khách hàng\n\n1900 23 23 89 - Nhánh 1\n\nSpeak-up hotline\nvinfast.ethicspoint.com ↗\nHệ sinh thái\nVinhomes ↗\nVinmec ↗\nVinpearl ↗\n\nBản mô phỏng học tập — không phải dịch vụ chính thức. Không nhận đặt cọc, không thanh toán và không gửi dữ liệu cá nhân.",
+        "box": {
+          "width": 1366,
+          "height": 669
+        },
+        "font": "Mulish, Arial, sans-serif"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "path": "pages/viper.html",
+    "width": 1366,
+    "status": "PASS",
+    "sections": [
+      {
+        "id": "site-header",
+        "class": "",
+        "text": "Giới thiệu\nÔ tô ⌄\nXe máy điện ⌄\nPhụ kiện xe\nDịch vụ hậu mãi ⌄\nPin và trạm sạc ⌄\nLưu trữ năng lượng\nTài khoản\nĐĂNG KÝ LÁI THỬ",
+        "box": {
+          "width": 1366,
+          "height": 84
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "detail-intro container viper-intro",
+        "text": "XE MÁY ĐIỆN ĐỔI PIN\n\nVinFast Viper\n\n35 triệu đồng\n\nKhám phá Viper",
+        "box": {
+          "width": 1280,
+          "height": 580
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "container viper-colors",
+        "text": "Đỏ Tươi",
+        "box": {
+          "width": 1280,
+          "height": 666
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "container detail-summary",
+        "text": "Tốc độ tối đa\n70 km/h\nQuãng đường với 2 pin\n~156 km/lần sạc\nCông suất tối đa\n3.000 W\n\nTốc độ: người lái 65 kg, chế độ Sport. Quãng đường: thử nghiệm 30 km/h, có pin phụ; thực tế tùy điều kiện sử dụng.",
+        "box": {
+          "width": 1280,
+          "height": 239
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "soft-section",
+        "text": "Bảo hành Viper\nXe: 6 năm\n\nKhông giới hạn số km.\n\nPin: 8 năm\n\nKhông giới hạn số km.",
+        "box": {
+          "width": 1366,
+          "height": 294
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "container",
+        "text": "Pin tháo lắp\nHai khay pin\n\nPin LFP 1,5 kWh; tùy chọn thêm một pin cùng dung lượng.\n\nĐộng cơ\n\nBLDC Inhub. Tăng tốc 0–50 km/h trong 15 giây với người lái 65 kg.",
+        "box": {
+          "width": 1280,
+          "height": 294
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "container",
+        "text": "Trang bị Viper\nMàn hình TFT\nCốp xe\nGiảm chấn thủy lực\nPhanh\n\nĐĩa trước; cơ phía sau.",
+        "box": {
+          "width": 1280,
+          "height": 545
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "viper-specifications",
+        "class": "container",
+        "text": "Thông số Viper\nKích thước\nPin\nKết nối\nDài × rộng × cao\t1.907 × 692 × 1.135 mm\nYên cao\t780 mm\nGầm cao\t138 mm\nCốp khi lắp 2 pin\t10 L\n\nThông tin tham chiếu ngày 08/11/2026; giá không phải báo giá.",
+        "box": {
+          "width": 1280,
+          "height": 606
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "container detail-links",
+        "text": "Bảo hành xe máy\nDịch vụ pin\nĐăng ký lái thử mô phỏng",
+        "box": {
+          "width": 1280,
+          "height": 180
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "site-footer",
+        "class": "",
+        "text": "Công ty Cổ phần VinFast Việt Nam\n\nMST/MSDN: 0202357718\nCấp lần đầu ngày 19/06/2026.\n\nKhu Kinh tế Đình Vũ - Cát Hải, Đảo Cát Hải, Đặc khu Cát Hải, Thành phố Hải Phòng, Việt Nam.\n\nNgười đại diện: Thái Thị Thanh Hải\nChủ tịch Hội đồng quản trị.\n\nVinFast\nVề VinFast\nVề Vingroup\nShowroom & Đại lý\nTin tức\nCông ty\nÔ tô\nXe máy điện\nĐiều khoản chính sách\nChính sách bảo vệ dữ liệu cá nhân\nChính sách vận chuyển\nChính sách đổi trả\nMiễn trừ trách nhiệm\nĐiều khoản ký kết thỏa thuận đặt cọc mua Ô tô VinFast\nHợp đồng và chính sách\nQuy trình tiếp nhận, phản hồi thông tin và giải quyết phản ánh, yêu cầu, khiếu nại của khách hàng\nDịch vụ khách hàng\n\n1900 23 23 89 - Nhánh 1\n\nSpeak-up hotline\nvinfast.ethicspoint.com ↗\nHệ sinh thái\nVinhomes ↗\nVinmec ↗\nVinpearl ↗\n\nBản mô phỏng học tập — không phải dịch vụ chính thức. Không nhận đặt cọc, không thanh toán và không gửi dữ liệu cá nhân.",
+        "box": {
+          "width": 1366,
+          "height": 669
+        },
+        "font": "Mulish, Arial, sans-serif"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "path": "index.html",
+    "width": 768,
+    "status": "PASS",
+    "sections": [
+      {
+        "id": "site-header",
+        "class": "",
+        "text": "Menu ☰",
+        "box": {
+          "width": 768,
+          "height": 70
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "home-hero",
+        "text": "VINFAST VF 6\n\nVF 6\nKhám phá\n←\n01\n02\n→\n1 / 2",
+        "box": {
+          "width": 768,
+          "height": 500
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "oto",
+        "class": "home-section home-cars",
+        "text": "Xe cá nhân\nXe dịch vụ\nVF Wild\nVF 2\nVF 8 Thế hệ mới\nVF MPV 7\nVF 3\nVF 5\nVF 6\nVF 7\nVF 8\nVF 9\n‹\nVF Wild\nBán tải điện\nDòng xe\n5 chỗ\nSố chỗ ngồi\n~1.000 km (NEDC)\nDi chuyển kết hợp\n\nGiá niêm yết 860 triệu đồng\n\nXem chi tiết\nVF Wild, 1 / 10\n›",
+        "box": {
+          "width": 768,
+          "height": 690
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "xe-may-dien",
+        "class": "home-section home-scooters",
+        "text": "Cao cấp\nTrung cấp\nPhổ thông\nViper\nKinet\nVero X\n‹\nViper\n70 km/h\nTốc độ tối đa\n~156 km/lần sạc\nQuãng đường 1 lần sạc\n3000 W\nCông suất tối đa\n\nGiá niêm yết 35 triệu đồng\n\nXem chi tiết\nViper, 1 / 3\n›",
+        "box": {
+          "width": 768,
+          "height": 690
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "hau-mai",
+        "class": "home-section home-after-sales",
+        "text": "Đồng hành dài lâu - An tâm mọi cung đường\n\nĐặt khách hàng làm trung tâm, VinFast không ngừng hoàn thiện hệ sinh thái hậu mãi toàn diện với chính sách bảo hành hàng đầu, mạng lưới dịch vụ phủ rộng và đội ngũ hỗ trợ luôn sẵn sàng, mang đến sự an tâm trong suốt hành trình sở hữu xe.\n\nChính sách bảo hành ô tô\nChính sách bảo hành xe máy\nBảo hành đến 10 năm\n\nTùy từng dòng xe và pin.*\n\nCam kết thời gian sửa chữa\n\nMinh bạch, đúng thời gian cam kết.*\n\nXưởng dịch vụ toàn quốc\n\nLuôn sẵn sàng phục vụ khách hàng.",
+        "box": {
+          "width": 768,
+          "height": 633
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "tuong-lai-xanh",
+        "class": "home-section home-green",
+        "text": "Mãnh liệt vì tương lai xanh\n\nHành trình chuyển đổi sang xe điện, hướng đến phát triển bền vững và giao thông xanh tại Việt Nam.",
+        "box": {
+          "width": 768,
+          "height": 520
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "home-transition-image",
+        "text": "",
+        "box": {
+          "width": 768,
+          "height": 380
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "he-sinh-thai",
+        "class": "home-section home-ecosystem",
+        "text": "Hệ sinh thái toàn diện\n\nCác dịch vụ đồng hành cùng khách hàng từ mua xe đến sử dụng hằng ngày.\n\nMua xe thuận tiện\n\nĐại lý trên toàn quốc và nền tảng mua xe trực tuyến.\n\nAn tâm hậu mãi\n\nXưởng dịch vụ, bảo hành và hỗ trợ khách hàng.\n\nNạp năng lượng dễ dàng\n\n155.000+ cổng sạc / tủ đổi pin theo nội dung tham chiếu.\n\nTìm Showroom & Trạm sạc",
+        "box": {
+          "width": 768,
+          "height": 1115
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "ho-tro-mua-xe",
+        "class": "home-section home-buy-tools",
+        "text": "Mua xe dễ dàng hơn\n\nCác công cụ hỗ trợ lựa chọn, trải nghiệm và dự tính chi phí sở hữu xe.\n\nĐăng ký lái thử\n↗\nSo sánh xe\n↗\nDự toán chi phí lăn bánh\n↗\nTính chi phí sử dụng xe máy điện\n↗\nDự toán chi phí trả góp\n↗",
+        "box": {
+          "width": 768,
+          "height": 653
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "phu-kien",
+        "class": "home-section home-lifestyle",
+        "text": "Nâng tầm phong cách\n\nPhụ kiện chính hãng và dịch vụ kết nối dành cho xe VinFast.\n\nTấm che pin cao áp\nXem thêm\nBộ Xếp Hình Robot VinFast VF 9\nXem thêm\nÔ cao cấp\nXem thêm\nSạc tại nhà 3KW\nXem thêm\n\nVF ESTORE\n\nDịch vụ kết nối thông minh\nKhám phá ngay",
+        "box": {
+          "width": 768,
+          "height": 1619
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "nhan-thong-tin",
+        "class": "home-newsletter",
+        "text": "Đăng ký nhận thông tin\n\nThông tin về chương trình khuyến mãi và dịch vụ VinFast.\n\nBản mô phỏng: dùng email ví dụ; thông tin không được gửi hoặc lưu.\nEmail mô phỏng\n→\nTôi đã đọc Chính sách Quyền riêng tư và hiểu đây là mô phỏng.",
+        "box": {
+          "width": 768,
+          "height": 343
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "site-footer",
+        "class": "",
+        "text": "Công ty Cổ phần VinFast Việt Nam\n\nMST/MSDN: 0202357718\nCấp lần đầu ngày 19/06/2026.\n\nKhu Kinh tế Đình Vũ - Cát Hải, Đảo Cát Hải, Đặc khu Cát Hải, Thành phố Hải Phòng, Việt Nam.\n\nNgười đại diện: Thái Thị Thanh Hải\nChủ tịch Hội đồng quản trị.\n\nVinFast\nVề VinFast\nVề Vingroup\nShowroom & Đại lý\nTin tức\nCông ty\nÔ tô\nXe máy điện\nĐiều khoản chính sách\nChính sách bảo vệ dữ liệu cá nhân\nChính sách vận chuyển\nChính sách đổi trả\nMiễn trừ trách nhiệm\nĐiều khoản ký kết thỏa thuận đặt cọc mua Ô tô VinFast\nHợp đồng và chính sách\nQuy trình tiếp nhận, phản hồi thông tin và giải quyết phản ánh, yêu cầu, khiếu nại của khách hàng\nDịch vụ khách hàng\n\n1900 23 23 89 - Nhánh 1\n\nSpeak-up hotline\nvinfast.ethicspoint.com ↗\nHệ sinh thái\nVinhomes ↗\nVinmec ↗\nVinpearl ↗\n\nBản mô phỏng học tập — không phải dịch vụ chính thức. Không nhận đặt cọc, không thanh toán và không gửi dữ liệu cá nhân.",
+        "box": {
+          "width": 768,
+          "height": 1209
+        },
+        "font": "Mulish, Arial, sans-serif"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "path": "pages/vf5.html",
+    "width": 768,
+    "status": "PASS",
+    "sections": [
+      {
+        "id": "site-header",
+        "class": "",
+        "text": "Menu ☰",
+        "box": {
+          "width": 768,
+          "height": 70
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "vf5-source-hero",
+        "text": "VF 5\n\nTừ 496 triệu đồng\n\nThông số kỹ thuật",
+        "box": {
+          "width": 768,
+          "height": 524
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "container detail-summary",
+        "text": "Vận hành\nQuãng đường NEDC\n326 km\nMô-men xoắn\n135 Nm\nBảo hành xe\n7 năm / 160.000 km\n\nBảo hành theo mốc đến trước. Quãng đường thực tế phụ thuộc điều kiện sử dụng.",
+        "box": {
+          "width": 768,
+          "height": 246
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "container vf5-color-preview",
+        "text": "VF 5 Infinity Blanc",
+        "box": {
+          "width": 768,
+          "height": 515
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "container",
+        "text": "Hình ảnh VF 5\n←\n1\n2\n3\n→\n1 / 3",
+        "box": {
+          "width": 768,
+          "height": 610
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "soft-section",
+        "text": "Ngoại thất VF 5\nĐầu xe\n\nNhận diện chữ V mạ crôm.\n\nĐuôi xe\n\nDải chữ V phản quang.\n\nBánh xe\n\nLa-zăng nhôm 17 inch.",
+        "box": {
+          "width": 768,
+          "height": 449
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "container",
+        "text": "Khoang hành khách\n5 chỗ\n\nChiều dài cơ sở 2.514 mm.\n\n6 túi khí\n\nTrang bị an toàn.\n\nMàn hình 8 inch\n\nGiải trí cảm ứng.",
+        "box": {
+          "width": 768,
+          "height": 679
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "vf5-specifications",
+        "class": "container",
+        "text": "Thông số VF 5\nKích thước\nPin & Sạc\nTrang bị\nDài × rộng × cao\t3.967 × 1.723 × 1.579 mm\nChiều dài cơ sở\t2.514 mm\nSố chỗ\t5\nMô-men xoắn\t135 Nm\n\nSố liệu tham chiếu ngày 08/11/2026. Giá không phải báo giá. Trang nguồn ghi đơn vị công suất “100 kW/hp”; chưa chuẩn hóa đơn vị này.",
+        "box": {
+          "width": 768,
+          "height": 565
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "container detail-links",
+        "text": "Dịch vụ đồng hành\nBảo hành\nPin và trạm sạc\nĐăng ký lái thử mô phỏng",
+        "box": {
+          "width": 768,
+          "height": 201
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "site-footer",
+        "class": "",
+        "text": "Công ty Cổ phần VinFast Việt Nam\n\nMST/MSDN: 0202357718\nCấp lần đầu ngày 19/06/2026.\n\nKhu Kinh tế Đình Vũ - Cát Hải, Đảo Cát Hải, Đặc khu Cát Hải, Thành phố Hải Phòng, Việt Nam.\n\nNgười đại diện: Thái Thị Thanh Hải\nChủ tịch Hội đồng quản trị.\n\nVinFast\nVề VinFast\nVề Vingroup\nShowroom & Đại lý\nTin tức\nCông ty\nÔ tô\nXe máy điện\nĐiều khoản chính sách\nChính sách bảo vệ dữ liệu cá nhân\nChính sách vận chuyển\nChính sách đổi trả\nMiễn trừ trách nhiệm\nĐiều khoản ký kết thỏa thuận đặt cọc mua Ô tô VinFast\nHợp đồng và chính sách\nQuy trình tiếp nhận, phản hồi thông tin và giải quyết phản ánh, yêu cầu, khiếu nại của khách hàng\nDịch vụ khách hàng\n\n1900 23 23 89 - Nhánh 1\n\nSpeak-up hotline\nvinfast.ethicspoint.com ↗\nHệ sinh thái\nVinhomes ↗\nVinmec ↗\nVinpearl ↗\n\nBản mô phỏng học tập — không phải dịch vụ chính thức. Không nhận đặt cọc, không thanh toán và không gửi dữ liệu cá nhân.",
+        "box": {
+          "width": 768,
+          "height": 1209
+        },
+        "font": "Mulish, Arial, sans-serif"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "path": "pages/viper.html",
+    "width": 768,
+    "status": "PASS",
+    "sections": [
+      {
+        "id": "site-header",
+        "class": "",
+        "text": "Menu ☰",
+        "box": {
+          "width": 768,
+          "height": 70
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "detail-intro container viper-intro",
+        "text": "XE MÁY ĐIỆN ĐỔI PIN\n\nVinFast Viper\n\n35 triệu đồng\n\nKhám phá Viper",
+        "box": {
+          "width": 768,
+          "height": 634
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "container viper-colors",
+        "text": "Đỏ Tươi",
+        "box": {
+          "width": 768,
+          "height": 532
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "container detail-summary",
+        "text": "Tốc độ tối đa\n70 km/h\nQuãng đường với 2 pin\n~156 km/lần sạc\nCông suất tối đa\n3.000 W\n\nTốc độ: người lái 65 kg, chế độ Sport. Quãng đường: thử nghiệm 30 km/h, có pin phụ; thực tế tùy điều kiện sử dụng.",
+        "box": {
+          "width": 768,
+          "height": 237
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "soft-section",
+        "text": "Bảo hành Viper\nXe: 6 năm\n\nKhông giới hạn số km.\n\nPin: 8 năm\n\nKhông giới hạn số km.",
+        "box": {
+          "width": 768,
+          "height": 231
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "container",
+        "text": "Pin tháo lắp\nHai khay pin\n\nPin LFP 1,5 kWh; tùy chọn thêm một pin cùng dung lượng.\n\nĐộng cơ\n\nBLDC Inhub. Tăng tốc 0–50 km/h trong 15 giây với người lái 65 kg.",
+        "box": {
+          "width": 768,
+          "height": 257
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "container",
+        "text": "Trang bị Viper\nMàn hình TFT\nCốp xe\nGiảm chấn thủy lực\nPhanh\n\nĐĩa trước; cơ phía sau.",
+        "box": {
+          "width": 768,
+          "height": 931
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "viper-specifications",
+        "class": "container",
+        "text": "Thông số Viper\nKích thước\nPin\nKết nối\nDài × rộng × cao\t1.907 × 692 × 1.135 mm\nYên cao\t780 mm\nGầm cao\t138 mm\nCốp khi lắp 2 pin\t10 L\n\nThông tin tham chiếu ngày 08/11/2026; giá không phải báo giá.",
+        "box": {
+          "width": 768,
+          "height": 543
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "container detail-links",
+        "text": "Bảo hành xe máy\nDịch vụ pin\nĐăng ký lái thử mô phỏng",
+        "box": {
+          "width": 768,
+          "height": 132
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "site-footer",
+        "class": "",
+        "text": "Công ty Cổ phần VinFast Việt Nam\n\nMST/MSDN: 0202357718\nCấp lần đầu ngày 19/06/2026.\n\nKhu Kinh tế Đình Vũ - Cát Hải, Đảo Cát Hải, Đặc khu Cát Hải, Thành phố Hải Phòng, Việt Nam.\n\nNgười đại diện: Thái Thị Thanh Hải\nChủ tịch Hội đồng quản trị.\n\nVinFast\nVề VinFast\nVề Vingroup\nShowroom & Đại lý\nTin tức\nCông ty\nÔ tô\nXe máy điện\nĐiều khoản chính sách\nChính sách bảo vệ dữ liệu cá nhân\nChính sách vận chuyển\nChính sách đổi trả\nMiễn trừ trách nhiệm\nĐiều khoản ký kết thỏa thuận đặt cọc mua Ô tô VinFast\nHợp đồng và chính sách\nQuy trình tiếp nhận, phản hồi thông tin và giải quyết phản ánh, yêu cầu, khiếu nại của khách hàng\nDịch vụ khách hàng\n\n1900 23 23 89 - Nhánh 1\n\nSpeak-up hotline\nvinfast.ethicspoint.com ↗\nHệ sinh thái\nVinhomes ↗\nVinmec ↗\nVinpearl ↗\n\nBản mô phỏng học tập — không phải dịch vụ chính thức. Không nhận đặt cọc, không thanh toán và không gửi dữ liệu cá nhân.",
+        "box": {
+          "width": 768,
+          "height": 1209
+        },
+        "font": "Mulish, Arial, sans-serif"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "path": "index.html",
+    "width": 390,
+    "status": "PASS",
+    "sections": [
+      {
+        "id": "site-header",
+        "class": "",
+        "text": "Menu ☰",
+        "box": {
+          "width": 390,
+          "height": 70
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "home-hero",
+        "text": "VINFAST VF 6\n\nVF 6\nKhám phá\n←\n01\n02\n→\n1 / 2",
+        "box": {
+          "width": 390,
+          "height": 480
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "oto",
+        "class": "home-section home-cars",
+        "text": "Xe cá nhân\nXe dịch vụ\nVF Wild\nVF 2\nVF 8 Thế hệ mới\nVF MPV 7\nVF 3\nVF 5\nVF 6\nVF 7\nVF 8\nVF 9\n‹\nVF Wild\nBán tải điện\nDòng xe\n5 chỗ\nSố chỗ ngồi\n~1.000 km (NEDC)\nDi chuyển kết hợp\n\nGiá niêm yết 860 triệu đồng\n\nXem chi tiết\nVF Wild, 1 / 10\n›",
+        "box": {
+          "width": 390,
+          "height": 652
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "xe-may-dien",
+        "class": "home-section home-scooters",
+        "text": "Cao cấp\nTrung cấp\nPhổ thông\nViper\nKinet\nVero X\n‹\nViper\n70 km/h\nTốc độ tối đa\n~156 km/lần sạc\nQuãng đường 1 lần sạc\n3000 W\nCông suất tối đa\n\nGiá niêm yết 35 triệu đồng\n\nXem chi tiết\nViper, 1 / 3\n›",
+        "box": {
+          "width": 390,
+          "height": 652
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "hau-mai",
+        "class": "home-section home-after-sales",
+        "text": "Đồng hành dài lâu - An tâm mọi cung đường\n\nĐặt khách hàng làm trung tâm, VinFast không ngừng hoàn thiện hệ sinh thái hậu mãi toàn diện với chính sách bảo hành hàng đầu, mạng lưới dịch vụ phủ rộng và đội ngũ hỗ trợ luôn sẵn sàng, mang đến sự an tâm trong suốt hành trình sở hữu xe.\n\nChính sách bảo hành ô tô\nChính sách bảo hành xe máy\nBảo hành đến 10 năm\n\nTùy từng dòng xe và pin.*\n\nCam kết thời gian sửa chữa\n\nMinh bạch, đúng thời gian cam kết.*\n\nXưởng dịch vụ toàn quốc\n\nLuôn sẵn sàng phục vụ khách hàng.",
+        "box": {
+          "width": 390,
+          "height": 1543
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "tuong-lai-xanh",
+        "class": "home-section home-green",
+        "text": "Mãnh liệt vì tương lai xanh\n\nHành trình chuyển đổi sang xe điện, hướng đến phát triển bền vững và giao thông xanh tại Việt Nam.",
+        "box": {
+          "width": 390,
+          "height": 371
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "home-transition-image",
+        "text": "",
+        "box": {
+          "width": 390,
+          "height": 260
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "he-sinh-thai",
+        "class": "home-section home-ecosystem",
+        "text": "Hệ sinh thái toàn diện\n\nCác dịch vụ đồng hành cùng khách hàng từ mua xe đến sử dụng hằng ngày.\n\nMua xe thuận tiện\n\nĐại lý trên toàn quốc và nền tảng mua xe trực tuyến.\n\nAn tâm hậu mãi\n\nXưởng dịch vụ, bảo hành và hỗ trợ khách hàng.\n\nNạp năng lượng dễ dàng\n\n155.000+ cổng sạc / tủ đổi pin theo nội dung tham chiếu.\n\nTìm Showroom & Trạm sạc",
+        "box": {
+          "width": 390,
+          "height": 978
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "ho-tro-mua-xe",
+        "class": "home-section home-buy-tools",
+        "text": "Mua xe dễ dàng hơn\n\nCác công cụ hỗ trợ lựa chọn, trải nghiệm và dự tính chi phí sở hữu xe.\n\nĐăng ký lái thử\n↗\nSo sánh xe\n↗\nDự toán chi phí lăn bánh\n↗\nTính chi phí sử dụng xe máy điện\n↗\nDự toán chi phí trả góp\n↗",
+        "box": {
+          "width": 390,
+          "height": 798
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "phu-kien",
+        "class": "home-section home-lifestyle",
+        "text": "Nâng tầm phong cách\n\nPhụ kiện chính hãng và dịch vụ kết nối dành cho xe VinFast.\n\nTấm che pin cao áp\nXem thêm\nBộ Xếp Hình Robot VinFast VF 9\nXem thêm\nÔ cao cấp\nXem thêm\nSạc tại nhà 3KW\nXem thêm\n\nVF ESTORE\n\nDịch vụ kết nối thông minh\nKhám phá ngay",
+        "box": {
+          "width": 390,
+          "height": 1485
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "nhan-thong-tin",
+        "class": "home-newsletter",
+        "text": "Đăng ký nhận thông tin\n\nThông tin về chương trình khuyến mãi và dịch vụ VinFast.\n\nBản mô phỏng: dùng email ví dụ; thông tin không được gửi hoặc lưu.\nEmail mô phỏng\n→\nTôi đã đọc Chính sách Quyền riêng tư và hiểu đây là mô phỏng.",
+        "box": {
+          "width": 390,
+          "height": 384
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "site-footer",
+        "class": "",
+        "text": "Công ty Cổ phần VinFast Việt Nam\n\nMST/MSDN: 0202357718\nCấp lần đầu ngày 19/06/2026.\n\nKhu Kinh tế Đình Vũ - Cát Hải, Đảo Cát Hải, Đặc khu Cát Hải, Thành phố Hải Phòng, Việt Nam.\n\nNgười đại diện: Thái Thị Thanh Hải\nChủ tịch Hội đồng quản trị.\n\nVinFast\nVề VinFast\nVề Vingroup\nShowroom & Đại lý\nTin tức\nCông ty\nÔ tô\nXe máy điện\nĐiều khoản chính sách\nChính sách bảo vệ dữ liệu cá nhân\nChính sách vận chuyển\nChính sách đổi trả\nMiễn trừ trách nhiệm\nĐiều khoản ký kết thỏa thuận đặt cọc mua Ô tô VinFast\nHợp đồng và chính sách\nQuy trình tiếp nhận, phản hồi thông tin và giải quyết phản ánh, yêu cầu, khiếu nại của khách hàng\nDịch vụ khách hàng\n\n1900 23 23 89 - Nhánh 1\n\nSpeak-up hotline\nvinfast.ethicspoint.com ↗\nHệ sinh thái\nVinhomes ↗\nVinmec ↗\nVinpearl ↗\n\nBản mô phỏng học tập — không phải dịch vụ chính thức. Không nhận đặt cọc, không thanh toán và không gửi dữ liệu cá nhân.",
+        "box": {
+          "width": 390,
+          "height": 1579
+        },
+        "font": "Mulish, Arial, sans-serif"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "path": "pages/vf5.html",
+    "width": 390,
+    "status": "PASS",
+    "sections": [
+      {
+        "id": "site-header",
+        "class": "",
+        "text": "Menu ☰",
+        "box": {
+          "width": 390,
+          "height": 70
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "vf5-source-hero",
+        "text": "VF 5\n\nTừ 496 triệu đồng\n\nThông số kỹ thuật",
+        "box": {
+          "width": 390,
+          "height": 366
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "container detail-summary",
+        "text": "Vận hành\nQuãng đường NEDC\n326 km\nMô-men xoắn\n135 Nm\nBảo hành xe\n7 năm / 160.000 km\n\nBảo hành theo mốc đến trước. Quãng đường thực tế phụ thuộc điều kiện sử dụng.",
+        "box": {
+          "width": 390,
+          "height": 289
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "container vf5-color-preview",
+        "text": "VF 5 Infinity Blanc",
+        "box": {
+          "width": 390,
+          "height": 311
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "container",
+        "text": "Hình ảnh VF 5\n←\n1\n2\n3\n→\n1 / 3",
+        "box": {
+          "width": 390,
+          "height": 394
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "soft-section",
+        "text": "Ngoại thất VF 5\nĐầu xe\n\nNhận diện chữ V mạ crôm.\n\nĐuôi xe\n\nDải chữ V phản quang.\n\nBánh xe\n\nLa-zăng nhôm 17 inch.",
+        "box": {
+          "width": 390,
+          "height": 1397
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "container",
+        "text": "Khoang hành khách\n5 chỗ\n\nChiều dài cơ sở 2.514 mm.\n\n6 túi khí\n\nTrang bị an toàn.\n\nMàn hình 8 inch\n\nGiải trí cảm ứng.",
+        "box": {
+          "width": 390,
+          "height": 743
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "vf5-specifications",
+        "class": "container",
+        "text": "Thông số VF 5\nKích thước\nPin & Sạc\nTrang bị\nDài × rộng × cao\t3.967 × 1.723 × 1.579 mm\nChiều dài cơ sở\t2.514 mm\nSố chỗ\t5\nMô-men xoắn\t135 Nm\n\nSố liệu tham chiếu ngày 08/11/2026. Giá không phải báo giá. Trang nguồn ghi đơn vị công suất “100 kW/hp”; chưa chuẩn hóa đơn vị này.",
+        "box": {
+          "width": 390,
+          "height": 552
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "container detail-links",
+        "text": "Dịch vụ đồng hành\nBảo hành\nPin và trạm sạc\nĐăng ký lái thử mô phỏng",
+        "box": {
+          "width": 390,
+          "height": 328
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "site-footer",
+        "class": "",
+        "text": "Công ty Cổ phần VinFast Việt Nam\n\nMST/MSDN: 0202357718\nCấp lần đầu ngày 19/06/2026.\n\nKhu Kinh tế Đình Vũ - Cát Hải, Đảo Cát Hải, Đặc khu Cát Hải, Thành phố Hải Phòng, Việt Nam.\n\nNgười đại diện: Thái Thị Thanh Hải\nChủ tịch Hội đồng quản trị.\n\nVinFast\nVề VinFast\nVề Vingroup\nShowroom & Đại lý\nTin tức\nCông ty\nÔ tô\nXe máy điện\nĐiều khoản chính sách\nChính sách bảo vệ dữ liệu cá nhân\nChính sách vận chuyển\nChính sách đổi trả\nMiễn trừ trách nhiệm\nĐiều khoản ký kết thỏa thuận đặt cọc mua Ô tô VinFast\nHợp đồng và chính sách\nQuy trình tiếp nhận, phản hồi thông tin và giải quyết phản ánh, yêu cầu, khiếu nại của khách hàng\nDịch vụ khách hàng\n\n1900 23 23 89 - Nhánh 1\n\nSpeak-up hotline\nvinfast.ethicspoint.com ↗\nHệ sinh thái\nVinhomes ↗\nVinmec ↗\nVinpearl ↗\n\nBản mô phỏng học tập — không phải dịch vụ chính thức. Không nhận đặt cọc, không thanh toán và không gửi dữ liệu cá nhân.",
+        "box": {
+          "width": 390,
+          "height": 1579
+        },
+        "font": "Mulish, Arial, sans-serif"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "path": "pages/viper.html",
+    "width": 390,
+    "status": "PASS",
+    "sections": [
+      {
+        "id": "site-header",
+        "class": "",
+        "text": "Menu ☰",
+        "box": {
+          "width": 390,
+          "height": 70
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "detail-intro container viper-intro",
+        "text": "XE MÁY ĐIỆN ĐỔI PIN\n\nVinFast Viper\n\n35 triệu đồng\n\nKhám phá Viper",
+        "box": {
+          "width": 390,
+          "height": 581
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "container viper-colors",
+        "text": "Đỏ Tươi",
+        "box": {
+          "width": 390,
+          "height": 528
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "container detail-summary",
+        "text": "Tốc độ tối đa\n70 km/h\nQuãng đường với 2 pin\n~156 km/lần sạc\nCông suất tối đa\n3.000 W\n\nTốc độ: người lái 65 kg, chế độ Sport. Quãng đường: thử nghiệm 30 km/h, có pin phụ; thực tế tùy điều kiện sử dụng.",
+        "box": {
+          "width": 390,
+          "height": 297
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "soft-section",
+        "text": "Bảo hành Viper\nXe: 6 năm\n\nKhông giới hạn số km.\n\nPin: 8 năm\n\nKhông giới hạn số km.",
+        "box": {
+          "width": 390,
+          "height": 345
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "container",
+        "text": "Pin tháo lắp\nHai khay pin\n\nPin LFP 1,5 kWh; tùy chọn thêm một pin cùng dung lượng.\n\nĐộng cơ\n\nBLDC Inhub. Tăng tốc 0–50 km/h trong 15 giây với người lái 65 kg.",
+        "box": {
+          "width": 390,
+          "height": 396
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "container",
+        "text": "Trang bị Viper\nMàn hình TFT\nCốp xe\nGiảm chấn thủy lực\nPhanh\n\nĐĩa trước; cơ phía sau.",
+        "box": {
+          "width": 390,
+          "height": 1703
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "viper-specifications",
+        "class": "container",
+        "text": "Thông số Viper\nKích thước\nPin\nKết nối\nDài × rộng × cao\t1.907 × 692 × 1.135 mm\nYên cao\t780 mm\nGầm cao\t138 mm\nCốp khi lắp 2 pin\t10 L\n\nThông tin tham chiếu ngày 08/11/2026; giá không phải báo giá.",
+        "box": {
+          "width": 390,
+          "height": 530
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "container detail-links",
+        "text": "Bảo hành xe máy\nDịch vụ pin\nĐăng ký lái thử mô phỏng",
+        "box": {
+          "width": 390,
+          "height": 259
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "site-footer",
+        "class": "",
+        "text": "Công ty Cổ phần VinFast Việt Nam\n\nMST/MSDN: 0202357718\nCấp lần đầu ngày 19/06/2026.\n\nKhu Kinh tế Đình Vũ - Cát Hải, Đảo Cát Hải, Đặc khu Cát Hải, Thành phố Hải Phòng, Việt Nam.\n\nNgười đại diện: Thái Thị Thanh Hải\nChủ tịch Hội đồng quản trị.\n\nVinFast\nVề VinFast\nVề Vingroup\nShowroom & Đại lý\nTin tức\nCông ty\nÔ tô\nXe máy điện\nĐiều khoản chính sách\nChính sách bảo vệ dữ liệu cá nhân\nChính sách vận chuyển\nChính sách đổi trả\nMiễn trừ trách nhiệm\nĐiều khoản ký kết thỏa thuận đặt cọc mua Ô tô VinFast\nHợp đồng và chính sách\nQuy trình tiếp nhận, phản hồi thông tin và giải quyết phản ánh, yêu cầu, khiếu nại của khách hàng\nDịch vụ khách hàng\n\n1900 23 23 89 - Nhánh 1\n\nSpeak-up hotline\nvinfast.ethicspoint.com ↗\nHệ sinh thái\nVinhomes ↗\nVinmec ↗\nVinpearl ↗\n\nBản mô phỏng học tập — không phải dịch vụ chính thức. Không nhận đặt cọc, không thanh toán và không gửi dữ liệu cá nhân.",
+        "box": {
+          "width": 390,
+          "height": 1579
+        },
+        "font": "Mulish, Arial, sans-serif"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "path": "index.html",
+    "width": 375,
+    "status": "PASS",
+    "sections": [
+      {
+        "id": "site-header",
+        "class": "",
+        "text": "Menu ☰",
+        "box": {
+          "width": 375,
+          "height": 70
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "home-hero",
+        "text": "VINFAST VF 6\n\nVF 6\nKhám phá\n←\n01\n02\n→\n1 / 2",
+        "box": {
+          "width": 375,
+          "height": 480
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "oto",
+        "class": "home-section home-cars",
+        "text": "Xe cá nhân\nXe dịch vụ\nVF Wild\nVF 2\nVF 8 Thế hệ mới\nVF MPV 7\nVF 3\nVF 5\nVF 6\nVF 7\nVF 8\nVF 9\n‹\nVF Wild\nBán tải điện\nDòng xe\n5 chỗ\nSố chỗ ngồi\n~1.000 km (NEDC)\nDi chuyển kết hợp\n\nGiá niêm yết 860 triệu đồng\n\nXem chi tiết\nVF Wild, 1 / 10\n›",
+        "box": {
+          "width": 375,
+          "height": 652
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "xe-may-dien",
+        "class": "home-section home-scooters",
+        "text": "Cao cấp\nTrung cấp\nPhổ thông\nViper\nKinet\nVero X\n‹\nViper\n70 km/h\nTốc độ tối đa\n~156 km/lần sạc\nQuãng đường 1 lần sạc\n3000 W\nCông suất tối đa\n\nGiá niêm yết 35 triệu đồng\n\nXem chi tiết\nViper, 1 / 3\n›",
+        "box": {
+          "width": 375,
+          "height": 652
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "hau-mai",
+        "class": "home-section home-after-sales",
+        "text": "Đồng hành dài lâu - An tâm mọi cung đường\n\nĐặt khách hàng làm trung tâm, VinFast không ngừng hoàn thiện hệ sinh thái hậu mãi toàn diện với chính sách bảo hành hàng đầu, mạng lưới dịch vụ phủ rộng và đội ngũ hỗ trợ luôn sẵn sàng, mang đến sự an tâm trong suốt hành trình sở hữu xe.\n\nChính sách bảo hành ô tô\nChính sách bảo hành xe máy\nBảo hành đến 10 năm\n\nTùy từng dòng xe và pin.*\n\nCam kết thời gian sửa chữa\n\nMinh bạch, đúng thời gian cam kết.*\n\nXưởng dịch vụ toàn quốc\n\nLuôn sẵn sàng phục vụ khách hàng.",
+        "box": {
+          "width": 375,
+          "height": 1509
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "tuong-lai-xanh",
+        "class": "home-section home-green",
+        "text": "Mãnh liệt vì tương lai xanh\n\nHành trình chuyển đổi sang xe điện, hướng đến phát triển bền vững và giao thông xanh tại Việt Nam.",
+        "box": {
+          "width": 375,
+          "height": 395
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "home-transition-image",
+        "text": "",
+        "box": {
+          "width": 375,
+          "height": 260
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "he-sinh-thai",
+        "class": "home-section home-ecosystem",
+        "text": "Hệ sinh thái toàn diện\n\nCác dịch vụ đồng hành cùng khách hàng từ mua xe đến sử dụng hằng ngày.\n\nMua xe thuận tiện\n\nĐại lý trên toàn quốc và nền tảng mua xe trực tuyến.\n\nAn tâm hậu mãi\n\nXưởng dịch vụ, bảo hành và hỗ trợ khách hàng.\n\nNạp năng lượng dễ dàng\n\n155.000+ cổng sạc / tủ đổi pin theo nội dung tham chiếu.\n\nTìm Showroom & Trạm sạc",
+        "box": {
+          "width": 375,
+          "height": 963
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "ho-tro-mua-xe",
+        "class": "home-section home-buy-tools",
+        "text": "Mua xe dễ dàng hơn\n\nCác công cụ hỗ trợ lựa chọn, trải nghiệm và dự tính chi phí sở hữu xe.\n\nĐăng ký lái thử\n↗\nSo sánh xe\n↗\nDự toán chi phí lăn bánh\n↗\nTính chi phí sử dụng xe máy điện\n↗\nDự toán chi phí trả góp\n↗",
+        "box": {
+          "width": 375,
+          "height": 798
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "phu-kien",
+        "class": "home-section home-lifestyle",
+        "text": "Nâng tầm phong cách\n\nPhụ kiện chính hãng và dịch vụ kết nối dành cho xe VinFast.\n\nTấm che pin cao áp\nXem thêm\nBộ Xếp Hình Robot VinFast VF 9\nXem thêm\nÔ cao cấp\nXem thêm\nSạc tại nhà 3KW\nXem thêm\n\nVF ESTORE\n\nDịch vụ kết nối thông minh\nKhám phá ngay",
+        "box": {
+          "width": 375,
+          "height": 1458
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "nhan-thong-tin",
+        "class": "home-newsletter",
+        "text": "Đăng ký nhận thông tin\n\nThông tin về chương trình khuyến mãi và dịch vụ VinFast.\n\nBản mô phỏng: dùng email ví dụ; thông tin không được gửi hoặc lưu.\nEmail mô phỏng\n→\nTôi đã đọc Chính sách Quyền riêng tư và hiểu đây là mô phỏng.",
+        "box": {
+          "width": 375,
+          "height": 384
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "site-footer",
+        "class": "",
+        "text": "Công ty Cổ phần VinFast Việt Nam\n\nMST/MSDN: 0202357718\nCấp lần đầu ngày 19/06/2026.\n\nKhu Kinh tế Đình Vũ - Cát Hải, Đảo Cát Hải, Đặc khu Cát Hải, Thành phố Hải Phòng, Việt Nam.\n\nNgười đại diện: Thái Thị Thanh Hải\nChủ tịch Hội đồng quản trị.\n\nVinFast\nVề VinFast\nVề Vingroup\nShowroom & Đại lý\nTin tức\nCông ty\nÔ tô\nXe máy điện\nĐiều khoản chính sách\nChính sách bảo vệ dữ liệu cá nhân\nChính sách vận chuyển\nChính sách đổi trả\nMiễn trừ trách nhiệm\nĐiều khoản ký kết thỏa thuận đặt cọc mua Ô tô VinFast\nHợp đồng và chính sách\nQuy trình tiếp nhận, phản hồi thông tin và giải quyết phản ánh, yêu cầu, khiếu nại của khách hàng\nDịch vụ khách hàng\n\n1900 23 23 89 - Nhánh 1\n\nSpeak-up hotline\nvinfast.ethicspoint.com ↗\nHệ sinh thái\nVinhomes ↗\nVinmec ↗\nVinpearl ↗\n\nBản mô phỏng học tập — không phải dịch vụ chính thức. Không nhận đặt cọc, không thanh toán và không gửi dữ liệu cá nhân.",
+        "box": {
+          "width": 375,
+          "height": 1602
+        },
+        "font": "Mulish, Arial, sans-serif"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "path": "pages/vf5.html",
+    "width": 375,
+    "status": "PASS",
+    "sections": [
+      {
+        "id": "site-header",
+        "class": "",
+        "text": "Menu ☰",
+        "box": {
+          "width": 375,
+          "height": 70
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "vf5-source-hero",
+        "text": "VF 5\n\nTừ 496 triệu đồng\n\nThông số kỹ thuật",
+        "box": {
+          "width": 375,
+          "height": 360
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "container detail-summary",
+        "text": "Vận hành\nQuãng đường NEDC\n326 km\nMô-men xoắn\n135 Nm\nBảo hành xe\n7 năm / 160.000 km\n\nBảo hành theo mốc đến trước. Quãng đường thực tế phụ thuộc điều kiện sử dụng.",
+        "box": {
+          "width": 375,
+          "height": 289
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "container vf5-color-preview",
+        "text": "VF 5 Infinity Blanc",
+        "box": {
+          "width": 375,
+          "height": 303
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "container",
+        "text": "Hình ảnh VF 5\n←\n1\n2\n3\n→\n1 / 3",
+        "box": {
+          "width": 375,
+          "height": 386
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "soft-section",
+        "text": "Ngoại thất VF 5\nĐầu xe\n\nNhận diện chữ V mạ crôm.\n\nĐuôi xe\n\nDải chữ V phản quang.\n\nBánh xe\n\nLa-zăng nhôm 17 inch.",
+        "box": {
+          "width": 375,
+          "height": 1363
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "container",
+        "text": "Khoang hành khách\n5 chỗ\n\nChiều dài cơ sở 2.514 mm.\n\n6 túi khí\n\nTrang bị an toàn.\n\nMàn hình 8 inch\n\nGiải trí cảm ứng.",
+        "box": {
+          "width": 375,
+          "height": 734
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "vf5-specifications",
+        "class": "container",
+        "text": "Thông số VF 5\nKích thước\nPin & Sạc\nTrang bị\nDài × rộng × cao\t3.967 × 1.723 × 1.579 mm\nChiều dài cơ sở\t2.514 mm\nSố chỗ\t5\nMô-men xoắn\t135 Nm\n\nSố liệu tham chiếu ngày 08/11/2026. Giá không phải báo giá. Trang nguồn ghi đơn vị công suất “100 kW/hp”; chưa chuẩn hóa đơn vị này.",
+        "box": {
+          "width": 375,
+          "height": 552
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "container detail-links",
+        "text": "Dịch vụ đồng hành\nBảo hành\nPin và trạm sạc\nĐăng ký lái thử mô phỏng",
+        "box": {
+          "width": 375,
+          "height": 328
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "site-footer",
+        "class": "",
+        "text": "Công ty Cổ phần VinFast Việt Nam\n\nMST/MSDN: 0202357718\nCấp lần đầu ngày 19/06/2026.\n\nKhu Kinh tế Đình Vũ - Cát Hải, Đảo Cát Hải, Đặc khu Cát Hải, Thành phố Hải Phòng, Việt Nam.\n\nNgười đại diện: Thái Thị Thanh Hải\nChủ tịch Hội đồng quản trị.\n\nVinFast\nVề VinFast\nVề Vingroup\nShowroom & Đại lý\nTin tức\nCông ty\nÔ tô\nXe máy điện\nĐiều khoản chính sách\nChính sách bảo vệ dữ liệu cá nhân\nChính sách vận chuyển\nChính sách đổi trả\nMiễn trừ trách nhiệm\nĐiều khoản ký kết thỏa thuận đặt cọc mua Ô tô VinFast\nHợp đồng và chính sách\nQuy trình tiếp nhận, phản hồi thông tin và giải quyết phản ánh, yêu cầu, khiếu nại của khách hàng\nDịch vụ khách hàng\n\n1900 23 23 89 - Nhánh 1\n\nSpeak-up hotline\nvinfast.ethicspoint.com ↗\nHệ sinh thái\nVinhomes ↗\nVinmec ↗\nVinpearl ↗\n\nBản mô phỏng học tập — không phải dịch vụ chính thức. Không nhận đặt cọc, không thanh toán và không gửi dữ liệu cá nhân.",
+        "box": {
+          "width": 375,
+          "height": 1602
+        },
+        "font": "Mulish, Arial, sans-serif"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "path": "pages/viper.html",
+    "width": 375,
+    "status": "PASS",
+    "sections": [
+      {
+        "id": "site-header",
+        "class": "",
+        "text": "Menu ☰",
+        "box": {
+          "width": 375,
+          "height": 70
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "detail-intro container viper-intro",
+        "text": "XE MÁY ĐIỆN ĐỔI PIN\n\nVinFast Viper\n\n35 triệu đồng\n\nKhám phá Viper",
+        "box": {
+          "width": 375,
+          "height": 569
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "container viper-colors",
+        "text": "Đỏ Tươi",
+        "box": {
+          "width": 375,
+          "height": 528
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "container detail-summary",
+        "text": "Tốc độ tối đa\n70 km/h\nQuãng đường với 2 pin\n~156 km/lần sạc\nCông suất tối đa\n3.000 W\n\nTốc độ: người lái 65 kg, chế độ Sport. Quãng đường: thử nghiệm 30 km/h, có pin phụ; thực tế tùy điều kiện sử dụng.",
+        "box": {
+          "width": 375,
+          "height": 297
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "soft-section",
+        "text": "Bảo hành Viper\nXe: 6 năm\n\nKhông giới hạn số km.\n\nPin: 8 năm\n\nKhông giới hạn số km.",
+        "box": {
+          "width": 375,
+          "height": 345
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "container",
+        "text": "Pin tháo lắp\nHai khay pin\n\nPin LFP 1,5 kWh; tùy chọn thêm một pin cùng dung lượng.\n\nĐộng cơ\n\nBLDC Inhub. Tăng tốc 0–50 km/h trong 15 giây với người lái 65 kg.",
+        "box": {
+          "width": 375,
+          "height": 396
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "container",
+        "text": "Trang bị Viper\nMàn hình TFT\nCốp xe\nGiảm chấn thủy lực\nPhanh\n\nĐĩa trước; cơ phía sau.",
+        "box": {
+          "width": 375,
+          "height": 1658
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "viper-specifications",
+        "class": "container",
+        "text": "Thông số Viper\nKích thước\nPin\nKết nối\nDài × rộng × cao\t1.907 × 692 × 1.135 mm\nYên cao\t780 mm\nGầm cao\t138 mm\nCốp khi lắp 2 pin\t10 L\n\nThông tin tham chiếu ngày 08/11/2026; giá không phải báo giá.",
+        "box": {
+          "width": 375,
+          "height": 530
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "container detail-links",
+        "text": "Bảo hành xe máy\nDịch vụ pin\nĐăng ký lái thử mô phỏng",
+        "box": {
+          "width": 375,
+          "height": 259
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "site-footer",
+        "class": "",
+        "text": "Công ty Cổ phần VinFast Việt Nam\n\nMST/MSDN: 0202357718\nCấp lần đầu ngày 19/06/2026.\n\nKhu Kinh tế Đình Vũ - Cát Hải, Đảo Cát Hải, Đặc khu Cát Hải, Thành phố Hải Phòng, Việt Nam.\n\nNgười đại diện: Thái Thị Thanh Hải\nChủ tịch Hội đồng quản trị.\n\nVinFast\nVề VinFast\nVề Vingroup\nShowroom & Đại lý\nTin tức\nCông ty\nÔ tô\nXe máy điện\nĐiều khoản chính sách\nChính sách bảo vệ dữ liệu cá nhân\nChính sách vận chuyển\nChính sách đổi trả\nMiễn trừ trách nhiệm\nĐiều khoản ký kết thỏa thuận đặt cọc mua Ô tô VinFast\nHợp đồng và chính sách\nQuy trình tiếp nhận, phản hồi thông tin và giải quyết phản ánh, yêu cầu, khiếu nại của khách hàng\nDịch vụ khách hàng\n\n1900 23 23 89 - Nhánh 1\n\nSpeak-up hotline\nvinfast.ethicspoint.com ↗\nHệ sinh thái\nVinhomes ↗\nVinmec ↗\nVinpearl ↗\n\nBản mô phỏng học tập — không phải dịch vụ chính thức. Không nhận đặt cọc, không thanh toán và không gửi dữ liệu cá nhân.",
+        "box": {
+          "width": 375,
+          "height": 1602
+        },
+        "font": "Mulish, Arial, sans-serif"
+      }
+    ],
+    "errors": []
+  }
+]

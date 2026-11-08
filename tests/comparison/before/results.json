@@ -1,0 +1,642 @@
+[
+  {
+    "path": "index.html",
+    "width": 1440,
+    "status": "PASS",
+    "sections": [
+      {
+        "id": "site-header",
+        "class": "",
+        "text": "Giới thiệu\nÔ tô ⌄\nXe máy điện ⌄\nPhụ kiện xe\nDịch vụ hậu mãi ⌄\nPin và trạm sạc ⌄\nLưu trữ năng lượng\nTài khoản\nĐĂNG KÝ LÁI THỬ",
+        "box": {
+          "width": 1440,
+          "height": 84
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "home-hero",
+        "text": "VINFAST VF 6\n\nVF 6\nKhám phá\n←\n01\n02\n→\n1 / 2",
+        "box": {
+          "width": 1440,
+          "height": 650
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "oto",
+        "class": "home-section home-cars",
+        "text": "Xe cá nhân\nXe dịch vụ\nVF Wild\nVF 2\nVF 8 Thế hệ mới\nVF MPV 7\nVF 3\nVF 5\nVF 6\nVF 7\nVF 8\nVF 9\n‹\nVF Wild\nBán tải điện\nDòng xe\n5 chỗ\nSố chỗ ngồi\n~1.000 km (NEDC)\nDi chuyển kết hợp\n\nGiá niêm yết 860 triệu đồng\n\nXem chi tiết\nVF Wild, 1 / 10\n›",
+        "box": {
+          "width": 1280,
+          "height": 935
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "xe-may-dien",
+        "class": "home-section home-scooters",
+        "text": "Cao cấp\nTrung cấp\nPhổ thông\nViper\nKinet\nVero X\n‹\nViper\n70 km/h\nTốc độ tối đa\n~156 km\nQuãng đường 1 lần sạc\n3000 W\nCông suất tối đa\n\nGiá niêm yết 35 triệu đồng\n\nXem chi tiết\nViper, 1 / 3\n›",
+        "box": {
+          "width": 1440,
+          "height": 935
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "hau-mai",
+        "class": "home-section home-after-sales",
+        "text": "Đồng hành dài lâu - An tâm mọi cung đường\n\nChính sách bảo hành, mạng lưới xưởng dịch vụ và hỗ trợ trong quá trình sử dụng xe.\n\nChính sách bảo hành ô tô\nChính sách bảo hành xe máy\nBảo hành đến 10 năm\n\nTùy từng dòng xe và pin.\n\nCam kết thời gian sửa chữa\n\nThời gian sửa chữa được thông báo và xác nhận.\n\nXưởng dịch vụ toàn quốc\n\nHệ thống xưởng dịch vụ hỗ trợ khách hàng.",
+        "box": {
+          "width": 1280,
+          "height": 696
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "tuong-lai-xanh",
+        "class": "home-section home-green",
+        "text": "Mãnh liệt vì tương lai xanh\n\nHành trình chuyển đổi sang xe điện, hướng đến phát triển bền vững và giao thông xanh tại Việt Nam.",
+        "box": {
+          "width": 1280,
+          "height": 671
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "home-transition-image",
+        "text": "",
+        "box": {
+          "width": 1440,
+          "height": 720
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "he-sinh-thai",
+        "class": "home-section home-ecosystem",
+        "text": "Hệ sinh thái toàn diện\n\nCác dịch vụ đồng hành cùng khách hàng từ mua xe đến sử dụng hằng ngày.\n\nMua xe thuận tiện\n\nĐại lý trên toàn quốc và nền tảng mua xe trực tuyến.\n\nAn tâm hậu mãi\n\nXưởng dịch vụ, bảo hành và hỗ trợ khách hàng.\n\nNạp năng lượng dễ dàng\n\n155.000+ cổng sạc / tủ đổi pin theo nội dung tham chiếu.\n\nTìm Showroom & Trạm sạc",
+        "box": {
+          "width": 1280,
+          "height": 690
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "ho-tro-mua-xe",
+        "class": "home-section home-buy-tools",
+        "text": "Mua xe dễ dàng hơn\n\nCác công cụ hỗ trợ lựa chọn, trải nghiệm và dự tính chi phí sở hữu xe.\n\nĐăng ký lái thử\n↗\nSo sánh xe\n↗\nDự toán chi phí lăn bánh\n↗\nTính chi phí sử dụng xe máy điện\n↗\nDự toán chi phí trả góp\n↗",
+        "box": {
+          "width": 1440,
+          "height": 490
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "phu-kien",
+        "class": "home-section home-lifestyle",
+        "text": "Nâng tầm phong cách\n\nPhụ kiện chính hãng và dịch vụ kết nối dành cho xe VinFast.\n\nTấm che pin cao áp\nXem thêm\nBộ Xếp Hình Robot VinFast VF 9\nXem thêm\nÔ cao cấp\nXem thêm\nSạc tại nhà 3KW\nXem thêm\n\nVF ESTORE\n\nDịch vụ kết nối thông minh\nKhám phá ngay",
+        "box": {
+          "width": 1280,
+          "height": 1317
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "nhan-thong-tin",
+        "class": "home-newsletter",
+        "text": "Đăng ký nhận thông tin\n\nThông tin về chương trình khuyến mãi và dịch vụ VinFast.\n\nBản mô phỏng: dùng email ví dụ; thông tin không được gửi hoặc lưu.\nEmail mô phỏng\n→\nTôi đã đọc Chính sách Quyền riêng tư và hiểu đây là mô phỏng.",
+        "box": {
+          "width": 1440,
+          "height": 214
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "site-footer",
+        "class": "",
+        "text": "Công ty Cổ phần VinFast Việt Nam\n\nMST/MSDN: 0202357718\nCấp lần đầu ngày 19/06/2026.\n\nKhu Kinh tế Đình Vũ - Cát Hải, Đảo Cát Hải, Đặc khu Cát Hải, Thành phố Hải Phòng, Việt Nam.\n\nNgười đại diện: Thái Thị Thanh Hải\nChủ tịch Hội đồng quản trị.\n\nVinFast\nVề VinFast\nVề Vingroup\nShowroom & Đại lý\nTin tức\nCông ty\nÔ tô\nXe máy điện\nĐiều khoản chính sách\nChính sách bảo vệ dữ liệu cá nhân\nChính sách vận chuyển\nChính sách đổi trả\nMiễn trừ trách nhiệm\nĐiều khoản ký kết thỏa thuận đặt cọc mua Ô tô VinFast\nHợp đồng và chính sách\nQuy trình tiếp nhận, phản hồi thông tin và giải quyết phản ánh, yêu cầu, khiếu nại của khách hàng\nDịch vụ khách hàng\n\n1900 23 23 89 - Nhánh 1\n\nSpeak-up hotline\nvinfast.ethicspoint.com ↗\nHệ sinh thái\nVinhomes ↗\nVinmec ↗\nVinpearl ↗\n\nBản mô phỏng học tập — không phải dịch vụ chính thức. Không nhận đặt cọc, không thanh toán và không gửi dữ liệu cá nhân.",
+        "box": {
+          "width": 1440,
+          "height": 669
+        },
+        "font": "Mulish, Arial, sans-serif"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "path": "index.html",
+    "width": 1366,
+    "status": "PASS",
+    "sections": [
+      {
+        "id": "site-header",
+        "class": "",
+        "text": "Giới thiệu\nÔ tô ⌄\nXe máy điện ⌄\nPhụ kiện xe\nDịch vụ hậu mãi ⌄\nPin và trạm sạc ⌄\nLưu trữ năng lượng\nTài khoản\nĐĂNG KÝ LÁI THỬ",
+        "box": {
+          "width": 1366,
+          "height": 84
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "home-hero",
+        "text": "VINFAST VF 6\n\nVF 6\nKhám phá\n←\n01\n02\n→\n1 / 2",
+        "box": {
+          "width": 1366,
+          "height": 650
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "oto",
+        "class": "home-section home-cars",
+        "text": "Xe cá nhân\nXe dịch vụ\nVF Wild\nVF 2\nVF 8 Thế hệ mới\nVF MPV 7\nVF 3\nVF 5\nVF 6\nVF 7\nVF 8\nVF 9\n‹\nVF Wild\nBán tải điện\nDòng xe\n5 chỗ\nSố chỗ ngồi\n~1.000 km (NEDC)\nDi chuyển kết hợp\n\nGiá niêm yết 860 triệu đồng\n\nXem chi tiết\nVF Wild, 1 / 10\n›",
+        "box": {
+          "width": 1280,
+          "height": 935
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "xe-may-dien",
+        "class": "home-section home-scooters",
+        "text": "Cao cấp\nTrung cấp\nPhổ thông\nViper\nKinet\nVero X\n‹\nViper\n70 km/h\nTốc độ tối đa\n~156 km\nQuãng đường 1 lần sạc\n3000 W\nCông suất tối đa\n\nGiá niêm yết 35 triệu đồng\n\nXem chi tiết\nViper, 1 / 3\n›",
+        "box": {
+          "width": 1366,
+          "height": 935
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "hau-mai",
+        "class": "home-section home-after-sales",
+        "text": "Đồng hành dài lâu - An tâm mọi cung đường\n\nChính sách bảo hành, mạng lưới xưởng dịch vụ và hỗ trợ trong quá trình sử dụng xe.\n\nChính sách bảo hành ô tô\nChính sách bảo hành xe máy\nBảo hành đến 10 năm\n\nTùy từng dòng xe và pin.\n\nCam kết thời gian sửa chữa\n\nThời gian sửa chữa được thông báo và xác nhận.\n\nXưởng dịch vụ toàn quốc\n\nHệ thống xưởng dịch vụ hỗ trợ khách hàng.",
+        "box": {
+          "width": 1280,
+          "height": 696
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "tuong-lai-xanh",
+        "class": "home-section home-green",
+        "text": "Mãnh liệt vì tương lai xanh\n\nHành trình chuyển đổi sang xe điện, hướng đến phát triển bền vững và giao thông xanh tại Việt Nam.",
+        "box": {
+          "width": 1280,
+          "height": 671
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "home-transition-image",
+        "text": "",
+        "box": {
+          "width": 1366,
+          "height": 687
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "he-sinh-thai",
+        "class": "home-section home-ecosystem",
+        "text": "Hệ sinh thái toàn diện\n\nCác dịch vụ đồng hành cùng khách hàng từ mua xe đến sử dụng hằng ngày.\n\nMua xe thuận tiện\n\nĐại lý trên toàn quốc và nền tảng mua xe trực tuyến.\n\nAn tâm hậu mãi\n\nXưởng dịch vụ, bảo hành và hỗ trợ khách hàng.\n\nNạp năng lượng dễ dàng\n\n155.000+ cổng sạc / tủ đổi pin theo nội dung tham chiếu.\n\nTìm Showroom & Trạm sạc",
+        "box": {
+          "width": 1280,
+          "height": 690
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "ho-tro-mua-xe",
+        "class": "home-section home-buy-tools",
+        "text": "Mua xe dễ dàng hơn\n\nCác công cụ hỗ trợ lựa chọn, trải nghiệm và dự tính chi phí sở hữu xe.\n\nĐăng ký lái thử\n↗\nSo sánh xe\n↗\nDự toán chi phí lăn bánh\n↗\nTính chi phí sử dụng xe máy điện\n↗\nDự toán chi phí trả góp\n↗",
+        "box": {
+          "width": 1366,
+          "height": 490
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "phu-kien",
+        "class": "home-section home-lifestyle",
+        "text": "Nâng tầm phong cách\n\nPhụ kiện chính hãng và dịch vụ kết nối dành cho xe VinFast.\n\nTấm che pin cao áp\nXem thêm\nBộ Xếp Hình Robot VinFast VF 9\nXem thêm\nÔ cao cấp\nXem thêm\nSạc tại nhà 3KW\nXem thêm\n\nVF ESTORE\n\nDịch vụ kết nối thông minh\nKhám phá ngay",
+        "box": {
+          "width": 1280,
+          "height": 1317
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "nhan-thong-tin",
+        "class": "home-newsletter",
+        "text": "Đăng ký nhận thông tin\n\nThông tin về chương trình khuyến mãi và dịch vụ VinFast.\n\nBản mô phỏng: dùng email ví dụ; thông tin không được gửi hoặc lưu.\nEmail mô phỏng\n→\nTôi đã đọc Chính sách Quyền riêng tư và hiểu đây là mô phỏng.",
+        "box": {
+          "width": 1366,
+          "height": 214
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "site-footer",
+        "class": "",
+        "text": "Công ty Cổ phần VinFast Việt Nam\n\nMST/MSDN: 0202357718\nCấp lần đầu ngày 19/06/2026.\n\nKhu Kinh tế Đình Vũ - Cát Hải, Đảo Cát Hải, Đặc khu Cát Hải, Thành phố Hải Phòng, Việt Nam.\n\nNgười đại diện: Thái Thị Thanh Hải\nChủ tịch Hội đồng quản trị.\n\nVinFast\nVề VinFast\nVề Vingroup\nShowroom & Đại lý\nTin tức\nCông ty\nÔ tô\nXe máy điện\nĐiều khoản chính sách\nChính sách bảo vệ dữ liệu cá nhân\nChính sách vận chuyển\nChính sách đổi trả\nMiễn trừ trách nhiệm\nĐiều khoản ký kết thỏa thuận đặt cọc mua Ô tô VinFast\nHợp đồng và chính sách\nQuy trình tiếp nhận, phản hồi thông tin và giải quyết phản ánh, yêu cầu, khiếu nại của khách hàng\nDịch vụ khách hàng\n\n1900 23 23 89 - Nhánh 1\n\nSpeak-up hotline\nvinfast.ethicspoint.com ↗\nHệ sinh thái\nVinhomes ↗\nVinmec ↗\nVinpearl ↗\n\nBản mô phỏng học tập — không phải dịch vụ chính thức. Không nhận đặt cọc, không thanh toán và không gửi dữ liệu cá nhân.",
+        "box": {
+          "width": 1366,
+          "height": 669
+        },
+        "font": "Mulish, Arial, sans-serif"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "path": "index.html",
+    "width": 768,
+    "status": "PASS",
+    "sections": [
+      {
+        "id": "site-header",
+        "class": "",
+        "text": "Menu ☰",
+        "box": {
+          "width": 768,
+          "height": 70
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "home-hero",
+        "text": "VINFAST VF 6\n\nVF 6\nKhám phá\n←\n01\n02\n→\n1 / 2",
+        "box": {
+          "width": 768,
+          "height": 500
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "oto",
+        "class": "home-section home-cars",
+        "text": "Xe cá nhân\nXe dịch vụ\nVF Wild\nVF 2\nVF 8 Thế hệ mới\nVF MPV 7\nVF 3\nVF 5\nVF 6\nVF 7\nVF 8\nVF 9\n‹\nVF Wild\nBán tải điện\nDòng xe\n5 chỗ\nSố chỗ ngồi\n~1.000 km (NEDC)\nDi chuyển kết hợp\n\nGiá niêm yết 860 triệu đồng\n\nXem chi tiết\nVF Wild, 1 / 10\n›",
+        "box": {
+          "width": 768,
+          "height": 804
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "xe-may-dien",
+        "class": "home-section home-scooters",
+        "text": "Cao cấp\nTrung cấp\nPhổ thông\nViper\nKinet\nVero X\n‹\nViper\n70 km/h\nTốc độ tối đa\n~156 km\nQuãng đường 1 lần sạc\n3000 W\nCông suất tối đa\n\nGiá niêm yết 35 triệu đồng\n\nXem chi tiết\nViper, 1 / 3\n›",
+        "box": {
+          "width": 768,
+          "height": 804
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "hau-mai",
+        "class": "home-section home-after-sales",
+        "text": "Đồng hành dài lâu - An tâm mọi cung đường\n\nChính sách bảo hành, mạng lưới xưởng dịch vụ và hỗ trợ trong quá trình sử dụng xe.\n\nChính sách bảo hành ô tô\nChính sách bảo hành xe máy\nBảo hành đến 10 năm\n\nTùy từng dòng xe và pin.\n\nCam kết thời gian sửa chữa\n\nThời gian sửa chữa được thông báo và xác nhận.\n\nXưởng dịch vụ toàn quốc\n\nHệ thống xưởng dịch vụ hỗ trợ khách hàng.",
+        "box": {
+          "width": 768,
+          "height": 554
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "tuong-lai-xanh",
+        "class": "home-section home-green",
+        "text": "Mãnh liệt vì tương lai xanh\n\nHành trình chuyển đổi sang xe điện, hướng đến phát triển bền vững và giao thông xanh tại Việt Nam.",
+        "box": {
+          "width": 768,
+          "height": 520
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "home-transition-image",
+        "text": "",
+        "box": {
+          "width": 768,
+          "height": 380
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "he-sinh-thai",
+        "class": "home-section home-ecosystem",
+        "text": "Hệ sinh thái toàn diện\n\nCác dịch vụ đồng hành cùng khách hàng từ mua xe đến sử dụng hằng ngày.\n\nMua xe thuận tiện\n\nĐại lý trên toàn quốc và nền tảng mua xe trực tuyến.\n\nAn tâm hậu mãi\n\nXưởng dịch vụ, bảo hành và hỗ trợ khách hàng.\n\nNạp năng lượng dễ dàng\n\n155.000+ cổng sạc / tủ đổi pin theo nội dung tham chiếu.\n\nTìm Showroom & Trạm sạc",
+        "box": {
+          "width": 768,
+          "height": 1115
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "ho-tro-mua-xe",
+        "class": "home-section home-buy-tools",
+        "text": "Mua xe dễ dàng hơn\n\nCác công cụ hỗ trợ lựa chọn, trải nghiệm và dự tính chi phí sở hữu xe.\n\nĐăng ký lái thử\n↗\nSo sánh xe\n↗\nDự toán chi phí lăn bánh\n↗\nTính chi phí sử dụng xe máy điện\n↗\nDự toán chi phí trả góp\n↗",
+        "box": {
+          "width": 768,
+          "height": 653
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "phu-kien",
+        "class": "home-section home-lifestyle",
+        "text": "Nâng tầm phong cách\n\nPhụ kiện chính hãng và dịch vụ kết nối dành cho xe VinFast.\n\nTấm che pin cao áp\nXem thêm\nBộ Xếp Hình Robot VinFast VF 9\nXem thêm\nÔ cao cấp\nXem thêm\nSạc tại nhà 3KW\nXem thêm\n\nVF ESTORE\n\nDịch vụ kết nối thông minh\nKhám phá ngay",
+        "box": {
+          "width": 768,
+          "height": 1619
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "nhan-thong-tin",
+        "class": "home-newsletter",
+        "text": "Đăng ký nhận thông tin\n\nThông tin về chương trình khuyến mãi và dịch vụ VinFast.\n\nBản mô phỏng: dùng email ví dụ; thông tin không được gửi hoặc lưu.\nEmail mô phỏng\n→\nTôi đã đọc Chính sách Quyền riêng tư và hiểu đây là mô phỏng.",
+        "box": {
+          "width": 768,
+          "height": 343
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "site-footer",
+        "class": "",
+        "text": "Công ty Cổ phần VinFast Việt Nam\n\nMST/MSDN: 0202357718\nCấp lần đầu ngày 19/06/2026.\n\nKhu Kinh tế Đình Vũ - Cát Hải, Đảo Cát Hải, Đặc khu Cát Hải, Thành phố Hải Phòng, Việt Nam.\n\nNgười đại diện: Thái Thị Thanh Hải\nChủ tịch Hội đồng quản trị.\n\nVinFast\nVề VinFast\nVề Vingroup\nShowroom & Đại lý\nTin tức\nCông ty\nÔ tô\nXe máy điện\nĐiều khoản chính sách\nChính sách bảo vệ dữ liệu cá nhân\nChính sách vận chuyển\nChính sách đổi trả\nMiễn trừ trách nhiệm\nĐiều khoản ký kết thỏa thuận đặt cọc mua Ô tô VinFast\nHợp đồng và chính sách\nQuy trình tiếp nhận, phản hồi thông tin và giải quyết phản ánh, yêu cầu, khiếu nại của khách hàng\nDịch vụ khách hàng\n\n1900 23 23 89 - Nhánh 1\n\nSpeak-up hotline\nvinfast.ethicspoint.com ↗\nHệ sinh thái\nVinhomes ↗\nVinmec ↗\nVinpearl ↗\n\nBản mô phỏng học tập — không phải dịch vụ chính thức. Không nhận đặt cọc, không thanh toán và không gửi dữ liệu cá nhân.",
+        "box": {
+          "width": 768,
+          "height": 1209
+        },
+        "font": "Mulish, Arial, sans-serif"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "path": "index.html",
+    "width": 390,
+    "status": "PASS",
+    "sections": [
+      {
+        "id": "site-header",
+        "class": "",
+        "text": "Menu ☰",
+        "box": {
+          "width": 390,
+          "height": 70
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "home-hero",
+        "text": "VINFAST VF 6\n\nVF 6\nKhám phá\n←\n01\n02\n→\n1 / 2",
+        "box": {
+          "width": 390,
+          "height": 480
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "oto",
+        "class": "home-section home-cars",
+        "text": "Xe cá nhân\nXe dịch vụ\nVF Wild\nVF 2\nVF 8 Thế hệ mới\nVF MPV 7\nVF 3\nVF 5\nVF 6\nVF 7\nVF 8\nVF 9\n‹\nVF Wild\nBán tải điện\nDòng xe\n5 chỗ\nSố chỗ ngồi\n~1.000 km (NEDC)\nDi chuyển kết hợp\n\nGiá niêm yết 860 triệu đồng\n\nXem chi tiết\nVF Wild, 1 / 10\n›",
+        "box": {
+          "width": 390,
+          "height": 700
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "xe-may-dien",
+        "class": "home-section home-scooters",
+        "text": "Cao cấp\nTrung cấp\nPhổ thông\nViper\nKinet\nVero X\n‹\nViper\n70 km/h\nTốc độ tối đa\n~156 km\nQuãng đường 1 lần sạc\n3000 W\nCông suất tối đa\n\nGiá niêm yết 35 triệu đồng\n\nXem chi tiết\nViper, 1 / 3\n›",
+        "box": {
+          "width": 390,
+          "height": 700
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "hau-mai",
+        "class": "home-section home-after-sales",
+        "text": "Đồng hành dài lâu - An tâm mọi cung đường\n\nChính sách bảo hành, mạng lưới xưởng dịch vụ và hỗ trợ trong quá trình sử dụng xe.\n\nChính sách bảo hành ô tô\nChính sách bảo hành xe máy\nBảo hành đến 10 năm\n\nTùy từng dòng xe và pin.\n\nCam kết thời gian sửa chữa\n\nThời gian sửa chữa được thông báo và xác nhận.\n\nXưởng dịch vụ toàn quốc\n\nHệ thống xưởng dịch vụ hỗ trợ khách hàng.",
+        "box": {
+          "width": 390,
+          "height": 1393
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "tuong-lai-xanh",
+        "class": "home-section home-green",
+        "text": "Mãnh liệt vì tương lai xanh\n\nHành trình chuyển đổi sang xe điện, hướng đến phát triển bền vững và giao thông xanh tại Việt Nam.",
+        "box": {
+          "width": 390,
+          "height": 371
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "home-transition-image",
+        "text": "",
+        "box": {
+          "width": 390,
+          "height": 260
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "he-sinh-thai",
+        "class": "home-section home-ecosystem",
+        "text": "Hệ sinh thái toàn diện\n\nCác dịch vụ đồng hành cùng khách hàng từ mua xe đến sử dụng hằng ngày.\n\nMua xe thuận tiện\n\nĐại lý trên toàn quốc và nền tảng mua xe trực tuyến.\n\nAn tâm hậu mãi\n\nXưởng dịch vụ, bảo hành và hỗ trợ khách hàng.\n\nNạp năng lượng dễ dàng\n\n155.000+ cổng sạc / tủ đổi pin theo nội dung tham chiếu.\n\nTìm Showroom & Trạm sạc",
+        "box": {
+          "width": 390,
+          "height": 978
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "ho-tro-mua-xe",
+        "class": "home-section home-buy-tools",
+        "text": "Mua xe dễ dàng hơn\n\nCác công cụ hỗ trợ lựa chọn, trải nghiệm và dự tính chi phí sở hữu xe.\n\nĐăng ký lái thử\n↗\nSo sánh xe\n↗\nDự toán chi phí lăn bánh\n↗\nTính chi phí sử dụng xe máy điện\n↗\nDự toán chi phí trả góp\n↗",
+        "box": {
+          "width": 390,
+          "height": 798
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "phu-kien",
+        "class": "home-section home-lifestyle",
+        "text": "Nâng tầm phong cách\n\nPhụ kiện chính hãng và dịch vụ kết nối dành cho xe VinFast.\n\nTấm che pin cao áp\nXem thêm\nBộ Xếp Hình Robot VinFast VF 9\nXem thêm\nÔ cao cấp\nXem thêm\nSạc tại nhà 3KW\nXem thêm\n\nVF ESTORE\n\nDịch vụ kết nối thông minh\nKhám phá ngay",
+        "box": {
+          "width": 390,
+          "height": 1485
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "nhan-thong-tin",
+        "class": "home-newsletter",
+        "text": "Đăng ký nhận thông tin\n\nThông tin về chương trình khuyến mãi và dịch vụ VinFast.\n\nBản mô phỏng: dùng email ví dụ; thông tin không được gửi hoặc lưu.\nEmail mô phỏng\n→\nTôi đã đọc Chính sách Quyền riêng tư và hiểu đây là mô phỏng.",
+        "box": {
+          "width": 390,
+          "height": 384
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "site-footer",
+        "class": "",
+        "text": "Công ty Cổ phần VinFast Việt Nam\n\nMST/MSDN: 0202357718\nCấp lần đầu ngày 19/06/2026.\n\nKhu Kinh tế Đình Vũ - Cát Hải, Đảo Cát Hải, Đặc khu Cát Hải, Thành phố Hải Phòng, Việt Nam.\n\nNgười đại diện: Thái Thị Thanh Hải\nChủ tịch Hội đồng quản trị.\n\nVinFast\nVề VinFast\nVề Vingroup\nShowroom & Đại lý\nTin tức\nCông ty\nÔ tô\nXe máy điện\nĐiều khoản chính sách\nChính sách bảo vệ dữ liệu cá nhân\nChính sách vận chuyển\nChính sách đổi trả\nMiễn trừ trách nhiệm\nĐiều khoản ký kết thỏa thuận đặt cọc mua Ô tô VinFast\nHợp đồng và chính sách\nQuy trình tiếp nhận, phản hồi thông tin và giải quyết phản ánh, yêu cầu, khiếu nại của khách hàng\nDịch vụ khách hàng\n\n1900 23 23 89 - Nhánh 1\n\nSpeak-up hotline\nvinfast.ethicspoint.com ↗\nHệ sinh thái\nVinhomes ↗\nVinmec ↗\nVinpearl ↗\n\nBản mô phỏng học tập — không phải dịch vụ chính thức. Không nhận đặt cọc, không thanh toán và không gửi dữ liệu cá nhân.",
+        "box": {
+          "width": 390,
+          "height": 1579
+        },
+        "font": "Mulish, Arial, sans-serif"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "path": "index.html",
+    "width": 375,
+    "status": "PASS",
+    "sections": [
+      {
+        "id": "site-header",
+        "class": "",
+        "text": "Menu ☰",
+        "box": {
+          "width": 375,
+          "height": 70
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "home-hero",
+        "text": "VINFAST VF 6\n\nVF 6\nKhám phá\n←\n01\n02\n→\n1 / 2",
+        "box": {
+          "width": 375,
+          "height": 480
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "oto",
+        "class": "home-section home-cars",
+        "text": "Xe cá nhân\nXe dịch vụ\nVF Wild\nVF 2\nVF 8 Thế hệ mới\nVF MPV 7\nVF 3\nVF 5\nVF 6\nVF 7\nVF 8\nVF 9\n‹\nVF Wild\nBán tải điện\nDòng xe\n5 chỗ\nSố chỗ ngồi\n~1.000 km (NEDC)\nDi chuyển kết hợp\n\nGiá niêm yết 860 triệu đồng\n\nXem chi tiết\nVF Wild, 1 / 10\n›",
+        "box": {
+          "width": 375,
+          "height": 700
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "xe-may-dien",
+        "class": "home-section home-scooters",
+        "text": "Cao cấp\nTrung cấp\nPhổ thông\nViper\nKinet\nVero X\n‹\nViper\n70 km/h\nTốc độ tối đa\n~156 km\nQuãng đường 1 lần sạc\n3000 W\nCông suất tối đa\n\nGiá niêm yết 35 triệu đồng\n\nXem chi tiết\nViper, 1 / 3\n›",
+        "box": {
+          "width": 375,
+          "height": 700
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "hau-mai",
+        "class": "home-section home-after-sales",
+        "text": "Đồng hành dài lâu - An tâm mọi cung đường\n\nChính sách bảo hành, mạng lưới xưởng dịch vụ và hỗ trợ trong quá trình sử dụng xe.\n\nChính sách bảo hành ô tô\nChính sách bảo hành xe máy\nBảo hành đến 10 năm\n\nTùy từng dòng xe và pin.\n\nCam kết thời gian sửa chữa\n\nThời gian sửa chữa được thông báo và xác nhận.\n\nXưởng dịch vụ toàn quốc\n\nHệ thống xưởng dịch vụ hỗ trợ khách hàng.",
+        "box": {
+          "width": 375,
+          "height": 1359
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "tuong-lai-xanh",
+        "class": "home-section home-green",
+        "text": "Mãnh liệt vì tương lai xanh\n\nHành trình chuyển đổi sang xe điện, hướng đến phát triển bền vững và giao thông xanh tại Việt Nam.",
+        "box": {
+          "width": 375,
+          "height": 395
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "",
+        "class": "home-transition-image",
+        "text": "",
+        "box": {
+          "width": 375,
+          "height": 260
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "he-sinh-thai",
+        "class": "home-section home-ecosystem",
+        "text": "Hệ sinh thái toàn diện\n\nCác dịch vụ đồng hành cùng khách hàng từ mua xe đến sử dụng hằng ngày.\n\nMua xe thuận tiện\n\nĐại lý trên toàn quốc và nền tảng mua xe trực tuyến.\n\nAn tâm hậu mãi\n\nXưởng dịch vụ, bảo hành và hỗ trợ khách hàng.\n\nNạp năng lượng dễ dàng\n\n155.000+ cổng sạc / tủ đổi pin theo nội dung tham chiếu.\n\nTìm Showroom & Trạm sạc",
+        "box": {
+          "width": 375,
+          "height": 963
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "ho-tro-mua-xe",
+        "class": "home-section home-buy-tools",
+        "text": "Mua xe dễ dàng hơn\n\nCác công cụ hỗ trợ lựa chọn, trải nghiệm và dự tính chi phí sở hữu xe.\n\nĐăng ký lái thử\n↗\nSo sánh xe\n↗\nDự toán chi phí lăn bánh\n↗\nTính chi phí sử dụng xe máy điện\n↗\nDự toán chi phí trả góp\n↗",
+        "box": {
+          "width": 375,
+          "height": 798
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "phu-kien",
+        "class": "home-section home-lifestyle",
+        "text": "Nâng tầm phong cách\n\nPhụ kiện chính hãng và dịch vụ kết nối dành cho xe VinFast.\n\nTấm che pin cao áp\nXem thêm\nBộ Xếp Hình Robot VinFast VF 9\nXem thêm\nÔ cao cấp\nXem thêm\nSạc tại nhà 3KW\nXem thêm\n\nVF ESTORE\n\nDịch vụ kết nối thông minh\nKhám phá ngay",
+        "box": {
+          "width": 375,
+          "height": 1458
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "nhan-thong-tin",
+        "class": "home-newsletter",
+        "text": "Đăng ký nhận thông tin\n\nThông tin về chương trình khuyến mãi và dịch vụ VinFast.\n\nBản mô phỏng: dùng email ví dụ; thông tin không được gửi hoặc lưu.\nEmail mô phỏng\n→\nTôi đã đọc Chính sách Quyền riêng tư và hiểu đây là mô phỏng.",
+        "box": {
+          "width": 375,
+          "height": 384
+        },
+        "font": "Mulish, Arial, sans-serif"
+      },
+      {
+        "id": "site-footer",
+        "class": "",
+        "text": "Công ty Cổ phần VinFast Việt Nam\n\nMST/MSDN: 0202357718\nCấp lần đầu ngày 19/06/2026.\n\nKhu Kinh tế Đình Vũ - Cát Hải, Đảo Cát Hải, Đặc khu Cát Hải, Thành phố Hải Phòng, Việt Nam.\n\nNgười đại diện: Thái Thị Thanh Hải\nChủ tịch Hội đồng quản trị.\n\nVinFast\nVề VinFast\nVề Vingroup\nShowroom & Đại lý\nTin tức\nCông ty\nÔ tô\nXe máy điện\nĐiều khoản chính sách\nChính sách bảo vệ dữ liệu cá nhân\nChính sách vận chuyển\nChính sách đổi trả\nMiễn trừ trách nhiệm\nĐiều khoản ký kết thỏa thuận đặt cọc mua Ô tô VinFast\nHợp đồng và chính sách\nQuy trình tiếp nhận, phản hồi thông tin và giải quyết phản ánh, yêu cầu, khiếu nại của khách hàng\nDịch vụ khách hàng\n\n1900 23 23 89 - Nhánh 1\n\nSpeak-up hotline\nvinfast.ethicspoint.com ↗\nHệ sinh thái\nVinhomes ↗\nVinmec ↗\nVinpearl ↗\n\nBản mô phỏng học tập — không phải dịch vụ chính thức. Không nhận đặt cọc, không thanh toán và không gửi dữ liệu cá nhân.",
+        "box": {
+          "width": 375,
+          "height": 1602
+        },
+        "font": "Mulish, Arial, sans-serif"
+      }
+    ],
+    "errors": []
+  }
+]

@@ -1,3 +1,5 @@
+> Audit 09/11/2026: [COMPARISON_AUDIT.md](COMPARISON_AUDIT.md) ? 19 PARTIAL / 63 NOT STARTED; VF 5 + Viper added. Source browser: HTTP 403; visual parity remains UNVERIFIED. Local tests are not evidence of source similarity.
+
 > Cập nhật 08/11/2026: xem [trạng thái giai đoạn 1](PHASE_1_STATUS.md) và [độ bao phủ URL](URL_COVERAGE.md). Các ghi nhận bên dưới là lịch sử; không thay thế kết quả mới. Giai đoạn 1 chưa hoàn thành.
 
 # Trang chủ — trạng thái triển khai

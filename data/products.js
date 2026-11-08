@@ -1,7 +1,7 @@
 // Chỉ dữ liệu tĩnh; không gọi API VinFast. Các số liệu là snapshot khảo sát.
 export const products = [
  {id:'vf3',name:'VF 3',group:'personal',segment:'MiniCar',seats:4,range:'215 km (NEDC)',price:285000000,image:'vf3.webp',detailPath:'vf3',source:'https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf3'},
- {id:'vf5',name:'VF 5',group:'personal',segment:'A-SUV',seats:5,range:'326,4 km (NEDC)',price:496000000,image:'vf5.webp'},
+ {id:'vf5',detailPath:'vf5',name:'VF 5',group:'personal',segment:'A-SUV',seats:5,range:'326,4 km (NEDC)',price:496000000,image:'vf5.webp'},
  {id:'vf6',name:'VF 6',group:'personal',segment:'B-SUV',seats:5,range:'485 km (NEDC)',price:646000000,image:'vf6-eco.webp',detail:true,
   source:'https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf6',
   versions:[{name:'Eco',price:646000000,range:'485 km (NEDC)'},{name:'Plus',price:699000000,range:'460 km (NEDC)'}]},
@@ -13,7 +13,7 @@ export const products = [
  {id:'kinet',name:'Kinet',group:'scooter',segment:'Cao cấp',range:'~145 km/lần sạc',price:40000000,image:'kinet-do.webp',detail:true,
   source:'https://vinfastauto.com/vn_vi/xe-may-dien-vinfast-kinet',
   colors:[['Đỏ Đen','#b62127','do'],['Xám Xi Măng','#888b8b','xi-mang'],['Trắng Ngọc Trai','#e9e7df','trang'],['Đen Bóng','#202124','den'],['Nâu Ánh Kim','#846b50','nau']]},
- {id:'viper',name:'Viper',group:'scooter',segment:'Cao cấp',price:35000000},
+ {id:'viper',detailPath:'viper',name:'Viper',group:'scooter',segment:'Cao cấp',price:35000000},
  {id:'vero-x',name:'Vero X',group:'scooter',segment:'Cao cấp',price:34900000},
  {id:'feliz-ii',name:'Feliz II',group:'scooter',segment:'Trung cấp',price:23000000},
  {id:'evo-grand',name:'Evo Grand',group:'scooter',segment:'Phổ thông',price:22500000}

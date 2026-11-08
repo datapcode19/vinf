@@ -1,3 +1,5 @@
+> Audit 09/11/2026: [COMPARISON_AUDIT.md](COMPARISON_AUDIT.md) ? 19 PARTIAL / 63 NOT STARTED; VF 5 + Viper added. Source browser: HTTP 403; visual parity remains UNVERIFIED. Local tests are not evidence of source similarity.
+
 > Cập nhật 08/11/2026: xem [trạng thái giai đoạn 1](PHASE_1_STATUS.md) và [độ bao phủ URL](URL_COVERAGE.md). Các ghi nhận bên dưới là lịch sử; không thay thế kết quả mới. Giai đoạn 1 chưa hoàn thành.
 
 Lượt bổ sung trang phụ mới nhất: **84 tổ hợp (12 URL × 7 viewport), 87 liên kết cục bộ, không lỗi JS/request hoặc tràn ngang**. Có 24 screenshot tại `tests/support-pages/index.html`. Chi tiết giới hạn nội dung và đối chiếu ảnh: [SUPPORT_PAGES_STATUS.md](SUPPORT_PAGES_STATUS.md). Trang chủ kiểm thử lại đạt 8/8 nhóm. Đây là kiểm thử dưới tiền tố `/vinf/` tại máy, chưa phải xác nhận bản đã xuất bản.

@@ -1,0 +1,74 @@
+[
+  {
+    "file": "assets/vf5/hero.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf5/xe-dien-vinfast-vf5-gia-dinh-cam-trai-ben-ho-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf5",
+    "permission": "User confirmed additional VinFast image use for educational project in current conversation, 2026-11-08. Not a public/commercial license.",
+    "status": "downloaded",
+    "bytes": 627630
+  },
+  {
+    "file": "assets/vf5/rear-seat.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf5/xe-dien-vinfast-vf5-hang-ghe-sau-rong-thoai-mai-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf5",
+    "permission": "User confirmed additional VinFast image use for educational project in current conversation, 2026-11-08. Not a public/commercial license.",
+    "status": "downloaded",
+    "bytes": 738238
+  },
+  {
+    "file": "assets/vf5/cargo.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf5/xe-dien-vinfast-vf5-cop-xe-tien-dung-mua-sam-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf5",
+    "permission": "User confirmed additional VinFast image use for educational project in current conversation, 2026-11-08. Not a public/commercial license.",
+    "status": "downloaded",
+    "bytes": 585358
+  },
+  {
+    "file": "assets/vf5/exterior.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf5/xe-dien-vinfast-vf5-ngoai-that-mau-do-goc-nhin-tren-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf5",
+    "permission": "User confirmed additional VinFast image use for educational project in current conversation, 2026-11-08. Not a public/commercial license.",
+    "status": "downloaded",
+    "bytes": 241686
+  },
+  {
+    "file": "assets/vf5/interior.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf5/xe-dien-vinfast-vf5-noi-that-man-hinh-cam-ung-vo-lang-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf5",
+    "permission": "User confirmed additional VinFast image use for educational project in current conversation, 2026-11-08. Not a public/commercial license.",
+    "status": "downloaded",
+    "bytes": 421864
+  },
+  {
+    "file": "assets/vf5/front.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf5/hinh-anh-vinfast-vf5-ngoai-that-xam-dau-xe-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf5",
+    "permission": "User confirmed additional VinFast image use for educational project in current conversation, 2026-11-08. Not a public/commercial license.",
+    "status": "downloaded",
+    "bytes": 60802
+  },
+  {
+    "file": "assets/vf5/rear.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf5/hinh-anh-vinfast-vf5-ngoai-that-xam-duoi-xe-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf5",
+    "permission": "User confirmed additional VinFast image use for educational project in current conversation, 2026-11-08. Not a public/commercial license.",
+    "status": "downloaded",
+    "bytes": 71710
+  },
+  {
+    "file": "assets/vf5/wheel.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf5/hinh-anh-vinfast-vf5-ngoai-that-do-mam-xe-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf5",
+    "permission": "User confirmed additional VinFast image use for educational project in current conversation, 2026-11-08. Not a public/commercial license.",
+    "status": "downloaded",
+    "bytes": 56300
+  },
+  {
+    "file": "assets/vf5/white.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf5/hinh-anh-vinfast-vf5-ngoai-that-mau-trang-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf5",
+    "permission": "User confirmed additional VinFast image use for educational project in current conversation, 2026-11-08. Not a public/commercial license.",
+    "status": "downloaded",
+    "bytes": 290882
+  }
+]

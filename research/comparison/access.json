@@ -1,0 +1,40 @@
+[
+  {
+    "name": "source",
+    "url": "https://vinfastauto.com/vn_vi",
+    "status": 403,
+    "blocked": true,
+    "title": "",
+    "characters": 0,
+    "errors": []
+  },
+  {
+    "name": "live",
+    "url": "https://datapcode19.github.io/vinf/index.html",
+    "status": 200,
+    "blocked": false,
+    "title": "Trang chủ — VinFast mô phỏng",
+    "characters": 3016,
+    "errors": []
+  },
+  {
+    "name": "live-path",
+    "url": "https://datapcode19.github.io/vinf/pages/vf3.html",
+    "status": 200
+  },
+  {
+    "name": "live-path",
+    "url": "https://datapcode19.github.io/vinf/pages/product.html?id=kinet",
+    "status": 200
+  },
+  {
+    "name": "live-path",
+    "url": "https://datapcode19.github.io/vinf/js/swipe.js",
+    "status": 404
+  },
+  {
+    "name": "live-path",
+    "url": "https://datapcode19.github.io/vinf/pages/reference.html?route=dat-coc-xe-dien-vf5",
+    "status": 200
+  }
+]

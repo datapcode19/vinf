@@ -1,0 +1,86 @@
+[
+  {
+    "name": "1440 menu facts and new internal destinations",
+    "status": "PASS"
+  },
+  {
+    "name": "1440 VF5 gallery touch both ways, tabs and contextual CTA",
+    "status": "PASS"
+  },
+  {
+    "name": "1440 Viper colors touch both ways and distinct equipment",
+    "status": "PASS"
+  },
+  {
+    "name": "1440 mounted local links resolve without leaving /vinf/",
+    "status": "PASS"
+  },
+  {
+    "name": "1366 menu facts and new internal destinations",
+    "status": "PASS"
+  },
+  {
+    "name": "1366 VF5 gallery touch both ways, tabs and contextual CTA",
+    "status": "PASS"
+  },
+  {
+    "name": "1366 Viper colors touch both ways and distinct equipment",
+    "status": "PASS"
+  },
+  {
+    "name": "1366 mounted local links resolve without leaving /vinf/",
+    "status": "PASS"
+  },
+  {
+    "name": "768 menu facts and new internal destinations",
+    "status": "PASS"
+  },
+  {
+    "name": "768 VF5 gallery touch both ways, tabs and contextual CTA",
+    "status": "PASS"
+  },
+  {
+    "name": "768 Viper colors touch both ways and distinct equipment",
+    "status": "PASS"
+  },
+  {
+    "name": "768 mounted local links resolve without leaving /vinf/",
+    "status": "PASS"
+  },
+  {
+    "name": "390 menu facts and new internal destinations",
+    "status": "PASS"
+  },
+  {
+    "name": "390 VF5 gallery touch both ways, tabs and contextual CTA",
+    "status": "PASS"
+  },
+  {
+    "name": "390 Viper colors touch both ways and distinct equipment",
+    "status": "PASS"
+  },
+  {
+    "name": "390 mounted local links resolve without leaving /vinf/",
+    "status": "PASS"
+  },
+  {
+    "name": "375 menu facts and new internal destinations",
+    "status": "PASS"
+  },
+  {
+    "name": "375 VF5 gallery touch both ways, tabs and contextual CTA",
+    "status": "PASS"
+  },
+  {
+    "name": "375 Viper colors touch both ways and distinct equipment",
+    "status": "PASS"
+  },
+  {
+    "name": "375 mounted local links resolve without leaving /vinf/",
+    "status": "PASS"
+  },
+  {
+    "name": "No JS errors or missing runtime assets",
+    "status": "PASS"
+  }
+]

@@ -1,6 +1,6 @@
 # Độ bao phủ URL — giai đoạn 1
 
-PARTIAL: **17** · NOT STARTED: **65** · VERIFIED COMPLETE: **0** · FUNCTIONAL COMPLETE: **0** · BLOCKED (toàn trang): **0**.
+PARTIAL: **19** · NOT STARTED: **63** · VERIFIED COMPLETE: **0** · FUNCTIONAL COMPLETE: **0** · BLOCKED (toàn trang): **0**.
 
 Phạm vi: URL duy nhất trong header/footer hiện có; chưa phải toàn bộ sitemap VinFast. Hero trang chủ và đối chiếu giao diện bị chặn ở cấp section. Trang thông báo thiếu dữ liệu không được tính là triển khai.
 
@@ -10,7 +10,7 @@ Phạm vi: URL duy nhất trong header/footer hiện có; chưa phải toàn b�
 | https://vinfastauto.com/vn_vi/ve-chung-toi | Header | pages/about.html | PARTIAL |
 | https://vinfastauto.com/vn_vi/dat-coc-xe-vf2 | Ô tô / Xe cá nhân | pages/reference.html?route=dat-coc-xe-vf2 | NOT STARTED |
 | https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf3 | Ô tô / Xe cá nhân | pages/vf3.html | PARTIAL |
-| https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf5 | Ô tô / Xe cá nhân | pages/reference.html?route=dat-coc-xe-dien-vf5 | NOT STARTED |
+| https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf5 | Ô tô / Xe cá nhân | pages/vf5.html | PARTIAL |
 | ./pages/product.html?id=vf6 | Ô tô / Xe cá nhân | pages/product.html?id=vf6 | PARTIAL |
 | https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf7 | Ô tô / Xe cá nhân | pages/reference.html?route=dat-coc-xe-dien-vf7 | NOT STARTED |
 | https://vinfastauto.com/vn_vi/dat-coc-xe-vf-mpv7 | Ô tô / Xe cá nhân | pages/reference.html?route=dat-coc-xe-vf-mpv7 | NOT STARTED |
@@ -34,7 +34,7 @@ Phạm vi: URL duy nhất trong header/footer hiện có; chưa phải toàn b�
 | https://shop.vinfastauto.com/vn_vi/du-toan-chi-phi-tra-gop | Ô tô / Công cụ hỗ trợ khách hàng | pages/reference.html?route=du-toan-chi-phi-tra-gop | NOT STARTED |
 | https://vinfastauto.com/vn_vi/mua-xe-o-to-dien-truc-tuyen | Ô tô / Công cụ hỗ trợ khách hàng | pages/reference.html?route=mua-xe-o-to-dien-truc-tuyen | NOT STARTED |
 | ./pages/product.html?id=kinet | Xe máy điện / Xe cao cấp | pages/product.html?id=kinet | PARTIAL |
-| https://vinfastauto.com/vn_vi/xe-may-dien-vinfast-viper | Xe máy điện / Xe cao cấp | pages/reference.html?route=xe-may-dien-vinfast-viper | NOT STARTED |
+| https://vinfastauto.com/vn_vi/xe-may-dien-vinfast-viper | Xe máy điện / Xe cao cấp | pages/viper.html | PARTIAL |
 | https://vinfastauto.com/vn_vi/xe-may-dien-verox | Xe máy điện / Xe cao cấp | pages/reference.html?route=xe-may-dien-verox | NOT STARTED |
 | https://vinfastauto.com/vn_vi/xe-may-dien-vinfast-kyo | Xe máy điện / Xe trung cấp | pages/reference.html?route=xe-may-dien-vinfast-kyo | NOT STARTED |
 | https://vinfastauto.com/vn_vi/xe-may-dien-vinfast-feliz-II | Xe máy điện / Xe trung cấp | pages/reference.html?route=xe-may-dien-vinfast-feliz-II | NOT STARTED |

@@ -1,8 +1,8 @@
 {
   "scope": "Unique destinations from current header/footer; excludes external ecosystem sites and body-only CTAs",
   "counts": {
-    "PARTIAL": 17,
-    "NOT STARTED": 65
+    "PARTIAL": 19,
+    "NOT STARTED": 63
   },
   "rows": [
     {
@@ -41,8 +41,8 @@
       "name": "VF 5",
       "url": "https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf5",
       "parent": "Ô tô / Xe cá nhân",
-      "local": "pages/reference.html?route=dat-coc-xe-dien-vf5",
-      "status": "NOT STARTED",
+      "local": "pages/vf5.html",
+      "status": "PARTIAL",
       "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
     },
     {
@@ -233,8 +233,8 @@
       "name": "Viper",
       "url": "https://vinfastauto.com/vn_vi/xe-may-dien-vinfast-viper",
       "parent": "Xe máy điện / Xe cao cấp",
-      "local": "pages/reference.html?route=xe-may-dien-vinfast-viper",
-      "status": "NOT STARTED",
+      "local": "pages/viper.html",
+      "status": "PARTIAL",
       "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
     },
     {

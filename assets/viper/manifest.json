@@ -1,0 +1,74 @@
+[
+  {
+    "file": "assets/viper/hero.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/e-scooter/viper/hinh-anh-vinfast-viper-hero-banner-mobile.webp",
+    "reference": "https://vinfastauto.com/vn_vi/xe-may-dien-vinfast-viper",
+    "permission": "User confirmed additional VinFast image use for educational project in current conversation, 2026-11-08. Not a public/commercial license.",
+    "status": "downloaded",
+    "bytes": 68656
+  },
+  {
+    "file": "assets/viper/red.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/e-scooter/viper/hinh-anh-vinfast-viper-mau-do-mobile.webp",
+    "reference": "https://vinfastauto.com/vn_vi/xe-may-dien-vinfast-viper",
+    "permission": "User confirmed additional VinFast image use for educational project in current conversation, 2026-11-08. Not a public/commercial license.",
+    "status": "downloaded",
+    "bytes": 91430
+  },
+  {
+    "file": "assets/viper/grey.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/e-scooter/viper/hinh-anh-vinfast-viper-mau-xam-mobile.webp",
+    "reference": "https://vinfastauto.com/vn_vi/xe-may-dien-vinfast-viper",
+    "permission": "User confirmed additional VinFast image use for educational project in current conversation, 2026-11-08. Not a public/commercial license.",
+    "status": "downloaded",
+    "bytes": 90152
+  },
+  {
+    "file": "assets/viper/white.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/e-scooter/viper/hinh-anh-vinfast-viper-mau-trang-mobile.webp",
+    "reference": "https://vinfastauto.com/vn_vi/xe-may-dien-vinfast-viper",
+    "permission": "User confirmed additional VinFast image use for educational project in current conversation, 2026-11-08. Not a public/commercial license.",
+    "status": "downloaded",
+    "bytes": 91002
+  },
+  {
+    "file": "assets/viper/black.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/e-scooter/viper/hinh-anh-vinfast-viper-mau-den-mobile.webp",
+    "reference": "https://vinfastauto.com/vn_vi/xe-may-dien-vinfast-viper",
+    "permission": "User confirmed additional VinFast image use for educational project in current conversation, 2026-11-08. Not a public/commercial license.",
+    "status": "downloaded",
+    "bytes": 89198
+  },
+  {
+    "file": "assets/viper/screen.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/e-scooter/updated/viper/viper-detail-01-screen-mobile.webp",
+    "reference": "https://vinfastauto.com/vn_vi/xe-may-dien-vinfast-viper",
+    "permission": "User confirmed additional VinFast image use for educational project in current conversation, 2026-11-08. Not a public/commercial license.",
+    "status": "downloaded",
+    "bytes": 30506
+  },
+  {
+    "file": "assets/viper/storage.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/e-scooter/updated/viper/viper-detail-02-storage-mobile.webp",
+    "reference": "https://vinfastauto.com/vn_vi/xe-may-dien-vinfast-viper",
+    "permission": "User confirmed additional VinFast image use for educational project in current conversation, 2026-11-08. Not a public/commercial license.",
+    "status": "downloaded",
+    "bytes": 41976
+  },
+  {
+    "file": "assets/viper/suspension.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/e-scooter/updated/viper/viper-detail-04-shock-absorber-mobile.webp",
+    "reference": "https://vinfastauto.com/vn_vi/xe-may-dien-vinfast-viper",
+    "permission": "User confirmed additional VinFast image use for educational project in current conversation, 2026-11-08. Not a public/commercial license.",
+    "status": "downloaded",
+    "bytes": 32836
+  },
+  {
+    "file": "assets/viper/brake.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/e-scooter/updated/viper/viper-detail-05-brake-mobile.webp",
+    "reference": "https://vinfastauto.com/vn_vi/xe-may-dien-vinfast-viper",
+    "permission": "User confirmed additional VinFast image use for educational project in current conversation, 2026-11-08. Not a public/commercial license.",
+    "status": "downloaded",
+    "bytes": 33100
+  }
+]

@@ -22,7 +22,7 @@ export const carGroups=[
   item('limo','Limo Green','vinfast-limo-green-mau-xam-home.webp',[['Dòng xe','MPV'],['Số chỗ ngồi','7 chỗ'],['Quãng đường lên tới','450 km (NEDC)']],699)
  ]}
 ];
-const scooter=(id,name,file,speed,range,last,lastLabel,price)=>item(id,name,file,[['Tốc độ tối đa',speed+' km/h'],['Quãng đường 1 lần sạc',range+' km'],[lastLabel,last]],price);
+const scooter=(id,name,file,speed,range,last,lastLabel,price)=>item(id,name,file,[['Tốc độ tối đa',speed+' km/h'],['Quãng đường 1 lần sạc'+(range.includes('(2 pin)')?' (2 pin)':''),range.replace(' (2 pin)','')+' km/lần sạc'],[lastLabel,last]],price);
 export const scooterGroups=[
  {title:'Cao cấp',items:[
   scooter('viper','Viper','vinfast-viper-home.webp','70','~156','3000 W','Công suất tối đa',35),
@@ -50,6 +50,6 @@ export const scooterGroups=[
   scooter('amio','Amio','vinfast-amio-mau-xam-ngang-home.webp','30','~65','800 W','Công suất tối đa',11.6),
   scooter('amio-s','Amio S','vinfast-amio-s-mau-trang-ngang-home.webp','25','~65','800 W','Công suất tối đa',11.6),
   scooter('amio-s2','Amio S2','vinfast-amio-s2-home_0.webp','25','~65','800 W','Công suất tối đa',12),
-  item('drgnfly','VF DrgnFly','vinfast-drgnfly-mau-den-ngang-home.webp',[['Công suất động cơ','250 W'],['Quãng đường 1 lần sạc','110 km'],['Pin Lithium Ion','47,2 V']],18.6)
+  item('drgnfly','VF DrgnFly','vinfast-drgnfly-mau-den-ngang-home.webp',[['Công suất động cơ','250 W'],['Quãng đường 1 lần sạc','110 km/lần sạc'],['Pin Lithium Ion','47,2 V']],18.6)
  ]}
 ];

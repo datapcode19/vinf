@@ -1,0 +1,29 @@
+{
+  "checkedOn": "2026-11-09",
+  "results": [
+    {
+      "url": "https://datapcode19.github.io/vinf/index.html",
+      "status": 200
+    },
+    {
+      "url": "https://datapcode19.github.io/vinf/js/swipe.js",
+      "status": 404
+    },
+    {
+      "url": "https://datapcode19.github.io/vinf/pages/vf3.html",
+      "status": 200
+    },
+    {
+      "url": "https://datapcode19.github.io/vinf/pages/vf5.html",
+      "status": 404
+    },
+    {
+      "url": "https://datapcode19.github.io/vinf/pages/viper.html",
+      "status": 404
+    },
+    {
+      "url": "https://datapcode19.github.io/vinf/pages/product.html?id=kinet",
+      "status": 200
+    }
+  ]
+}

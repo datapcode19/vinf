@@ -1,0 +1,26 @@
+.detail-intro{display:grid;grid-template-columns:1fr 1.8fr;align-items:center;gap:32px;padding-top:48px;padding-bottom:32px}
+.detail-intro img{width:100%;height:auto;max-height:500px;object-fit:contain;object-position:center}
+.detail-summary{text-align:center;padding-top:24px}
+.detail-features{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:40px}
+.detail-features article{border-top:1px solid var(--line);padding-top:24px}
+.detail-warranty{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+.detail-links{display:flex;flex-wrap:wrap;gap:16px;align-items:center}
+.detail-links h2{flex-basis:100%}
+.viper-intro{background:linear-gradient(#fff,#f5f6f8)}
+.vf5-source-hero{position:relative;background:#e7eff3}
+.vf5-source-hero>img{width:100%;height:auto;aspect-ratio:12/5;object-fit:contain}
+.vf5-source-hero>div{position:absolute;top:6%;left:7%;color:#1b2a36}
+.vf5-source-hero h1{margin-bottom:10px}
+.detail-gallery img{width:100%;height:auto;aspect-ratio:16/9;object-fit:contain}
+.vf5-color-preview{text-align:center}.vf5-color-preview img{width:100%;height:auto;max-height:460px;object-fit:contain}
+.detail-gallery .slider-controls{position:static;transform:none;justify-content:center;width:fit-content;margin:16px auto 0;max-width:100%}
+.detail-features img{width:100%;height:auto;aspect-ratio:4/3;object-fit:contain;margin-bottom:24px}
+.viper-equipment{grid-template-columns:repeat(4,minmax(0,1fr))}
+.viper-colors{text-align:center;padding-top:24px}
+.viper-colors .swatches{justify-content:center}
+.viper-colors img{width:100%;height:440px;object-fit:contain;object-position:center}
+.viper-colors [data-viper-colors]{max-width:800px;margin:0 auto 24px}
+@media(max-width:768px){.vf5-source-hero{display:flex;flex-direction:column}.vf5-source-hero>div{position:static;order:-1;text-align:center;padding:24px}.viper-equipment{grid-template-columns:1fr 1fr}.viper-colors img{height:330px}}
+[data-page=vf5] th,[data-page=viper] th{width:48%;font-weight:500}
+@media(max-width:768px){.detail-intro{grid-template-columns:1fr;text-align:center;gap:12px}.detail-intro img{max-height:340px}.detail-features{gap:22px}.detail-warranty{gap:24px}}
+@media(max-width:480px){.detail-features,.detail-warranty{grid-template-columns:1fr}.detail-summary .specs{gap:10px}.detail-summary .specs dd{font-size:17px}.detail-summary .specs dt{font-size:11px}[data-page=vf5] th,[data-page=vf5] td,[data-page=viper] th,[data-page=viper] td{padding:14px 8px}.detail-links .button{width:100%}}
