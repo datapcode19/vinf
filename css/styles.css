@@ -12,3 +12,12 @@
 .home-hero .slider-controls{z-index:2}
 .showcase-image{position:relative;overflow:hidden}
 @media(prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+
+/* Shared gesture viewport: vertical touch scrolling stays native. */
+.swipe-viewport{display:grid;position:relative;overflow:hidden;min-width:0;width:100%;touch-action:pan-y pinch-zoom;cursor:grab;isolation:isolate;user-select:none}
+.swipe-viewport>.swipe-slide{grid-area:1 / 1;min-width:0;width:100%;align-self:start}
+.swipe-viewport.is-dragging,.is-dragging *{cursor:grabbing!important;user-select:none!important}
+.swipe-viewport img{-webkit-user-drag:none;user-select:none}
+[data-drag-scroll]{touch-action:pan-x pan-y pinch-zoom;overscroll-behavior-x:contain;cursor:grab}
+[data-drag-scroll].is-dragging{scroll-behavior:auto!important;user-select:none}
+.swipe-viewport a:focus-visible{outline-offset:-4px}

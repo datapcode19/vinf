@@ -22,3 +22,7 @@ html{scroll-padding-top:100px}.model-picker{justify-content:flex-start}.model-pi
 @media(max-width:768px){.showcase-vehicle>button,.home-scooters .showcase-vehicle>button{margin-top:124px}.home-section [role=tab]{padding:10px 16px;font-size:16px}}
 @media(max-width:480px){.showcase-vehicle>button,.home-scooters .showcase-vehicle>button{margin-top:84px}.home-section [role=tab]{padding:10px 12px;font-size:14px}.model-picker{gap:28px}.home-specs{gap:8px}.home-specs dd{font-size:15px}}
 @media(prefers-reduced-motion:reduce){.model-picker button,.home-section [role=tab],.showcase-vehicle>button{transition:none}}
+
+/* Product cutouts already have balanced subject bounds; preserve their whole canvas. */
+.showcase-image img,.home-scooters .showcase-image img{object-fit:contain;object-position:50% 50%}
+.home-hero .light-slide>img{object-position:50% 50%}

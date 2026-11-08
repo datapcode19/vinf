@@ -1,3 +1,4 @@
+import {initHorizontalScroll} from './swipe.js';
 import {renderVingroup,renderScooterWarranty} from './company-pages.js';
 import {renderAbout,renderMaintenance,renderRepair,renderScooterBattery,renderServiceBooking} from './support-pages.js';
 import {renderAccessories,renderAccessory} from './accessories.js';
@@ -24,4 +25,4 @@ function battery(){main.innerHTML=`<section class="page-heading"><div class="con
 const renderers={vingroup:()=>renderVingroup(main),"scooter-warranty":()=>renderScooterWarranty(main),about:()=>renderAbout(main),maintenance:()=>renderMaintenance(main),repair:()=>renderRepair(main),"scooter-battery":()=>renderScooterBattery(main),"service-booking":()=>renderServiceBooking(main),accessories:()=>renderAccessories(main),accessory:()=>renderAccessory(main),rescue:()=>renderRescue(main),vf3:()=>renderVF3(main),reference:()=>renderReference(main),home:()=>renderHome(main),catalog:()=>renderCatalog(main),product:()=>renderProduct(main),warranty,battery,compare:()=>renderCompare(main),'test-drive':()=>renderTestDrive(main)};
 const render=renderers[document.body.dataset.page];
 if(render)render();else main.innerHTML=`<section class="container"><h1>404 — Không tìm thấy trang</h1><a class="button" href="${prefix}index.html">Về trang chủ</a></section>`;
-initTabs();initAccordions();initSlider();localizeLinks();
+initTabs();initAccordions();initSlider();localizeLinks();initHorizontalScroll();

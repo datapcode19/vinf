@@ -1,0 +1,366 @@
+{
+  "date": "2026-11-08",
+  "input": "Mouse + Chromium CDP Input.dispatchTouchEvent (emulated touch hardware)",
+  "results": [
+    {
+      "name": "375 index.html mouse follows pointer + next/previous",
+      "status": "PASS"
+    },
+    {
+      "name": "375 index.html short drag snaps back",
+      "status": "PASS"
+    },
+    {
+      "name": "375 index.html CDP touch left/right follows finger",
+      "status": "PASS"
+    },
+    {
+      "name": "375 index.html CDP vertical touch scrolls page without changing slide",
+      "status": "PASS"
+    },
+    {
+      "name": "375 index.html quick flick + repeated swipes + loop + pagination + height",
+      "status": "PASS"
+    },
+    {
+      "name": "375 index.html horizontal wheel; vertical wheel remains scroll",
+      "status": "PASS"
+    },
+    {
+      "name": "375 index.html reduced motion + resize + no overflow",
+      "status": "PASS"
+    },
+    {
+      "name": "375 pages/vf3.html mouse follows pointer + next/previous",
+      "status": "PASS"
+    },
+    {
+      "name": "375 pages/vf3.html short drag snaps back",
+      "status": "PASS"
+    },
+    {
+      "name": "375 pages/vf3.html CDP touch left/right follows finger",
+      "status": "PASS"
+    },
+    {
+      "name": "375 pages/vf3.html CDP vertical touch scrolls page without changing slide",
+      "status": "PASS"
+    },
+    {
+      "name": "375 pages/vf3.html quick flick + repeated swipes + loop + pagination + height",
+      "status": "PASS"
+    },
+    {
+      "name": "375 pages/vf3.html horizontal wheel; vertical wheel remains scroll",
+      "status": "PASS"
+    },
+    {
+      "name": "375 pages/vf3.html reduced motion + resize + no overflow",
+      "status": "PASS"
+    },
+    {
+      "name": "375 product scenes move image + specs together; buttons and links",
+      "status": "PASS"
+    },
+    {
+      "name": "375 Kinet color image swipe and swatch synchronization",
+      "status": "PASS"
+    },
+    {
+      "name": "375 native touch + mouse scrolling model row and normal hero link click",
+      "status": "PASS"
+    },
+    {
+      "name": "375 no JS errors or missing assets under /vinf/",
+      "status": "PASS"
+    },
+    {
+      "name": "390 index.html mouse follows pointer + next/previous",
+      "status": "PASS"
+    },
+    {
+      "name": "390 index.html short drag snaps back",
+      "status": "PASS"
+    },
+    {
+      "name": "390 index.html CDP touch left/right follows finger",
+      "status": "PASS"
+    },
+    {
+      "name": "390 index.html CDP vertical touch scrolls page without changing slide",
+      "status": "PASS"
+    },
+    {
+      "name": "390 index.html quick flick + repeated swipes + loop + pagination + height",
+      "status": "PASS"
+    },
+    {
+      "name": "390 index.html horizontal wheel; vertical wheel remains scroll",
+      "status": "PASS"
+    },
+    {
+      "name": "390 index.html reduced motion + resize + no overflow",
+      "status": "PASS"
+    },
+    {
+      "name": "390 pages/vf3.html mouse follows pointer + next/previous",
+      "status": "PASS"
+    },
+    {
+      "name": "390 pages/vf3.html short drag snaps back",
+      "status": "PASS"
+    },
+    {
+      "name": "390 pages/vf3.html CDP touch left/right follows finger",
+      "status": "PASS"
+    },
+    {
+      "name": "390 pages/vf3.html CDP vertical touch scrolls page without changing slide",
+      "status": "PASS"
+    },
+    {
+      "name": "390 pages/vf3.html quick flick + repeated swipes + loop + pagination + height",
+      "status": "PASS"
+    },
+    {
+      "name": "390 pages/vf3.html horizontal wheel; vertical wheel remains scroll",
+      "status": "PASS"
+    },
+    {
+      "name": "390 pages/vf3.html reduced motion + resize + no overflow",
+      "status": "PASS"
+    },
+    {
+      "name": "390 product scenes move image + specs together; buttons and links",
+      "status": "PASS"
+    },
+    {
+      "name": "390 Kinet color image swipe and swatch synchronization",
+      "status": "PASS"
+    },
+    {
+      "name": "390 native touch + mouse scrolling model row and normal hero link click",
+      "status": "PASS"
+    },
+    {
+      "name": "390 no JS errors or missing assets under /vinf/",
+      "status": "PASS"
+    },
+    {
+      "name": "768 index.html mouse follows pointer + next/previous",
+      "status": "PASS"
+    },
+    {
+      "name": "768 index.html short drag snaps back",
+      "status": "PASS"
+    },
+    {
+      "name": "768 index.html CDP touch left/right follows finger",
+      "status": "PASS"
+    },
+    {
+      "name": "768 index.html CDP vertical touch scrolls page without changing slide",
+      "status": "PASS"
+    },
+    {
+      "name": "768 index.html quick flick + repeated swipes + loop + pagination + height",
+      "status": "PASS"
+    },
+    {
+      "name": "768 index.html horizontal wheel; vertical wheel remains scroll",
+      "status": "PASS"
+    },
+    {
+      "name": "768 index.html reduced motion + resize + no overflow",
+      "status": "PASS"
+    },
+    {
+      "name": "768 pages/vf3.html mouse follows pointer + next/previous",
+      "status": "PASS"
+    },
+    {
+      "name": "768 pages/vf3.html short drag snaps back",
+      "status": "PASS"
+    },
+    {
+      "name": "768 pages/vf3.html CDP touch left/right follows finger",
+      "status": "PASS"
+    },
+    {
+      "name": "768 pages/vf3.html CDP vertical touch scrolls page without changing slide",
+      "status": "PASS"
+    },
+    {
+      "name": "768 pages/vf3.html quick flick + repeated swipes + loop + pagination + height",
+      "status": "PASS"
+    },
+    {
+      "name": "768 pages/vf3.html horizontal wheel; vertical wheel remains scroll",
+      "status": "PASS"
+    },
+    {
+      "name": "768 pages/vf3.html reduced motion + resize + no overflow",
+      "status": "PASS"
+    },
+    {
+      "name": "768 product scenes move image + specs together; buttons and links",
+      "status": "PASS"
+    },
+    {
+      "name": "768 Kinet color image swipe and swatch synchronization",
+      "status": "PASS"
+    },
+    {
+      "name": "768 native touch + mouse scrolling model row and normal hero link click",
+      "status": "PASS"
+    },
+    {
+      "name": "768 no JS errors or missing assets under /vinf/",
+      "status": "PASS"
+    },
+    {
+      "name": "1366 index.html mouse follows pointer + next/previous",
+      "status": "PASS"
+    },
+    {
+      "name": "1366 index.html short drag snaps back",
+      "status": "PASS"
+    },
+    {
+      "name": "1366 index.html CDP touch left/right follows finger",
+      "status": "PASS"
+    },
+    {
+      "name": "1366 index.html CDP vertical touch scrolls page without changing slide",
+      "status": "PASS"
+    },
+    {
+      "name": "1366 index.html quick flick + repeated swipes + loop + pagination + height",
+      "status": "PASS"
+    },
+    {
+      "name": "1366 index.html horizontal wheel; vertical wheel remains scroll",
+      "status": "PASS"
+    },
+    {
+      "name": "1366 index.html reduced motion + resize + no overflow",
+      "status": "PASS"
+    },
+    {
+      "name": "1366 pages/vf3.html mouse follows pointer + next/previous",
+      "status": "PASS"
+    },
+    {
+      "name": "1366 pages/vf3.html short drag snaps back",
+      "status": "PASS"
+    },
+    {
+      "name": "1366 pages/vf3.html CDP touch left/right follows finger",
+      "status": "PASS"
+    },
+    {
+      "name": "1366 pages/vf3.html CDP vertical touch scrolls page without changing slide",
+      "status": "PASS"
+    },
+    {
+      "name": "1366 pages/vf3.html quick flick + repeated swipes + loop + pagination + height",
+      "status": "PASS"
+    },
+    {
+      "name": "1366 pages/vf3.html horizontal wheel; vertical wheel remains scroll",
+      "status": "PASS"
+    },
+    {
+      "name": "1366 pages/vf3.html reduced motion + resize + no overflow",
+      "status": "PASS"
+    },
+    {
+      "name": "1366 product scenes move image + specs together; buttons and links",
+      "status": "PASS"
+    },
+    {
+      "name": "1366 Kinet color image swipe and swatch synchronization",
+      "status": "PASS"
+    },
+    {
+      "name": "1366 native touch + mouse scrolling model row and normal hero link click",
+      "status": "PASS"
+    },
+    {
+      "name": "1366 no JS errors or missing assets under /vinf/",
+      "status": "PASS"
+    },
+    {
+      "name": "1440 index.html mouse follows pointer + next/previous",
+      "status": "PASS"
+    },
+    {
+      "name": "1440 index.html short drag snaps back",
+      "status": "PASS"
+    },
+    {
+      "name": "1440 index.html CDP touch left/right follows finger",
+      "status": "PASS"
+    },
+    {
+      "name": "1440 index.html CDP vertical touch scrolls page without changing slide",
+      "status": "PASS"
+    },
+    {
+      "name": "1440 index.html quick flick + repeated swipes + loop + pagination + height",
+      "status": "PASS"
+    },
+    {
+      "name": "1440 index.html horizontal wheel; vertical wheel remains scroll",
+      "status": "PASS"
+    },
+    {
+      "name": "1440 index.html reduced motion + resize + no overflow",
+      "status": "PASS"
+    },
+    {
+      "name": "1440 pages/vf3.html mouse follows pointer + next/previous",
+      "status": "PASS"
+    },
+    {
+      "name": "1440 pages/vf3.html short drag snaps back",
+      "status": "PASS"
+    },
+    {
+      "name": "1440 pages/vf3.html CDP touch left/right follows finger",
+      "status": "PASS"
+    },
+    {
+      "name": "1440 pages/vf3.html CDP vertical touch scrolls page without changing slide",
+      "status": "PASS"
+    },
+    {
+      "name": "1440 pages/vf3.html quick flick + repeated swipes + loop + pagination + height",
+      "status": "PASS"
+    },
+    {
+      "name": "1440 pages/vf3.html horizontal wheel; vertical wheel remains scroll",
+      "status": "PASS"
+    },
+    {
+      "name": "1440 pages/vf3.html reduced motion + resize + no overflow",
+      "status": "PASS"
+    },
+    {
+      "name": "1440 product scenes move image + specs together; buttons and links",
+      "status": "PASS"
+    },
+    {
+      "name": "1440 Kinet color image swipe and swatch synchronization",
+      "status": "PASS"
+    },
+    {
+      "name": "1440 native touch + mouse scrolling model row and normal hero link click",
+      "status": "PASS"
+    },
+    {
+      "name": "1440 no JS errors or missing assets under /vinf/",
+      "status": "PASS"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "results": [
+    "Slow image: keep old scene visible, then transition after decode",
+    "Touch cancellation snaps back; adjacent scenes cover viewport during drag",
+    "Dragging from CTA does not navigate",
+    "Rapid repeated navigation settles to the last requested scene",
+    "Scooter carousel uses the same dragging and selected-state synchronization"
+  ]
+}

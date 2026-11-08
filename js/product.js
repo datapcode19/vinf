@@ -1,3 +1,4 @@
+import {createSwipe} from './swipe.js';
 import {extendKinet} from './kinet-sections.js';
 import {products,money} from '../data/products.js';
 import {prefix,pageURL} from './navigation.js';
@@ -17,5 +18,22 @@ export function renderProduct(main){
  function updateTable(name,price,range){table.innerHTML=`<table><caption>${p.name} ${name}</caption><tbody><tr><th scope="row">Giá tham chiếu</th><td>${money(price)}</td></tr><tr><th scope="row">Quãng đường</th><td>${range}</td></tr></tbody></table>`;}
  updateTable(car?'Eco':'Đỏ Đen',p.price,p.range);
  main.querySelectorAll('[data-version]').forEach(button=>button.addEventListener('click',()=>{const v=p.versions[Number(button.dataset.version)];main.querySelectorAll('[data-version]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));main.querySelector('#selection').textContent=p.name+' '+v.name;main.querySelector('#price').textContent=money(v.price);main.querySelector('#range').textContent=v.range;updateTable(v.name,v.price,v.range);}));
- main.querySelectorAll('[data-color]').forEach(button=>button.addEventListener('click',()=>{const [name,,file]=p.colors[Number(button.dataset.color)];main.querySelectorAll('[data-color]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));const image=main.querySelector('#vehicle-image');image.src=prefix+'assets/kinet-'+file+'.webp';image.alt='Kinet màu '+name;main.querySelector('#selection').textContent=name;updateTable(name,p.price,p.range);}));
+ if(!car){
+  const original=main.querySelector('#vehicle-image');
+  const viewport=document.createElement('div');original.before(viewport);
+  const slides=p.colors.map(([name,,file])=>{
+   const slide=document.createElement('div'),image=original.cloneNode();
+   image.removeAttribute('id');image.src=prefix+'assets/kinet-'+file+'.webp';image.alt=p.name+' '+name;
+   slide.append(image);viewport.append(slide);return slide;
+  });
+  original.remove();
+  const buttons=[...main.querySelectorAll('[data-color]')];
+  const carousel=createSwipe(viewport,slides,index=>{
+   buttons.forEach((button,i)=>button.setAttribute('aria-pressed',String(i===index)));
+   slides.forEach((slide,i)=>{const image=slide.firstElementChild;if(i===index)image.id='vehicle-image';else image.removeAttribute('id');});
+   main.querySelector('#selection').textContent=p.colors[index][0];
+   updateTable(p.colors[index][0],p.price,p.range);
+  });
+  buttons.forEach((button,i)=>button.addEventListener('click',()=>carousel.go(i)));
+ }
 }

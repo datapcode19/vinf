@@ -1,0 +1,125 @@
+{
+  "date": "2026-11-08",
+  "results": [
+    {
+      "name": "1440 menu arrow, layout stability, hover/focus or real touch tap",
+      "status": "PASS"
+    },
+    {
+      "name": "1440 VF3 home cutout subject centered and not cropped",
+      "status": "PASS"
+    },
+    {
+      "name": "1440 VF3 hero and gallery preserve full source ratio",
+      "status": "PASS"
+    },
+    {
+      "name": "1440 Kinet image centered, intact and no page overflow",
+      "status": "PASS"
+    },
+    {
+      "name": "1440 no JavaScript errors",
+      "status": "PASS"
+    },
+    {
+      "name": "1366 menu arrow, layout stability, hover/focus or real touch tap",
+      "status": "PASS"
+    },
+    {
+      "name": "1366 VF3 home cutout subject centered and not cropped",
+      "status": "PASS"
+    },
+    {
+      "name": "1366 VF3 hero and gallery preserve full source ratio",
+      "status": "PASS"
+    },
+    {
+      "name": "1366 Kinet image centered, intact and no page overflow",
+      "status": "PASS"
+    },
+    {
+      "name": "1366 no JavaScript errors",
+      "status": "PASS"
+    },
+    {
+      "name": "768 menu arrow, layout stability, hover/focus or real touch tap",
+      "status": "PASS"
+    },
+    {
+      "name": "768 VF3 home cutout subject centered and not cropped",
+      "status": "PASS"
+    },
+    {
+      "name": "768 VF3 hero and gallery preserve full source ratio",
+      "status": "PASS"
+    },
+    {
+      "name": "768 Kinet image centered, intact and no page overflow",
+      "status": "PASS"
+    },
+    {
+      "name": "768 no JavaScript errors",
+      "status": "PASS"
+    },
+    {
+      "name": "390 menu arrow, layout stability, hover/focus or real touch tap",
+      "status": "PASS"
+    },
+    {
+      "name": "390 VF3 home cutout subject centered and not cropped",
+      "status": "PASS"
+    },
+    {
+      "name": "390 VF3 hero and gallery preserve full source ratio",
+      "status": "PASS"
+    },
+    {
+      "name": "390 Kinet image centered, intact and no page overflow",
+      "status": "PASS"
+    },
+    {
+      "name": "390 no JavaScript errors",
+      "status": "PASS"
+    },
+    {
+      "name": "375 menu arrow, layout stability, hover/focus or real touch tap",
+      "status": "PASS"
+    },
+    {
+      "name": "375 VF3 home cutout subject centered and not cropped",
+      "status": "PASS"
+    },
+    {
+      "name": "375 VF3 hero and gallery preserve full source ratio",
+      "status": "PASS"
+    },
+    {
+      "name": "375 Kinet image centered, intact and no page overflow",
+      "status": "PASS"
+    },
+    {
+      "name": "375 no JavaScript errors",
+      "status": "PASS"
+    },
+    {
+      "name": ".home-hero .swipe-viewport slight diagonal touch start still swipes; 250ms settle",
+      "status": "PASS"
+    },
+    {
+      "name": "[data-showcase=\"cars-0\"] .swipe-viewport slight diagonal touch start still swipes; 250ms settle",
+      "status": "PASS"
+    },
+    {
+      "name": "[data-showcase=\"scooters-0\"] .swipe-viewport slight diagonal touch start still swipes; 250ms settle",
+      "status": "PASS"
+    },
+    {
+      "name": ".vf3-gallery .swipe-viewport slight diagonal touch start still swipes; 250ms settle",
+      "status": "PASS"
+    },
+    {
+      "name": "Font readiness in mid-gesture does not cancel touch",
+      "status": "PASS"
+    }
+  ]
+}

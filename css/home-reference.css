@@ -41,3 +41,9 @@ body.shared-chrome .has-tools [role=tablist]{padding-bottom:360px}
 
 @font-face{font-family:Mulish;src:url(../assets/fonts/Mulish.ttf) format("truetype");font-weight:200 1000;font-display:swap}body.shared-chrome{font-family:Mulish,Arial,sans-serif}.shared-chrome .mega-product-card:hover{background:#edf2fa}.shared-chrome [aria-current=page]{color:var(--blue)}
 @media(prefers-reduced-motion:no-preference){.mega-menu:not([hidden]){animation:menu-enter .16s ease-out}@keyframes menu-enter{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:none}}}
+
+/* Reserve the chevron slot: revealing it must not move menu labels. */
+body.shared-chrome .nav-trigger .nav-chevron{display:inline-block;width:12px;opacity:0;transition:opacity 120ms ease-out}
+body.shared-chrome .nav-trigger:hover .nav-chevron,body.shared-chrome .nav-trigger:focus-visible .nav-chevron,body.shared-chrome .nav-trigger[aria-expanded=true] .nav-chevron{opacity:1}
+@media(hover:none),(pointer:coarse),(max-width:1050px){body.shared-chrome .nav-trigger .nav-chevron{opacity:1}}
+@media(prefers-reduced-motion:reduce){body.shared-chrome .nav-trigger .nav-chevron{transition:none}}

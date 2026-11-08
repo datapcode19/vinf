@@ -1,4 +1,5 @@
-import {replaceShowcase, initScrollMotion} from './motion.js';
+import {createSwipe} from './swipe.js';
+import {initScrollMotion} from './motion.js';
 import {resolveRoute} from './routes.js';
 import {carGroups,scooterGroups} from '../data/home-products.js';
 import {homeMenus} from '../data/home-menu.js';
@@ -32,9 +33,28 @@ export function renderHome(main){
  <section class="home-section home-lifestyle" id="phu-kien"><div class="section-intro"><h2>Nâng tầm phong cách</h2><p>Phụ kiện chính hãng và dịch vụ kết nối dành cho xe VinFast.</p></div><div class="accessory-list">${accessories.map(([name,image,url])=>`<article><a href="${shop(url)}" target="_blank" rel="noopener noreferrer"><img src="./assets/accessories/${image}" alt="${name}" width="600" height="600" loading="lazy"><h3>${name}</h3></a><a class="text-link" href="${shop(url)}" target="_blank" rel="noopener noreferrer">Xem thêm ↗</a></article>`).join('')}</div><div class="estore"><img src="${assets}hinh-anh-trai-nghiem-smart-connect-desktop-0210.webp" alt="VF eStore — trải nghiệm Smart Connect" width="1920" height="1553" loading="lazy"><div><p class="eyebrow">VF eStore</p><h3>Dịch vụ kết nối thông minh</h3><a class="button" href="${official('vinfast-estore.html')}" target="_blank" rel="noopener noreferrer">Khám phá ngay ↗</a></div></div></section>
  <section class="home-newsletter" id="nhan-thong-tin"><div><h2>Đăng ký nhận thông tin</h2><p>Thông tin về chương trình khuyến mãi và dịch vụ VinFast.</p><small>Bản mô phỏng: dùng email ví dụ; thông tin không được gửi hoặc lưu.</small></div><form id="newsletter-form"><label class="visually-hidden" for="newsletter-email">Email mô phỏng</label><div class="newsletter-field"><input id="newsletter-email" type="email" placeholder="Nhập email của bạn" autocomplete="off" required maxlength="254" aria-describedby="newsletter-status"><button type="submit" aria-label="Đăng ký nhận thông tin mô phỏng">→</button></div><label class="newsletter-consent"><input type="checkbox" id="newsletter-consent" required><span>Tôi đã đọc <a href="${official('privacy-policy')}" target="_blank" rel="noopener noreferrer">Chính sách Quyền riêng tư ↗</a> và hiểu đây là mô phỏng.</span></label><p id="newsletter-status" role="status"></p></form></section>`;
  const groups=[...carGroups.map((group,i)=>['cars-'+i,group]),...scooterGroups.map((group,i)=>['scooters-'+i,group])];
- for(const [id,group] of groups){const root=main.querySelector(`[data-showcase="${id}"]`);let selected=0;const buttons=[...root.querySelectorAll('[data-model]')];
-  function select(index){const direction=index<selected?-1:1;if((index+group.items.length)%group.items.length===selected)return;selected=(index+group.items.length)%group.items.length;const p=group.items[selected];buttons.forEach((b,i)=>b.setAttribute('aria-pressed',String(i===selected)));const image=root.querySelector('[data-model-image]');replaceShowcase(root,()=>{image.src='./'+p.image;image.alt=p.name;root.querySelector('[data-model-name]').textContent=p.name;root.querySelector('[data-model-specs]').innerHTML=rangeMarkup(p);root.querySelector('[data-model-price]').textContent=`Giá niêm yết ${String(p.price).replace('.',',')} triệu đồng`;const link=root.querySelector('[data-model-link]');link.href=productLink(p);if(link.href.startsWith(location.origin)){link.removeAttribute('target');link.removeAttribute('rel');}else{link.target='_blank';link.rel='noopener noreferrer';}root.querySelector('[data-model-status]').textContent=`${p.name}, ${selected+1} trên ${group.items.length}`;},direction);const picker=root.querySelector('.model-picker'),button=buttons[selected];picker.scrollTo({left:picker.scrollLeft+button.getBoundingClientRect().left-picker.getBoundingClientRect().left-(picker.clientWidth-button.clientWidth)/2,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});}
-  buttons.forEach((button,i)=>button.addEventListener('click',()=>select(i)));root.querySelector('[data-model-prev]').addEventListener('click',()=>select(selected-1));root.querySelector('[data-model-next]').addEventListener('click',()=>select(selected+1));
+ for(const [id,group] of groups){
+  const root=main.querySelector(`[data-showcase="${id}"]`), buttons=[...root.querySelectorAll('[data-model]')];
+  const viewport=root.querySelector('.showcase-viewport');
+  const fields=['image','name','specs','price','link','status'];
+  const scenes=group.items.map(product=>{
+   const template=document.createElement('template');
+   template.innerHTML=showcase(id,{items:[product]});
+   const scene=template.content.querySelector('.showcase-scene');
+   fields.forEach(field=>{const node=scene.querySelector('[data-model-'+field+']');node.removeAttribute('data-model-'+field);node.setAttribute('data-scene-'+field,'');});
+   return scene;
+  });
+  viewport.replaceChildren(...scenes);
+  const carousel=createSwipe(viewport,scenes,index=>{
+   buttons.forEach((button,i)=>button.setAttribute('aria-pressed',String(i===index)));
+   scenes.forEach((scene,i)=>fields.forEach(field=>{const node=scene.querySelector('[data-scene-'+field+']');if(i===index)node.setAttribute('data-model-'+field,'');else node.removeAttribute('data-model-'+field);}));
+   root.querySelector('[data-model-status]').textContent=group.items[index].name+', '+(index+1)+' / '+group.items.length;
+   const picker=root.querySelector('.model-picker'),button=buttons[index];
+   picker.scrollTo({left:picker.scrollLeft+button.getBoundingClientRect().left-picker.getBoundingClientRect().left-(picker.clientWidth-button.clientWidth)/2,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
+  });
+  buttons.forEach((button,i)=>button.addEventListener('click',()=>carousel.go(i)));
+  root.querySelector('[data-model-prev]').addEventListener('click',carousel.prev);
+  root.querySelector('[data-model-next]').addEventListener('click',carousel.next);
  }
  initScrollMotion(main);
  const form=main.querySelector('#newsletter-form');form.addEventListener('submit',e=>{e.preventDefault();if(!form.reportValidity())return;main.querySelector('#newsletter-status').textContent='Đã kiểm tra email hợp lệ. Đây là mô phỏng, không có đăng ký thật.';form.reset();});
