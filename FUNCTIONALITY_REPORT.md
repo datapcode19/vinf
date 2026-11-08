@@ -1,5 +1,14 @@
 > Cập nhật 08/11/2026: xem [trạng thái giai đoạn 1](PHASE_1_STATUS.md) và [độ bao phủ URL](URL_COVERAGE.md). Các ghi nhận bên dưới là lịch sử; không thay thế kết quả mới. Giai đoạn 1 chưa hoàn thành.
 
+| Trang phụ mới | JavaScript | Cách hoạt động và kiểm thử |
+|---|---|---|
+| Giới thiệu, Vingroup, dịch vụ, pin, bảo hành | `support-pages.js`, `company-pages.js`, `components.js` | Render nội dung riêng; tabs đồng bộ panel, accordion mở/đóng. Kiểm tra tabs lịch sử bằng End, tabs sửa chữa đổi đúng ảnh. |
+| Bảng bảo dưỡng | `maintenance-chart.js` | Select ánh xạ 6 mẫu tới 6 ảnh nguồn; đổi ảnh/alt/liên kết cùng lúc. Kiểm tra lần lượt cả 6, ảnh decode và đường dẫn khớp. |
+| Phụ kiện | `accessories.js`, `data/accessories.js` | Tabs nhóm và bốn nội dung theo ID; mô tả thu gọn trên mobile, modal mua mô phỏng. Kiểm tra nhóm sạc chỉ có một sản phẩm, điều hướng/reload/Back/Forward và Escape. |
+| Đặt lịch dịch vụ mô phỏng | `support-pages.js` | HTML constraints, min ngày địa phương, preventDefault, thông báo textContent và reset. Thử rỗng/ngày quá khứ/hợp lệ; không POST/storage. |
+
+Nguồn, giới hạn và ảnh kiểm tra mới: [SUPPORT_PAGES_STATUS.md](SUPPORT_PAGES_STATUS.md).
+
 | Chức năng cập nhật | JavaScript | Hoạt động / kiểm thử |
 |---|---|---|
 | Điều hướng cục bộ | `routes.js`, `home-chrome.js` | URL dựa trên `import.meta.url`, giữ `/vinf/`; ánh xạ nguồn sang entrypoint hoặc trang trạng thái. Kiểm tra 94 URL; không coi trang trạng thái là clone. |

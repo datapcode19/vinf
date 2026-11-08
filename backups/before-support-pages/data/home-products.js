@@ -1,0 +1,55 @@
+// Snapshot từ nội dung trang chủ công khai. Không lấy giá từ nguồn khác để trộn phiên bản.
+const asset=name=>'assets/home/'+name;
+const item=(id,name,image,stats,price)=>({id,name,image:asset(image),stats,price});
+export const carGroups=[
+ {title:'Xe cá nhân',items:[
+  item('vf-wild','VF Wild','vinfast-vf-wild-mau-xam-home.webp',[['Dòng xe','Bán tải điện'],['Số chỗ ngồi','5 chỗ'],['Di chuyển kết hợp','~1.000 km (NEDC)']],860),
+  item('vf2','VF 2','vinfast-vf2-mau-vang-home_0.webp',[['Dòng xe','MiniCar'],['Số chỗ ngồi','4 chỗ'],['Quãng đường lên tới','210 km (NEDC)']],188),
+  item('vf8-new','VF 8 Thế hệ mới','vinfast-vf8-all-new-mau-do-home.webp',[['Dòng xe','D-SUV'],['Số chỗ ngồi','5 chỗ'],['Quãng đường lên tới','480 km (NEDC)']],899),
+  item('vf-mpv7','VF MPV 7','vinfast-vf-mpv7-mau-nau-home.webp',[['Dòng xe','MPV'],['Số chỗ ngồi','7 chỗ'],['Quãng đường lên tới','450 km (NEDC)']],750),
+  {...item('vf3','VF 3','',[['Dòng xe','MiniCar'],['Số chỗ ngồi','4 chỗ'],['Quãng đường lên tới','210 km (NEDC)']],285),image:'assets/vf3.webp'},
+  {...item('vf5','VF 5','',[['Dòng xe','A-SUV'],['Số chỗ ngồi','5 chỗ'],['Quãng đường lên tới','326,4 km (NEDC)']],496),image:'assets/vf5.webp'},
+  {...item('vf6','VF 6','',[['Dòng xe','B-SUV'],['Số chỗ ngồi','5 chỗ'],['Quãng đường lên tới','485 km (NEDC)']],646),image:'assets/vf6-eco.webp'},
+  {...item('vf7','VF 7','',[['Dòng xe','C-SUV'],['Số chỗ ngồi','5 chỗ'],['Quãng đường lên tới','500,5 km (NEDC)']],740),image:'assets/vf7.webp'},
+  {...item('vf8','VF 8','',[['Dòng xe','D-SUV'],['Số chỗ ngồi','5 chỗ'],['Quãng đường lên tới','635 km (NEDC)']],898),image:'assets/vf8.webp'},
+  {...item('vf9','VF 9','',[['Dòng xe','E-SUV'],['Số chỗ ngồi','6–7 chỗ'],['Quãng đường lên tới','626 km (WLTP)']],1300),image:'assets/vf9.webp'}
+ ]},
+ {title:'Xe dịch vụ',items:[
+  item('minio','Minio Green','vinfast-minio-green-mau-hong-ngang-home.webp',[['Dòng xe','MiniCar'],['Số chỗ ngồi','4 chỗ'],['Quãng đường lên tới','210 km (NEDC)']],188),
+  item('herio','Herio Green','vinfast-herio-green-mau-xam-ngang-home.webp',[['Dòng xe','A-SUV'],['Số chỗ ngồi','5 chỗ'],['Quãng đường lên tới','326 km (NEDC)']],450),
+  item('ecvan','EC Van','vinfast-ec-van-mau-trang-home.webp',[['Dòng xe','VAN'],['Số chỗ ngồi','2 chỗ'],['Quãng đường lên tới','175 km (NEDC)']],248),
+  item('nerio','Nerio Green','vinfast-nerio-green-mau-xam-ngang-home.webp',[['Dòng xe','B-SUV'],['Số chỗ ngồi','5 chỗ'],['Quãng đường lên tới','318,6 km (NEDC)']],668),
+  item('limo','Limo Green','vinfast-limo-green-mau-xam-home.webp',[['Dòng xe','MPV'],['Số chỗ ngồi','7 chỗ'],['Quãng đường lên tới','450 km (NEDC)']],699)
+ ]}
+];
+const scooter=(id,name,file,speed,range,last,lastLabel,price)=>item(id,name,file,[['Tốc độ tối đa',speed+' km/h'],['Quãng đường 1 lần sạc',range+' km'],[lastLabel,last]],price);
+export const scooterGroups=[
+ {title:'Cao cấp',items:[
+  scooter('viper','Viper','vinfast-viper-home.webp','70','~156','3000 W','Công suất tối đa',35),
+  scooter('kinet','Kinet','vinfast-kinet-mau-xam-ngang-home.webp','90','~145','5200 W','Công suất tối đa',40),
+  scooter('vero-x','Vero X','vinfast-verox-home.webp','70','262 (2 pin)','35 lít','Cốp xe',34.9)
+ ]},
+ {title:'Trung cấp',items:[
+  scooter('kyo','Kyo','vinfast-kyo-mau-nau-ngang-home.webp','70','~160','3000 W','Công suất tối đa',30),
+  scooter('feliz-2027','Feliz 2027','vinfast-feliz-2027-mau-trang-ngang-home.webp','70','~262','2800 W','Công suất tối đa',26.9),
+  scooter('feliz-2025','Feliz','vinfast-feliz-mau-xanh-ngang-home.webp','70','262 (2 pin)','34 lít','Cốp xe',26),
+  scooter('feliz-ii','Feliz II','vinfast-feliz-ii-mau-do-den-ngang-home.webp','70','~156','3000 W','Công suất tối đa',23)
+ ]},
+ {title:'Phổ thông',items:[
+  scooter('evo-grand-ii','Evo Grand II','vinfast-evo-grand-ii-mau-do-home.webp','70','~262 (2 pin)','2250 W','Công suất tối đa',25.9),
+  scooter('evo-grand-limited','Evo Grand Limited','vinfast-evo-grand-limited-mau-xanh-home_0.webp','70','~262 (2 pin)','2250 W','Công suất tối đa',29.9),
+  scooter('evo-grand-premia','Evo Grand Premia','vinfast-evo-grand-premia-mau-nau-home.webp','70','~262 (2 pin)','2250 W','Công suất tối đa',27.9),
+  scooter('evo-grand','Evo Grand','vinfast-evo-grand-mau-xanh-ngang-home.webp','70','262 (2 pin)','35 lít','Cốp xe',22.5),
+  scooter('evo','Evo','vinfast-evo-mau-do-ngang-home.webp','70','~165 (2 pin)','12 lít','Cốp xe',18.8),
+  scooter('evo-lite','Evo Lite','vinfast-evo-lite-mau-xanh-ngang-home.webp','49','~165','2300 W','Công suất tối đa',14.3),
+  scooter('evo-grand-lite','Evo Grand Lite','vinfast-evo-grand-lite-mau-tim-ngang-home.webp','48','198 (2 pin)','35 lít','Cốp xe',16.5),
+  scooter('evo-lite-neo','Evo Lite Neo','vinfast-evo-lite-neo-mau-xanh-ngang-home.webp','49','78','17 lít','Cốp xe',14.4),
+  scooter('flazz','Flazz','vinfast-flazz-mau-do-ngang-home.webp','39','135 (2 pin)','14 lít','Cốp xe',14.2),
+  scooter('flazz-max','Flazz Max','vinfast-flazz-max-mau-cam-ngang-home.webp','49','~87','1500 W','Công suất tối đa',12.5),
+  scooter('zgoo','Zgoo','vinfast-zgoo-mau-xanh-ngang-home.webp','39','70','14 lít','Cốp xe',13.3),
+  scooter('amio','Amio','vinfast-amio-mau-xam-ngang-home.webp','30','~65','800 W','Công suất tối đa',11.6),
+  scooter('amio-s','Amio S','vinfast-amio-s-mau-trang-ngang-home.webp','25','~65','800 W','Công suất tối đa',11.6),
+  scooter('amio-s2','Amio S2','vinfast-amio-s2-home_0.webp','25','~65','800 W','Công suất tối đa',12),
+  item('drgnfly','VF DrgnFly','vinfast-drgnfly-mau-den-ngang-home.webp',[['Công suất động cơ','250 W'],['Quãng đường 1 lần sạc','110 km'],['Pin Lithium Ion','47,2 V']],18.6)
+ ]}
+];

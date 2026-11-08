@@ -1,5 +1,7 @@
 # Giai đoạn 1 — đang thực hiện
 
+> Cập nhật mới hơn: [12 URL trang phụ](SUPPORT_PAGES_STATUS.md), 17 PARTIAL / 65 NOT STARTED trong kiểm kê header/footer. Những số 9/73 và giới hạn bên dưới giữ làm lịch sử trước lần bổ sung này.
+
 Cập nhật 08/11/2026. **Chưa chuyển sang giai đoạn 2 hoặc 3.**
 
 - Đã bỏ phần tử `.notice` khỏi JavaScript và CSS thừa. Footer giữ thông báo mô phỏng.

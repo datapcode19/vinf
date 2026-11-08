@@ -1,8 +1,12 @@
+import {enter} from './motion.js';
+
 export function initTabs(root = document) {
  root.querySelectorAll('[data-tabs]').forEach(group => {
   const tabs = [...group.querySelectorAll('[role="tab"]')];
   const activate = tab => {
+   if (tab.getAttribute('aria-selected') === 'true') return;
    tabs.forEach(item => { const active=item===tab; item.setAttribute('aria-selected',String(active));item.tabIndex=active?0:-1;document.getElementById(item.getAttribute('aria-controls')).hidden=!active; });
+   enter(document.getElementById(tab.getAttribute('aria-controls')));
   };
   tabs.forEach((tab,i)=>{
    tab.addEventListener('click',()=>activate(tab));
@@ -18,7 +22,24 @@ export function initAccordions(root = document) {
 export function initSlider(root = document) {
  root.querySelectorAll('[data-slider]').forEach(slider=>{
   const slides=[...slider.querySelectorAll('[data-slide]')], dots=[...slider.querySelectorAll('[data-slide-to]')];let current=0;
-  function show(index){current=(index+slides.length)%slides.length;slides.forEach((slide,i)=>slide.hidden=i!==current);dots.forEach((dot,i)=>dot.setAttribute('aria-pressed',String(i===current)));slider.querySelector('[data-slide-status]').textContent=`${current+1} / ${slides.length}`;}
+  let finish = () => {};
+  function show(index){
+   const next=(index+slides.length)%slides.length, direction=index<current?-1:1;
+   finish();
+   const previous=slides[current], incoming=slides[next], changed=next!==current;
+   current=next;
+   slides.forEach((slide,i)=>{slide.hidden=i!==current;slide.inert=i!==current;slide.setAttribute('aria-hidden',String(i!==current));});
+   dots.forEach((dot,i)=>dot.setAttribute('aria-pressed',String(i===current)));
+   slider.querySelector('[data-slide-status]').textContent=`${current+1} / ${slides.length}`;
+   if(!changed || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+   previous.hidden=false;
+   const options={duration:780,easing:'cubic-bezier(.22, 1, .36, 1)'};
+   const outgoing=previous.animate([{opacity:1,transform:'translateX(0)'},{opacity:0,transform:`translateX(${-direction*5}%)`}],options);
+   const arriving=incoming.animate([{opacity:0,transform:`translateX(${direction*7}%)`},{opacity:1,transform:'translateX(0)'}],options);
+   enter(incoming.querySelector('.hero-copy'),28);
+   finish=()=>{previous.hidden=true;outgoing.cancel();arriving.cancel();finish=()=>{};};
+   arriving.finished.then(()=>finish()).catch(()=>{});
+  }
   slider.querySelector('[data-prev]').addEventListener('click',()=>show(current-1));slider.querySelector('[data-next]').addEventListener('click',()=>show(current+1));dots.forEach((dot,i)=>dot.addEventListener('click',()=>show(i)));show(0);
  });
 }

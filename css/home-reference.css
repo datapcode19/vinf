@@ -40,4 +40,4 @@ body.shared-chrome .has-tools [role=tablist]{padding-bottom:360px}
 @media(max-width:480px){body.shared-chrome .footer-grid{grid-template-columns:1fr}}
 
 @font-face{font-family:Mulish;src:url(../assets/fonts/Mulish.ttf) format("truetype");font-weight:200 1000;font-display:swap}body.shared-chrome{font-family:Mulish,Arial,sans-serif}.shared-chrome .mega-product-card:hover{background:#edf2fa}.shared-chrome [aria-current=page]{color:var(--blue)}
-@media(prefers-reduced-motion:no-preference){.mega-menu:not([hidden]){animation:menu-enter .16s ease-out}[data-slide]:not([hidden]){animation:menu-enter .25s ease-out}@keyframes menu-enter{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:none}}}
+@media(prefers-reduced-motion:no-preference){.mega-menu:not([hidden]){animation:menu-enter .16s ease-out}@keyframes menu-enter{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:none}}}

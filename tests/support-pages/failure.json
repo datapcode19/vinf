@@ -1,0 +1,257 @@
+{
+  "error": "768 maintenance.html\n\ntrue !== false\n",
+  "checks": [
+    {
+      "width": 1920,
+      "path": "about.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1920,
+      "path": "vingroup.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1920,
+      "path": "maintenance.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1920,
+      "path": "repair.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1920,
+      "path": "scooter-battery.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1920,
+      "path": "scooter-warranty.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1920,
+      "path": "service-booking.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1920,
+      "path": "accessories.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1920,
+      "path": "accessory.html?id=EEP71061000",
+      "status": "PASS"
+    },
+    {
+      "width": 1920,
+      "path": "accessory.html?id=ACS10000246",
+      "status": "PASS"
+    },
+    {
+      "width": 1920,
+      "path": "accessory.html?id=ACS40000094",
+      "status": "PASS"
+    },
+    {
+      "width": 1920,
+      "path": "accessory.html?id=EEP69072176AB",
+      "status": "PASS"
+    },
+    {
+      "width": 1440,
+      "path": "about.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1440,
+      "path": "vingroup.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1440,
+      "path": "maintenance.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1440,
+      "path": "repair.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1440,
+      "path": "scooter-battery.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1440,
+      "path": "scooter-warranty.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1440,
+      "path": "service-booking.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1440,
+      "path": "accessories.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1440,
+      "path": "accessory.html?id=EEP71061000",
+      "status": "PASS"
+    },
+    {
+      "width": 1440,
+      "path": "accessory.html?id=ACS10000246",
+      "status": "PASS"
+    },
+    {
+      "width": 1440,
+      "path": "accessory.html?id=ACS40000094",
+      "status": "PASS"
+    },
+    {
+      "width": 1440,
+      "path": "accessory.html?id=EEP69072176AB",
+      "status": "PASS"
+    },
+    {
+      "width": 1366,
+      "path": "about.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1366,
+      "path": "vingroup.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1366,
+      "path": "maintenance.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1366,
+      "path": "repair.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1366,
+      "path": "scooter-battery.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1366,
+      "path": "scooter-warranty.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1366,
+      "path": "service-booking.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1366,
+      "path": "accessories.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1366,
+      "path": "accessory.html?id=EEP71061000",
+      "status": "PASS"
+    },
+    {
+      "width": 1366,
+      "path": "accessory.html?id=ACS10000246",
+      "status": "PASS"
+    },
+    {
+      "width": 1366,
+      "path": "accessory.html?id=ACS40000094",
+      "status": "PASS"
+    },
+    {
+      "width": 1366,
+      "path": "accessory.html?id=EEP69072176AB",
+      "status": "PASS"
+    },
+    {
+      "width": 1024,
+      "path": "about.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1024,
+      "path": "vingroup.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1024,
+      "path": "maintenance.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1024,
+      "path": "repair.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1024,
+      "path": "scooter-battery.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1024,
+      "path": "scooter-warranty.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1024,
+      "path": "service-booking.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1024,
+      "path": "accessories.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1024,
+      "path": "accessory.html?id=EEP71061000",
+      "status": "PASS"
+    },
+    {
+      "width": 1024,
+      "path": "accessory.html?id=ACS10000246",
+      "status": "PASS"
+    },
+    {
+      "width": 1024,
+      "path": "accessory.html?id=ACS40000094",
+      "status": "PASS"
+    },
+    {
+      "width": 1024,
+      "path": "accessory.html?id=EEP69072176AB",
+      "status": "PASS"
+    },
+    {
+      "width": 768,
+      "path": "about.html",
+      "status": "PASS"
+    },
+    {
+      "width": 768,
+      "path": "vingroup.html",
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "badResponses": []
+}

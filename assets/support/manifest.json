@@ -1,0 +1,58 @@
+[
+  {
+    "file": "assets/support/about.png",
+    "source": "https://static-cms-prod.vinfastauto.com/about-us.png",
+    "role": "Support subpage / about.png",
+    "permission": "Educational use confirmed by user 2026-11-07",
+    "status": "Source asset; layout not verified"
+  },
+  {
+    "file": "assets/support/factory.jpg",
+    "source": "https://static-cms-prod.vinfastauto.com/nha-may-vinfast.jpg",
+    "role": "Support subpage / factory.jpg",
+    "permission": "Educational use confirmed by user 2026-11-07",
+    "status": "Source asset; layout not verified"
+  },
+  {
+    "file": "assets/support/nasdaq.png",
+    "source": "https://static-cms-prod.vinfastauto.com/vinfast-ipo_1694854769.png",
+    "role": "Support subpage / nasdaq.png",
+    "permission": "Educational use confirmed by user 2026-11-07",
+    "status": "Source asset; layout not verified"
+  },
+  {
+    "file": "assets/support/maintenance-quality.jpg",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/images/aftersale-maintenance/benefit-quality-v2.jpg",
+    "role": "Support subpage / maintenance-quality.jpg",
+    "permission": "Educational use confirmed by user 2026-11-07",
+    "status": "Source asset; layout not verified"
+  },
+  {
+    "file": "assets/support/maintenance-network.jpg",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/images/aftersale-maintenance/benefit-network-v2.jpg",
+    "role": "Support subpage / maintenance-network.jpg",
+    "permission": "Educational use confirmed by user 2026-11-07",
+    "status": "Source asset; layout not verified"
+  },
+  {
+    "file": "assets/support/repair-general.jpg",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/images/aftersale-repair/repair-slide-general.jpg",
+    "role": "Support subpage / repair-general.jpg",
+    "permission": "Educational use confirmed by user 2026-11-07",
+    "status": "Source asset; layout not verified"
+  },
+  {
+    "file": "assets/support/repair-body.jpg",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/images/aftersale-repair/repair-slide-dongson.jpg",
+    "role": "Support subpage / repair-body.jpg",
+    "permission": "Educational use confirmed by user 2026-11-07",
+    "status": "Source asset; layout not verified"
+  },
+  {
+    "file": "assets/support/battery-rental.png",
+    "source": "https://static-cms-prod.vinfastauto.com/loi-ich-cua-thue-pin_1657176007_1657677313_1659499007.png",
+    "role": "Support subpage / battery-rental.png",
+    "permission": "Educational use confirmed by user 2026-11-07",
+    "status": "Source asset; layout not verified"
+  }
+]

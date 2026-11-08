@@ -1,8 +1,8 @@
 {
   "scope": "Unique destinations from current header/footer; excludes external ecosystem sites and body-only CTAs",
   "counts": {
-    "PARTIAL": 9,
-    "NOT STARTED": 73
+    "PARTIAL": 17,
+    "NOT STARTED": 65
   },
   "rows": [
     {
@@ -17,8 +17,8 @@
       "name": "Giới thiệu",
       "url": "https://vinfastauto.com/vn_vi/ve-chung-toi",
       "parent": "Header",
-      "local": "pages/reference.html?route=ve-chung-toi",
-      "status": "NOT STARTED",
+      "local": "pages/about.html",
+      "status": "PARTIAL",
       "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
     },
     {
@@ -417,8 +417,8 @@
       "name": "Phụ kiện xe",
       "url": "https://shop.vinfastauto.com/vn_vi/phu-kien",
       "parent": "Header",
-      "local": "pages/reference.html?route=phu-kien",
-      "status": "NOT STARTED",
+      "local": "pages/accessories.html",
+      "status": "PARTIAL",
       "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
     },
     {
@@ -433,16 +433,16 @@
       "name": "Dịch vụ bảo dưỡng",
       "url": "https://vinfastauto.com/vn_vi/dich-vu-bao-duong-oto",
       "parent": "Dịch vụ hậu mãi / Ô tô điện",
-      "local": "pages/reference.html?route=dich-vu-bao-duong-oto",
-      "status": "NOT STARTED",
+      "local": "pages/maintenance.html",
+      "status": "PARTIAL",
       "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
     },
     {
       "name": "Dịch vụ sửa chữa",
       "url": "https://vinfastauto.com/vn_vi/dich-vu-sua-chua-oto",
       "parent": "Dịch vụ hậu mãi / Ô tô điện",
-      "local": "pages/reference.html?route=dich-vu-sua-chua-oto",
-      "status": "NOT STARTED",
+      "local": "pages/repair.html",
+      "status": "PARTIAL",
       "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
     },
     {
@@ -465,8 +465,8 @@
       "name": "Chính sách bảo hành",
       "url": "https://vinfastauto.com/vn_vi/chinh-sach-bao-hanh-xe-may-dien",
       "parent": "Dịch vụ hậu mãi / Xe máy điện",
-      "local": "pages/reference.html?route=chinh-sach-bao-hanh-xe-may-dien",
-      "status": "NOT STARTED",
+      "local": "pages/scooter-warranty.html",
+      "status": "PARTIAL",
       "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
     },
     {
@@ -545,8 +545,8 @@
       "name": "Đặt lịch dịch vụ",
       "url": "https://shop.vinfastauto.com/vn_vi/dat-lich-dich-vu-bao-duong.html",
       "parent": "Dịch vụ hậu mãi / Tra cứu",
-      "local": "pages/reference.html?route=dat-lich-dich-vu-bao-duong.html",
-      "status": "NOT STARTED",
+      "local": "pages/service-booking.html",
+      "status": "PARTIAL",
       "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
     },
     {
@@ -561,8 +561,8 @@
       "name": "Pin và trạm sạc Xe máy điện",
       "url": "https://vinfastauto.com/vn_vi/dich-vu-pin-xe-may-dien",
       "parent": "Pin và trạm sạc / Thông tin",
-      "local": "pages/reference.html?route=dich-vu-pin-xe-may-dien",
-      "status": "NOT STARTED",
+      "local": "pages/scooter-battery.html",
+      "status": "PARTIAL",
       "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
     },
     {
@@ -577,8 +577,8 @@
       "name": "Về Vingroup",
       "url": "https://vinfastauto.com/vn_vi/ve-vingroup",
       "parent": "Footer / VinFast",
-      "local": "pages/reference.html?route=ve-vingroup",
-      "status": "NOT STARTED",
+      "local": "pages/vingroup.html",
+      "status": "PARTIAL",
       "sourceView": "Text/assets available for selected pages; desktop/mobile layout UNVERIFIED"
     },
     {

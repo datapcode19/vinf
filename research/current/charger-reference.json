@@ -1,0 +1,62 @@
+[
+  {
+    "width": 1440,
+    "status": 200,
+    "title": "Sạc Tại Nhà 3KW | VinFast",
+    "headings": [
+      "Sạc Tại Nhà 3KW",
+      "Lỗi thanh toán",
+      "Thay đổi sản phẩm trong giỏ hàng",
+      "Giỏ hàng không hợp lệ",
+      "KIỂM TRA LẠI CÁC SẢN PHẨM SAU"
+    ],
+    "loadedImages": {
+      "loaded": 4,
+      "total": 136
+    },
+    "product": {
+      "text": "Sạc Tại Nhà 3KW",
+      "rect": {
+        "x": 450.390625,
+        "y": 210,
+        "width": 595.96875,
+        "height": 25,
+        "top": 210,
+        "right": 1046.359375,
+        "bottom": 235,
+        "left": 450.390625
+      },
+      "font": "600 20px / 25px Mulish, \"Source Sans Pro\", sans-serif"
+    }
+  },
+  {
+    "width": 390,
+    "status": 200,
+    "title": "Sạc Tại Nhà 3KW | VinFast",
+    "headings": [
+      "Sạc Tại Nhà 3KW",
+      "Lỗi thanh toán",
+      "Thay đổi sản phẩm trong giỏ hàng",
+      "Giỏ hàng không hợp lệ",
+      "KIỂM TRA LẠI CÁC SẢN PHẨM SAU"
+    ],
+    "loadedImages": {
+      "loaded": 2,
+      "total": 134
+    },
+    "product": {
+      "text": "Sạc Tại Nhà 3KW",
+      "rect": {
+        "x": 10.5,
+        "y": 677,
+        "width": 369,
+        "height": 27,
+        "top": 677,
+        "right": 379.5,
+        "bottom": 704,
+        "left": 10.5
+      },
+      "font": "600 18px / 27px Mulish, \"Source Sans Pro\", sans-serif"
+    }
+  }
+]

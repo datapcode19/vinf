@@ -1,13 +1,13 @@
 # Độ bao phủ URL — giai đoạn 1
 
-PARTIAL: **9** · NOT STARTED: **73** · VERIFIED COMPLETE: **0** · FUNCTIONAL COMPLETE: **0** · BLOCKED (toàn trang): **0**.
+PARTIAL: **17** · NOT STARTED: **65** · VERIFIED COMPLETE: **0** · FUNCTIONAL COMPLETE: **0** · BLOCKED (toàn trang): **0**.
 
 Phạm vi: URL duy nhất trong header/footer hiện có; chưa phải toàn bộ sitemap VinFast. Hero trang chủ và đối chiếu giao diện bị chặn ở cấp section. Trang thông báo thiếu dữ liệu không được tính là triển khai.
 
 | URL nguồn | Cha | Cục bộ | Trạng thái |
 |---|---|---|---|
 | https://vinfastauto.com/vn_vi | Root | index.html | PARTIAL |
-| https://vinfastauto.com/vn_vi/ve-chung-toi | Header | pages/reference.html?route=ve-chung-toi | NOT STARTED |
+| https://vinfastauto.com/vn_vi/ve-chung-toi | Header | pages/about.html | PARTIAL |
 | https://vinfastauto.com/vn_vi/dat-coc-xe-vf2 | Ô tô / Xe cá nhân | pages/reference.html?route=dat-coc-xe-vf2 | NOT STARTED |
 | https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf3 | Ô tô / Xe cá nhân | pages/vf3.html | PARTIAL |
 | https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf5 | Ô tô / Xe cá nhân | pages/reference.html?route=dat-coc-xe-dien-vf5 | NOT STARTED |
@@ -57,13 +57,13 @@ Phạm vi: URL duy nhất trong header/footer hiện có; chưa phải toàn b�
 | https://vinfastauto.com/vn_vi/xe-may-dien-evo-lite-neo | Xe máy điện / Xe phổ thông | pages/reference.html?route=xe-may-dien-evo-lite-neo | NOT STARTED |
 | https://vinfastauto.com/vn_vi/tinh-chi-phi-su-dung-xmd | Xe máy điện / Công cụ hỗ trợ khách hàng | pages/reference.html?route=tinh-chi-phi-su-dung-xmd | NOT STARTED |
 | https://vinfastauto.com/vn_vi/mua-xe-may-dien-truc-tuyen | Xe máy điện / Công cụ hỗ trợ khách hàng | pages/reference.html?route=mua-xe-may-dien-truc-tuyen | NOT STARTED |
-| https://shop.vinfastauto.com/vn_vi/phu-kien | Header | pages/reference.html?route=phu-kien | NOT STARTED |
+| https://shop.vinfastauto.com/vn_vi/phu-kien | Header | pages/accessories.html | PARTIAL |
 | ./pages/warranty.html | Dịch vụ hậu mãi / Ô tô điện | pages/warranty.html | PARTIAL |
-| https://vinfastauto.com/vn_vi/dich-vu-bao-duong-oto | Dịch vụ hậu mãi / Ô tô điện | pages/reference.html?route=dich-vu-bao-duong-oto | NOT STARTED |
-| https://vinfastauto.com/vn_vi/dich-vu-sua-chua-oto | Dịch vụ hậu mãi / Ô tô điện | pages/reference.html?route=dich-vu-sua-chua-oto | NOT STARTED |
+| https://vinfastauto.com/vn_vi/dich-vu-bao-duong-oto | Dịch vụ hậu mãi / Ô tô điện | pages/maintenance.html | PARTIAL |
+| https://vinfastauto.com/vn_vi/dich-vu-sua-chua-oto | Dịch vụ hậu mãi / Ô tô điện | pages/repair.html | PARTIAL |
 | https://vinfastauto.com/vn_vi/thong-tin-cuu-ho-oto | Dịch vụ hậu mãi / Ô tô điện | pages/rescue.html | PARTIAL |
 | https://vinfastauto.com/vn_vi/tai-lieu-o-to | Dịch vụ hậu mãi / Ô tô điện | pages/reference.html?route=tai-lieu-o-to | NOT STARTED |
-| https://vinfastauto.com/vn_vi/chinh-sach-bao-hanh-xe-may-dien | Dịch vụ hậu mãi / Xe máy điện | pages/reference.html?route=chinh-sach-bao-hanh-xe-may-dien | NOT STARTED |
+| https://vinfastauto.com/vn_vi/chinh-sach-bao-hanh-xe-may-dien | Dịch vụ hậu mãi / Xe máy điện | pages/scooter-warranty.html | PARTIAL |
 | https://vinfastauto.com/vn_vi/dich-vu-bao-duong-xe-may-dien | Dịch vụ hậu mãi / Xe máy điện | pages/reference.html?route=dich-vu-bao-duong-xe-may-dien | NOT STARTED |
 | https://vinfastauto.com/vn_vi/dich-vu-sua-chua-xe-may-dien | Dịch vụ hậu mãi / Xe máy điện | pages/reference.html?route=dich-vu-sua-chua-xe-may-dien | NOT STARTED |
 | https://vinfastauto.com/vn_vi/tai-lieu-xe-may-dien | Dịch vụ hậu mãi / Xe máy điện | pages/reference.html?route=tai-lieu-xe-may-dien | NOT STARTED |
@@ -73,11 +73,11 @@ Phạm vi: URL duy nhất trong header/footer hiện có; chưa phải toàn b�
 | https://vinfastauto.com/vn_vi/thong-tin-cuu-ho-ebus | Dịch vụ hậu mãi / Xe bus | pages/reference.html?route=thong-tin-cuu-ho-ebus | NOT STARTED |
 | https://vinfastauto.com/vn_vi/tai-lieu-ebus | Dịch vụ hậu mãi / Xe bus | pages/reference.html?route=tai-lieu-ebus | NOT STARTED |
 | https://vinfastauto.com/vn_vi/tim-kiem-showroom-tram-sac | Dịch vụ hậu mãi / Tra cứu | pages/reference.html?route=tim-kiem-showroom-tram-sac | NOT STARTED |
-| https://shop.vinfastauto.com/vn_vi/dat-lich-dich-vu-bao-duong.html | Dịch vụ hậu mãi / Tra cứu | pages/reference.html?route=dat-lich-dich-vu-bao-duong.html | NOT STARTED |
+| https://shop.vinfastauto.com/vn_vi/dat-lich-dich-vu-bao-duong.html | Dịch vụ hậu mãi / Tra cứu | pages/service-booking.html | PARTIAL |
 | ./pages/battery.html | Pin và trạm sạc / Thông tin | pages/battery.html | PARTIAL |
-| https://vinfastauto.com/vn_vi/dich-vu-pin-xe-may-dien | Pin và trạm sạc / Thông tin | pages/reference.html?route=dich-vu-pin-xe-may-dien | NOT STARTED |
+| https://vinfastauto.com/vn_vi/dich-vu-pin-xe-may-dien | Pin và trạm sạc / Thông tin | pages/scooter-battery.html | PARTIAL |
 | https://vinfastauto.com/vn_vi/vf-energy | Header | pages/reference.html?route=vf-energy | NOT STARTED |
-| https://vinfastauto.com/vn_vi/ve-vingroup | Footer / VinFast | pages/reference.html?route=ve-vingroup | NOT STARTED |
+| https://vinfastauto.com/vn_vi/ve-vingroup | Footer / VinFast | pages/vingroup.html | PARTIAL |
 | https://vinfastauto.com/vn_vi/tin-tuc/cong-ty | Footer / Tin tức | pages/reference.html?route=tin-tuc%2Fcong-ty | NOT STARTED |
 | https://vinfastauto.com/vn_vi/tin-tuc/o-to-dien | Footer / Tin tức | pages/reference.html?route=tin-tuc%2Fo-to-dien | NOT STARTED |
 | https://vinfastauto.com/vn_vi/tin-tuc/xe-may-dien | Footer / Tin tức | pages/reference.html?route=tin-tuc%2Fxe-may-dien | NOT STARTED |

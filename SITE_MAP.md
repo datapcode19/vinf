@@ -2,6 +2,8 @@
 
 # Sơ đồ website và phạm vi khảo sát
 
+Cập nhật trang phụ: [12 URL mới và phần còn thiếu](SUPPORT_PAGES_STATUS.md). Các URL mới đã ánh xạ nội bộ trong `js/routes.js`; kiểm kê hiện tại có 17 đích triển khai một phần và 65 đích chưa triển khai trong 82 đích header/footer. Bốn URL chi tiết phụ kiện ngoài nhóm đếm này. Không có trang được xác nhận clone hoàn chỉnh.
+
 > Cập nhật giai đoạn hiện tại: trang chủ là **IMPLEMENTED — UNVERIFIED**, hero và đối chiếu thị giác **BLOCKED**. Các trang con có sẵn giữ ở **IMPLEMENTED — UNVERIFIED** (nội dung tóm tắt; chưa clone đầy đủ), các trang chưa dựng là **NOT STARTED**. Không có trang **COMPLETED**. Chưa mở rộng trang con mới trước khi giải quyết giới hạn trang chủ. Chi tiết từng section ở `HOME_SECTIONS.md`; danh sách PASS cục bộ bên dưới chỉ phản ánh kiểm thử chức năng, không phải hoàn thành clone.
 
 Ngày khảo sát: 07/11/2026. Nguồn: https://vinfastauto.com/vn_vi.

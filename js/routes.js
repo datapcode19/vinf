@@ -2,6 +2,18 @@
 export const siteRoot = new URL('../', import.meta.url);
 export const localURL = path => new URL(path, siteRoot).href;
 const known = {
+ 've-chung-toi':'about.html',
+ 've-vingroup':'vingroup.html',
+ 'chinh-sach-bao-hanh-xe-may-dien':'scooter-warranty.html',
+ 'dich-vu-bao-duong-oto':'maintenance.html',
+ 'dich-vu-sua-chua-oto':'repair.html',
+ 'dich-vu-pin-xe-may-dien':'scooter-battery.html',
+ 'dat-lich-dich-vu-bao-duong.html':'service-booking.html',
+ 'phu-kien':'accessories.html',
+ 'EEP71061000.html':'accessory.html?id=EEP71061000',
+ 'ACS10000246.html':'accessory.html?id=ACS10000246',
+ 'ACS40000094.html':'accessory.html?id=ACS40000094',
+ 'EEP69072176AB.html':'accessory.html?id=EEP69072176AB',
  'dat-coc-xe-dien-vf3':'vf3.html',
  'dat-coc-xe-dien-vf6':'product.html?id=vf6',
  'xe-may-dien-vinfast-kinet':'product.html?id=kinet',
