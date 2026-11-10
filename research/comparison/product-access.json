@@ -1,35 +1,55 @@
-{
-  "date": "2026-11-10",
-  "results": [
-    {
-      "slug": "xe-may-dien-evo-grand-premia",
-      "status": 403,
-      "title": ""
-    },
-    {
-      "slug": "dat-coc-xe-dien-vf3",
-      "status": 403,
-      "title": ""
-    },
-    {
-      "slug": "dat-coc-xe-dien-vf5",
-      "status": 403,
-      "title": ""
-    },
-    {
-      "slug": "dat-coc-xe-dien-vf6",
-      "status": 403,
-      "title": ""
-    },
-    {
-      "slug": "xe-may-dien-vinfast-kinet",
-      "status": 403,
-      "title": ""
-    },
-    {
-      "slug": "xe-may-dien-vinfast-viper",
-      "status": 403,
-      "title": ""
-    }
-  ]
-}
+[
+  {
+    "date": "2026-11-10",
+    "results": [
+      {
+        "slug": "xe-may-dien-evo-grand-premia",
+        "status": 403,
+        "title": ""
+      },
+      {
+        "slug": "dat-coc-xe-dien-vf3",
+        "status": 403,
+        "title": ""
+      },
+      {
+        "slug": "dat-coc-xe-dien-vf5",
+        "status": 403,
+        "title": ""
+      },
+      {
+        "slug": "dat-coc-xe-dien-vf6",
+        "status": 403,
+        "title": ""
+      },
+      {
+        "slug": "xe-may-dien-vinfast-kinet",
+        "status": 403,
+        "title": ""
+      },
+      {
+        "slug": "xe-may-dien-vinfast-viper",
+        "status": 403,
+        "title": ""
+      }
+    ]
+  },
+  {
+    "url": "https://vinfastauto.com/vn_vi/dat-coc-xe-vf-wild",
+    "status": 403,
+    "blocked": true,
+    "date": "2026-11-10"
+  },
+  {
+    "url": "https://vinfastauto.com/vn_vi/dat-coc-xe-vf8-the-all-new-2026",
+    "status": 403,
+    "blocked": true,
+    "date": "2026-11-10"
+  },
+  {
+    "url": "https://vinfastauto.com/vn_vi/dat-coc-xe-vf-mpv7",
+    "status": 403,
+    "blocked": true,
+    "date": "2026-11-10"
+  }
+]

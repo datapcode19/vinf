@@ -3,6 +3,8 @@ import { renderViper } from './viper.js';
 import { renderPremia } from './premia.js';
 import { renderVF7 } from './vf7.js';
 import { renderLargeSUV } from './large-suv.js';
+import { renderNewCar } from './new-cars.js';
+import { renderWild } from './vf-wild.js';
 import { renderEvoGrand } from './evo-grand.js';
 import { initHorizontalScroll } from './swipe.js';
 import { renderVingroup, renderScooterWarranty } from './company-pages.js';
@@ -243,6 +245,10 @@ function battery() {
 }
 
 const renderers = {
+  vf2: () => renderNewCar(main, 'vf2'),
+  'vf8-new': () => renderNewCar(main, 'vf8-new'),
+  'vf-mpv7': () => renderNewCar(main, 'vf-mpv7'),
+  'vf-wild': () => renderWild(main),
   vf8: () => renderLargeSUV(main, 'vf8'),
   vf9: () => renderLargeSUV(main, 'vf9'),
   vf7: () => renderVF7(main),

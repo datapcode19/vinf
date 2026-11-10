@@ -1,0 +1,98 @@
+[
+  {
+    "file": "assets/vf-wild/mission.png",
+    "source": "https://static-cms-prod.vinfastauto.com/highlight-su-menh-bg-wild-22092026.png",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-vf-wild",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "mission"
+  },
+  {
+    "file": "assets/vf-wild/top.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/wild-2026/mission-car-top.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-vf-wild",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "top"
+  },
+  {
+    "file": "assets/vf-wild/intro.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/wild-2026/intro-image-mobile.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-vf-wild",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "intro"
+  },
+  {
+    "file": "assets/vf-wild/wheel.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/wild-2026/ext-wheel-closeup.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-vf-wild",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "wheel"
+  },
+  {
+    "file": "assets/vf-wild/wheel-parts.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/wild-2026/ext-wheel-exploded.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-vf-wild",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "wheel-parts"
+  },
+  {
+    "file": "assets/vf-wild/canyon.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/ext-canyon-19092026.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-vf-wild",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "canyon"
+  },
+  {
+    "file": "assets/vf-wild/dust.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/wild-2026/ext-dust.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-vf-wild",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "dust"
+  },
+  {
+    "file": "assets/vf-wild/glow.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/wild-2026/vh-glow-streak.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-vf-wild",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "glow"
+  },
+  {
+    "file": "assets/vf-wild/reev.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/wild-2026/reev-glow-line.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-vf-wild",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "reev"
+  },
+  {
+    "file": "assets/vf-wild/interior.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/wild-2026/interior-bg.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-vf-wild",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "interior"
+  },
+  {
+    "file": "assets/vf-wild/seats.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/wild-2026/interior-seat-photo.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-vf-wild",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "seats"
+  },
+  {
+    "file": "assets/vf-wild/hero.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/wild-2026/banner2-bg.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-vf-wild",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "hero"
+  }
+]

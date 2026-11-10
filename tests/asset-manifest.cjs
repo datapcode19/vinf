@@ -4,6 +4,10 @@ const {
 } = require('C:/Users/TIEN DAT/AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/playwright/driver/package');
 (async () => {
   const inputs = [
+    'assets/vf2/manifest.json',
+    'assets/vf8-new/manifest.json',
+    'assets/vf-mpv7/manifest.json',
+    'assets/vf-wild/manifest.json',
     'assets/vf8/manifest.json',
     'assets/vf9/manifest.json',
     'assets/vf7/manifest.json',

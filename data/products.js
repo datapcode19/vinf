@@ -1,5 +1,19 @@
+import { newCars } from './new-cars.js';
+
 // Chỉ dữ liệu tĩnh; không gọi API VinFast. Các số liệu là snapshot khảo sát.
 export const products = [
+  ...Object.entries(newCars).map(([id, model]) => ({
+    id, name: model.name, group: 'personal', segment: model.segment,
+    seats: model.seats, range: model.range, price: model.price,
+    image: `${id}/summary.webp`, detailPath: id,
+    source: `https://vinfastauto.com/vn_vi/${model.route}`,
+  })),
+  {
+    id: 'vf-wild', name: 'VF Wild', group: 'personal', segment: 'Bán tải REEV',
+    seats: 5, range: 'Tới 1.000 km (kết hợp, NEDC)', price: 860000000,
+    image: 'vf-wild/hero.webp', detailPath: 'vf-wild',
+    source: 'https://vinfastauto.com/vn_vi/dat-coc-xe-vf-wild',
+  },
   {
     id: 'evo-grand-premia',
     name: 'Evo Grand Premia',

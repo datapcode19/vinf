@@ -2,6 +2,10 @@
 export const siteRoot = new URL('../', import.meta.url);
 export const localURL = (path) => new URL(path, siteRoot).href;
 const known = {
+  'dat-coc-xe-vf2': 'vf2.html',
+  'dat-coc-xe-vf8-the-all-new-2026': 'vf8-new.html',
+  'dat-coc-xe-vf-mpv7': 'vf-mpv7.html',
+  'dat-coc-xe-vf-wild': 'vf-wild.html',
   'dat-coc-xe-vf8': 'vf8.html',
   'dat-coc-xe-vf9': 'vf9.html',
   'dat-coc-xe-dien-vf7': 'vf7.html',

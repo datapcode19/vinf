@@ -1,0 +1,85 @@
+{
+  "vf8-new": {
+    "route": "dat-coc-xe-vf8-the-all-new-2026",
+    "base": "statics/car/vf8-all-new/",
+    "files": {
+      "hero": "vinfast-vf8-all-new-ngoai-that-mau-trang-banner-desktop-20260915.webp",
+      "summary": "/statics/vf8-all-new/vinfast-vf8-all-new-ngoai-that-mau-trang-logo-desktop.webp",
+      "white": "hinh-anh-vinfast-vf-8-all-new-ngoai-that-mau-trang-desktop.webp",
+      "exterior-1": "hinh-anh-vinfast-vf-8-all-new-exterior-slider-1-desktop.webp",
+      "exterior-2": "hinh-anh-vinfast-vf-8-all-new-exterior-slider-2-desktop.webp",
+      "exterior-3": "hinh-anh-vinfast-vf-8-all-new-exterior-slider-3-desktop.webp",
+      "exterior-4": "hinh-anh-vinfast-vf-8-all-new-exterior-slider-4-desktop.webp",
+      "exterior-5": "hinh-anh-vinfast-vf-8-all-new-exterior-slider-5-desktop.webp",
+      "led": "/statics/vf8-all-new/vinfast-vf8-all-new-ngoai-that-mau-do-highlight-2-desktop.webp",
+      "front": "vinfast-vf8-all-new-ngoai-that-mau-do-highlight-3-desktop-202609155.webp",
+      "mirror": "/statics/vf8-all-new/vinfast-vf8-all-new-ngoai-that-mau-do-highlight-4-desktop.webp",
+      "interior": "/statics/vf8-all-new/vinfast-vf8-all-new-noi-that-mau-den-ngay-desktop.webp",
+      "interior-1": "/statics/vf8-all-new/vinfast-vf8-all-new-noi-that-mau-den-vo-lang-desktop.webp",
+      "interior-2": "/statics/vf8-all-new/vinfast-vf8-all-new-noi-that-mau-den-ghe-sau-desktop.webp",
+      "interior-3": "/statics/vf8-all-new/vinfast-vf8-all-new-noi-that-mau-den-man-hinh-desktop.webp",
+      "interior-4": "/statics/vf8-all-new/vinfast-vf8-all-new-noi-that-mau-den-ghe-truoc-desktop.webp"
+    }
+  },
+  "vf-mpv7": {
+    "route": "dat-coc-xe-vf-mpv7",
+    "base": "statics/car/mpv7/",
+    "files": {
+      "hero": "hinh-anh-vinfast-mpv7-hero-banner-desktop.webp",
+      "summary": "hinh-anh-vinfast-mpv7-text-logo-banner-desktop.webp",
+      "white": "hinh-anh-vinfast-mpv7-exterior-mau-trang-desktop.webp",
+      "exterior-1": "vinfast-vfmpv7-ngoai-that-mau-xanh-gallery-desktop.webp",
+      "exterior-2": "vinfast-vfmpv7-ngoai-that-mau-nau-gallery-desktop.webp",
+      "exterior-3": "vinfast-vfmpv7-ngoai-that-mau-do-gallery-desktop.webp",
+      "exterior-4": "vinfast-vfmpv7-ngoai-that-mau-nau-gallery-desktop-2.webp",
+      "exterior-5": "vinfast-vfmpv7-ngoai-that-mau-den-gallery-desktop.webp",
+      "led": "hinh-anh-vinfast-mpv7-ngoai-that-mau-do-den-led-desktop.webp",
+      "antenna": "hinh-anh-vinfast-mpv7-ngoai-that-mau-xanh-duong-ang-ten-desktop.webp",
+      "wheel": "hinh-anh-vinfast-mpv7-ngoai-that-mau-den-la-zang-desktop.webp",
+      "interior": "vinfast-vfmpv7-noi-that-mau-den-ngay-desktop.webp",
+      "interior-1": "vinfast-vfmpv7-noi-that-mau-den-ghe-sau-desktop.webp",
+      "interior-2": "vinfast-vfmpv7-noi-that-mau-den-vo-lang-desktop.webp",
+      "interior-3": "vinfast-vfmpv7-noi-that-mau-den-tran-xe-desktop.webp",
+      "interior-4": "vinfast-vfmpv7-noi-that-mau-den-cop-xe-desktop.webp"
+    }
+  },
+  "vf2": {
+    "route": "dat-coc-xe-vf2",
+    "base": "statics/car/vf2/",
+    "files": {
+      "hero": "hinh-anh-vinfast-vf2-hero-banner-new-desktop.webp",
+      "summary": "vinfast-vf2-thiet-ke-ngoai-that-mau-be-vang-logo-desktop.webp",
+      "white": "hinh-anh-vinfast-vf2-ngoai-that-mau-trang-desktop.webp",
+      "exterior-1": "hinh-anh-vinfast-vf2-exterior-slider-1-desktop.webp",
+      "exterior-2": "hinh-anh-vinfast-vf2-exterior-slider-2-desktop.webp",
+      "exterior-3": "hinh-anh-vinfast-vf2-exterior-slider-3-desktop.webp",
+      "exterior-4": "hinh-anh-vinfast-vf2-exterior-slider-5-desktop.webp",
+      "front": "vinfast-vf2-ngoai-that-mau-vang-be-goc-truoc-3-4-desktop.webp",
+      "doors": "hinh-anh-vinfast-vf2-ngoai-that-mau-hong-hai-cua-desktop.webp",
+      "wheel": "vinfast-vf2-ngoai-that-mau-xanh-mint-den-pha-canh-truoc-desktop.webp",
+      "interior": "vinfast-vf2-noi-that-buong-lai-vo-lang-bang-dieu-khien-desktop.webp",
+      "interior-1": "hinh-anh-vinfast-vf2-interior-slider-detail-1-desktop.webp",
+      "interior-2": "vinfast-vf2-noi-that-khoan-cabin-4-ghe-nhin-tu-tren-2-desktop.webp",
+      "interior-3": "hinh-anh-vinfast-vf2-interior-slider-detail-3-desktop.webp",
+      "interior-4": "vinfast-vf2-noi-that-ghe-sau-vai-xam-phoi-vang-5-desktop.webp"
+    }
+  },
+  "vf-wild": {
+    "route": "dat-coc-xe-vf-wild",
+    "base": "statics/wild-2026/",
+    "files": {
+      "mission": "/highlight-su-menh-bg-wild-22092026.png",
+      "top": "mission-car-top.webp",
+      "intro": "intro-image-mobile.webp",
+      "wheel": "ext-wheel-closeup.webp",
+      "wheel-parts": "ext-wheel-exploded.webp",
+      "canyon": "/ext-canyon-19092026.webp",
+      "dust": "ext-dust.webp",
+      "glow": "vh-glow-streak.webp",
+      "reev": "reev-glow-line.webp",
+      "interior": "interior-bg.webp",
+      "seats": "interior-seat-photo.webp",
+      "hero": "banner2-bg.webp"
+    }
+  }
+}

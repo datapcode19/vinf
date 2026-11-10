@@ -1,0 +1,130 @@
+[
+  {
+    "file": "assets/vf8-new/hero.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf8-all-new/vinfast-vf8-all-new-ngoai-that-mau-trang-banner-desktop-20260915.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-vf8-the-all-new-2026",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "hero"
+  },
+  {
+    "file": "assets/vf8-new/summary.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/vf8-all-new/vinfast-vf8-all-new-ngoai-that-mau-trang-logo-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-vf8-the-all-new-2026",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "summary"
+  },
+  {
+    "file": "assets/vf8-new/white.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf8-all-new/hinh-anh-vinfast-vf-8-all-new-ngoai-that-mau-trang-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-vf8-the-all-new-2026",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "white"
+  },
+  {
+    "file": "assets/vf8-new/exterior-1.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf8-all-new/hinh-anh-vinfast-vf-8-all-new-exterior-slider-1-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-vf8-the-all-new-2026",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "exterior-1"
+  },
+  {
+    "file": "assets/vf8-new/exterior-2.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf8-all-new/hinh-anh-vinfast-vf-8-all-new-exterior-slider-2-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-vf8-the-all-new-2026",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "exterior-2"
+  },
+  {
+    "file": "assets/vf8-new/exterior-3.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf8-all-new/hinh-anh-vinfast-vf-8-all-new-exterior-slider-3-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-vf8-the-all-new-2026",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "exterior-3"
+  },
+  {
+    "file": "assets/vf8-new/exterior-4.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf8-all-new/hinh-anh-vinfast-vf-8-all-new-exterior-slider-4-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-vf8-the-all-new-2026",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "exterior-4"
+  },
+  {
+    "file": "assets/vf8-new/exterior-5.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf8-all-new/hinh-anh-vinfast-vf-8-all-new-exterior-slider-5-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-vf8-the-all-new-2026",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "exterior-5"
+  },
+  {
+    "file": "assets/vf8-new/led.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/vf8-all-new/vinfast-vf8-all-new-ngoai-that-mau-do-highlight-2-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-vf8-the-all-new-2026",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "led"
+  },
+  {
+    "file": "assets/vf8-new/front.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf8-all-new/vinfast-vf8-all-new-ngoai-that-mau-do-highlight-3-desktop-202609155.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-vf8-the-all-new-2026",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "front"
+  },
+  {
+    "file": "assets/vf8-new/mirror.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/vf8-all-new/vinfast-vf8-all-new-ngoai-that-mau-do-highlight-4-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-vf8-the-all-new-2026",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "mirror"
+  },
+  {
+    "file": "assets/vf8-new/interior.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/vf8-all-new/vinfast-vf8-all-new-noi-that-mau-den-ngay-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-vf8-the-all-new-2026",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "interior"
+  },
+  {
+    "file": "assets/vf8-new/interior-1.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/vf8-all-new/vinfast-vf8-all-new-noi-that-mau-den-vo-lang-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-vf8-the-all-new-2026",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "interior-1"
+  },
+  {
+    "file": "assets/vf8-new/interior-2.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/vf8-all-new/vinfast-vf8-all-new-noi-that-mau-den-ghe-sau-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-vf8-the-all-new-2026",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "interior-2"
+  },
+  {
+    "file": "assets/vf8-new/interior-3.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/vf8-all-new/vinfast-vf8-all-new-noi-that-mau-den-man-hinh-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-vf8-the-all-new-2026",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "interior-3"
+  },
+  {
+    "file": "assets/vf8-new/interior-4.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/vf8-all-new/vinfast-vf8-all-new-noi-that-mau-den-ghe-truoc-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-vf8-the-all-new-2026",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "interior-4"
+  }
+]
