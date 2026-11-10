@@ -654,8 +654,8 @@ html {
   visibility: hidden;
   pointer-events: none;
   transition:
-    opacity 250ms ease,
-    visibility 0s 250ms;
+    opacity 100ms ease,
+    visibility 0s 100ms;
 }
 .showcase-details > .showcase-info[aria-hidden='false'] {
   opacity: 1;
