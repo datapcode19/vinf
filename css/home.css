@@ -636,7 +636,33 @@ html {
   }
 }
 
-/* Vehicle, specifications and price share one horizontal carousel scene. */
+/* Only vehicle images slide; details retain their own stationary grid cell. */
+.showcase-content {
+  min-width: 0;
+  touch-action: pan-y pinch-zoom;
+  cursor: grab;
+  user-select: none;
+}
+.showcase-details {
+  display: grid;
+}
+.showcase-details > .showcase-info {
+  grid-area: 1 / 1;
+  align-self: start;
+  min-width: 0;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition:
+    opacity 250ms ease,
+    visibility 0s 250ms;
+}
+.showcase-details > .showcase-info[aria-hidden='false'] {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transition-delay: 0s;
+}
 .showcase-viewport {
   position: relative;
   overflow: hidden;
@@ -710,6 +736,7 @@ html {
   }
 }
 @media (prefers-reduced-motion: reduce) {
+  .showcase-details > .showcase-info,
   .model-picker button,
   .home-section [role='tab'],
   .showcase-vehicle > button {

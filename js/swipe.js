@@ -2,7 +2,12 @@ const motion = matchMedia('(prefers-reduced-motion: reduce)');
 const wrap = (index, length) => ((index % length) + length) % length;
 
 /** A looping carousel shared by banners, galleries and complete product scenes. */
-export function createSwipe(viewport, slides, onChange = () => {}) {
+export function createSwipe(
+  viewport,
+  slides,
+  onChange = () => {},
+  gestureTarget = viewport,
+) {
   let current = 0,
     drag = null,
     animation = null,
@@ -62,7 +67,7 @@ export function createSwipe(viewport, slides, onChange = () => {}) {
     }
     finish();
     drag = null;
-    viewport.classList.remove('is-dragging');
+    gestureTarget.classList.remove('is-dragging');
     width = nextWidth;
     // Measure every scene in the same grid cell, so changing text never jumps the layout.
     slides.forEach((slide) => {
@@ -135,15 +140,15 @@ export function createSwipe(viewport, slides, onChange = () => {}) {
     finish();
     if (drag) {
       drag = null;
-      viewport.classList.remove('is-dragging');
+      gestureTarget.classList.remove('is-dragging');
       rest();
     }
     const target = wrap(index, slides.length);
     if (target === current) return;
     settle(target, index < current ? -1 : 1);
   }
-  viewport.addEventListener('dragstart', (event) => event.preventDefault());
-  viewport.addEventListener('pointerdown', (event) => {
+  gestureTarget.addEventListener('dragstart', (event) => event.preventDefault());
+  gestureTarget.addEventListener('pointerdown', (event) => {
     if (
       !event.isPrimary ||
       event.button !== 0 ||
@@ -165,7 +170,7 @@ export function createSwipe(viewport, slides, onChange = () => {}) {
       axis: null,
     };
   });
-  viewport.addEventListener('pointermove', (event) => {
+  gestureTarget.addEventListener('pointermove', (event) => {
     if (!drag || drag.id !== event.pointerId) return;
     if (event.pointerType === 'mouse' && event.buttons !== 1) {
       release(event, true);
@@ -182,8 +187,8 @@ export function createSwipe(viewport, slides, onChange = () => {}) {
       // Wait through ambiguous diagonal movement instead of rejecting it forever.
       if (Math.abs(dx) < Math.abs(dy) * 1.2) return;
       drag.axis = 'x';
-      viewport.setPointerCapture(event.pointerId);
-      viewport.classList.add('is-dragging');
+      gestureTarget.setPointerCapture(event.pointerId);
+      gestureTarget.classList.add('is-dragging');
     }
     event.preventDefault();
     suppressClick = true;
@@ -206,9 +211,9 @@ export function createSwipe(viewport, slides, onChange = () => {}) {
     const state = drag;
     drag = null;
     cancelAnimationFrame(frame);
-    viewport.classList.remove('is-dragging');
-    if (viewport.hasPointerCapture(event.pointerId))
-      viewport.releasePointerCapture(event.pointerId);
+    gestureTarget.classList.remove('is-dragging');
+    if (gestureTarget.hasPointerCapture(event.pointerId))
+      gestureTarget.releasePointerCapture(event.pointerId);
     if (!state.axis) {
       if (needsMeasure) {
         needsMeasure = false;
@@ -231,17 +236,17 @@ export function createSwipe(viewport, slides, onChange = () => {}) {
     );
   }
   window.addEventListener('pointerup', (event) => release(event));
-  viewport.addEventListener('pointercancel', (event) => release(event, true));
-  viewport.addEventListener('lostpointercapture', (event) => {
+  gestureTarget.addEventListener('pointercancel', (event) => release(event, true));
+  gestureTarget.addEventListener('lostpointercapture', (event) => {
     // Touch starts with implicit capture on the image/link. Transferring that
-    // capture to the viewport must not be mistaken for cancelling the gesture.
+    // capture to the gesture target must not be mistaken for cancelling the gesture.
     if (
-      event.target === viewport &&
-      !viewport.hasPointerCapture(event.pointerId)
+      event.target === gestureTarget &&
+      !gestureTarget.hasPointerCapture(event.pointerId)
     )
       release(event, true);
   });
-  viewport.addEventListener(
+  gestureTarget.addEventListener(
     'click',
     (event) => {
       if (suppressClick && event.detail !== 0) {
@@ -253,7 +258,7 @@ export function createSwipe(viewport, slides, onChange = () => {}) {
     true,
   );
   // Only consume explicitly horizontal wheel input; vertical scrolling remains native.
-  viewport.addEventListener(
+  gestureTarget.addEventListener(
     'wheel',
     (event) => {
       if (

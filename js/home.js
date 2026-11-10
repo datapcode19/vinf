@@ -55,19 +55,23 @@ function showcase(id, group) {
       <button type="button" data-model-prev aria-label="Mẫu xe trước">
         ${arrowIcon('previous')}
       </button>
-      <div class="showcase-viewport">
-        <div class="showcase-scene">
-          <div class="showcase-image">
-            <img
-              data-model-image
-              src="./${group.items[0].image}"
-              alt="${group.items[0].name}"
-              width="1200"
-              height="637"
-              loading="lazy"
-            />
+      <div class="showcase-content">
+        <div class="showcase-viewport">
+          <div class="showcase-scene">
+            <div class="showcase-image">
+              <img
+                data-model-image
+                src="./${group.items[0].image}"
+                alt="${group.items[0].name}"
+                width="1200"
+                height="637"
+                loading="lazy"
+              />
+            </div>
           </div>
-          <div class="showcase-info">
+        </div>
+        <div class="showcase-details">
+          <div class="showcase-info" aria-hidden="false">
             <!-- prettier-ignore -->
             <h3 class="visually-hidden" data-model-name>${group.items[0].name}</h3>
             <div data-model-specs>${rangeMarkup(group.items[0])}</div>
@@ -461,30 +465,41 @@ export function renderHome(main) {
     const root = main.querySelector(`[data-showcase="${id}"]`),
       buttons = [...root.querySelectorAll('[data-model]')];
     const viewport = root.querySelector('.showcase-viewport');
+    const details = root.querySelector('.showcase-details');
     const fields = ['image', 'name', 'specs', 'price', 'link', 'status'];
+    const panels = [];
     const scenes = group.items.map((product) => {
       const template = document.createElement('template');
       template.innerHTML = showcase(id, { items: [product] });
       const scene = template.content.querySelector('.showcase-scene');
+      const panel = template.content.querySelector('.showcase-info');
+      panels.push(panel);
       fields.forEach((field) => {
-        const node = scene.querySelector('[data-model-' + field + ']');
+        const node = template.content.querySelector('[data-model-' + field + ']');
         node.removeAttribute('data-model-' + field);
         node.setAttribute('data-scene-' + field, '');
       });
       return scene;
     });
     viewport.replaceChildren(...scenes);
-    const carousel = createSwipe(viewport, scenes, (index) => {
+    details.replaceChildren(...panels);
+    const updateSelection = (index) => {
       buttons.forEach((button, i) =>
         button.setAttribute('aria-pressed', String(i === index)),
       );
-      scenes.forEach((scene, i) =>
+      scenes.forEach((scene, i) => {
+        const panel = panels[i];
+        // CSS handles interrupted fades; only the latest selection is interactive.
+        panel.inert = i !== index;
+        panel.setAttribute('aria-hidden', String(i !== index));
         fields.forEach((field) => {
-          const node = scene.querySelector('[data-scene-' + field + ']');
+          const node = (field === 'image' ? scene : panel).querySelector(
+            '[data-scene-' + field + ']',
+          );
           if (i === index) node.setAttribute('data-model-' + field, '');
           else node.removeAttribute('data-model-' + field);
-        }),
-      );
+        });
+      });
       root.querySelector('[data-model-status]').textContent =
         group.items[index].name +
         ', ' +
@@ -503,7 +518,14 @@ export function renderHome(main) {
           ? 'instant'
           : 'smooth',
       });
-    });
+    };
+    // Preserve swiping across both the image and the stationary details.
+    const carousel = createSwipe(
+      viewport,
+      scenes,
+      updateSelection,
+      root.querySelector('.showcase-content'),
+    );
     buttons.forEach((button, i) =>
       button.addEventListener('click', () => carousel.go(i)),
     );
