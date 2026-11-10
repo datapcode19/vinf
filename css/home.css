@@ -595,11 +595,26 @@ html {
 }
 .showcase-vehicle > button {
   margin-top: 174px;
+
+  width: 56px;
+  height: 56px;
+  min-width: 56px;
+  min-height: 56px;
+  aspect-ratio: 1 / 1;
+  flex-shrink: 0;
+
   border-radius: 50%;
+  padding: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+
   transition:
-    background-color 0.25s,
-    color 0.25s,
-    transform 0.25s;
+    background-color 0.1s,
+    color 0.1s,
+    transform 0.1s;
 }
 .showcase-vehicle > button:hover {
   background: var(--blue);
@@ -820,4 +835,21 @@ html {
   .inline-links {
     gap: 10px;
   }
+}
+.showcase-vehicle > button {
+  width: 56px;
+  height: 56px;
+  min-width: 56px;
+  min-height: 56px;
+
+  aspect-ratio: 1 / 1;
+  flex-shrink: 0;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0;
+  line-height: 1;
 }
