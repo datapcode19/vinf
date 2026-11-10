@@ -14,7 +14,7 @@
     "status": 200,
     "blocked": false,
     "title": "Trang chủ — VinFast mô phỏng",
-    "characters": 3016,
+    "characters": 3192,
     "errors": []
   },
   {
@@ -30,7 +30,7 @@
   {
     "name": "live-path",
     "url": "https://datapcode19.github.io/vinf/js/swipe.js",
-    "status": 404
+    "status": 200
   },
   {
     "name": "live-path",

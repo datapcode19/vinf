@@ -1,6 +1,17 @@
 // Chỉ dữ liệu tĩnh; không gọi API VinFast. Các số liệu là snapshot khảo sát.
 export const products = [
   {
+    id: 'evo-grand-premia',
+    name: 'Evo Grand Premia',
+    group: 'scooter',
+    segment: 'Phổ thông',
+    range: '~262 km/lần sạc (2 pin)',
+    price: 27900000,
+    image: 'premia/hero.webp',
+    detailPath: 'evo-grand-premia',
+    source: 'https://vinfastauto.com/vn_vi/xe-may-dien-evo-grand-premia',
+  },
+  {
     id: 'vf3',
     name: 'VF 3',
     group: 'personal',
@@ -41,16 +52,18 @@ export const products = [
   },
   {
     id: 'vf7',
+    detailPath: 'vf7',
     name: 'VF 7',
     group: 'personal',
     segment: 'C-SUV',
     seats: 5,
-    range: '500,5 km (NEDC)',
+    range: '440 km (NEDC, Eco)',
     price: 740000000,
     image: 'vf7.webp',
   },
   {
     id: 'vf8',
+    detailPath: 'vf8',
     name: 'VF 8',
     group: 'personal',
     segment: 'D-SUV',
@@ -61,16 +74,18 @@ export const products = [
   },
   {
     id: 'vf9',
+    detailPath: 'vf9',
     name: 'VF 9',
     group: 'personal',
     segment: 'E-SUV',
-    seats: '6–7',
+    seats: 7,
     range: '626 km (WLTP)',
-    price: 1300000000,
+    price: 1348000000,
     image: 'vf9.webp',
   },
   {
     id: 'minio',
+    image: 'home/vinfast-minio-green-mau-hong-ngang-home.webp',
     name: 'Minio Green',
     group: 'service',
     segment: 'MiniCar',
@@ -80,6 +95,7 @@ export const products = [
   },
   {
     id: 'herio',
+    image: 'home/vinfast-herio-green-mau-xam-ngang-home.webp',
     name: 'Herio Green',
     group: 'service',
     segment: 'A-SUV',
@@ -107,6 +123,7 @@ export const products = [
   },
   {
     id: 'viper',
+    image: 'home/vinfast-viper-home.webp',
     detailPath: 'viper',
     name: 'Viper',
     group: 'scooter',
@@ -115,6 +132,7 @@ export const products = [
   },
   {
     id: 'vero-x',
+    image: 'home/vinfast-verox-home.webp',
     name: 'Vero X',
     group: 'scooter',
     segment: 'Cao cấp',
@@ -122,6 +140,7 @@ export const products = [
   },
   {
     id: 'feliz-ii',
+    image: 'home/vinfast-feliz-ii-mau-do-den-ngang-home.webp',
     name: 'Feliz II',
     group: 'scooter',
     segment: 'Trung cấp',
@@ -129,6 +148,9 @@ export const products = [
   },
   {
     id: 'evo-grand',
+    detailPath: 'evo-grand',
+    range: '262 km/lần sạc (2 pin)',
+    image: 'home/vinfast-evo-grand-mau-xanh-ngang-home.webp',
     name: 'Evo Grand',
     group: 'scooter',
     segment: 'Phổ thông',

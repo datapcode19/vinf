@@ -1,0 +1,98 @@
+[
+  {
+    "file": "assets/vf9/hero.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf9/hinh-anh-vinfast-vf9-hero-banner-desktop-20260915.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-vf9",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "hero"
+  },
+  {
+    "file": "assets/vf9/eco.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf9/hinh-anh-vinfast-vf9-eco-text-logo-banner-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-vf9",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "eco"
+  },
+  {
+    "file": "assets/vf9/plus.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf9/hinh-anh-vinfast-vf9-product-summary-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-vf9",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "plus"
+  },
+  {
+    "file": "assets/vf9/gallery-1.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf9/hinh-anh-vinfast-vf9-exterior-slider-1-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-vf9",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "gallery-1"
+  },
+  {
+    "file": "assets/vf9/gallery-2.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf9/hinh-anh-vinfast-vf9-exterior-slider-3-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-vf9",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "gallery-2"
+  },
+  {
+    "file": "assets/vf9/gallery-3.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf9/hinh-anh-vinfast-vf9-exterior-slider-4-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-vf9",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "gallery-3"
+  },
+  {
+    "file": "assets/vf9/gallery-4.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf9/hinh-anh-vinfast-vf9-exterior-slider-5-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-vf9",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "gallery-4"
+  },
+  {
+    "file": "assets/vf9/gallery-5.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf9/hinh-anh-vinfast-vf9-exterior-slider-6-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-vf9",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "gallery-5"
+  },
+  {
+    "file": "assets/vf9/interior.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf9/hinh-anh-vinfast-vf9-interior-thumbnail-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-vf9",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "interior"
+  },
+  {
+    "file": "assets/vf9/roof.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf9/hinh-anh-vinfast-vf9-exterior-highlight-1-desktop-20260915.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-vf9",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "roof"
+  },
+  {
+    "file": "assets/vf9/led.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf9/hinh-anh-vinfast-vf9-exterior-highlight-3-desktop-20260915.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-vf9",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "led"
+  },
+  {
+    "file": "assets/vf9/inlet.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf9/hinh-anh-vinfast-vf9-exterior-highlight-2-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-vf9",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "inlet"
+  }
+]

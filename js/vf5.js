@@ -33,6 +33,8 @@ const gallery = () =>
       ['rear-seat', 'Hàng ghế sau VF 5'],
       ['cargo', 'Khoang hành lý VF 5'],
       ['exterior', 'Ngoại thất VF 5 màu đỏ'],
+      ['family', 'Không gian gia đình trên VF 5'],
+      ['sport', 'VF 5 màu xám và hoạt động thể thao'],
     ]
       .map(
         ([file, alt], i) =>
@@ -43,7 +45,7 @@ const gallery = () =>
       .join('')}
     <div class="slider-controls">
       <button data-prev aria-label="Ảnh trước">←</button
-      >${[0, 1, 2].map((i) => /* HTML */ `<button data-slide-to="${i}" aria-label="Ảnh ${i + 1}" aria-pressed="${!i}">${i + 1}</button>`).join('')}<button
+      >${[0, 1, 2, 3, 4].map((i) => /* HTML */ `<button data-slide-to="${i}" aria-label="Ảnh ${i + 1}" aria-pressed="${!i}">${i + 1}</button>`).join('')}<button
         data-next
         aria-label="Ảnh tiếp theo"
       >

@@ -1,0 +1,202 @@
+.premia-hero {
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  align-items: center;
+  min-height: 600px;
+  padding: 40px max(24px, calc((100vw - 1280px) / 2));
+  background: linear-gradient(135deg, #f5f3ed, #eceee9);
+}
+.premia-hero-copy h1 {
+  font-size: clamp(32px, 4vw, 60px);
+  line-height: 1.1;
+}
+.premia-hero-copy > p:not(.eyebrow) {
+  font-size: 24px;
+  margin: 24px 0;
+}
+.premia-hero > img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+.product-section-nav {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  overflow-x: auto;
+  padding: 20px;
+  border-bottom: 1px solid var(--line);
+}
+.product-section-nav a {
+  flex-shrink: 0;
+}
+.premia-colors,
+.premia-energy,
+.premia-features,
+.premia-services {
+  text-align: center;
+}
+.color-gallery-stage {
+  display: grid;
+  grid-template-columns: 56px minmax(0, 1fr) 56px;
+  align-items: center;
+  max-width: 940px;
+  margin: auto;
+}
+[data-color-viewport] img {
+  width: 100%;
+  height: clamp(280px, 42vw, 520px);
+  object-fit: contain;
+}
+.gallery-arrow {
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  min-width: 48px;
+  aspect-ratio: 1;
+  padding: 0;
+  border-radius: 50%;
+}
+.gallery-arrow svg,
+.premia-feature-slider .slider-controls svg {
+  display: block;
+  flex-shrink: 0;
+}
+[data-color-name] {
+  min-height: 1.6em;
+  margin: 16px 0 32px;
+}
+.color-gallery .swatches {
+  justify-content: center;
+}
+.premia-summary {
+  justify-content: center;
+}
+.premia-summary dd {
+  margin: 0 0 8px;
+  font-size: 32px;
+}
+.premia-summary small {
+  font-size: 16px;
+}
+.premia-summary dt {
+  max-width: 260px;
+  color: var(--muted);
+}
+.premia-price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 32px;
+}
+.premia-price p {
+  margin: 0;
+}
+.premia-warranty {
+  background: #f6f7f8;
+  text-align: center;
+}
+.premia-warranty strong {
+  color: var(--blue);
+  font-size: 32px;
+}
+.premia-energy > img {
+  max-width: 780px;
+  width: 100%;
+  height: auto;
+  margin: 32px auto 0;
+}
+.premia-facts {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 32px;
+  margin-top: 32px;
+}
+.premia-battery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: center;
+}
+.premia-battery img {
+  width: 100%;
+  height: auto;
+}
+.premia-feature-slider [data-slide] {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  align-items: center;
+  gap: 40px;
+  text-align: left;
+}
+.premia-feature-slider [data-slide] img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1074 / 806;
+  object-fit: contain;
+}
+.premia-feature-slider .slider-controls {
+  position: static;
+  transform: none;
+  width: fit-content;
+  max-width: 100%;
+  margin: 24px auto 0;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.premia-specifications table {
+  width: 100%;
+  table-layout: fixed;
+}
+.premia-specifications th,
+.premia-specifications td {
+  overflow-wrap: anywhere;
+}
+.premia-consultation {
+  text-align: center;
+  border-top: 1px solid var(--line);
+}
+@media (max-width: 767px) {
+  .premia-hero {
+    grid-template-columns: 1fr;
+    min-height: 0;
+    padding: 32px 20px 0;
+    text-align: center;
+  }
+  .premia-hero-copy > p:not(.eyebrow) {
+    font-size: 20px;
+    margin: 16px 0;
+  }
+  .product-section-nav {
+    justify-content: flex-start;
+    gap: 24px;
+  }
+  .color-gallery-stage {
+    grid-template-columns: 40px minmax(0, 1fr) 40px;
+  }
+  .gallery-arrow {
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+  }
+  [data-color-viewport] img {
+    height: 280px;
+  }
+  .premia-facts {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+    text-align: left;
+  }
+  .premia-battery,
+  .premia-feature-slider [data-slide] {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .premia-feature-slider [data-slide] > div {
+    min-height: 100px;
+    text-align: center;
+  }
+}

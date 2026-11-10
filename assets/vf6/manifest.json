@@ -1,0 +1,90 @@
+[
+  {
+    "file": "assets/vf6/eco.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf6/hinh-anh-xe-vinfast-vf6-logo-vf6-mau-do-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf6",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "eco"
+  },
+  {
+    "file": "assets/vf6/plus.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf6/hinh-anh-xe-vinfast-vf6-logo-vf6-mau-xanh-reu-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf6",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "plus"
+  },
+  {
+    "file": "assets/vf6/gallery-1.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf6/hinh-anh-vinfast-vf6-exterior-slider-1-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf6",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "gallery-1"
+  },
+  {
+    "file": "assets/vf6/gallery-2.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf6/hinh-anh-vinfast-vf6-ngoai-that-mau-do-ven-bien-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf6",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "gallery-2"
+  },
+  {
+    "file": "assets/vf6/gallery-3.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf6/hinh-anh-vinfast-vf6-exterior-slider-3-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf6",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "gallery-3"
+  },
+  {
+    "file": "assets/vf6/gallery-4.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf6/hinh-anh-vinfast-vf6-exterior-slider-4-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf6",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "gallery-4"
+  },
+  {
+    "file": "assets/vf6/gallery-5.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf6/hinh-anh-xe-vinfast-vf6-mau-do-duong-ven-bien-01-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf6",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "gallery-5"
+  },
+  {
+    "file": "assets/vf6/led.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf6/hinh-anh-vinfast-vf6-ngoai-that-mau-trang-den-led-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf6",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "led"
+  },
+  {
+    "file": "assets/vf6/headlight.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf6/hinh-anh-vinfast-vf6-exterior-detail-2-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf6",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "headlight"
+  },
+  {
+    "file": "assets/vf6/wheel.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf6/hinh-anh-vinfast-vf6-ngoai-that-mau-do-la-zang-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf6",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "wheel"
+  },
+  {
+    "file": "assets/vf6/interior.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf6/hinh-anh-vinfast-vf6-interior-banner-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf6",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "interior"
+  }
+]

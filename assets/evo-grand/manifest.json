@@ -1,0 +1,90 @@
+[
+  {
+    "file": "assets/evo-grand/hero.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/e-scooter/evo-grand/hinh-anh-vinfast-evo-grand-hero-banner-mobile.webp",
+    "reference": "https://vinfastauto.com/vn_vi/xe-may-dien-evo-grand",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "hero"
+  },
+  {
+    "file": "assets/evo-grand/red.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/e-scooter/evo-grand/hinh-anh-vinfast-evo-grand-mau-do-goc-ngang-mobile.webp",
+    "reference": "https://vinfastauto.com/vn_vi/xe-may-dien-evo-grand",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "red"
+  },
+  {
+    "file": "assets/evo-grand/olive.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/e-scooter/evo-grand/hinh-anh-vinfast-evo-grand-mau-xanh-mint-goc-ngang-mobile.webp",
+    "reference": "https://vinfastauto.com/vn_vi/xe-may-dien-evo-grand",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "olive"
+  },
+  {
+    "file": "assets/evo-grand/white.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/e-scooter/evo-grand/hinh-anh-vinfast-evo-grand-mau-trang-goc-ngang-mobile.webp",
+    "reference": "https://vinfastauto.com/vn_vi/xe-may-dien-evo-grand",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "white"
+  },
+  {
+    "file": "assets/evo-grand/black.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/e-scooter/evo-grand/hinh-anh-vinfast-evo-grand-mau-den-goc-ngang-mobile.webp",
+    "reference": "https://vinfastauto.com/vn_vi/xe-may-dien-evo-grand",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "black"
+  },
+  {
+    "file": "assets/evo-grand/front.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/e-scooter/evo-grand/hinh-anh-VinFast-Evo-Grand-front-view-mobile-20250910.webp",
+    "reference": "https://vinfastauto.com/vn_vi/xe-may-dien-evo-grand",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "front"
+  },
+  {
+    "file": "assets/evo-grand/battery.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/e-scooter/evo-grand/hinh-anh-vinfast-evo-grand-slider-banner-mobile.webp",
+    "reference": "https://vinfastauto.com/vn_vi/xe-may-dien-evo-grand",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "battery"
+  },
+  {
+    "file": "assets/evo-grand/storage.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/e-scooter/evo-grand/hinh-anh-VinFast-Evo-Grand-slider-content-1-mobile-20250910.webp",
+    "reference": "https://vinfastauto.com/vn_vi/xe-may-dien-evo-grand",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "storage"
+  },
+  {
+    "file": "assets/evo-grand/placement.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/e-scooter/evo-grand/hinh-anh-VinFast-Evo-Grand-slider-content-2-mobile-20250910.webp",
+    "reference": "https://vinfastauto.com/vn_vi/xe-may-dien-evo-grand",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "placement"
+  },
+  {
+    "file": "assets/evo-grand/brake.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/e-scooter/evo-grand/hinh-anh-VinFast-Evo-Grand-slider-content-3-mobile-20250910.webp",
+    "reference": "https://vinfastauto.com/vn_vi/xe-may-dien-evo-grand",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "brake"
+  },
+  {
+    "file": "assets/evo-grand/motor.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/e-scooter/evo-grand/hinh-anh-VinFast-Evo-Grand-slider-content-4-mobile-20250910.webp",
+    "reference": "https://vinfastauto.com/vn_vi/xe-may-dien-evo-grand",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "motor"
+  }
+]

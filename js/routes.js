@@ -2,6 +2,11 @@
 export const siteRoot = new URL('../', import.meta.url);
 export const localURL = (path) => new URL(path, siteRoot).href;
 const known = {
+  'dat-coc-xe-vf8': 'vf8.html',
+  'dat-coc-xe-vf9': 'vf9.html',
+  'dat-coc-xe-dien-vf7': 'vf7.html',
+  'xe-may-dien-evo-grand': 'evo-grand.html',
+  'xe-may-dien-evo-grand-premia': 'evo-grand-premia.html',
   'dat-coc-xe-dien-vf5': 'vf5.html',
   'xe-may-dien-vinfast-viper': 'viper.html',
   've-chung-toi': 'about.html',

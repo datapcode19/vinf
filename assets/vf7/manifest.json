@@ -1,0 +1,98 @@
+[
+  {
+    "file": "assets/vf7/hero.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf7/hinh-anh-vinfast-vf7-hero-banner-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf7",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "hero"
+  },
+  {
+    "file": "assets/vf7/eco.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf7/hinh-anh-vinfast-vf7-text-logo-banner-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf7",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "eco"
+  },
+  {
+    "file": "assets/vf7/plus.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf7/hinh-anh-vinfast-vf7-plus-text-logo-banner-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf7",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "plus"
+  },
+  {
+    "file": "assets/vf7/gallery-1.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf7/hinh-anh-vinfast-vf7-exterior-slider-1-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf7",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "gallery-1"
+  },
+  {
+    "file": "assets/vf7/gallery-2.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf7/hinh-anh-vinfast-vf7-exterior-slider-2-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf7",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "gallery-2"
+  },
+  {
+    "file": "assets/vf7/gallery-3.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf7/hinh-anh-vinfast-vf7-exterior-slider-3-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf7",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "gallery-3"
+  },
+  {
+    "file": "assets/vf7/gallery-4.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf7/hinh-anh-vinfast-vf7-exterior-slider-4-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf7",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "gallery-4"
+  },
+  {
+    "file": "assets/vf7/body.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf7/hinh-anh-vinfast-vf7-ngoai-that-mau-xam-than-xe-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf7",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "body"
+  },
+  {
+    "file": "assets/vf7/handle.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf7/hinh-anh-vinfast-vf7-exterior-detail-2-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf7",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "handle"
+  },
+  {
+    "file": "assets/vf7/interior.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf7/hinh-anh-vinfast-vf7-interior-banner-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf7",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "interior"
+  },
+  {
+    "file": "assets/vf7/seats.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf7/hinh-anh-vinfast-vf7-interior-detail-1-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf7",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "seats"
+  },
+  {
+    "file": "assets/vf7/console.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf7/hinh-anh-vinfast-vf7-interior-detail-5-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf7",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "console"
+  }
+]

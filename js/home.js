@@ -4,6 +4,7 @@ import { resolveRoute } from './routes.js';
 import { carGroups, scooterGroups } from '../data/home-products.js';
 import { homeMenus } from '../data/home-menu.js';
 import { tabsMarkup } from './components.js';
+import { arrowIcon } from './color-gallery.js';
 
 const assets = './assets/home/';
 const official = (path) => 'https://vinfastauto.com/vn_vi/' + path;
@@ -51,7 +52,9 @@ function showcase(id, group) {
       ${group.items.map((p, i) => /* HTML */ `<button type="button" data-model="${i}" aria-pressed="${i === 0}">${p.name}</button>`).join('')}
     </div>
     <div class="showcase-vehicle">
-      <button type="button" data-model-prev aria-label="Mẫu xe trước">‹</button>
+      <button type="button" data-model-prev aria-label="Mẫu xe trước">
+        ${arrowIcon('previous')}
+      </button>
       <div class="showcase-viewport">
         <div class="showcase-scene">
           <div class="showcase-image">
@@ -86,7 +89,7 @@ function showcase(id, group) {
         </div>
       </div>
       <button type="button" data-model-next aria-label="Mẫu xe tiếp theo">
-        ›
+        ${arrowIcon('next')}
       </button>
     </div>
   </div>`;

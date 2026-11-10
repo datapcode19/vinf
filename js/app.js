@@ -1,5 +1,9 @@
 import { renderVF5 } from './vf5.js';
 import { renderViper } from './viper.js';
+import { renderPremia } from './premia.js';
+import { renderVF7 } from './vf7.js';
+import { renderLargeSUV } from './large-suv.js';
+import { renderEvoGrand } from './evo-grand.js';
 import { initHorizontalScroll } from './swipe.js';
 import { renderVingroup, renderScooterWarranty } from './company-pages.js';
 import {
@@ -239,6 +243,11 @@ function battery() {
 }
 
 const renderers = {
+  vf8: () => renderLargeSUV(main, 'vf8'),
+  vf9: () => renderLargeSUV(main, 'vf9'),
+  vf7: () => renderVF7(main),
+  'evo-grand': () => renderEvoGrand(main),
+  'evo-grand-premia': () => renderPremia(main),
   vf5: () => renderVF5(main),
   viper: () => renderViper(main),
   vingroup: () => renderVingroup(main),

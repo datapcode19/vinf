@@ -1,5 +1,6 @@
 import { createSwipe } from './swipe.js';
 import { extendKinet } from './kinet-sections.js';
+import { extendVF6 } from './vf6-sections.js';
 import { products, money } from '../data/products.js';
 import { prefix, pageURL } from './navigation.js';
 import { tabsMarkup, accordionMarkup } from './components.js';
@@ -54,11 +55,11 @@ export function renderProduct(main) {
       <div class="vehicle-stage">
         <img
           id="vehicle-image"
-          src="${prefix}assets/${car ? 'vf6-white.webp' : 'kinet-do.webp'}"
-          alt="${car ? 'VF 6 — ảnh minh họa mẫu xe, không thể hiện khác biệt phiên bản' : 'Kinet màu Đỏ Đen'}"
+          src="${prefix}assets/${car ? 'vf6/eco.webp' : 'kinet-do.webp'}"
+          alt="${car ? 'VF 6 Eco — ảnh phiên bản từ trang tham chiếu' : 'Kinet màu Đỏ Đen'}"
         />
         <p class="muted">
-          ${car ? 'Ảnh minh họa VF 6. Khác biệt ngoại hình Eco/Plus chưa được tái tạo.' : 'Ảnh sản phẩm theo màu từ trang tham chiếu.'}
+          ${car ? 'Ảnh phiên bản Eco/Plus từ trang tham chiếu; màu ảnh không phải lựa chọn cấu hình đặt mua.' : 'Ảnh sản phẩm theo màu từ trang tham chiếu.'}
         </p>
       </div>
       <div>
@@ -124,7 +125,8 @@ export function renderProduct(main) {
           >`,
       )}
     </section>`;
-  if (!car) extendKinet(main);
+  if (car) extendVF6(main);
+  else extendKinet(main);
   const table = main.querySelector('#spec-table');
   function updateTable(name, price, range) {
     table.innerHTML = /* HTML */ `<table>
@@ -144,18 +146,41 @@ export function renderProduct(main) {
     </table>`;
   }
   updateTable(car ? 'Eco' : 'Đỏ Đen', p.price, p.range);
-  main.querySelectorAll('[data-version]').forEach((button) =>
-    button.addEventListener('click', () => {
-      const v = p.versions[Number(button.dataset.version)];
-      main
-        .querySelectorAll('[data-version]')
-        .forEach((b) => b.setAttribute('aria-pressed', String(b === button)));
+  if (car) {
+    const original = main.querySelector('#vehicle-image');
+    const viewport = document.createElement('div');
+    original.before(viewport);
+    const slides = p.versions.map((version, index) => {
+      const slide = document.createElement('div');
+      const image = original.cloneNode();
+      image.removeAttribute('id');
+      image.src =
+        prefix + 'assets/vf6/' + (index === 0 ? 'eco' : 'plus') + '.webp';
+      image.alt = 'VF 6 ' + version.name;
+      slide.append(image);
+      viewport.append(slide);
+      return slide;
+    });
+    original.remove();
+    const buttons = [...main.querySelectorAll('[data-version]')];
+    const carousel = createSwipe(viewport, slides, (index) => {
+      const v = p.versions[index];
+      buttons.forEach((button, i) =>
+        button.setAttribute('aria-pressed', String(i === index)),
+      );
+      slides.forEach((slide, i) => {
+        if (i === index) slide.firstElementChild.id = 'vehicle-image';
+        else slide.firstElementChild.removeAttribute('id');
+      });
       main.querySelector('#selection').textContent = p.name + ' ' + v.name;
       main.querySelector('#price').textContent = money(v.price);
       main.querySelector('#range').textContent = v.range;
       updateTable(v.name, v.price, v.range);
-    }),
-  );
+    });
+    buttons.forEach((button, index) =>
+      button.addEventListener('click', () => carousel.go(index)),
+    );
+  }
   if (!car) {
     const original = main.querySelector('#vehicle-image');
     const viewport = document.createElement('div');

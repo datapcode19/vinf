@@ -25,10 +25,10 @@
     "tag": "SECTION",
     "id": "oto",
     "class": "home-section home-cars",
-    "text": "Xe cá nhân\nXe dịch vụ\nVF Wild\nVF 2\nVF 8 Thế hệ mới\nVF MPV 7\nVF 3\nVF 5\nVF 6\nVF 7\nVF 8\nVF 9\n‹\nVF Wild\nBán tải điện\nDòng xe\n5 chỗ\nSố chỗ ngồi\n~1.000 km (NEDC)\nDi chuyển kết hợp\n\nGiá niêm yết 860 triệu đồng\n\nXem chi tiết\n›",
+    "text": "Xe cá nhân\nXe dịch vụ\nVF Wild\nVF 2\nVF 8 Thế hệ mới\nVF MPV 7\nVF 3\nVF 5\nVF 6\nVF 7\nVF 8\nVF 9\n‹\nVF Wild\nBán tải điện\nDòng xe\n5 chỗ\nSố chỗ ngồi\n~1.000 km (NEDC)\nDi chuyển kết hợp\n\n Giá niêm yết 860 triệu đồng\n\nXem chi tiết\nVF Wild, 1 / 10\n›",
     "rect": {
       "width": 1280,
-      "height": 935
+      "height": 765
     },
     "font": "Mulish, Arial, sans-serif"
   },
@@ -36,10 +36,10 @@
     "tag": "SECTION",
     "id": "xe-may-dien",
     "class": "home-section home-scooters",
-    "text": "Cao cấp\nTrung cấp\nPhổ thông\nViper\nKinet\nVero X\n‹\nViper\n70 km/h\nTốc độ tối đa\n~156 km\nQuãng đường 1 lần sạc\n3000 W\nCông suất tối đa\n\nGiá niêm yết 35 triệu đồng\n\nXem chi tiết\n›",
+    "text": "Cao cấp\nTrung cấp\nPhổ thông\nViper\nKinet\nVero X\n‹\nViper\n70 km/h\nTốc độ tối đa\n~156 km/lần sạc\nQuãng đường 1 lần sạc\n3000 W\nCông suất tối đa\n\n Giá niêm yết 35 triệu đồng\n\nXem chi tiết\nViper, 1 / 3\n›",
     "rect": {
       "width": 1440,
-      "height": 935
+      "height": 765
     },
     "font": "Mulish, Arial, sans-serif"
   },
@@ -47,10 +47,10 @@
     "tag": "SECTION",
     "id": "hau-mai",
     "class": "home-section home-after-sales",
-    "text": "Đồng hành dài lâu - An tâm mọi cung đường\n\nChính sách bảo hành, mạng lưới xưởng dịch vụ và hỗ trợ trong quá trình sử dụng xe.\n\nChính sách bảo hành ô tô\nChính sách bảo hành xe máy\nBảo hành đến 10 năm\n\nTùy từng dòng xe và pin.\n\nCam kết thời gian sửa chữa\n\nThời gian sửa chữa được thông báo và xác nhận.\n\nXưởng dịch vụ toàn quốc\n\nHệ thống xưởng dịch vụ hỗ trợ khách hàng.",
+    "text": "Đồng hành dài lâu - An tâm mọi cung đường\n\nĐặt khách hàng làm trung tâm, VinFast không ngừng hoàn thiện hệ sinh thái hậu mãi toàn diện với chính sách bảo hành hàng đầu, mạng lưới dịch vụ phủ rộng và đội ngũ hỗ trợ luôn sẵn sàng, mang đến sự an tâm trong suốt hành trình sở hữu xe.\n\nChính sách bảo hành ô tô\nChính sách bảo hành xe máy\nBảo hành đến 10 năm\n\nTùy từng dòng xe và pin.*\n\nCam kết thời gian sửa chữa\n\nMinh bạch, đúng thời gian cam kết.*\n\nXưởng dịch vụ toàn quốc\n\nLuôn sẵn sàng phục vụ khách hàng.",
     "rect": {
       "width": 1280,
-      "height": 696
+      "height": 775
     },
     "font": "Mulish, Arial, sans-serif"
   },

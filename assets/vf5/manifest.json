@@ -70,5 +70,21 @@
     "permission": "User confirmed additional VinFast image use for educational project in current conversation, 2026-11-08. Not a public/commercial license.",
     "status": "downloaded",
     "bytes": 290882
+  },
+  {
+    "file": "assets/vf5/family.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf5/xe-dien-vinfast-vf5-noi-that-gia-dinh-vui-ve-tren-xe-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf5",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "family"
+  },
+  {
+    "file": "assets/vf5/sport.webp",
+    "source": "https://static-cms-prod.vinfastauto.com/statics/car/vf5/xe-dien-vinfast-vf5-mau-xam-ban-the-thao-padel-desktop.webp",
+    "reference": "https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf5",
+    "accessed": "2026-11-10",
+    "permission": "User-authorized VinFast images for this educational project",
+    "role": "sport"
   }
 ]

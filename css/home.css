@@ -120,13 +120,21 @@ body[data-page='home'] {
   line-height: 1;
   text-align: center;
   box-shadow: none;
-  transition: background-color 0.18s ease, transform 0.18s ease;
+  transition:
+    background-color 0.18s ease,
+    transform 0.18s ease;
 }
 
 .showcase-vehicle > button:hover {
   background: #0c55d7;
   color: #fff;
   transform: scale(1.04);
+}
+
+.showcase-vehicle > button svg {
+  display: block;
+  width: 24px;
+  height: 24px;
 }
 
 .showcase-vehicle > button:focus-visible {
