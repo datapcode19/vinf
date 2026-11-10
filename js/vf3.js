@@ -1,5 +1,6 @@
 import { tabsMarkup } from './components.js';
 import { localURL } from './routes.js';
+import { createSwipe } from './swipe.js';
 
 const image = (name, alt, lazy = true) =>
   /* HTML */ `<img
@@ -12,6 +13,10 @@ const image = (name, alt, lazy = true) =>
 
 export function renderVF3(main) {
   document.title = 'VF 3 — VinFast mô phỏng';
+  const versions = [
+    { id: 'eco', name: 'Eco', price: '285.000.000 VNĐ' },
+    { id: 'plus', name: 'Plus', price: '296.000.000 VNĐ' },
+  ];
   const gallery = [
     ['rear', 'VF 3 vàng nhìn từ phía sau'],
     ['front', 'VF 3 đỏ trong đô thị'],
@@ -32,22 +37,34 @@ export function renderVF3(main) {
         <button data-vf3-version="eco" aria-pressed="true">VF 3 Eco</button
         ><button data-vf3-version="plus" aria-pressed="false">VF 3 Plus</button>
       </div>
-      <div id="vf3-version-image">${image('eco', 'VF 3 Eco')}</div>
-      <dl class="specs">
-        <div>
-          <dt>Quãng đường NEDC</dt>
-          <dd>215 km</dd>
-        </div>
-        <div>
-          <dt>Sạc 10–70%</dt>
-          <dd>36 phút</dd>
-        </div>
-        <div>
-          <dt>Bảo hành xe</dt>
-          <dd>7 năm / 160.000 km*</dd>
-        </div>
-      </dl>
-      <p class="price" id="vf3-price" role="status">285.000.000 VNĐ</p>
+      <div data-vf3-scenes>
+        ${versions
+          .map(
+            (version) =>
+              /* HTML */ `<div class="vf3-version-scene">
+                <div data-version-image>
+                  ${image(version.id, `VF 3 ${version.name}`)}
+                </div>
+                <dl class="specs">
+                  <div>
+                    <dt>Quãng đường NEDC</dt>
+                    <dd>215 km</dd>
+                  </div>
+                  <div>
+                    <dt>Sạc 10–70%</dt>
+                    <dd>36 phút</dd>
+                  </div>
+                  <div>
+                    <dt>Bảo hành xe</dt>
+                    <dd>7 năm / 160.000 km*</dd>
+                  </div>
+                </dl>
+                <p class="price" data-version-price>${version.price}</p>
+              </div>`,
+          )
+          .join('')}
+      </div>
+      <p class="visually-hidden" data-vf3-status role="status"></p>
       <p class="muted">
         *Tùy điều kiện đến trước. Giá tham chiếu, không phải báo giá.
       </p>
@@ -167,19 +184,23 @@ export function renderVF3(main) {
       <p>Không tạo đơn hàng, không thanh toán và không gửi dữ liệu.</p>
       <button data-close-purchase>Đóng</button>
     </dialog>`;
-  main.querySelectorAll('[data-vf3-version]').forEach((button) =>
-    button.addEventListener('click', () => {
-      const version = button.dataset.vf3Version;
-      main
-        .querySelectorAll('[data-vf3-version]')
-        .forEach((b) => b.setAttribute('aria-pressed', String(b === button)));
-      main.querySelector('#vf3-version-image').innerHTML = image(
-        version,
-        'VF 3 ' + (version === 'eco' ? 'Eco' : 'Plus'),
-      );
-      main.querySelector('#vf3-price').textContent =
-        version === 'eco' ? '285.000.000 VNĐ' : '296.000.000 VNĐ';
-    }),
+  const viewport = main.querySelector('[data-vf3-scenes]');
+  const scenes = [...viewport.children];
+  const buttons = [...main.querySelectorAll('[data-vf3-version]')];
+  const carousel = createSwipe(viewport, scenes, (index) => {
+    main.querySelector('#vf3-version-image')?.removeAttribute('id');
+    main.querySelector('#vf3-price')?.removeAttribute('id');
+    scenes[index].querySelector('[data-version-image]').id =
+      'vf3-version-image';
+    scenes[index].querySelector('[data-version-price]').id = 'vf3-price';
+    buttons.forEach((button, i) =>
+      button.setAttribute('aria-pressed', String(i === index)),
+    );
+    main.querySelector('[data-vf3-status]').textContent =
+      `VF 3 ${versions[index].name} · ${versions[index].price}`;
+  });
+  buttons.forEach((button, i) =>
+    button.addEventListener('click', () => carousel.go(i)),
   );
   const modal = main.querySelector('#vf3-purchase');
   main

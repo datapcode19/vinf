@@ -42,6 +42,12 @@
   .new-car-hero > div {
     color: #17212b;
   }
+  .wild-hero > div {
+    color: #17212b;
+  }
+}
+.wild-hero > img {
+  aspect-ratio: 2;
 }
 .verified-car-hero {
   position: relative;
