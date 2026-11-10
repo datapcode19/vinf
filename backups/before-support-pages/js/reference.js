@@ -5,7 +5,7 @@ export function renderReference(main){
  const slug=new URLSearchParams(location.search).get('route')||'';
  const entries=[...homeMenus.filter(m=>m.url),...homeMenus.flatMap(m=>m.groups||[]).flatMap(g=>g.items),...footerGroups.flatMap(g=>g.items)];
  const item=entries.find(i=>{try{return new URL(i.url).pathname.replace(/^\/vn_vi\/?/,'')+new URL(i.url).search===slug;}catch{return false;}});
- main.innerHTML=`<section class="container narrow"><p class="eyebrow">Bản mô phỏng · Chưa triển khai</p><h1></h1><p>Trang này chưa có đủ nội dung và hình ảnh tham chiếu để tái tạo. Bạn vẫn đang ở website đồ án; liên kết này không chuyển sang dịch vụ thật.</p><p>Không nhận đặt cọc, thanh toán, tài khoản hoặc thông tin cá nhân.</p><a class="button" href="${localURL('index.html')}">Về trang chủ</a></section>`;
+ main.innerHTML=`<section class="container narrow"><p class="eyebrow">Bản mô phỏng · Chưa triển khai</p><h1></h1><p>Trang này chưa có đủ nội dung .</p><a class="button" href="${localURL('index.html')}">Về trang chủ</a></section>`;
  main.querySelector('h1').textContent=item?.name||'Nội dung đang được hoàn thiện';
  document.title=(item?.name||'Chưa triển khai')+' — VinFast mô phỏng';
 }

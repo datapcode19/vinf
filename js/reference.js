@@ -29,8 +29,7 @@ export function renderReference(main) {
     <p class="eyebrow">Bản mô phỏng · Chưa triển khai</p>
     <h1></h1>
     <p>
-      Trang này chưa có đủ nội dung và hình ảnh tham chiếu để tái tạo. Bạn vẫn
-      đang ở website đồ án; liên kết này không chuyển sang dịch vụ thật.
+      Trang này chưa có đủ nội dung và hình ảnh tham chiếu.
     </p>
     <p>Không nhận đặt cọc, thanh toán, tài khoản hoặc thông tin cá nhân.</p>
     <a class="button" href="${localURL('index.html')}">Về trang chủ</a>
