@@ -97,61 +97,64 @@ body[data-page='home'] {
   height: 400px;
   object-fit: contain;
 }
+
+
+/* Hai nút chuyển xe đồng bộ */
 .showcase-vehicle > button {
-  width: 56px;
-  height: 56px;
-  min-width: 56px;
-  min-height: 56px;
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  min-height: 44px;
   aspect-ratio: 1 / 1;
   box-sizing: border-box;
-  justify-self: center;
-  align-self: center;
+
   display: grid;
   place-items: center;
+  justify-self: center;
+  align-self: center;
+
   padding: 0;
   margin: 0;
-  border: 0;
+  border: none;
   border-radius: 50%;
-  background: #1464f4;
-  color: #fff;
+
+  background: transparent;
+  color: #777b81;
   font-size: 28px;
   font-family: Arial, sans-serif;
-  font-weight: 400;
   line-height: 1;
-  text-align: center;
+
   box-shadow: none;
+  cursor: pointer;
+
   transition:
-    background-color 0.18s ease,
-    transform 0.18s ease;
+    background-color 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease;
 }
 
+/* Rê chuột: không đổi màu xanh */
 .showcase-vehicle > button:hover {
-  background: #0c55d7;
-  color: #fff;
-  transform: scale(1.04);
+  background: transparent;
+  color: #777b81;
+  box-shadow: none;
+  filter: none;
 }
 
-.showcase-vehicle > button svg {
-  display: block;
-  width: 24px;
-  height: 24px;
+/* Khi nhấn: nền xanh, mũi tên trắng */
+.showcase-vehicle > button:active {
+  background: #1464f4;
+  color: #ffffff;
+  transform: scale(1.06);
 }
 
+/* Hỗ trợ điều hướng bàn phím */
 .showcase-vehicle > button:focus-visible {
   outline: 3px solid #174ea6;
   outline-offset: 3px;
 }
 
-/* Preserve the understated previous arrow used in the reference. */
-.showcase-vehicle > button:first-child {
-  background: transparent;
-  color: #777b81;
-}
 
-.showcase-vehicle > button:first-child:hover {
-  background: #f0f3f8;
-  color: #1464f4;
-}
 .showcase-info {
   text-align: center;
 }
