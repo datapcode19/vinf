@@ -1,12 +1,154 @@
-import {localURL} from './routes.js';
-import {tabsMarkup,accordionMarkup} from './components.js';
-const image=(file,alt)=>`<img class="support-photo" src="${localURL('assets/company/'+file)}" alt="${alt}" width="1200" height="720" loading="lazy">`;
-export function renderVingroup(main){
- document.title='Về Vingroup — VinFast mô phỏng';
- main.innerHTML=`<section class="page-heading"><div class="container"><h1>Giới thiệu chung</h1><p>Vingroup</p></div></section><section class="container narrow"><p>Tiền thân Technocom thành lập tại Ukraine năm 1993. Năm 2012, Vincom và Vinpearl hợp nhất dưới tên Vingroup.</p><p>Trang tham chiếu giới thiệu ba lĩnh vực: công nghiệp, công nghệ và thương mại – dịch vụ.</p></section><section class="container"><div class="company-sectors">${[['industry.png','Công nghiệp'],['technology.png','Công nghệ'],['commerce.png','Thương mại – Dịch vụ']].map(([file,title])=>`<article>${image(file,title)}<h2>${title}</h2></article>`).join('')}</div></section><section class="container"><h2>Hệ sinh thái Vingroup</h2>${image('ecosystem.png','Hệ sinh thái Vingroup theo trang tham chiếu')}</section><section class="container"><h2>Giá trị cốt lõi</h2>${tabsMarkup('vingroup-values',[['TÍN','Giữ cam kết về chất lượng và tiến độ.'],['TÂM','Đạo đức nghề nghiệp và lợi ích khách hàng.'],['TRÍ','Sáng tạo, học hỏi và cải tiến.'],['TỐC','Hiệu quả và khả năng thích ứng.'],['TINH','Hướng tới chất lượng và sự tinh gọn.'],['NHÂN','Coi trọng con người và sự hợp tác.']].map(([title,text])=>({title,content:`<h3>${title}</h3><p>${text}</p>`})))}</section>`;
+import { localURL } from './routes.js';
+import { tabsMarkup, accordionMarkup } from './components.js';
+
+const image = (file, alt) =>
+  /* HTML */ `<img
+    class="support-photo"
+    src="${localURL('assets/company/' + file)}"
+    alt="${alt}"
+    width="1200"
+    height="720"
+    loading="lazy"
+  />`;
+
+export function renderVingroup(main) {
+  document.title = 'Về Vingroup — VinFast mô phỏng';
+  main.innerHTML = /* HTML */ `<section class="page-heading">
+      <div class="container">
+        <h1>Giới thiệu chung</h1>
+        <p>Vingroup</p>
+      </div>
+    </section>
+    <section class="container narrow">
+      <p>
+        Tiền thân Technocom thành lập tại Ukraine năm 1993. Năm 2012, Vincom và
+        Vinpearl hợp nhất dưới tên Vingroup.
+      </p>
+      <p>
+        Trang tham chiếu giới thiệu ba lĩnh vực: công nghiệp, công nghệ và
+        thương mại – dịch vụ.
+      </p>
+    </section>
+    <section class="container">
+      <div class="company-sectors">
+        ${[
+          ['industry.png', 'Công nghiệp'],
+          ['technology.png', 'Công nghệ'],
+          ['commerce.png', 'Thương mại – Dịch vụ'],
+        ]
+          .map(
+            ([file, title]) =>
+              /* HTML */ `<article>
+                ${image(file, title)}
+                <h2>${title}</h2>
+              </article>`,
+          )
+          .join('')}
+      </div>
+    </section>
+    <section class="container">
+      <h2>Hệ sinh thái Vingroup</h2>
+      ${image('ecosystem.png', 'Hệ sinh thái Vingroup theo trang tham chiếu')}
+    </section>
+    <section class="container">
+      <h2>Giá trị cốt lõi</h2>
+      ${tabsMarkup(
+        'vingroup-values',
+        [
+          ['TÍN', 'Giữ cam kết về chất lượng và tiến độ.'],
+          ['TÂM', 'Đạo đức nghề nghiệp và lợi ích khách hàng.'],
+          ['TRÍ', 'Sáng tạo, học hỏi và cải tiến.'],
+          ['TỐC', 'Hiệu quả và khả năng thích ứng.'],
+          ['TINH', 'Hướng tới chất lượng và sự tinh gọn.'],
+          ['NHÂN', 'Coi trọng con người và sự hợp tác.'],
+        ].map(([title, text]) => ({
+          title,
+          content: /* HTML */ `<h3>${title}</h3>
+            <p>${text}</p>`,
+        })),
+      )}
+    </section>`;
 }
-export function renderScooterWarranty(main){
- document.title='Bảo hành xe máy điện — VinFast mô phỏng';
- const sections=[['scope','Phạm vi'],['period','Thời hạn'],['limited','Chi tiết giới hạn'],['parts','Phụ tùng'],['exclusions','Loại trừ'],['faq','Câu hỏi thường gặp']];
- main.innerHTML=`<section class="page-heading"><div class="container"><h1>Chính sách bảo hành xe máy điện</h1></div></section><div class="container support-layout"><nav aria-label="Mục lục bảo hành">${sections.map(([id,name])=>`<a href="#${id}">${name}</a>`).join('')}</nav><article><section id="scope"><h2>Phạm vi bảo hành</h2><p>Lỗi phần mềm, linh kiện hoặc lắp ráp khi xe được sử dụng và bảo dưỡng đúng cách. Thực hiện tại đơn vị ủy quyền trong Việt Nam theo điều kiện bảo hành.</p></section><section id="period"><h2>Thời hạn bảo hành</h2>${image('warranty-scooter.jpg','Thời hạn bảo hành xe máy điện')}<p>Xe dùng pin LFP: 6 năm; pin LFP: tới 8 năm. Dòng khác: 3 năm. Không giới hạn quãng đường theo thông tin nguồn.</p></section><section id="limited"><h2>Các chi tiết bảo hành giới hạn</h2><table><tbody><tr><th>Pin LFP</th><td>8 năm</td></tr><tr><th>Pin khác</th><td>3 năm</td></tr><tr><th>Ắc quy 12V</th><td>1 năm</td></tr></tbody></table></section><section id="parts"><h2>Bảo hành phụ tùng</h2><p>Phụ tùng trả phí thay tại đơn vị ủy quyền có điều kiện riêng. Phụ tùng thông thường: 1 năm; pin và ắc quy theo nhóm tương ứng.</p></section><section id="exclusions"><h2>Các hạng mục loại trừ</h2><p>Hao mòn tự nhiên, sử dụng sai hướng dẫn, thay đổi trái phép, tai nạn và tác động bên ngoài thuộc các nhóm cần đối chiếu điều khoản loại trừ.</p></section><section id="faq"><h2>Câu hỏi thường gặp</h2>${accordionMarkup('warranty-old','Xe mua trước có áp dụng chính sách mới?','<p>Áp dụng chính sách có hiệu lực tại thời điểm mua theo nguồn.</p>')}${accordionMarkup('warranty-aging','Pin chai có được bảo hành?','<p>Chai pin thông thường được phân loại là hao mòn tự nhiên.</p>')}</section><p class="muted">Bản tóm tắt tham chiếu, không thay thế sổ bảo hành và không xác định quyền lợi cho trường hợp cụ thể.</p><a class="button" href="${localURL('pages/service-booking.html')}">Đặt lịch dịch vụ mô phỏng</a></article></div>`;
+
+export function renderScooterWarranty(main) {
+  document.title = 'Bảo hành xe máy điện — VinFast mô phỏng';
+  const sections = [
+    ['scope', 'Phạm vi'],
+    ['period', 'Thời hạn'],
+    ['limited', 'Chi tiết giới hạn'],
+    ['parts', 'Phụ tùng'],
+    ['exclusions', 'Loại trừ'],
+    ['faq', 'Câu hỏi thường gặp'],
+  ];
+  main.innerHTML = /* HTML */ `<section class="page-heading">
+      <div class="container"><h1>Chính sách bảo hành xe máy điện</h1></div>
+    </section>
+    <div class="container support-layout">
+      <nav aria-label="Mục lục bảo hành">
+        ${sections.map(([id, name]) => /* HTML */ `<a href="#${id}">${name}</a>`).join('')}
+      </nav>
+      <article>
+        <section id="scope">
+          <h2>Phạm vi bảo hành</h2>
+          <p>
+            Lỗi phần mềm, linh kiện hoặc lắp ráp khi xe được sử dụng và bảo
+            dưỡng đúng cách. Thực hiện tại đơn vị ủy quyền trong Việt Nam theo
+            điều kiện bảo hành.
+          </p>
+        </section>
+        <section id="period">
+          <h2>Thời hạn bảo hành</h2>
+          ${image('warranty-scooter.jpg', 'Thời hạn bảo hành xe máy điện')}
+          <p>
+            Xe dùng pin LFP: 6 năm; pin LFP: tới 8 năm. Dòng khác: 3 năm. Không
+            giới hạn quãng đường theo thông tin nguồn.
+          </p>
+        </section>
+        <section id="limited">
+          <h2>Các chi tiết bảo hành giới hạn</h2>
+          <table>
+            <tbody>
+              <tr>
+                <th>Pin LFP</th>
+                <td>8 năm</td>
+              </tr>
+              <tr>
+                <th>Pin khác</th>
+                <td>3 năm</td>
+              </tr>
+              <tr>
+                <th>Ắc quy 12V</th>
+                <td>1 năm</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+        <section id="parts">
+          <h2>Bảo hành phụ tùng</h2>
+          <p>
+            Phụ tùng trả phí thay tại đơn vị ủy quyền có điều kiện riêng. Phụ
+            tùng thông thường: 1 năm; pin và ắc quy theo nhóm tương ứng.
+          </p>
+        </section>
+        <section id="exclusions">
+          <h2>Các hạng mục loại trừ</h2>
+          <p>
+            Hao mòn tự nhiên, sử dụng sai hướng dẫn, thay đổi trái phép, tai nạn
+            và tác động bên ngoài thuộc các nhóm cần đối chiếu điều khoản loại
+            trừ.
+          </p>
+        </section>
+        <section id="faq">
+          <h2>Câu hỏi thường gặp</h2>
+          ${accordionMarkup('warranty-old', 'Xe mua trước có áp dụng chính sách mới?', '<p>Áp dụng chính sách có hiệu lực tại thời điểm mua theo nguồn.</p>')}${accordionMarkup('warranty-aging', 'Pin chai có được bảo hành?', '<p>Chai pin thông thường được phân loại là hao mòn tự nhiên.</p>')}
+        </section>
+        <p class="muted">
+          Bản tóm tắt tham chiếu, không thay thế sổ bảo hành và không xác định
+          quyền lợi cho trường hợp cụ thể.
+        </p>
+        <a class="button" href="${localURL('pages/service-booking.html')}"
+          >Đặt lịch dịch vụ mô phỏng</a
+        >
+      </article>
+    </div>`;
 }

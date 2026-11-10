@@ -1,7 +1,139 @@
-.vf3-hero{position:relative;background:#dce9ef}.vf3-hero>img{width:100%;height:auto;aspect-ratio:2.4;object-fit:cover}.vf3-hero>div{position:absolute;top:8%;left:7%;color:#222}.vf3-hero h1{font-size:64px;margin-bottom:12px}.vf3-center{text-align:center}.vf3-center .choice-row{justify-content:center}.vf3-center>img,.vf3-wide>img{width:100%;height:auto}.vf3-center .specs{max-width:1000px;margin:30px auto}.vf3-center .price{margin-top:24px}#vf3-version-image img{height:auto;max-height:540px;width:100%;object-fit:contain}.vf3-gallery{position:relative}.vf3-gallery img{width:100%;height:auto;aspect-ratio:1.8;object-fit:cover}.vf3-gallery .slider-controls{position:static;transform:none;justify-content:center;width:max-content;max-width:100%;margin:16px auto 0}.vf3-colour img{max-height:560px;object-fit:contain}.vf3-center .vf3-ecosystem{max-width:600px;margin:0 auto 30px}.vf3-center>.muted{margin-top:22px}.vf3-wide{background:#f5f6f8}
-@media(max-width:768px){.vf3-hero>img{aspect-ratio:1.15;object-position:50%}.vf3-hero>div{left:24px;top:24px}.vf3-hero h1{font-size:40px}.vf3-hero .button{padding:10px 16px}.vf3-center .specs{gap:12px}.vf3-center .specs dd{font-size:17px}.vf3-gallery img{aspect-ratio:1.2}.vf3-gallery .slider-controls{gap:0;padding:4px}.vf3-gallery .slider-controls button{padding:8px 10px}#vf3-specifications th,#vf3-specifications td{padding:12px}}
+.vf3-hero {
+  position: relative;
+  background: #dce9ef;
+}
+.vf3-hero > img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 2.4;
+  object-fit: cover;
+}
+.vf3-hero > div {
+  position: absolute;
+  top: 8%;
+  left: 7%;
+  color: #222;
+}
+.vf3-hero h1 {
+  font-size: 64px;
+  margin-bottom: 12px;
+}
+.vf3-center {
+  text-align: center;
+}
+.vf3-center .choice-row {
+  justify-content: center;
+}
+.vf3-center > img,
+.vf3-wide > img {
+  width: 100%;
+  height: auto;
+}
+.vf3-center .specs {
+  max-width: 1000px;
+  margin: 30px auto;
+}
+.vf3-center .price {
+  margin-top: 24px;
+}
+#vf3-version-image img {
+  height: auto;
+  max-height: 540px;
+  width: 100%;
+  object-fit: contain;
+}
+.vf3-gallery {
+  position: relative;
+}
+.vf3-gallery img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1.8;
+  object-fit: cover;
+}
+.vf3-gallery .slider-controls {
+  position: static;
+  transform: none;
+  justify-content: center;
+  width: max-content;
+  max-width: 100%;
+  margin: 16px auto 0;
+}
+.vf3-colour img {
+  max-height: 560px;
+  object-fit: contain;
+}
+.vf3-center .vf3-ecosystem {
+  max-width: 600px;
+  margin: 0 auto 30px;
+}
+.vf3-center > .muted {
+  margin-top: 22px;
+}
+.vf3-wide {
+  background: #f5f6f8;
+}
+@media (max-width: 768px) {
+  .vf3-hero > img {
+    aspect-ratio: 1.15;
+    object-position: 50%;
+  }
+  .vf3-hero > div {
+    left: 24px;
+    top: 24px;
+  }
+  .vf3-hero h1 {
+    font-size: 40px;
+  }
+  .vf3-hero .button {
+    padding: 10px 16px;
+  }
+  .vf3-center .specs {
+    gap: 12px;
+  }
+  .vf3-center .specs dd {
+    font-size: 17px;
+  }
+  .vf3-gallery img {
+    aspect-ratio: 1.2;
+  }
+  .vf3-gallery .slider-controls {
+    gap: 0;
+    padding: 4px;
+  }
+  .vf3-gallery .slider-controls button {
+    padding: 8px 10px;
+  }
+  #vf3-specifications th,
+  #vf3-specifications td {
+    padding: 12px;
+  }
+}
 
 /* Preserve the complete photographic composition, including wheels and bumpers. */
-.vf3-hero>img{aspect-ratio:12/5;object-fit:contain;object-position:center}
-.vf3-gallery img{aspect-ratio:16/9;object-fit:contain;object-position:center}
-@media(max-width:768px){.vf3-hero{display:flex;flex-direction:column}.vf3-hero>div{position:static;order:-1;text-align:center;padding:24px}.vf3-hero>img{height:auto;width:100%}}
+.vf3-hero > img {
+  aspect-ratio: 12/5;
+  object-fit: contain;
+  object-position: center;
+}
+.vf3-gallery img {
+  aspect-ratio: 16/9;
+  object-fit: contain;
+  object-position: center;
+}
+@media (max-width: 768px) {
+  .vf3-hero {
+    display: flex;
+    flex-direction: column;
+  }
+  .vf3-hero > div {
+    position: static;
+    order: -1;
+    text-align: center;
+    padding: 24px;
+  }
+  .vf3-hero > img {
+    height: auto;
+    width: 100%;
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "scripts": {
+    "format": "prettier --write \"**/*.{html,css,js,cjs,mjs}\"",
+    "format:check": "prettier --check \"**/*.{html,css,js,cjs,mjs}\""
+  },
+  "devDependencies": {
+    "prettier": "3.9.10"
+  }
+}

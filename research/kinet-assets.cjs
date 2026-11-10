@@ -1,3 +1,37 @@
-const fs=require('node:fs');
-const files={hero:'statics/e-scooter/kinet/hinh-anh-vinfast-kinet-hero-banner-mobile.webp',front:'statics/e-scooter/updated/kinet/kinet-front-view-mobile.webp',screen:'statics/e-scooter/updated/kinet/kinet-detail-01-screen-mobile.webp',storage:'statics/e-scooter/updated/kinet/kinet-detail-02-storage-mobile.webp',suspension:'statics/e-scooter/updated/kinet/kinet-detail-04-shock-absorber-mobile.webp',brake:'statics/e-scooter/updated/kinet/kinet-detail-05-brake-mobile.webp'};
-(async()=>{fs.mkdirSync('assets/kinet',{recursive:true});const records=[];for(const [name,path] of Object.entries(files)){const source='https://static-cms-prod.vinfastauto.com/'+path;const r=await fetch(source,{signal:AbortSignal.timeout(30000)});if(!r.ok)throw Error(name+': '+r.status);const file='assets/kinet/'+name+'.webp';fs.writeFileSync(file,Buffer.from(await r.arrayBuffer()));records.push({file,source,role:'Kinet / '+name,permission:'User confirmed educational image use, 2026-11-07',reference:'https://vinfastauto.com/vn_vi/xe-may-dien-vinfast-kinet'});}fs.writeFileSync('assets/kinet/manifest.json',JSON.stringify(records,null,2));console.log('Saved '+records.length+' Kinet images');})().catch(e=>{console.error(e);process.exitCode=1;});
+const fs = require('node:fs');
+const files = {
+  hero: 'statics/e-scooter/kinet/hinh-anh-vinfast-kinet-hero-banner-mobile.webp',
+  front: 'statics/e-scooter/updated/kinet/kinet-front-view-mobile.webp',
+  screen: 'statics/e-scooter/updated/kinet/kinet-detail-01-screen-mobile.webp',
+  storage:
+    'statics/e-scooter/updated/kinet/kinet-detail-02-storage-mobile.webp',
+  suspension:
+    'statics/e-scooter/updated/kinet/kinet-detail-04-shock-absorber-mobile.webp',
+  brake: 'statics/e-scooter/updated/kinet/kinet-detail-05-brake-mobile.webp',
+};
+(async () => {
+  fs.mkdirSync('assets/kinet', { recursive: true });
+  const records = [];
+  for (const [name, path] of Object.entries(files)) {
+    const source = 'https://static-cms-prod.vinfastauto.com/' + path;
+    const r = await fetch(source, { signal: AbortSignal.timeout(30000) });
+    if (!r.ok) throw Error(name + ': ' + r.status);
+    const file = 'assets/kinet/' + name + '.webp';
+    fs.writeFileSync(file, Buffer.from(await r.arrayBuffer()));
+    records.push({
+      file,
+      source,
+      role: 'Kinet / ' + name,
+      permission: 'User confirmed educational image use, 2026-11-07',
+      reference: 'https://vinfastauto.com/vn_vi/xe-may-dien-vinfast-kinet',
+    });
+  }
+  fs.writeFileSync(
+    'assets/kinet/manifest.json',
+    JSON.stringify(records, null, 2),
+  );
+  console.log('Saved ' + records.length + ' Kinet images');
+})().catch((e) => {
+  console.error(e);
+  process.exitCode = 1;
+});

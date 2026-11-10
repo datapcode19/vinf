@@ -1,0 +1,7 @@
+node_modules/
+backups/
+# Captured reference documents are evidence, not application source.
+research/**/*.html
+# Generated browser reports and screenshots.
+tests/*/**/*.html
+.format-work/

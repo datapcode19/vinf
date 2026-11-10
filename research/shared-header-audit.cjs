@@ -1,3 +1,58 @@
-const fs=require('node:fs');
-const {chromium}=require('C:/Users/TIEN DAT/AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/playwright/driver/package');
-(async()=>{const browser=await chromium.launch({headless:true});const page=await browser.newPage({viewport:{width:1440,height:900}});await page.goto('https://shop.vinfastauto.com/vn_vi/phu-kien',{waitUntil:'domcontentloaded',timeout:30000});await page.waitForTimeout(2500);const reject=page.getByRole('button',{name:'Từ chối tất cả',exact:true});if(await reject.count())await reject.click();await page.waitForTimeout(300);await page.screenshot({path:'research/current/shop-header-clean.png'});const menu=page.locator('header').first().getByText('Ô tô',{exact:true}).first();await menu.hover();await page.waitForTimeout(1200);await page.screenshot({path:'research/current/shop-menu-cars.png'});const state=await page.locator('header').first().evaluate(node=>({text:node.innerText.slice(0,8000),children:[...node.querySelectorAll('a,button')].filter(n=>n.getBoundingClientRect().width>0).slice(0,15).map(n=>({text:n.textContent.trim(),rect:{x:n.getBoundingClientRect().x,y:n.getBoundingClientRect().y,w:n.getBoundingClientRect().width,h:n.getBoundingClientRect().height},font:getComputedStyle(n).fontSize}))}));fs.writeFileSync('research/current/shared-header-details.json',JSON.stringify(state,null,2));console.log(JSON.stringify(state.children));await browser.close();})().catch(e=>{console.error(e.message);process.exit(1)});
+const fs = require('node:fs');
+const {
+  chromium,
+} = require('C:/Users/TIEN DAT/AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/playwright/driver/package');
+(async () => {
+  const browser = await chromium.launch({ headless: true });
+  const page = await browser.newPage({
+    viewport: { width: 1440, height: 900 },
+  });
+  await page.goto('https://shop.vinfastauto.com/vn_vi/phu-kien', {
+    waitUntil: 'domcontentloaded',
+    timeout: 30000,
+  });
+  await page.waitForTimeout(2500);
+  const reject = page.getByRole('button', {
+    name: 'Từ chối tất cả',
+    exact: true,
+  });
+  if (await reject.count()) await reject.click();
+  await page.waitForTimeout(300);
+  await page.screenshot({ path: 'research/current/shop-header-clean.png' });
+  const menu = page
+    .locator('header')
+    .first()
+    .getByText('Ô tô', { exact: true })
+    .first();
+  await menu.hover();
+  await page.waitForTimeout(1200);
+  await page.screenshot({ path: 'research/current/shop-menu-cars.png' });
+  const state = await page
+    .locator('header')
+    .first()
+    .evaluate((node) => ({
+      text: node.innerText.slice(0, 8000),
+      children: [...node.querySelectorAll('a,button')]
+        .filter((n) => n.getBoundingClientRect().width > 0)
+        .slice(0, 15)
+        .map((n) => ({
+          text: n.textContent.trim(),
+          rect: {
+            x: n.getBoundingClientRect().x,
+            y: n.getBoundingClientRect().y,
+            w: n.getBoundingClientRect().width,
+            h: n.getBoundingClientRect().height,
+          },
+          font: getComputedStyle(n).fontSize,
+        })),
+    }));
+  fs.writeFileSync(
+    'research/current/shared-header-details.json',
+    JSON.stringify(state, null, 2),
+  );
+  console.log(JSON.stringify(state.children));
+  await browser.close();
+})().catch((e) => {
+  console.error(e.message);
+  process.exit(1);
+});

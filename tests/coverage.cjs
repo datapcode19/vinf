@@ -1,2 +1,65 @@
-const fs=require('node:fs'),path=require('node:path'),{pathToFileURL}=require('node:url');
-(async()=>{const {homeMenus,footerGroups}=await import(pathToFileURL(path.resolve('data/home-menu.js')));const {resolveRoute}=await import(pathToFileURL(path.resolve('js/routes.js')));const items=[{name:'Trang chủ',url:'https://vinfastauto.com/vn_vi',parent:'Root'},...homeMenus.flatMap(m=>m.url?[{...m,parent:'Header'}]:m.groups.flatMap(g=>g.items.map(i=>({...i,parent:m.name+' / '+g.name})))),...footerGroups.flatMap(g=>g.items.map(i=>({...i,parent:'Footer / '+g.name})))];const unique=new Map();for(const item of items){const local=resolveRoute(item.url).split('/vinf/').at(-1);if(unique.has(item.url))continue;unique.set(item.url,{...item,local,status:local.includes('reference.html')?'NOT STARTED':'PARTIAL',sourceView:'Text/assets available for selected pages; desktop/mobile layout UNVERIFIED'});}const rows=[...unique.values()];const counts={};for(const r of rows)counts[r.status]=(counts[r.status]||0)+1;fs.writeFileSync('research/current/url-coverage.json',JSON.stringify({scope:'Unique destinations from current header/footer; excludes external ecosystem sites and body-only CTAs',counts,rows},null,2));fs.writeFileSync('URL_COVERAGE.md','# Độ bao phủ URL — giai đoạn 1\n\n'+Object.entries(counts).map(([s,n])=>`${s}: **${n}**`).join(' · ')+' · VERIFIED COMPLETE: **0** · FUNCTIONAL COMPLETE: **0** · BLOCKED (toàn trang): **0**.\n\nPhạm vi: URL duy nhất trong header/footer hiện có; chưa phải toàn bộ sitemap VinFast. Hero trang chủ và đối chiếu giao diện bị chặn ở cấp section. Trang thông báo thiếu dữ liệu không được tính là triển khai.\n\n| URL nguồn | Cha | Cục bộ | Trạng thái |\n|---|---|---|---|\n'+rows.map(r=>`| ${r.url} | ${r.parent} | ${r.local} | ${r.status} |`).join('\n')+'\n');console.log(counts);})();
+const fs = require('node:fs'),
+  path = require('node:path'),
+  { pathToFileURL } = require('node:url');
+(async () => {
+  const { homeMenus, footerGroups } = await import(
+    pathToFileURL(path.resolve('data/home-menu.js'))
+  );
+  const { resolveRoute } = await import(
+    pathToFileURL(path.resolve('js/routes.js'))
+  );
+  const items = [
+    { name: 'Trang chủ', url: 'https://vinfastauto.com/vn_vi', parent: 'Root' },
+    ...homeMenus.flatMap((m) =>
+      m.url
+        ? [{ ...m, parent: 'Header' }]
+        : m.groups.flatMap((g) =>
+            g.items.map((i) => ({ ...i, parent: m.name + ' / ' + g.name })),
+          ),
+    ),
+    ...footerGroups.flatMap((g) =>
+      g.items.map((i) => ({ ...i, parent: 'Footer / ' + g.name })),
+    ),
+  ];
+  const unique = new Map();
+  for (const item of items) {
+    const local = resolveRoute(item.url).split('/vinf/').at(-1);
+    if (unique.has(item.url)) continue;
+    unique.set(item.url, {
+      ...item,
+      local,
+      status: local.includes('reference.html') ? 'NOT STARTED' : 'PARTIAL',
+      sourceView:
+        'Text/assets available for selected pages; desktop/mobile layout UNVERIFIED',
+    });
+  }
+  const rows = [...unique.values()];
+  const counts = {};
+  for (const r of rows) counts[r.status] = (counts[r.status] || 0) + 1;
+  fs.writeFileSync(
+    'research/current/url-coverage.json',
+    JSON.stringify(
+      {
+        scope:
+          'Unique destinations from current header/footer; excludes external ecosystem sites and body-only CTAs',
+        counts,
+        rows,
+      },
+      null,
+      2,
+    ),
+  );
+  fs.writeFileSync(
+    'URL_COVERAGE.md',
+    '# Độ bao phủ URL — giai đoạn 1\n\n' +
+      Object.entries(counts)
+        .map(([s, n]) => `${s}: **${n}**`)
+        .join(' · ') +
+      ' · VERIFIED COMPLETE: **0** · FUNCTIONAL COMPLETE: **0** · BLOCKED (toàn trang): **0**.\n\nPhạm vi: URL duy nhất trong header/footer hiện có; chưa phải toàn bộ sitemap VinFast. Hero trang chủ và đối chiếu giao diện bị chặn ở cấp section. Trang thông báo thiếu dữ liệu không được tính là triển khai.\n\n| URL nguồn | Cha | Cục bộ | Trạng thái |\n|---|---|---|---|\n' +
+      rows
+        .map((r) => `| ${r.url} | ${r.parent} | ${r.local} | ${r.status} |`)
+        .join('\n') +
+      '\n',
+  );
+  console.log(counts);
+})();

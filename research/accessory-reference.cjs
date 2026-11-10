@@ -1,3 +1,56 @@
-const {chromium}=require('C:/Users/TIEN DAT/AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/playwright/driver/package');
-const fs=require('node:fs');
-(async()=>{const browser=await chromium.launch();const results=[];try{for(const width of [1440,390]){const page=await browser.newPage({viewport:{width,height:900}});try{const response=await page.goto('https://shop.vinfastauto.com/vn_vi/EEP69072176AB.html',{waitUntil:'domcontentloaded',timeout:30000});await page.locator('h1').first().waitFor({timeout:15000});const reject=page.getByRole('button',{name:/Từ chối|Reject all/i});if(await reject.count()===1)await reject.click();await page.screenshot({path:`research/current/charger-source-${width}.png`,fullPage:true});results.push({width,status:response.status(),title:await page.title(),headings:await page.locator('h1').allTextContents(),loadedImages:await page.locator('img').evaluateAll(images=>({loaded:images.filter(i=>i.complete&&i.naturalWidth).length,total:images.length})),product:await page.locator('h1').first().evaluate(e=>({text:e.textContent,rect:e.getBoundingClientRect().toJSON(),font:getComputedStyle(e).font}))});}catch(e){results.push({width,error:e.message});}await page.close();}}finally{await browser.close();fs.writeFileSync('research/current/charger-reference.json',JSON.stringify(results,null,2));console.log(JSON.stringify(results,null,2));}})();
+const {
+  chromium,
+} = require('C:/Users/TIEN DAT/AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/playwright/driver/package');
+const fs = require('node:fs');
+(async () => {
+  const browser = await chromium.launch();
+  const results = [];
+  try {
+    for (const width of [1440, 390]) {
+      const page = await browser.newPage({ viewport: { width, height: 900 } });
+      try {
+        const response = await page.goto(
+          'https://shop.vinfastauto.com/vn_vi/EEP69072176AB.html',
+          { waitUntil: 'domcontentloaded', timeout: 30000 },
+        );
+        await page.locator('h1').first().waitFor({ timeout: 15000 });
+        const reject = page.getByRole('button', {
+          name: /Từ chối|Reject all/i,
+        });
+        if ((await reject.count()) === 1) await reject.click();
+        await page.screenshot({
+          path: `research/current/charger-source-${width}.png`,
+          fullPage: true,
+        });
+        results.push({
+          width,
+          status: response.status(),
+          title: await page.title(),
+          headings: await page.locator('h1').allTextContents(),
+          loadedImages: await page.locator('img').evaluateAll((images) => ({
+            loaded: images.filter((i) => i.complete && i.naturalWidth).length,
+            total: images.length,
+          })),
+          product: await page
+            .locator('h1')
+            .first()
+            .evaluate((e) => ({
+              text: e.textContent,
+              rect: e.getBoundingClientRect().toJSON(),
+              font: getComputedStyle(e).font,
+            })),
+        });
+      } catch (e) {
+        results.push({ width, error: e.message });
+      }
+      await page.close();
+    }
+  } finally {
+    await browser.close();
+    fs.writeFileSync(
+      'research/current/charger-reference.json',
+      JSON.stringify(results, null, 2),
+    );
+    console.log(JSON.stringify(results, null, 2));
+  }
+})();

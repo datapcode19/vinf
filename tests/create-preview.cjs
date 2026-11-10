@@ -1,6 +1,146 @@
 // Trang xem ảnh QA, không được import vào website chính.
-const fs=require('node:fs');
-const widths=[1440,1366,768,390],dir='tests/home-visual/';
-const panels=[['oto','Ô tô'],['xe-may-dien','Xe máy điện'],['hau-mai','Hậu mãi'],['tuong-lai-xanh','Tương lai xanh'],['he-sinh-thai','Hệ sinh thái'],['ho-tro-mua-xe','Hỗ trợ mua xe'],['phu-kien','Phụ kiện / VF eStore'],['nhan-thong-tin','Nhận thông tin']];
-fs.writeFileSync(dir+'index.html',`<!doctype html><html lang="vi"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Kiểm tra giao diện trang chủ VinFast</title><style>body{font:16px/1.6 Arial;margin:32px;color:#20252b;background:#f3f5f7}main{max-width:1280px;margin:auto}h1{font-size:28px}a{color:#1464f4}nav{display:flex;gap:20px;flex-wrap:wrap}section{margin:40px 0}details{background:white;padding:18px;margin:14px 0}summary{cursor:pointer}img{max-width:100%;display:block;margin:18px auto;border:1px solid #ddd}.columns{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.phone{max-width:390px}small{color:#606772}@media(max-width:700px){body{margin:18px}.columns{grid-template-columns:1fr}}</style><main><h1>Trang chủ — ảnh kiểm tra giao diện</h1><p>IMPLEMENTED — UNVERIFIED. Hero thực tế và đối chiếu production còn BLOCKED. Đây là ảnh bản dựng; không phải ảnh trang VinFast gốc.</p><nav>${widths.map(w=>`<a href="home-${w}.png" target="_blank">Toàn trang ${w}px ↗</a>`).join('')}<a href="../../index.html">Mở bản dựng</a></nav><section><h2>Từng section</h2>${panels.map(([id,name])=>`<details><summary>${name}</summary><div class="columns"><div><small>1440px</small><a href="section-${id}-1440.png" target="_blank"><img src="section-${id}-1440.png" alt="${name} desktop" loading="lazy"></a></div><div><small>390px</small><a href="section-${id}-390.png" target="_blank"><img class="phone" src="section-${id}-390.png" alt="${name} mobile" loading="lazy"></a></div></div></details>`).join('')}</section><section><h2>Menu và footer</h2>${widths.map(w=>`<details><summary>${w}px</summary>${[1,2,4,5].map((id,i)=>`<a href="menu-menu-${id}-${w}.png" target="_blank">${['Ô tô','Xe máy điện','Hậu mãi','Pin'][i]} ↗</a>`).join(' · ')} · <a href="footer-${w}.png" target="_blank">Footer ↗</a></details>`).join('')}</section><p><a href="results.json">Kết quả viewport</a> · <a href="interactions.json">Kết quả tương tác</a></p></main></html>`);
+const fs = require('node:fs');
+const widths = [1440, 1366, 768, 390],
+  dir = 'tests/home-visual/';
+const panels = [
+  ['oto', 'Ô tô'],
+  ['xe-may-dien', 'Xe máy điện'],
+  ['hau-mai', 'Hậu mãi'],
+  ['tuong-lai-xanh', 'Tương lai xanh'],
+  ['he-sinh-thai', 'Hệ sinh thái'],
+  ['ho-tro-mua-xe', 'Hỗ trợ mua xe'],
+  ['phu-kien', 'Phụ kiện / VF eStore'],
+  ['nhan-thong-tin', 'Nhận thông tin'],
+];
+fs.writeFileSync(
+  dir + 'index.html',
+  /* HTML */ `<!doctype html>
+    <html lang="vi">
+      <meta charset="utf-8" /><meta
+        name="viewport"
+        content="width=device-width,initial-scale=1"
+      /><title>Kiểm tra giao diện trang chủ VinFast</title
+      ><style>
+        body {
+          font: 16px/1.6 Arial;
+          margin: 32px;
+          color: #20252b;
+          background: #f3f5f7;
+        }
+        main {
+          max-width: 1280px;
+          margin: auto;
+        }
+        h1 {
+          font-size: 28px;
+        }
+        a {
+          color: #1464f4;
+        }
+        nav {
+          display: flex;
+          gap: 20px;
+          flex-wrap: wrap;
+        }
+        section {
+          margin: 40px 0;
+        }
+        details {
+          background: white;
+          padding: 18px;
+          margin: 14px 0;
+        }
+        summary {
+          cursor: pointer;
+        }
+        img {
+          max-width: 100%;
+          display: block;
+          margin: 18px auto;
+          border: 1px solid #ddd;
+        }
+        .columns {
+          display: grid;
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+          gap: 20px;
+        }
+        .phone {
+          max-width: 390px;
+        }
+        small {
+          color: #606772;
+        }
+        @media (max-width: 700px) {
+          body {
+            margin: 18px;
+          }
+          .columns {
+            grid-template-columns: 1fr;
+          }
+        }
+      </style>
+      <main>
+        <h1>Trang chủ — ảnh kiểm tra giao diện</h1>
+        <p>
+          IMPLEMENTED — UNVERIFIED. Hero thực tế và đối chiếu production còn
+          BLOCKED. Đây là ảnh bản dựng; không phải ảnh trang VinFast gốc.
+        </p>
+        <nav>
+          ${widths.map((w) => /* HTML */ `<a href="home-${w}.png" target="_blank">Toàn trang ${w}px ↗</a>`).join('')}<a
+            href="../../index.html"
+            >Mở bản dựng</a
+          >
+        </nav>
+        <section>
+          <h2>Từng section</h2>
+          ${panels
+            .map(
+              ([id, name]) =>
+                /* HTML */ `<details>
+                  <summary>${name}</summary>
+                  <div class="columns">
+                    <div>
+                      <small>1440px</small
+                      ><a href="section-${id}-1440.png" target="_blank"
+                        ><img
+                          src="section-${id}-1440.png"
+                          alt="${name} desktop"
+                          loading="lazy"
+                      /></a>
+                    </div>
+                    <div>
+                      <small>390px</small
+                      ><a href="section-${id}-390.png" target="_blank"
+                        ><img
+                          class="phone"
+                          src="section-${id}-390.png"
+                          alt="${name} mobile"
+                          loading="lazy"
+                      /></a>
+                    </div>
+                  </div>
+                </details>`,
+            )
+            .join('')}
+        </section>
+        <section>
+          <h2>Menu và footer</h2>
+          ${widths
+            .map(
+              (w) =>
+                /* HTML */ `<details>
+                  <summary>${w}px</summary>
+                  ${[1, 2, 4, 5].map((id, i) => /* HTML */ `<a href="menu-menu-${id}-${w}.png" target="_blank">${['Ô tô', 'Xe máy điện', 'Hậu mãi', 'Pin'][i]} ↗</a>`).join(' · ')}
+                  · <a href="footer-${w}.png" target="_blank">Footer ↗</a>
+                </details>`,
+            )
+            .join('')}
+        </section>
+        <p>
+          <a href="results.json">Kết quả viewport</a> ·
+          <a href="interactions.json">Kết quả tương tác</a>
+        </p>
+      </main>
+    </html>`,
+);
 console.log('QA gallery generated');

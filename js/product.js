@@ -1,39 +1,191 @@
-import {createSwipe} from './swipe.js';
-import {extendKinet} from './kinet-sections.js';
-import {products,money} from '../data/products.js';
-import {prefix,pageURL} from './navigation.js';
-import {tabsMarkup,accordionMarkup} from './components.js';
-export function renderProduct(main){
- const p=products.find(p=>p.id===new URLSearchParams(location.search).get('id')&&p.detail);
- if(!p){main.innerHTML=`<section class="container"><p class="eyebrow">404</p><h1>Không tìm thấy trang sản phẩm</h1><p>Trang này chưa tồn tại trong bản mô phỏng.</p><a class="button" href="${pageURL('catalog')}">Xem danh mục</a></section>`;document.title='404 — Bản mô phỏng VinFast';return;}
- document.title=p.name+' — Bản mô phỏng VinFast';
- const car=p.id==='vf6';
- main.innerHTML=`<nav class="breadcrumb container" aria-label="Đường dẫn"><a href="${prefix}index.html">Trang chủ</a> / <a href="${pageURL('catalog','?group='+p.group)}">${car?'Ô tô':'Xe máy điện'}</a> / ${p.name}</nav>${car?`<section class="product-hero"><img src="${prefix}assets/vf6-hero.webp" alt="VF 6 trên đường đèo"><div><p class="eyebrow">VinFast</p><h1>VF 6</h1><p>Khám phá dòng xe B-SUV</p><a class="button" href="#configuration">Khám phá phiên bản</a></div></section>`:`<section class="kinet-heading container"><p class="eyebrow">Xe máy điện đổi pin</p><h1>VinFast Kinet</h1><p>Khám phá thiết kế và màu sắc</p></section>`}<section class="container configuration" id="configuration"><div class="vehicle-stage"><img id="vehicle-image" src="${prefix}assets/${car?'vf6-white.webp':'kinet-do.webp'}" alt="${car?'VF 6 — ảnh minh họa mẫu xe, không thể hiện khác biệt phiên bản':'Kinet màu Đỏ Đen'}"><p class="muted">${car?'Ảnh minh họa VF 6. Khác biệt ngoại hình Eco/Plus chưa được tái tạo.':'Ảnh sản phẩm theo màu từ trang tham chiếu.'}</p></div><div><p class="eyebrow">${car?'Chọn phiên bản':'Chọn màu xe'}</p><h2>${p.name}</h2>${car?`<div class="choice-row" aria-label="Phiên bản">${p.versions.map((v,i)=>`<button type="button" data-version="${i}" aria-pressed="${i===0}">${v.name}</button>`).join('')}</div>`:`<div class="swatches" aria-label="Màu xe">${p.colors.map(([name,hex,file],i)=>`<button type="button" data-color="${i}" aria-label="${name}" aria-pressed="${i===0}" style="--swatch:${hex}"><span></span></button>`).join('')}</div>`}<p id="selection" role="status">${car?'VF 6 Eco':'Đỏ Đen'}</p><p class="price" id="price">${money(p.price)}</p><dl class="specs"><div><dt>Quãng đường${car?' (NEDC)':''}</dt><dd id="range">${p.range}</dd></div><div><dt>${car?'Sạc nhanh 10%–70%':'Tốc độ tối đa'}</dt><dd>${car?'25 phút':'~90 km/h'}</dd></div><div><dt>${car?'Số chỗ':'Bảo hành pin'}</dt><dd>${car?'5':'8 năm'}</dd></div></dl><p class="muted">${car?'Thông số phụ thuộc phiên bản và điều kiện sử dụng.':'Tốc độ: 1 người 65 kg, chế độ Sport. Quãng đường thực tế phụ thuộc điều kiện sử dụng.'}</p><a class="button" href="${pageURL('test-drive','?model='+p.id)}">Lái thử — mô phỏng</a><p class="muted">Không đặt cọc, không gửi dữ liệu thật.</p></div></section><section class="container">${tabsMarkup('product-info',[
- {title:'Tổng quan',content:`<h2>${car?'VF 6 — B-SUV 5 chỗ':'Kinet — Xe máy điện đổi pin'}</h2><p>${car?'Chuyển Eco/Plus phía trên để xem giá và quãng đường tương ứng.':'Chọn một trong năm màu phía trên để xem đúng ảnh tương ứng.'}</p>`},
- {title:'Thông số',content:`<h2>Thông số đang chọn</h2><div id="spec-table"></div>`},
- {title:'Bảo hành',content:car?'<p>7 năm hoặc 160.000 km, tùy điều kiện nào đến trước; cần đối chiếu điều kiện áp dụng tại trang chính thức.</p>':'<p>Bảo hành xe 6 năm, pin 8 năm, không giới hạn số km theo nội dung trang tham chiếu.</p>'}
- ])}${accordionMarkup('source-note','Nguồn dữ liệu và giới hạn bản mô phỏng',`<p>Dữ liệu đọc ngày 07/11/2026. Giá trong đồ án không phải báo giá. Chưa tái tạo toàn bộ section và hiệu ứng của sản phẩm.</p><a href="${p.source}" target="_blank" rel="noopener noreferrer">Xem trang tham chiếu ↗</a>`)}</section>`;
- if(!car)extendKinet(main);
- const table=main.querySelector('#spec-table');
- function updateTable(name,price,range){table.innerHTML=`<table><caption>${p.name} ${name}</caption><tbody><tr><th scope="row">Giá tham chiếu</th><td>${money(price)}</td></tr><tr><th scope="row">Quãng đường</th><td>${range}</td></tr></tbody></table>`;}
- updateTable(car?'Eco':'Đỏ Đen',p.price,p.range);
- main.querySelectorAll('[data-version]').forEach(button=>button.addEventListener('click',()=>{const v=p.versions[Number(button.dataset.version)];main.querySelectorAll('[data-version]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));main.querySelector('#selection').textContent=p.name+' '+v.name;main.querySelector('#price').textContent=money(v.price);main.querySelector('#range').textContent=v.range;updateTable(v.name,v.price,v.range);}));
- if(!car){
-  const original=main.querySelector('#vehicle-image');
-  const viewport=document.createElement('div');original.before(viewport);
-  const slides=p.colors.map(([name,,file])=>{
-   const slide=document.createElement('div'),image=original.cloneNode();
-   image.removeAttribute('id');image.src=prefix+'assets/kinet-'+file+'.webp';image.alt=p.name+' '+name;
-   slide.append(image);viewport.append(slide);return slide;
-  });
-  original.remove();
-  const buttons=[...main.querySelectorAll('[data-color]')];
-  const carousel=createSwipe(viewport,slides,index=>{
-   buttons.forEach((button,i)=>button.setAttribute('aria-pressed',String(i===index)));
-   slides.forEach((slide,i)=>{const image=slide.firstElementChild;if(i===index)image.id='vehicle-image';else image.removeAttribute('id');});
-   main.querySelector('#selection').textContent=p.colors[index][0];
-   updateTable(p.colors[index][0],p.price,p.range);
-  });
-  buttons.forEach((button,i)=>button.addEventListener('click',()=>carousel.go(i)));
- }
+import { createSwipe } from './swipe.js';
+import { extendKinet } from './kinet-sections.js';
+import { products, money } from '../data/products.js';
+import { prefix, pageURL } from './navigation.js';
+import { tabsMarkup, accordionMarkup } from './components.js';
+
+export function renderProduct(main) {
+  const p = products.find(
+    (p) => p.id === new URLSearchParams(location.search).get('id') && p.detail,
+  );
+  if (!p) {
+    main.innerHTML = /* HTML */ `<section class="container">
+      <p class="eyebrow">404</p>
+      <h1>Không tìm thấy trang sản phẩm</h1>
+      <p>Trang này chưa tồn tại trong bản mô phỏng.</p>
+      <a class="button" href="${pageURL('catalog')}">Xem danh mục</a>
+    </section>`;
+    document.title = '404 — Bản mô phỏng VinFast';
+    return;
+  }
+  document.title = p.name + ' — Bản mô phỏng VinFast';
+  const car = p.id === 'vf6';
+  main.innerHTML = /* HTML */ `<nav
+      class="breadcrumb container"
+      aria-label="Đường dẫn"
+    >
+      <a href="${prefix}index.html">Trang chủ</a> /
+      <a href="${pageURL('catalog', '?group=' + p.group)}"
+        >${car ? 'Ô tô' : 'Xe máy điện'}</a
+      >
+      / ${p.name}
+    </nav>
+    ${
+      car
+        ? /* HTML */ `<section class="product-hero">
+            <img
+              src="${prefix}assets/vf6-hero.webp"
+              alt="VF 6 trên đường đèo"
+            />
+            <div>
+              <p class="eyebrow">VinFast</p>
+              <h1>VF 6</h1>
+              <p>Khám phá dòng xe B-SUV</p>
+              <a class="button" href="#configuration">Khám phá phiên bản</a>
+            </div>
+          </section>`
+        : /* HTML */ `<section class="kinet-heading container">
+            <p class="eyebrow">Xe máy điện đổi pin</p>
+            <h1>VinFast Kinet</h1>
+            <p>Khám phá thiết kế và màu sắc</p>
+          </section>`
+    }
+    <section class="container configuration" id="configuration">
+      <div class="vehicle-stage">
+        <img
+          id="vehicle-image"
+          src="${prefix}assets/${car ? 'vf6-white.webp' : 'kinet-do.webp'}"
+          alt="${car ? 'VF 6 — ảnh minh họa mẫu xe, không thể hiện khác biệt phiên bản' : 'Kinet màu Đỏ Đen'}"
+        />
+        <p class="muted">
+          ${car ? 'Ảnh minh họa VF 6. Khác biệt ngoại hình Eco/Plus chưa được tái tạo.' : 'Ảnh sản phẩm theo màu từ trang tham chiếu.'}
+        </p>
+      </div>
+      <div>
+        <p class="eyebrow">${car ? 'Chọn phiên bản' : 'Chọn màu xe'}</p>
+        <h2>${p.name}</h2>
+        ${car ? /* HTML */ `<div class="choice-row" aria-label="Phiên bản">${p.versions.map((v, i) => /* HTML */ `<button type="button" data-version="${i}" aria-pressed="${i === 0}">${v.name}</button>`).join('')}</div>` : /* HTML */ `<div class="swatches" aria-label="Màu xe">${p.colors.map(([name, hex, file], i) => /* HTML */ `<button type="button" data-color="${i}" aria-label="${name}" aria-pressed="${i === 0}" style="--swatch:${hex}"><span></span></button>`).join('')}</div>`}
+        <p id="selection" role="status">${car ? 'VF 6 Eco' : 'Đỏ Đen'}</p>
+        <p class="price" id="price">${money(p.price)}</p>
+        <dl class="specs">
+          <div>
+            <dt>Quãng đường${car ? ' (NEDC)' : ''}</dt>
+            <dd id="range">${p.range}</dd>
+          </div>
+          <div>
+            <dt>${car ? 'Sạc nhanh 10%–70%' : 'Tốc độ tối đa'}</dt>
+            <dd>${car ? '25 phút' : '~90 km/h'}</dd>
+          </div>
+          <div>
+            <dt>${car ? 'Số chỗ' : 'Bảo hành pin'}</dt>
+            <dd>${car ? '5' : '8 năm'}</dd>
+          </div>
+        </dl>
+        <p class="muted">
+          ${car ? 'Thông số phụ thuộc phiên bản và điều kiện sử dụng.' : 'Tốc độ: 1 người 65 kg, chế độ Sport. Quãng đường thực tế phụ thuộc điều kiện sử dụng.'}
+        </p>
+        <a class="button" href="${pageURL('test-drive', '?model=' + p.id)}"
+          >Lái thử — mô phỏng</a
+        >
+        <p class="muted">Không đặt cọc, không gửi dữ liệu thật.</p>
+      </div>
+    </section>
+    <section class="container">
+      ${tabsMarkup('product-info', [
+        {
+          title: 'Tổng quan',
+          content: /* HTML */ `<h2>
+              ${car ? 'VF 6 — B-SUV 5 chỗ' : 'Kinet — Xe máy điện đổi pin'}
+            </h2>
+            <p>
+              ${car ? 'Chuyển Eco/Plus phía trên để xem giá và quãng đường tương ứng.' : 'Chọn một trong năm màu phía trên để xem đúng ảnh tương ứng.'}
+            </p>`,
+        },
+        {
+          title: 'Thông số',
+          content: /* HTML */ `<h2>Thông số đang chọn</h2>
+            <div id="spec-table"></div>`,
+        },
+        {
+          title: 'Bảo hành',
+          content: car
+            ? '<p>7 năm hoặc 160.000 km, tùy điều kiện nào đến trước; cần đối chiếu điều kiện áp dụng tại trang chính thức.</p>'
+            : '<p>Bảo hành xe 6 năm, pin 8 năm, không giới hạn số km theo nội dung trang tham chiếu.</p>',
+        },
+      ])}${accordionMarkup(
+        'source-note',
+        'Nguồn dữ liệu và giới hạn bản mô phỏng',
+        /* HTML */ `<p>
+            Dữ liệu đọc ngày 07/11/2026. Giá trong đồ án không phải báo giá.
+            Chưa tái tạo toàn bộ section và hiệu ứng của sản phẩm.
+          </p>
+          <a href="${p.source}" target="_blank" rel="noopener noreferrer"
+            >Xem trang tham chiếu ↗</a
+          >`,
+      )}
+    </section>`;
+  if (!car) extendKinet(main);
+  const table = main.querySelector('#spec-table');
+  function updateTable(name, price, range) {
+    table.innerHTML = /* HTML */ `<table>
+      <caption>
+        ${p.name} ${name}
+      </caption>
+      <tbody>
+        <tr>
+          <th scope="row">Giá tham chiếu</th>
+          <td>${money(price)}</td>
+        </tr>
+        <tr>
+          <th scope="row">Quãng đường</th>
+          <td>${range}</td>
+        </tr>
+      </tbody>
+    </table>`;
+  }
+  updateTable(car ? 'Eco' : 'Đỏ Đen', p.price, p.range);
+  main.querySelectorAll('[data-version]').forEach((button) =>
+    button.addEventListener('click', () => {
+      const v = p.versions[Number(button.dataset.version)];
+      main
+        .querySelectorAll('[data-version]')
+        .forEach((b) => b.setAttribute('aria-pressed', String(b === button)));
+      main.querySelector('#selection').textContent = p.name + ' ' + v.name;
+      main.querySelector('#price').textContent = money(v.price);
+      main.querySelector('#range').textContent = v.range;
+      updateTable(v.name, v.price, v.range);
+    }),
+  );
+  if (!car) {
+    const original = main.querySelector('#vehicle-image');
+    const viewport = document.createElement('div');
+    original.before(viewport);
+    const slides = p.colors.map(([name, , file]) => {
+      const slide = document.createElement('div'),
+        image = original.cloneNode();
+      image.removeAttribute('id');
+      image.src = prefix + 'assets/kinet-' + file + '.webp';
+      image.alt = p.name + ' ' + name;
+      slide.append(image);
+      viewport.append(slide);
+      return slide;
+    });
+    original.remove();
+    const buttons = [...main.querySelectorAll('[data-color]')];
+    const carousel = createSwipe(viewport, slides, (index) => {
+      buttons.forEach((button, i) =>
+        button.setAttribute('aria-pressed', String(i === index)),
+      );
+      slides.forEach((slide, i) => {
+        const image = slide.firstElementChild;
+        if (i === index) image.id = 'vehicle-image';
+        else image.removeAttribute('id');
+      });
+      main.querySelector('#selection').textContent = p.colors[index][0];
+      updateTable(p.colors[index][0], p.price, p.range);
+    });
+    buttons.forEach((button, i) =>
+      button.addEventListener('click', () => carousel.go(i)),
+    );
+  }
 }

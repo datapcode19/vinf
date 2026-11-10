@@ -1,31 +1,331 @@
 // Chỉ dùng khi phát triển; website không phụ thuộc Node hay Playwright.
-const {chromium}=require('C:/Users/TIEN DAT/AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/playwright/driver/package');
-const http=require('node:http'),fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
-const root=path.resolve(__dirname,'..');
-const mime={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.webp':'image/webp'};
-const server=http.createServer((req,res)=>{const target=path.resolve(root,'.'+decodeURIComponent(new URL(req.url,'http://localhost').pathname));if(!target.startsWith(root+path.sep)&&target!==root){res.writeHead(403).end();return;}const file=target===root?path.join(root,'index.html'):target;fs.readFile(file,(error,buffer)=>{if(error){res.writeHead(404,{'Content-Type':'text/html; charset=utf-8'});res.end(fs.readFileSync(path.join(root,'404.html')));return;}res.writeHead(200,{'Content-Type':mime[path.extname(file)]||'application/octet-stream'});res.end(buffer);});});
-const results=[];let browser;
-async function run(){await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));const base='http://127.0.0.1:'+server.address().port;browser=await chromium.launch({headless:true});const page=await browser.newPage();const errors=[];const external=[];page.on('pageerror',e=>errors.push(e.message));page.on('request',req=>{if(!req.url().startsWith(base)&&!req.url().startsWith('data:'))external.push(req.url());});
-async function check(name,fn){try{await fn();results.push({name,status:'PASS'});}catch(e){results.push({name,status:'FAIL',error:e.message});console.error(name,e.message);}}
-async function go(url){await page.goto(base+url);await page.locator('main h1').waitFor();}
-await check('Trang chủ, slider, tabs, bàn phím',async()=>{await go('/index.html');await page.locator('[data-next]').click();assert.equal(await page.locator('[data-slide-status]').textContent(),'2 / 2');await page.locator('[data-next]').click();assert.equal(await page.locator('[data-slide-status]').textContent(),'1 / 2');await page.locator('[data-prev]').click();assert.equal(await page.locator('[data-slide-status]').textContent(),'2 / 2');await page.getByRole('tab',{name:'Xe cá nhân',exact:true}).focus();await page.keyboard.press('ArrowRight');assert.equal(await page.getByRole('tab',{name:'Xe dịch vụ',exact:true}).getAttribute('aria-selected'),'true');assert(await page.getByRole('heading',{name:'Xe dịch vụ',exact:true}).isVisible());});
-await check('Menu đa cấp, Escape, click ngoài',async()=>{await page.setViewportSize({width:1440,height:900});await page.getByRole('button',{name:'Ô tô',exact:false}).click();await page.locator('#menu-0 summary').first().click();assert(await page.locator('#menu-0').getByRole('link',{name:'VF 6',exact:true}).isVisible());await page.keyboard.press('Escape');assert(await page.locator('#menu-0').isHidden());await page.getByRole('button',{name:'Ô tô',exact:false}).click();await page.locator('main').click({position:{x:10,y:350}});assert(await page.locator('#menu-0').isHidden());});
-await check('VF6 phiên bản đồng bộ giá, quãng đường, bảng',async()=>{await go('/pages/product.html?id=vf6');await page.getByRole('button',{name:'Plus',exact:true}).click();assert.match(await page.locator('#price').textContent(),/699/);assert.match(await page.locator('#range').textContent(),/460/);await page.getByRole('tab',{name:'Thông số',exact:true}).click();assert.match(await page.locator('#spec-table').textContent(),/Plus/);assert.match(await page.locator('#spec-table').textContent(),/699/);});
-await check('Kinet: cả năm màu thay ảnh đúng và ảnh tải được',async()=>{await go('/pages/product.html?id=kinet');for(const b of await page.locator('[data-color]').all()){await b.click();await page.waitForFunction(()=>{const i=document.querySelector('#vehicle-image');return i.complete&&i.naturalWidth>0;});assert.equal(await b.getAttribute('aria-pressed'),'true');assert((await page.locator('#vehicle-image').getAttribute('alt')).includes(await b.getAttribute('aria-label')));}});
-await check('Accordion mở / đóng bằng bàn phím',async()=>{await go('/pages/warranty.html');const b=page.locator('[data-accordion]').first();await b.focus();await page.keyboard.press('Enter');assert.equal(await b.getAttribute('aria-expanded'),'true');await page.keyboard.press('Space');assert.equal(await b.getAttribute('aria-expanded'),'false');});
-await check('Tìm kiếm, lọc, không kết quả, reset, URL',async()=>{await go('/pages/catalog.html');await page.locator('#search').fill('vf6');assert.equal(await page.locator('.product-card').count(),1);await page.reload();assert.equal(await page.locator('#search').inputValue(),'vf6');await page.locator('#search').fill('<script>');assert.equal(await page.locator('.product-card').count(),0);await page.getByRole('button',{name:'Xóa bộ lọc'}).click();await page.waitForFunction(()=>document.querySelectorAll('.product-card').length===13);await page.locator('#group').selectOption('scooter');assert.equal(await page.locator('.product-card').count(),5);await page.locator('#segment').selectOption('Trung cấp');assert.equal(await page.locator('.product-card').count(),1);});
-await check('So sánh hai mẫu và chặn trùng',async()=>{await go('/pages/compare.html');assert(await page.locator('table').isVisible());await page.locator('#right').selectOption('vf3');assert.equal(await page.locator('table').count(),0);assert.match(await page.locator('#compare-status').textContent(),/khác nhau/);await page.locator('#right').selectOption('vf9');assert.match(await page.locator('table').textContent(),/WLTP/);});
-await check('Form rỗng, ngày sai, hợp lệ, dialog, reset; không lưu dữ liệu',async()=>{await go('/pages/test-drive.html?model=vf6');await page.getByRole('button',{name:'Kiểm tra đăng ký'}).click();assert.equal(await page.locator('[aria-invalid=true]').count(),3);await page.locator('#city').selectOption({label:'Hà Nội'});await page.locator('#date').fill('2000-01-01');await page.locator('#consent').check();await page.getByRole('button',{name:'Kiểm tra đăng ký'}).click();assert.equal(await page.locator('#date').getAttribute('aria-invalid'),'true');await page.locator('#date').fill(await page.locator('#date').getAttribute('min'));await page.getByRole('button',{name:'Kiểm tra đăng ký'}).click();assert(await page.locator('dialog').isVisible());await page.keyboard.press('Escape');assert(await page.locator('dialog').isHidden());await page.getByRole('button',{name:'Nhập lại'}).click();assert.equal(await page.locator('#date').inputValue(),'');assert.equal(await page.evaluate(()=>localStorage.length+sessionStorage.length),0);assert.equal((await page.context().cookies()).length,0);});
-await check('Liên kết thật, Back/Forward và tải lại',async()=>{await go('/index.html');await page.locator('.hero-copy').first().getByRole('link').click();assert.match(page.url(),/id=vf6/);await page.reload();assert.equal(await page.locator('h1').textContent(),'VF 6');await page.goBack();assert.match(page.url(),/index.html/);await page.goForward();assert.match(page.url(),/id=vf6/);});
-await check('404 ID và trang 404',async()=>{await go('/pages/product.html?id=unknown');assert.match(await page.locator('h1').textContent(),/Không tìm thấy/);await go('/404.html');assert.match(await page.locator('h1').textContent(),/404/);});
-const routes=['/index.html','/pages/catalog.html','/pages/product.html?id=vf6','/pages/product.html?id=kinet','/pages/warranty.html','/pages/battery.html','/pages/compare.html','/pages/test-drive.html','/404.html'];
-fs.mkdirSync('tests/screenshots',{recursive:true});
-for(const width of [1440,1366,768,390])await check(`Responsive ${width}px: 9 trang, ảnh, liên kết nội bộ`,async()=>{await page.setViewportSize({width,height:900});for(const [i,route] of routes.entries()){await go(route);assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),`Overflow ${route}`);await page.locator('img').evaluateAll(imgs=>Promise.all(imgs.map(img=>{img.loading='eager';return img.decode();})));const links=await page.locator('a[href]').evaluateAll(as=>as.map(a=>a.href));for(const link of [...new Set(links)]){if(link.startsWith(base)&&!link.includes('#'))assert((await page.request.get(link)).ok(),link);}await page.screenshot({path:`tests/screenshots/${width}-${i}.png`,fullPage:true});} });
-await check('Mobile navigation, cấp con và chuyển sang desktop',async()=>{await page.setViewportSize({width:390,height:844});await go('/index.html');const toggle=page.getByRole('button',{name:'Menu ☰',includeHidden:true});await toggle.click();await page.getByRole('button',{name:'Xe máy điện',exact:false}).click();await page.locator('#menu-1 summary').first().click();await page.locator('#menu-1').getByRole('link',{name:'Kinet',exact:true}).click();assert.match(page.url(),/id=kinet/);await toggle.click();await page.keyboard.press('Escape');assert.equal(await toggle.getAttribute('aria-expanded'),'false');await toggle.click();await page.setViewportSize({width:1440,height:900});await page.waitForFunction(()=>document.querySelector('.menu-toggle').getAttribute('aria-expanded')==='false');assert.equal(await toggle.getAttribute('aria-expanded'),'false');});
-await check('Console không lỗi; không yêu cầu mạng ngoài',async()=>{assert.deepEqual(errors,[]);assert.deepEqual(external,[]);});
-const manifest=JSON.parse(fs.readFileSync('assets/manifest.json','utf8'));
-for(const asset of manifest){const data=fs.readFileSync(asset.file).toString('base64');const size=await page.evaluate(async data=>{const i=new Image();i.src='data:image/webp;base64,'+data;await i.decode();return {width:i.naturalWidth,height:i.naturalHeight};},data);Object.assign(asset,size,{aspectRatio:Number((size.width/size.height).toFixed(4))});}
-fs.writeFileSync('assets/manifest.json',JSON.stringify(manifest,null,2));
-fs.writeFileSync('tests/results.json',JSON.stringify({date:'2026-11-07',results},null,2));console.log(JSON.stringify(results,null,2));if(results.some(r=>r.status==='FAIL'))process.exitCode=1;
+const {
+  chromium,
+} = require('C:/Users/TIEN DAT/AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/playwright/driver/package');
+const http = require('node:http'),
+  fs = require('node:fs'),
+  path = require('node:path'),
+  assert = require('node:assert/strict');
+const root = path.resolve(__dirname, '..');
+const mime = {
+  '.html': 'text/html; charset=utf-8',
+  '.js': 'text/javascript; charset=utf-8',
+  '.css': 'text/css; charset=utf-8',
+  '.webp': 'image/webp',
+};
+const server = http.createServer((req, res) => {
+  const target = path.resolve(
+    root,
+    '.' + decodeURIComponent(new URL(req.url, 'http://localhost').pathname),
+  );
+  if (!target.startsWith(root + path.sep) && target !== root) {
+    res.writeHead(403).end();
+    return;
+  }
+  const file = target === root ? path.join(root, 'index.html') : target;
+  fs.readFile(file, (error, buffer) => {
+    if (error) {
+      res.writeHead(404, { 'Content-Type': 'text/html; charset=utf-8' });
+      res.end(fs.readFileSync(path.join(root, '404.html')));
+      return;
+    }
+    res.writeHead(200, {
+      'Content-Type': mime[path.extname(file)] || 'application/octet-stream',
+    });
+    res.end(buffer);
+  });
+});
+const results = [];
+let browser;
+async function run() {
+  await new Promise((resolve) => server.listen(0, '127.0.0.1', resolve));
+  const base = 'http://127.0.0.1:' + server.address().port;
+  browser = await chromium.launch({ headless: true });
+  const page = await browser.newPage();
+  const errors = [];
+  const external = [];
+  page.on('pageerror', (e) => errors.push(e.message));
+  page.on('request', (req) => {
+    if (!req.url().startsWith(base) && !req.url().startsWith('data:'))
+      external.push(req.url());
+  });
+  async function check(name, fn) {
+    try {
+      await fn();
+      results.push({ name, status: 'PASS' });
+    } catch (e) {
+      results.push({ name, status: 'FAIL', error: e.message });
+      console.error(name, e.message);
+    }
+  }
+  async function go(url) {
+    await page.goto(base + url);
+    await page.locator('main h1').waitFor();
+  }
+  await check('Trang chủ, slider, tabs, bàn phím', async () => {
+    await go('/index.html');
+    await page.locator('[data-next]').click();
+    assert.equal(
+      await page.locator('[data-slide-status]').textContent(),
+      '2 / 2',
+    );
+    await page.locator('[data-next]').click();
+    assert.equal(
+      await page.locator('[data-slide-status]').textContent(),
+      '1 / 2',
+    );
+    await page.locator('[data-prev]').click();
+    assert.equal(
+      await page.locator('[data-slide-status]').textContent(),
+      '2 / 2',
+    );
+    await page.getByRole('tab', { name: 'Xe cá nhân', exact: true }).focus();
+    await page.keyboard.press('ArrowRight');
+    assert.equal(
+      await page
+        .getByRole('tab', { name: 'Xe dịch vụ', exact: true })
+        .getAttribute('aria-selected'),
+      'true',
+    );
+    assert(
+      await page
+        .getByRole('heading', { name: 'Xe dịch vụ', exact: true })
+        .isVisible(),
+    );
+  });
+  await check('Menu đa cấp, Escape, click ngoài', async () => {
+    await page.setViewportSize({ width: 1440, height: 900 });
+    await page.getByRole('button', { name: 'Ô tô', exact: false }).click();
+    await page.locator('#menu-0 summary').first().click();
+    assert(
+      await page
+        .locator('#menu-0')
+        .getByRole('link', { name: 'VF 6', exact: true })
+        .isVisible(),
+    );
+    await page.keyboard.press('Escape');
+    assert(await page.locator('#menu-0').isHidden());
+    await page.getByRole('button', { name: 'Ô tô', exact: false }).click();
+    await page.locator('main').click({ position: { x: 10, y: 350 } });
+    assert(await page.locator('#menu-0').isHidden());
+  });
+  await check('VF6 phiên bản đồng bộ giá, quãng đường, bảng', async () => {
+    await go('/pages/product.html?id=vf6');
+    await page.getByRole('button', { name: 'Plus', exact: true }).click();
+    assert.match(await page.locator('#price').textContent(), /699/);
+    assert.match(await page.locator('#range').textContent(), /460/);
+    await page.getByRole('tab', { name: 'Thông số', exact: true }).click();
+    assert.match(await page.locator('#spec-table').textContent(), /Plus/);
+    assert.match(await page.locator('#spec-table').textContent(), /699/);
+  });
+  await check('Kinet: cả năm màu thay ảnh đúng và ảnh tải được', async () => {
+    await go('/pages/product.html?id=kinet');
+    for (const b of await page.locator('[data-color]').all()) {
+      await b.click();
+      await page.waitForFunction(() => {
+        const i = document.querySelector('#vehicle-image');
+        return i.complete && i.naturalWidth > 0;
+      });
+      assert.equal(await b.getAttribute('aria-pressed'), 'true');
+      assert(
+        (await page.locator('#vehicle-image').getAttribute('alt')).includes(
+          await b.getAttribute('aria-label'),
+        ),
+      );
+    }
+  });
+  await check('Accordion mở / đóng bằng bàn phím', async () => {
+    await go('/pages/warranty.html');
+    const b = page.locator('[data-accordion]').first();
+    await b.focus();
+    await page.keyboard.press('Enter');
+    assert.equal(await b.getAttribute('aria-expanded'), 'true');
+    await page.keyboard.press('Space');
+    assert.equal(await b.getAttribute('aria-expanded'), 'false');
+  });
+  await check('Tìm kiếm, lọc, không kết quả, reset, URL', async () => {
+    await go('/pages/catalog.html');
+    await page.locator('#search').fill('vf6');
+    assert.equal(await page.locator('.product-card').count(), 1);
+    await page.reload();
+    assert.equal(await page.locator('#search').inputValue(), 'vf6');
+    await page.locator('#search').fill('<script>');
+    assert.equal(await page.locator('.product-card').count(), 0);
+    await page.getByRole('button', { name: 'Xóa bộ lọc' }).click();
+    await page.waitForFunction(
+      () => document.querySelectorAll('.product-card').length === 13,
+    );
+    await page.locator('#group').selectOption('scooter');
+    assert.equal(await page.locator('.product-card').count(), 5);
+    await page.locator('#segment').selectOption('Trung cấp');
+    assert.equal(await page.locator('.product-card').count(), 1);
+  });
+  await check('So sánh hai mẫu và chặn trùng', async () => {
+    await go('/pages/compare.html');
+    assert(await page.locator('table').isVisible());
+    await page.locator('#right').selectOption('vf3');
+    assert.equal(await page.locator('table').count(), 0);
+    assert.match(
+      await page.locator('#compare-status').textContent(),
+      /khác nhau/,
+    );
+    await page.locator('#right').selectOption('vf9');
+    assert.match(await page.locator('table').textContent(), /WLTP/);
+  });
+  await check(
+    'Form rỗng, ngày sai, hợp lệ, dialog, reset; không lưu dữ liệu',
+    async () => {
+      await go('/pages/test-drive.html?model=vf6');
+      await page.getByRole('button', { name: 'Kiểm tra đăng ký' }).click();
+      assert.equal(await page.locator('[aria-invalid=true]').count(), 3);
+      await page.locator('#city').selectOption({ label: 'Hà Nội' });
+      await page.locator('#date').fill('2000-01-01');
+      await page.locator('#consent').check();
+      await page.getByRole('button', { name: 'Kiểm tra đăng ký' }).click();
+      assert.equal(
+        await page.locator('#date').getAttribute('aria-invalid'),
+        'true',
+      );
+      await page
+        .locator('#date')
+        .fill(await page.locator('#date').getAttribute('min'));
+      await page.getByRole('button', { name: 'Kiểm tra đăng ký' }).click();
+      assert(await page.locator('dialog').isVisible());
+      await page.keyboard.press('Escape');
+      assert(await page.locator('dialog').isHidden());
+      await page.getByRole('button', { name: 'Nhập lại' }).click();
+      assert.equal(await page.locator('#date').inputValue(), '');
+      assert.equal(
+        await page.evaluate(() => localStorage.length + sessionStorage.length),
+        0,
+      );
+      assert.equal((await page.context().cookies()).length, 0);
+    },
+  );
+  await check('Liên kết thật, Back/Forward và tải lại', async () => {
+    await go('/index.html');
+    await page.locator('.hero-copy').first().getByRole('link').click();
+    assert.match(page.url(), /id=vf6/);
+    await page.reload();
+    assert.equal(await page.locator('h1').textContent(), 'VF 6');
+    await page.goBack();
+    assert.match(page.url(), /index.html/);
+    await page.goForward();
+    assert.match(page.url(), /id=vf6/);
+  });
+  await check('404 ID và trang 404', async () => {
+    await go('/pages/product.html?id=unknown');
+    assert.match(await page.locator('h1').textContent(), /Không tìm thấy/);
+    await go('/404.html');
+    assert.match(await page.locator('h1').textContent(), /404/);
+  });
+  const routes = [
+    '/index.html',
+    '/pages/catalog.html',
+    '/pages/product.html?id=vf6',
+    '/pages/product.html?id=kinet',
+    '/pages/warranty.html',
+    '/pages/battery.html',
+    '/pages/compare.html',
+    '/pages/test-drive.html',
+    '/404.html',
+  ];
+  fs.mkdirSync('tests/screenshots', { recursive: true });
+  for (const width of [1440, 1366, 768, 390])
+    await check(
+      `Responsive ${width}px: 9 trang, ảnh, liên kết nội bộ`,
+      async () => {
+        await page.setViewportSize({ width, height: 900 });
+        for (const [i, route] of routes.entries()) {
+          await go(route);
+          assert(
+            await page.evaluate(
+              () => document.documentElement.scrollWidth <= innerWidth,
+            ),
+            `Overflow ${route}`,
+          );
+          await page.locator('img').evaluateAll((imgs) =>
+            Promise.all(
+              imgs.map((img) => {
+                img.loading = 'eager';
+                return img.decode();
+              }),
+            ),
+          );
+          const links = await page
+            .locator('a[href]')
+            .evaluateAll((as) => as.map((a) => a.href));
+          for (const link of [...new Set(links)]) {
+            if (link.startsWith(base) && !link.includes('#'))
+              assert((await page.request.get(link)).ok(), link);
+          }
+          await page.screenshot({
+            path: `tests/screenshots/${width}-${i}.png`,
+            fullPage: true,
+          });
+        }
+      },
+    );
+  await check('Mobile navigation, cấp con và chuyển sang desktop', async () => {
+    await page.setViewportSize({ width: 390, height: 844 });
+    await go('/index.html');
+    const toggle = page.getByRole('button', {
+      name: 'Menu ☰',
+      includeHidden: true,
+    });
+    await toggle.click();
+    await page
+      .getByRole('button', { name: 'Xe máy điện', exact: false })
+      .click();
+    await page.locator('#menu-1 summary').first().click();
+    await page
+      .locator('#menu-1')
+      .getByRole('link', { name: 'Kinet', exact: true })
+      .click();
+    assert.match(page.url(), /id=kinet/);
+    await toggle.click();
+    await page.keyboard.press('Escape');
+    assert.equal(await toggle.getAttribute('aria-expanded'), 'false');
+    await toggle.click();
+    await page.setViewportSize({ width: 1440, height: 900 });
+    await page.waitForFunction(
+      () =>
+        document.querySelector('.menu-toggle').getAttribute('aria-expanded') ===
+        'false',
+    );
+    assert.equal(await toggle.getAttribute('aria-expanded'), 'false');
+  });
+  await check('Console không lỗi; không yêu cầu mạng ngoài', async () => {
+    assert.deepEqual(errors, []);
+    assert.deepEqual(external, []);
+  });
+  const manifest = JSON.parse(fs.readFileSync('assets/manifest.json', 'utf8'));
+  for (const asset of manifest) {
+    const data = fs.readFileSync(asset.file).toString('base64');
+    const size = await page.evaluate(async (data) => {
+      const i = new Image();
+      i.src = 'data:image/webp;base64,' + data;
+      await i.decode();
+      return { width: i.naturalWidth, height: i.naturalHeight };
+    }, data);
+    Object.assign(asset, size, {
+      aspectRatio: Number((size.width / size.height).toFixed(4)),
+    });
+  }
+  fs.writeFileSync('assets/manifest.json', JSON.stringify(manifest, null, 2));
+  fs.writeFileSync(
+    'tests/results.json',
+    JSON.stringify({ date: '2026-11-07', results }, null, 2),
+  );
+  console.log(JSON.stringify(results, null, 2));
+  if (results.some((r) => r.status === 'FAIL')) process.exitCode = 1;
 }
-run().catch(e=>{console.error(e);process.exitCode=1}).finally(async()=>{if(browser)await browser.close();server.close();});
+run()
+  .catch((e) => {
+    console.error(e);
+    process.exitCode = 1;
+  })
+  .finally(async () => {
+    if (browser) await browser.close();
+    server.close();
+  });

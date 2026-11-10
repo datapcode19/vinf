@@ -1,49 +1,319 @@
 /* Chỉ các điều chỉnh cần thiết cho nội dung menu/footer đã xác minh.
    Chưa phải thông số layout đo từ screenshot trang gốc. Không ảnh hưởng trang con. */
-body.shared-chrome .nav-direct>a{font-size:12px;display:block;padding:18px 7px;white-space:nowrap}
-body.shared-chrome .mega-menu{gap:28px}
-body.shared-chrome .mega-menu details{flex:1;min-width:0}
-body.shared-chrome .sub-links a{font-size:14px;padding:8px 10px}
-body.shared-chrome .external-marker{font-size:10px;color:#6a7078}
-body.shared-chrome .footer-source-logo{width:160px;height:auto;margin-bottom:26px}
-body.shared-chrome .footer-grid{grid-template-columns:1.5fr .75fr .75fr 1.5fr;gap:32px}
-body.shared-chrome .footer-contact-row{display:grid;grid-template-columns:1fr 1fr 1fr;gap:32px;border-top:1px solid var(--line);padding-top:30px;margin-top:30px}
-body.shared-chrome .header-inner{gap:12px;padding-inline:24px}
-body.shared-chrome .nav-trigger{font-size:12px;padding-inline:6px;white-space:nowrap}
-body.shared-chrome .brand{font-size:20px}
-body.shared-chrome .brand img{width:125px;height:40px;object-fit:contain}
-body.shared-chrome .account-trigger{border:0;background:white;color:#202328;padding:12px 0;font-size:14px;white-space:nowrap}
-body.shared-chrome .mega-menu{padding:0;display:block;max-height:calc(100dvh - 84px);overflow:auto}
-body.shared-chrome .mega-body{position:relative;min-height:480px}
-body.shared-chrome .mega-body>[data-tabs]{display:grid;grid-template-columns:280px 1fr;align-items:start;min-height:480px}
-body.shared-chrome .mega-body [role=tablist]{display:flex;flex-direction:column;gap:16px;margin:0;padding:12px 24px;border:0}
-body.shared-chrome .mega-body [role=tab]{font-size:16px;text-align:left;white-space:normal;border:0;border-radius:0;padding:14px 18px;color:#3d4249;min-height:52px;background:#fff}
-body.shared-chrome .mega-body [role=tab][aria-selected=true]{background:#f0f4fa;color:var(--blue);box-shadow:none}
-body.shared-chrome .mega-body [role=tabpanel]{padding:24px 40px;border-left:1px solid #e7eaef;min-height:480px}
-body.shared-chrome .mega-product-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
-body.shared-chrome .mega-product-card{display:flex;flex-direction:column;text-align:center;background:#f7f8fa;padding:8px 12px 16px;color:#222;font-size:15px}
-body.shared-chrome .mega-product-card img{width:100%;height:150px;object-fit:contain}
-body.shared-chrome .mega-product-card strong{font-size:18px;font-weight:600}
-body.shared-chrome .mega-product-card span{color:#737982;font-size:12px;margin-top:7px}
-body.shared-chrome .mega-text-card{text-align:left;justify-content:center;min-height:100px}
-body.shared-chrome .mega-text-card strong{font-size:15px}
-body.shared-chrome .mega-tools{position:absolute;top:245px;left:24px;width:232px;padding-top:20px}
-body.shared-chrome .mega-tools h3{font-size:13px;color:#666;margin-bottom:12px}
-body.shared-chrome .mega-tools a{display:block;padding:10px 0;font-size:14px}
-body.shared-chrome .has-tools [role=tablist]{padding-bottom:360px}
-@media(min-width:1051px){body.shared-chrome .header-inner{height:84px;padding-inline:40px;gap:22px}body.shared-chrome .nav-trigger,body.shared-chrome .nav-direct>a{font-size:15px;padding-inline:3px}body.shared-chrome #main-nav{gap:8px}body.shared-chrome .header-cta{text-transform:uppercase;font-weight:700;font-size:11px;white-space:nowrap;padding:12px 20px}}
-@media(max-width:1200px){body.shared-chrome .account-trigger{display:none}}
-@media(max-width:1050px){body.shared-chrome .mega-body>[data-tabs]{display:block;min-height:0}body.shared-chrome .mega-body [role=tablist]{flex-direction:row;gap:12px;overflow:auto;padding:12px 0}body.shared-chrome .mega-body [role=tab]{white-space:nowrap;font-size:14px;padding:10px 12px;min-height:44px}body.shared-chrome .mega-body [role=tabpanel]{border:0;min-height:0;padding:12px 0}body.shared-chrome .mega-product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}body.shared-chrome .mega-tools{position:static;width:auto;padding:20px 0}body.shared-chrome .mega-product-card img{height:110px}body.shared-chrome .mega-product-card strong{font-size:15px}body.shared-chrome .mega-menu{max-height:none}body.shared-chrome .mega-body{min-height:0}}
-@media(max-width:1200px) and (min-width:1051px){body.shared-chrome .header-cta{display:none}}
-@media(max-width:1050px){body.shared-chrome .nav-direct>a{font-size:16px;padding:18px 0;border-bottom:1px solid var(--line)}body.shared-chrome .nav-trigger{font-size:16px}}
-@media(max-width:768px){body.shared-chrome .footer-grid{grid-template-columns:1fr 1fr}body.shared-chrome .footer-contact-row{grid-template-columns:1fr}}
-@media(max-width:480px){body.shared-chrome .footer-grid{grid-template-columns:1fr}}
+body.shared-chrome .nav-direct > a {
+  font-size: 12px;
+  display: block;
+  padding: 18px 7px;
+  white-space: nowrap;
+}
+body.shared-chrome .mega-menu {
+  gap: 28px;
+}
+body.shared-chrome .mega-menu details {
+  flex: 1;
+  min-width: 0;
+}
+body.shared-chrome .sub-links a {
+  font-size: 14px;
+  padding: 8px 10px;
+}
+body.shared-chrome .external-marker {
+  font-size: 10px;
+  color: #6a7078;
+}
+body.shared-chrome .footer-source-logo {
+  width: 160px;
+  height: auto;
+  margin-bottom: 26px;
+}
+body.shared-chrome .footer-grid {
+  grid-template-columns: 1.5fr 0.75fr 0.75fr 1.5fr;
+  gap: 32px;
+}
+body.shared-chrome .footer-contact-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 32px;
+  border-top: 1px solid var(--line);
+  padding-top: 30px;
+  margin-top: 30px;
+}
+body.shared-chrome .header-inner {
+  gap: 12px;
+  padding-inline: 24px;
+}
+body.shared-chrome .nav-trigger {
+  font-size: 12px;
+  padding-inline: 6px;
+  white-space: nowrap;
+}
+body.shared-chrome .brand {
+  font-size: 20px;
+}
+body.shared-chrome .brand img {
+  width: 125px;
+  height: 40px;
+  object-fit: contain;
+}
+body.shared-chrome .account-trigger {
+  border: 0;
+  background: white;
+  color: #202328;
+  padding: 12px 0;
+  font-size: 14px;
+  white-space: nowrap;
+}
+body.shared-chrome .mega-menu {
+  padding: 0;
+  display: block;
+  max-height: calc(100dvh - 84px);
+  overflow: auto;
+}
+body.shared-chrome .mega-body {
+  position: relative;
+  min-height: 480px;
+}
+body.shared-chrome .mega-body > [data-tabs] {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  align-items: start;
+  min-height: 480px;
+}
+body.shared-chrome .mega-body [role='tablist'] {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 0;
+  padding: 12px 24px;
+  border: 0;
+}
+body.shared-chrome .mega-body [role='tab'] {
+  font-size: 16px;
+  text-align: left;
+  white-space: normal;
+  border: 0;
+  border-radius: 0;
+  padding: 14px 18px;
+  color: #3d4249;
+  min-height: 52px;
+  background: #fff;
+}
+body.shared-chrome .mega-body [role='tab'][aria-selected='true'] {
+  background: #f0f4fa;
+  color: var(--blue);
+  box-shadow: none;
+}
+body.shared-chrome .mega-body [role='tabpanel'] {
+  padding: 24px 40px;
+  border-left: 1px solid #e7eaef;
+  min-height: 480px;
+}
+body.shared-chrome .mega-product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+body.shared-chrome .mega-product-card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background: #f7f8fa;
+  padding: 8px 12px 16px;
+  color: #222;
+  font-size: 15px;
+}
+body.shared-chrome .mega-product-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
+}
+body.shared-chrome .mega-product-card strong {
+  font-size: 18px;
+  font-weight: 600;
+}
+body.shared-chrome .mega-product-card span {
+  color: #737982;
+  font-size: 12px;
+  margin-top: 7px;
+}
+body.shared-chrome .mega-text-card {
+  text-align: left;
+  justify-content: center;
+  min-height: 100px;
+}
+body.shared-chrome .mega-text-card strong {
+  font-size: 15px;
+}
+body.shared-chrome .mega-tools {
+  position: absolute;
+  top: 245px;
+  left: 24px;
+  width: 232px;
+  padding-top: 20px;
+}
+body.shared-chrome .mega-tools h3 {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 12px;
+}
+body.shared-chrome .mega-tools a {
+  display: block;
+  padding: 10px 0;
+  font-size: 14px;
+}
+body.shared-chrome .has-tools [role='tablist'] {
+  padding-bottom: 360px;
+}
+@media (min-width: 1051px) {
+  body.shared-chrome .header-inner {
+    height: 84px;
+    padding-inline: 40px;
+    gap: 22px;
+  }
+  body.shared-chrome .nav-trigger,
+  body.shared-chrome .nav-direct > a {
+    font-size: 15px;
+    padding-inline: 3px;
+  }
+  body.shared-chrome #main-nav {
+    gap: 8px;
+  }
+  body.shared-chrome .header-cta {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 11px;
+    white-space: nowrap;
+    padding: 12px 20px;
+  }
+}
+@media (max-width: 1200px) {
+  body.shared-chrome .account-trigger {
+    display: none;
+  }
+}
+@media (max-width: 1050px) {
+  body.shared-chrome .mega-body > [data-tabs] {
+    display: block;
+    min-height: 0;
+  }
+  body.shared-chrome .mega-body [role='tablist'] {
+    flex-direction: row;
+    gap: 12px;
+    overflow: auto;
+    padding: 12px 0;
+  }
+  body.shared-chrome .mega-body [role='tab'] {
+    white-space: nowrap;
+    font-size: 14px;
+    padding: 10px 12px;
+    min-height: 44px;
+  }
+  body.shared-chrome .mega-body [role='tabpanel'] {
+    border: 0;
+    min-height: 0;
+    padding: 12px 0;
+  }
+  body.shared-chrome .mega-product-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+  body.shared-chrome .mega-tools {
+    position: static;
+    width: auto;
+    padding: 20px 0;
+  }
+  body.shared-chrome .mega-product-card img {
+    height: 110px;
+  }
+  body.shared-chrome .mega-product-card strong {
+    font-size: 15px;
+  }
+  body.shared-chrome .mega-menu {
+    max-height: none;
+  }
+  body.shared-chrome .mega-body {
+    min-height: 0;
+  }
+}
+@media (max-width: 1200px) and (min-width: 1051px) {
+  body.shared-chrome .header-cta {
+    display: none;
+  }
+}
+@media (max-width: 1050px) {
+  body.shared-chrome .nav-direct > a {
+    font-size: 16px;
+    padding: 18px 0;
+    border-bottom: 1px solid var(--line);
+  }
+  body.shared-chrome .nav-trigger {
+    font-size: 16px;
+  }
+}
+@media (max-width: 768px) {
+  body.shared-chrome .footer-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  body.shared-chrome .footer-contact-row {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 480px) {
+  body.shared-chrome .footer-grid {
+    grid-template-columns: 1fr;
+  }
+}
 
-@font-face{font-family:Mulish;src:url(../assets/fonts/Mulish.ttf) format("truetype");font-weight:200 1000;font-display:swap}body.shared-chrome{font-family:Mulish,Arial,sans-serif}.shared-chrome .mega-product-card:hover{background:#edf2fa}.shared-chrome [aria-current=page]{color:var(--blue)}
-@media(prefers-reduced-motion:no-preference){.mega-menu:not([hidden]){animation:menu-enter .16s ease-out}@keyframes menu-enter{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:none}}}
+@font-face {
+  font-family: Mulish;
+  src: url(../assets/fonts/Mulish.ttf) format('truetype');
+  font-weight: 200 1000;
+  font-display: swap;
+}
+body.shared-chrome {
+  font-family: Mulish, Arial, sans-serif;
+}
+.shared-chrome .mega-product-card:hover {
+  background: #edf2fa;
+}
+.shared-chrome [aria-current='page'] {
+  color: var(--blue);
+}
+@media (prefers-reduced-motion: no-preference) {
+  .mega-menu:not([hidden]) {
+    animation: menu-enter 0.16s ease-out;
+  }
+  @keyframes menu-enter {
+    from {
+      opacity: 0;
+      transform: translateY(-6px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+}
 
 /* Reserve the chevron slot: revealing it must not move menu labels. */
-body.shared-chrome .nav-trigger .nav-chevron{display:inline-block;width:12px;opacity:0;transition:opacity 120ms ease-out}
-body.shared-chrome .nav-trigger:hover .nav-chevron,body.shared-chrome .nav-trigger:focus-visible .nav-chevron,body.shared-chrome .nav-trigger[aria-expanded=true] .nav-chevron{opacity:1}
-@media(hover:none),(pointer:coarse),(max-width:1050px){body.shared-chrome .nav-trigger .nav-chevron{opacity:1}}
-@media(prefers-reduced-motion:reduce){body.shared-chrome .nav-trigger .nav-chevron{transition:none}}
+body.shared-chrome .nav-trigger .nav-chevron {
+  display: inline-block;
+  width: 12px;
+  opacity: 0;
+  transition: opacity 120ms ease-out;
+}
+body.shared-chrome .nav-trigger:hover .nav-chevron,
+body.shared-chrome .nav-trigger:focus-visible .nav-chevron,
+body.shared-chrome .nav-trigger[aria-expanded='true'] .nav-chevron {
+  opacity: 1;
+}
+@media (hover: none), (pointer: coarse), (max-width: 1050px) {
+  body.shared-chrome .nav-trigger .nav-chevron {
+    opacity: 1;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  body.shared-chrome .nav-trigger .nav-chevron {
+    transition: none;
+  }
+}
