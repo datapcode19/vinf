@@ -74,9 +74,6 @@ export function renderVF3(main) {
       <h2>Màu sắc VF 3</h2>
       ${image('white', 'VF 3 Infinity Blanc')}
       <p>Infinity Blanc</p>
-      <p class="muted">
-        Chưa có đủ ảnh đã kiểm tra cho bộ chọn các màu còn lại.
-      </p>
     </section>
     <section class="container">
       <h2>So sánh chi phí sử dụng</h2>

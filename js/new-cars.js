@@ -69,10 +69,7 @@ export function renderNewCar(main, id) {
       <h2>Màu sắc ${model.name}</h2>
       ${photo('white', `${model.name} — Infinity Blanc`)}
       <p>Infinity Blanc</p>
-      <p class="muted">
-        Bản mô phỏng hiện có ảnh màu trắng; bộ chọn các màu khác chưa hoàn
-        thiện.
-      </p>
+  
     </section>
     <section class="container">
       <h2>So sánh xe</h2>

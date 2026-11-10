@@ -6,7 +6,11 @@ export function renderVF3(main){
  const gallery=[['rear','VF 3 vàng nhìn từ phía sau'],['front','VF 3 đỏ trong đô thị'],['city','VF 3 vàng nhìn phía trước'],['road','VF 3 vàng trên phố']];
  main.innerHTML=`<section class="vf3-hero">${image('hero','VF 3 trên cao tốc',false)}<div><h1>VF 3</h1><p>Xe điện đô thị · 4 chỗ</p><a class="button" href="#vf3-versions">Khám phá phiên bản</a></div></section>
  <section class="container vf3-center" id="vf3-versions"><h2>Xe nhỏ - Giá trị lớn</h2><div class="choice-row"><button data-vf3-version="eco" aria-pressed="true">VF 3 Eco</button><button data-vf3-version="plus" aria-pressed="false">VF 3 Plus</button></div><div id="vf3-version-image">${image('eco','VF 3 Eco')}</div><dl class="specs"><div><dt>Quãng đường NEDC</dt><dd>215 km</dd></div><div><dt>Sạc 10–70%</dt><dd>36 phút</dd></div><div><dt>Bảo hành xe</dt><dd>7 năm / 160.000 km*</dd></div></dl><p class="price" id="vf3-price" role="status">285.000.000 VNĐ</p><p class="muted">*Tùy điều kiện đến trước. Giá tham chiếu, không phải báo giá.</p><button data-demo-purchase>Đặt cọc — mô phỏng</button></section>
- <section class="vf3-colour container vf3-center"><h2>Màu sắc VF 3</h2>${image('white','VF 3 Infinity Blanc')}<p>Infinity Blanc</p><p class="muted">Chưa có đủ ảnh đã kiểm tra cho bộ chọn các màu còn lại.</p></section>
+ <section class="vf3-colour container vf3-center">
+  <h2>Màu sắc VF 3</h2>
+  ${image('white','VF 3 Infinity Blanc')}
+  <p>Infinity Blanc</p>
+</section>
  <section class="container"><h2>So sánh chi phí sử dụng</h2><p class="muted">Công cụ trên nguồn chưa được tái tạo: thiếu công thức và điều kiện áp dụng được xác minh. Bản dựng không tính dự toán tài chính.</p></section>
  <section class="container vf3-center"><h2>Thiết kế đô thị</h2><div class="vf3-gallery" data-slider aria-label="Ngoại thất VF 3">${gallery.map(([name,alt],i)=>`<div data-slide ${i?'hidden':''}>${image(name,alt)}</div>`).join('')}<div class="slider-controls"><button data-prev aria-label="Ảnh trước">←</button>${gallery.map((_,i)=>`<button data-slide-to="${i}" aria-label="Ảnh ${i+1}" aria-pressed="${!i}">${i+1}</button>`).join('')}<button data-next aria-label="Ảnh tiếp theo">→</button><span data-slide-status role="status"></span></div></div></section>
  <section class="vf3-wide">${image('outdoors','VF 3 trong không gian ngoài trời')}<div class="container vf3-center"><dl class="specs"><div><dt>Bán kính quay</dt><dd>4,5 m</dd></div><div><dt>Chiều dài cơ sở</dt><dd>2.075 mm</dd></div><div><dt>La-zăng</dt><dd>16 inch</dd></div></dl></div></section>
