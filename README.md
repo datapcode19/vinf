@@ -2,7 +2,7 @@
 
 ## 1. Giới thiệu đề tài
 
-Đề tài tập trung vào việc xây dựng một website mô phỏng trang giới thiệu và kinh doanh các sản phẩm ô tô, xe máy điện của VinFast.
+Đề tài tập trung vào việc xây dựng một website mô phỏng trang giới thiệu và kinh doanh các sản phẩm ô tô, xe máy điện của Vinfast.
 
 Website được thực hiện nhằm vận dụng kiến thức về HTML, CSS và JavaScript vào quá trình thiết kế và phát triển giao diện web. Thông qua đề tài, nhóm có cơ hội tìm hiểu cách tổ chức một website có nhiều trang, xây dựng các thành phần giao diện và xử lý những chức năng tương tác với người dùng.
 
