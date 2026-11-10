@@ -133,20 +133,22 @@ body[data-page='home'] {
     transform 0.2s ease;
 }
 
-/* Rê chuột: không đổi màu xanh */
+
+/* Rê chuột vào: nút chuyển xanh */
 .showcase-vehicle > button:hover {
-  background: transparent;
-  color: #777b81;
-  box-shadow: none;
+  background: #1464f4;
+  color: #ffffff;
+  box-shadow: 0 4px 14px rgba(20, 100, 244, 0.2);
   filter: none;
 }
 
-/* Khi nhấn: nền xanh, mũi tên trắng */
+/* Khi click: nút phóng to nhẹ */
 .showcase-vehicle > button:active {
   background: #1464f4;
   color: #ffffff;
   transform: scale(1.06);
 }
+
 
 /* Hỗ trợ điều hướng bàn phím */
 .showcase-vehicle > button:focus-visible {
