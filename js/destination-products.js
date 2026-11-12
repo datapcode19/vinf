@@ -60,10 +60,14 @@ export function renderDestinationProduct(main, page) {
               ? `<img class="destination-presentation" src="${asset(model.gallery[0])}" alt="${page.title} — hình giới thiệu chính thức" loading="lazy" />`
               : imageGalleryMarkup(
                   'Hình ảnh ' + page.title,
-                  model.gallery.map((file, index) => ({
-                    image: asset(file),
-                    alt: `${page.title} — ${file.startsWith('interior') ? 'nội thất' : file.startsWith('exterior') ? 'ngoại thất' : 'hình ảnh sản phẩm ' + (index + 1)}`,
-                  })),
+                  model.gallery.map((item, index) => {
+                    if (typeof item !== 'string')
+                      return { ...item, image: asset(item.file) };
+                    return {
+                      image: asset(item),
+                      alt: `${page.title} — ${item.startsWith('interior') ? 'nội thất' : item.startsWith('exterior') ? 'ngoại thất' : 'hình ảnh sản phẩm ' + (index + 1)}`,
+                    };
+                  }),
                 )
           }</section>`
         : ''
@@ -86,7 +90,7 @@ export function renderDestinationProduct(main, page) {
       ${historical || bus ? `<a class="button" href="${localURL('pages/service-booking.html')}">Đặt lịch dịch vụ mô phỏng</a>` : `<a class="button" href="${localURL('pages/' + (scooter ? 'buy-scooter' : 'buy-car') + '.html?model=' + page.productId)}">Trải nghiệm chọn xe — mô phỏng</a>`}</div>
     </section>
     <section class="container"><h2>Sản phẩm liên quan</h2><div class="product-grid">${related.map((product) => `<article class="product-card"><img src="${localURL(product.image)}" alt="${product.title}" loading="lazy" /><h3>${product.title}</h3><a class="text-link" href="${localURL('pages/' + product.id + '.html')}">Khám phá ${product.title} →</a></article>`).join('')}</div></section>
-    ${sourceMarkup(page, [...(model.documents || []), ...(historical ? [historySource] : [])])}`;
+    ${sourceMarkup(page, [...(model.documents || []), ...(model.imageSources || []), ...(historical ? [historySource] : [])])}`;
   if (colors)
     initColorGallery(main.querySelector('[data-color-gallery]'), colors);
 }

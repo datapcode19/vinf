@@ -1,6 +1,7 @@
 import { resolveRoute, localURL } from './routes.js';
 import { homeMenus, footerGroups } from '../data/home-menu.js';
 import { carGroups, scooterGroups } from '../data/home-products.js';
+import { extendedProducts } from '../data/extended-products.js';
 import { tabsMarkup } from './components.js';
 
 export function referenceLink(item) {
@@ -71,13 +72,17 @@ function megaContent(menu, index) {
                   ? 'Zgoo'
                   : item.name;
             const p = knownProducts.find((p) => p.name === name);
+            const archive = extendedProducts.find(
+              (product) => product.title === item.name && product.cardImage,
+            );
+            const image = p?.image || archive?.cardImage;
             const url = resolveRoute(item.url),
               external = new URL(url, location.href).origin !== location.origin;
             return /* HTML */ `<a
-              class="mega-product-card ${p ? '' : 'mega-text-card'}"
+              class="mega-product-card ${image ? '' : 'mega-text-card'}"
               href="${url}"
               ${external ? 'target="_blank" rel="noopener noreferrer" title="Trang chính thức, tab mới"' : ''}
-              >${p ? /* HTML */ `<img src="${localURL(p.image)}" alt="" width="340" height="180" loading="lazy" />` : ''}<strong>${item.name}${external ? ' ↗' : ''}</strong>${p ? menuDetails(p) : ''}</a
+              >${image ? /* HTML */ `<img src="${localURL(image)}" alt="" width="340" height="180" loading="lazy" />` : ''}<strong>${item.name}${external ? ' ↗' : ''}</strong>${p ? menuDetails(p) : ''}</a
             >`;
           })
           .join('')}

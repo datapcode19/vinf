@@ -128,10 +128,19 @@ export function renderHome(main) {
     </h1>
     <section class="home-hero" data-slider aria-label="Banner sản phẩm">
       <div data-slide>
-        <img
-          src="./assets/vf6-hero.webp"
-          alt="VF 6 trên đường đèo — ảnh sản phẩm; chưa xác minh hero trang chủ"
-        />
+  <video
+    id="vinfastIntro"
+    autoplay
+    muted
+    playsinline
+    preload="auto"
+    poster="./assets/vf6-hero.webp"
+  >
+    <source
+      src="./assets/videos/vinfast-intro.mp4"
+      type="video/mp4"
+    />
+  </video>
         <div class="hero-copy">
           <p class="eyebrow">VinFast VF 6</p>
           <h2>VF 6</h2>
@@ -537,6 +546,12 @@ export function renderHome(main) {
       .querySelector('[data-model-next]')
       .addEventListener('click', carousel.next);
   }
+  const intro = main.querySelector('#vinfastIntro');
+if (intro) {
+  intro.addEventListener('ended', () => {
+    intro.pause();
+  });
+}
   initScrollMotion(main);
   const form = main.querySelector('#newsletter-form');
   form.addEventListener('submit', (e) => {

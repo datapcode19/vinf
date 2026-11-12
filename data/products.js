@@ -207,7 +207,7 @@ for (const model of extendedProducts) {
           ? 'Xe hai bánh điện'
           : 'Xe dịch vụ',
     price: model.snapshotPrice,
-    image: model.image.replace(/^assets\//, ''),
+    image: (model.cardImage || model.image).replace(/^assets\//, ''),
     detailPath: model.id,
     source: model.source,
   });

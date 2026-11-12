@@ -191,8 +191,37 @@ const facts = {
       ],
     ],
     {
-      image: 'assets/extended/ebus/gallery-1.webp',
-      gallery: ['gallery-2.webp', 'gallery-3.webp'],
+      image: 'assets/extended/ebus/hero.webp',
+      cardImage: 'assets/extended/ebus/hero.webp',
+      gallery: [
+        {
+          file: 'exterior.webp',
+          alt: 'VinFast EBus 6,2 m — phối cảnh ngoại thất phía trước',
+          title: 'Ngoại thất EBus 6,2 m',
+          description:
+            'Phối cảnh EB 6 do VinFast công bố khi ra mắt năm 2025. Hình ảnh tiền thương mại có thể khác xe bàn giao.',
+        },
+        {
+          file: 'interior-city.webp',
+          alt: 'VinFast EBus EB 6 — khoang hành khách phiên bản đô thị',
+          title: 'Khoang hành khách đô thị',
+          description:
+            'Phối cảnh bố trí ghế và không gian đứng của phiên bản xe buýt đô thị EB 6.',
+        },
+        {
+          file: 'interior-school.webp',
+          alt: 'VinFast EBus EB 6 — ghế ngồi phiên bản chuyên chở học sinh',
+          title: 'Không gian chuyên chở học sinh',
+          description:
+            'Phối cảnh hàng ghế của phiên bản chở học sinh EB 6. Cấu hình nội thất khác phiên bản đô thị.',
+        },
+      ],
+      imageSources: [
+        {
+          title: 'Ảnh ra mắt EB 6 năm 2025 — VinFast, đăng trên Dân trí',
+          url: 'https://dantri.com.vn/o-to-xe-may/vinfast-ra-mat-xe-buyt-dien-co-nho-va-xe-chuyen-cho-hoc-sinh-20250505100420897.htm',
+        },
+      ],
       note: 'Thông số riêng của mẫu 6,2 m trên trang sản phẩm. Không áp dụng nhãn 45 chỗ trong menu cho cấu hình này. Cấu hình trường học công bố sức chứa tối đa 30 người.',
     },
   ),
@@ -217,6 +246,36 @@ const facts = {
     ],
     {
       image: 'assets/extended/fadil/hero.jpg',
+      cardImage: 'assets/extended/fadil/card.webp',
+      gallery: [
+        {
+          file: 'exterior.webp',
+          alt: 'VinFast Fadil — ngoại thất phía sau xe màu trắng',
+          title: 'Ngoại thất phía sau',
+          description:
+            'Ảnh Fadil tại đợt bàn giao năm 2019, ghi nhận thiết kế đuôi xe và cụm đèn hậu.',
+        },
+        {
+          file: 'interior.webp',
+          alt: 'VinFast Fadil — khoang lái, vô lăng và bảng điều khiển',
+          title: 'Khoang lái Fadil',
+          description:
+            'Ảnh nội thất Fadil năm 2019. Màu sắc và trang bị phụ thuộc phiên bản.',
+        },
+        {
+          file: 'detail.webp',
+          alt: 'VinFast Fadil — chi tiết bánh xe và logo VinFast',
+          title: 'Chi tiết bánh xe',
+          description:
+            'Ảnh cận cảnh la-zăng của chiếc Fadil trong bài giới thiệu đợt bàn giao năm 2019.',
+        },
+      ],
+      imageSources: [
+        {
+          title: 'Ảnh Fadil tại đợt bàn giao năm 2019 — Dân trí',
+          url: 'https://dantri.com.vn/o-to-xe-may/can-canh-chiec-vin-fast-fadil-dau-tien-ra-thi-truong-20190618115611745.htm',
+        },
+      ],
       colors: [
         ['Đỏ', '#a5222e', 'red.png'],
         ['Xám', '#747b83', 'grey.png'],
@@ -240,7 +299,30 @@ const facts = {
       ['Phiên bản', 'Công suất và trang bị khác nhau theo phiên bản'],
     ],
     {
-      image: 'assets/extended/lux-a/hero.png',
+      image: 'assets/extended/lux-a/hero.webp',
+      cardImage: 'assets/extended/lux-a/card.webp',
+      gallery: [
+        {
+          file: 'exterior.webp',
+          alt: 'VinFast Lux A2.0 — xe sedan màu trắng nhìn từ phía trước',
+          title: 'Ngoại thất Lux A2.0',
+          description:
+            'Ảnh VinFast được Dân trí đăng trong bài lưu trữ năm 2023.',
+        },
+        {
+          file: 'interior.webp',
+          alt: 'VinFast Lux A2.0 — nội thất nâu và bảng điều khiển bản Cao cấp',
+          title: 'Khoang lái bản Cao cấp',
+          description:
+            'Ảnh VinFast Lạng Sơn, đăng trên Dân trí năm 2023. Không đại diện cho mọi phiên bản Lux A2.0.',
+        },
+      ],
+      imageSources: [
+        {
+          title: 'Ảnh ngoại thất và nội thất Lux A2.0 — Dân trí, 2023',
+          url: 'https://dantri.com.vn/o-to-xe-may/dai-ly-tiep-tuc-xa-vinfast-lux-a20-con-ton-kho-gia-tu-636-trieu-dong-20230307134858836.htm',
+        },
+      ],
       colors: [
         ['Đỏ', '#9f2935', 'red.png'],
         ['Xám', '#707781', 'grey.png'],
@@ -268,7 +350,37 @@ const facts = {
       ],
     ],
     {
-      image: 'assets/extended/lux-sa/hero.png',
+      image: 'assets/extended/lux-sa/hero.webp',
+      cardImage: 'assets/extended/lux-sa/card.webp',
+      gallery: [
+        {
+          file: 'exterior-paris.webp',
+          alt: 'VinFast Lux SA2.0 màu đỏ tại triển lãm Paris 2018',
+          title: 'Lux SA2.0 tại Paris 2018',
+          description:
+            'Ảnh lưu trữ xe trưng bày tại Paris Motor Show 2018. Chi tiết có thể khác phiên bản thương mại.',
+        },
+        {
+          file: 'interior-paris.webp',
+          alt: 'VinFast Lux SA2.0 — cửa trước và nội thất màu kem, xe trưng bày Paris 2018',
+          title: 'Nội thất xe trưng bày',
+          description:
+            'Không gian ghế trước màu kem của Lux SA2.0 tại Paris 2018; không phải ảnh cấu hình đặt mua.',
+        },
+        {
+          file: 'detail-paris.webp',
+          alt: 'VinFast Lux SA2.0 — vô lăng, màn hình và bệ điều khiển của xe trưng bày Paris 2018',
+          title: 'Chi tiết khoang lái',
+          description:
+            'Ảnh VinFast về bảng điều khiển Lux SA2.0 tại triển lãm năm 2018, đăng trên Dân trí.',
+        },
+      ],
+      imageSources: [
+        {
+          title: 'Ảnh Lux SA2.0 tại Paris 2018 — VinFast, đăng trên Dân trí',
+          url: 'https://dantri.com.vn/o-to-xe-may/can-canh-noi-that-hai-mau-xe-vinfast-vua-ra-mat-tai-paris-motor-show-20181002203001129.htm',
+        },
+      ],
       colors: [
         ['Đỏ', '#a42731', 'red.png'],
         ['Xám', '#72777d', 'grey.png'],
@@ -294,6 +406,43 @@ const facts = {
     ],
     {
       image: 'assets/extended/president/hero.jpg',
+      cardImage: 'assets/extended/president/card.webp',
+      gallery: [
+        {
+          file: 'exterior.webp',
+          alt: 'VinFast President — ngoại thất nhìn từ phía sau với chi tiết màu vàng',
+          title: 'Ngoại thất President',
+          description:
+            'Hình giới thiệu President khi ra mắt tháng 9/2020, với các chi tiết trang trí màu vàng.',
+        },
+        {
+          file: 'interior.webp',
+          alt: 'VinFast President — khoang ghế trước và màn hình trung tâm nằm ngang',
+          title: 'Không gian nội thất',
+          description:
+            'Ảnh giới thiệu nội thất President năm 2020; màu sắc và vật liệu theo cấu hình xe.',
+        },
+        {
+          file: 'detail.webp',
+          alt: 'VinFast President — cụm cửa gió và nút điều khiển cho hành khách phía sau',
+          title: 'Chi tiết tiện nghi phía sau',
+          description:
+            'Cụm điều khiển và cửa gió trong bộ ảnh ra mắt President.',
+        },
+        {
+          file: 'interior-rear.webp',
+          alt: 'VinFast President — hàng ghế sau và cửa sổ trời',
+          title: 'Hàng ghế sau',
+          description:
+            'Ảnh lưu trữ không gian hàng ghế sau và cửa sổ trời của President.',
+        },
+      ],
+      imageSources: [
+        {
+          title: 'Bộ ảnh ra mắt President tháng 9/2020 — Dân trí',
+          url: 'https://dantri.com.vn/o-to-xe-may/vinfast-gioi-thieu-xe-phien-ban-gioi-han-president-20200907141513506.htm',
+        },
+      ],
       colors: [
         ['Đỏ', '#a32934', 'red.png'],
         ['Trắng', '#eeeae2', 'white.png'],
