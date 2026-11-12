@@ -134,7 +134,6 @@ export function renderHome(main) {
     muted
     playsinline
     preload="auto"
-    poster="./assets/vf6-hero.webp"
   >
     <source
       src="./assets/videos/vinfast-intro.mp4"
