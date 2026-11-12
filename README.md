@@ -6,9 +6,9 @@
 
 Website được thực hiện nhằm vận dụng kiến thức về HTML, CSS và JavaScript vào quá trình thiết kế và phát triển giao diện web. Thông qua đề tài, nhóm có cơ hội tìm hiểu cách tổ chức một website có nhiều trang, xây dựng các thành phần giao diện và xử lý những chức năng tương tác với người dùng.
 
-Website tham khảo: https://vinfastauto.com/vn_vi
+Website được phát triển dựa trên việc nghiên cứu giao diện và cách tổ chức nội dung của trang giới thiệu sản phẩm ô tô, xe máy điện.
 
-Website đồ án: https://datapcode19.github.io/vinf/index.html
+Đường dẫn bản triển khai sẽ được bổ sung khi hoàn thiện đồ án cuối kỳ.
 
 Đây là sản phẩm phục vụ mục đích học tập, không phải website chính thức của VinFast.
 
@@ -85,7 +85,7 @@ Các biểu mẫu chỉ phục vụ việc minh họa giao diện và chức nă
 ## 5. Cấu trúc thư mục
 
 ```text
-vinf/
+vinf21/
 │
 ├── index.html
 ├── 404.html
@@ -116,7 +116,7 @@ Trong đó:
 **Cách 1: Chạy bằng Visual Studio Code**
 
 1. Tải hoặc sao chép mã nguồn dự án về máy.
-2. Mở thư mục `vinf` bằng Visual Studio Code.
+2. Mở thư mục dự án bằng Visual Studio Code.
 3. Cài đặt tiện ích Live Server.
 4. Nhấp chuột phải vào `index.html`.
 5. Chọn **Open with Live Server**.
@@ -124,9 +124,7 @@ Trong đó:
 
 **Cách 2: Truy cập trực tuyến**
 
-Truy cập đường dẫn:
-
-https://datapcode19.github.io/vinf/index.html
+Đường dẫn truy cập trực tuyến sẽ được cập nhật khi nhóm công bố phiên bản hoàn thiện cuối kỳ.
 
 ## 7. Kết quả thực hiện
 
