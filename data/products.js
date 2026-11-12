@@ -1,4 +1,5 @@
 import { newCars } from './new-cars.js';
+import { extendedProducts } from './extended-products.js';
 
 // Chỉ dữ liệu tĩnh; không gọi API VinFast. Các số liệu là snapshot khảo sát.
 export const products = [
@@ -183,6 +184,34 @@ export const products = [
     price: 22500000,
   },
 ];
+// Reuse existing catalog records; add only models not yet represented.
+for (const model of extendedProducts) {
+  const existing = products.find((product) => product.id === model.productId);
+  if (existing) {
+    existing.detailPath = model.id;
+    continue;
+  }
+  products.push({
+    id: model.productId,
+    name: model.title,
+    group:
+      model.kind === 'historical'
+        ? 'historical'
+        : model.kind === 'scooter'
+          ? 'scooter'
+          : 'service',
+    segment:
+      model.kind === 'historical'
+        ? 'Xe xăng lịch sử'
+        : model.kind === 'scooter'
+          ? 'Xe hai bánh điện'
+          : 'Xe dịch vụ',
+    price: model.snapshotPrice,
+    image: model.image.replace(/^assets\//, ''),
+    detailPath: model.id,
+    source: model.source,
+  });
+}
 export const money = (value) =>
   new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(
     value,

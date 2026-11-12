@@ -18,6 +18,7 @@ function productLink(product) {
     ecvan: 'EC Van',
     'feliz-2025': 'Feliz 2025',
     drgnfly: 'VF DrgnFly',
+    zgoo: 'ZGoo',
   };
   const entry = homeMenus
     .flatMap((m) => m.groups || [])

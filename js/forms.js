@@ -12,7 +12,10 @@ export function renderTestDrive(main) {
       <label
         >Mẫu xe<select id="model" required aria-describedby="model-error">
           <option value="">Chọn mẫu xe</option>
-          ${products.map((p) => /* HTML */ `<option value="${p.id}">${p.name}</option>`).join('')}</select
+          ${products
+            .filter((p) => p.group !== 'historical')
+            .map((p) => /* HTML */ `<option value="${p.id}">${p.name}</option>`)
+            .join('')}</select
         ><span class="error" id="model-error"></span></label
       ><label
         >Khu vực mô phỏng<select

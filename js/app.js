@@ -1,4 +1,6 @@
 import { renderVF5 } from './vf5.js';
+import { destinations } from '../data/destinations.js';
+import { renderDestination } from './destinations.js';
 import { renderViper } from './viper.js';
 import { renderPremia } from './premia.js';
 import { renderVF7 } from './vf7.js';
@@ -38,7 +40,11 @@ import { renderCompare } from './compare.js';
 mountNavigation();
 const main = document.querySelector('main');
 const sourceLink = (url) =>
-  /* HTML */ `<a href="${url}" target="_blank" rel="noopener noreferrer"
+  /* HTML */ `<a
+    data-official
+    href="${url}"
+    target="_blank"
+    rel="noopener noreferrer"
     >Trang tham chiếu chính thức ↗</a
   >`;
 
@@ -232,19 +238,20 @@ function battery() {
       ${tabsMarkup('battery', [
         {
           title: 'Pin ô tô',
-          content:
-            '<h2>Thông tin pin</h2><p>Trang nguồn lưu các chính sách thuê pin và hướng dẫn liên quan đến khách hàng đang sử dụng dịch vụ. Bản mô phỏng không tính phí hay quản lý hợp đồng.</p>',
+          content: `<h2>Thông tin pin</h2><p>Trang nguồn lưu chính sách theo dòng xe và thời điểm hợp đồng. Người đang thuê pin cần đối chiếu hồ sơ của mình; bản mô phỏng không tính phí thuê hoặc quản lý hợp đồng.</p><a href="${pageURL('car-documents')}">Tra cứu sổ bảo hành ô tô</a>`,
         },
         {
           title: 'Giải pháp sạc',
-          content:
-            '<h2>Các hình thức sạc</h2><p>Trang tham chiếu giới thiệu trạm sạc công cộng và thiết bị sạc di động. Bản dựng chưa tích hợp bản đồ hoặc dữ liệu trạng thái trạm sạc.</p>',
+          content: `<h2>Các hình thức sạc</h2><p>Nguồn giới thiệu sạc công cộng và thiết bị sạc di động. Chọn thiết bị tương thích theo tài liệu xe; tốc độ sạc phụ thuộc xe, nguồn điện và điều kiện vận hành.</p><a href="${pageURL('locations')}">Tra cứu địa điểm và mở hệ thống bản đồ chính thức</a><p class="muted">Không hiển thị trạng thái cổng sạc trực tiếp trong bản mô phỏng.</p>`,
         },
       ])}${sourceLink('https://vinfastauto.com/vn_vi/dich-vu-pin-oto-dien')}
     </section>`;
 }
 
 const renderers = {
+  ...Object.fromEntries(
+    destinations.map((page) => [page.id, () => renderDestination(main, page)]),
+  ),
   vf2: () => renderNewCar(main, 'vf2'),
   'vf8-new': () => renderNewCar(main, 'vf8-new'),
   'vf-mpv7': () => renderNewCar(main, 'vf-mpv7'),

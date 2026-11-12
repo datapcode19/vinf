@@ -1,6 +1,7 @@
 import { addMaintenanceChart } from './maintenance-chart.js';
 import { localURL } from './routes.js';
 import { tabsMarkup, accordionMarkup } from './components.js';
+import { officialLink } from './destination-shared.js';
 
 const photo = (file, alt) =>
   /* HTML */ `<img
@@ -97,7 +98,7 @@ export function renderAbout(main) {
           '<h3>02.09.2017</h3><p>Khởi công xây dựng nhà máy VinFast.</p>',
       },
     ],
-  )}<p class="muted">Đang hiển thị các mốc đã đối chiếu nội dung; chưa bao phủ toàn bộ lịch sử.</p></section><section class="container"><h2>Giải thưởng</h2><p>Trang nguồn ghi nhận các giải về an toàn ASEAN NCAP và bình chọn xe tại Việt Nam.</p><p class="muted">Danh sách giải thưởng chi tiết chưa được tái tạo đầy đủ.</p><a class="button secondary" href="${localURL('index.html#oto')}">Khám phá các dòng xe</a></section>`;
+  )}<p class="muted">Các mốc tiêu biểu trong lịch sử thương hiệu.</p></section><section class="container"><h2>Giải thưởng và đánh giá an toàn</h2><ul><li>2019: Lux A2.0 và Lux SA2.0 đạt 5 sao ASEAN NCAP; Fadil đạt 4 sao theo công bố tại thời điểm đó.</li><li>2020: giải Grand Prix của ASEAN NCAP về cam kết an toàn của hãng xe mới.</li><li>2021: được ghi nhận về chất lượng dịch vụ tại Car Awards do VnExpress-Xe tổ chức.</li></ul><p>Đây là các ghi nhận lịch sử, không phải đánh giá cho mọi phiên bản hiện tại.</p><p>${officialLink('https://vinfastauto.com/vn_vi/ve-chung-toi', 'Lịch sử và giải thưởng tại nguồn VinFast')}</p><div class="inline-links"><a class="button secondary" href="${localURL('index.html#oto')}">Khám phá các dòng xe</a><a href="${localURL('pages/company-news.html')}">Tin công ty</a></div></section>`;
 }
 
 export function renderMaintenanceContent(main) {
@@ -243,15 +244,28 @@ export function renderScooterBattery(main) {
             content:
               '<h3>Chính sách theo thời điểm hợp đồng</h3><p>Nhóm pin LFP có các chính sách riêng theo ngày mua và kích hoạt hợp đồng. Không áp dụng cùng một gói cho mọi xe.</p>',
           },
-        ])}${accordionMarkup('battery-existing', 'Khách hàng đã có hợp đồng', '<p>Điều kiện phụ thuộc mẫu xe, pin, ngày ký và chương trình tại thời điểm kích hoạt.</p>')}${accordionMarkup('battery-docs', 'Tài liệu sử dụng pin', '<p>Trang nguồn có hướng dẫn riêng cho xe và pin. Bản dựng chưa cung cấp đầy đủ tài liệu kỹ thuật.</p>')}
+        ])}${accordionMarkup('battery-existing', 'Khách hàng đã có hợp đồng', '<p>Điều kiện phụ thuộc mẫu xe, pin, ngày ký và chương trình tại thời điểm kích hoạt.</p>')}${accordionMarkup('battery-docs', 'Tài liệu sử dụng pin', `<p>Chọn đúng mẫu xe và cấu hình pin khi đọc hướng dẫn.</p><a href="${localURL('pages/scooter-documents.html')}">Tìm hướng dẫn xe máy điện</a>`)}
         <p class="muted">
-          Chưa tái tạo toàn bộ biểu phí lịch sử. Không ký hợp đồng hoặc thanh
-          toán tại đây.
+          Biểu phí phụ thuộc loại pin và thời điểm hợp đồng. Không ký hợp đồng
+          hoặc thanh toán tại đây.
+        </p>
+        <p>
+          ${officialLink('https://vinfastauto.com/vn_vi/dich-vu-pin-xe-may-dien', 'Đọc biểu phí và điều kiện đúng phiên bản hợp đồng')}
+        </p>
+        <p>
+          <a href="${localURL('pages/operating-cost.html')}"
+            >Mô phỏng chi phí điện và bảo dưỡng</a
+          >
         </p>
       </section>
       <section class="container">
         <h2>Trạm sạc</h2>
         <p>Thông tin tư vấn trạm sạc trên nguồn: 1900 23 23 89, phím 5.</p>
+        <p>
+          <a href="${localURL('pages/locations.html')}"
+            >Tra cứu địa điểm và mở bản đồ chính thức</a
+          >
+        </p>
         <a class="button" href="${localURL('pages/service-booking.html')}"
           >Đặt lịch dịch vụ mô phỏng</a
         >

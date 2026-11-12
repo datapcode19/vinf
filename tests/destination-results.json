@@ -1,0 +1,3332 @@
+{
+  "date": "2026-11-12",
+  "pages": [
+    {
+      "url": "/vinf/pages/minio-green.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1198,
+      "images": 45
+    },
+    {
+      "url": "/vinf/pages/herio-green.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1089,
+      "images": 45
+    },
+    {
+      "url": "/vinf/pages/nerio-green.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1229,
+      "images": 44
+    },
+    {
+      "url": "/vinf/pages/limo-green.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1102,
+      "images": 45
+    },
+    {
+      "url": "/vinf/pages/ec-van.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1070,
+      "images": 45
+    },
+    {
+      "url": "/vinf/pages/ebus.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1213,
+      "images": 45
+    },
+    {
+      "url": "/vinf/pages/fadil.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1252,
+      "images": 45
+    },
+    {
+      "url": "/vinf/pages/lux-a.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1224,
+      "images": 45
+    },
+    {
+      "url": "/vinf/pages/lux-sa.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1261,
+      "images": 45
+    },
+    {
+      "url": "/vinf/pages/president.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1261,
+      "images": 45
+    },
+    {
+      "url": "/vinf/pages/vero-x.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1014,
+      "images": 43
+    },
+    {
+      "url": "/vinf/pages/kyo.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1004,
+      "images": 43
+    },
+    {
+      "url": "/vinf/pages/feliz-ii.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 990,
+      "images": 43
+    },
+    {
+      "url": "/vinf/pages/feliz-2025.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1006,
+      "images": 43
+    },
+    {
+      "url": "/vinf/pages/feliz-2027.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 988,
+      "images": 43
+    },
+    {
+      "url": "/vinf/pages/evo-grand-limited.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1014,
+      "images": 43
+    },
+    {
+      "url": "/vinf/pages/evo-grand-ii.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1001,
+      "images": 43
+    },
+    {
+      "url": "/vinf/pages/evo.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 982,
+      "images": 43
+    },
+    {
+      "url": "/vinf/pages/amio.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 971,
+      "images": 43
+    },
+    {
+      "url": "/vinf/pages/amio-s.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 977,
+      "images": 43
+    },
+    {
+      "url": "/vinf/pages/amio-s2.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 985,
+      "images": 43
+    },
+    {
+      "url": "/vinf/pages/flazz.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 975,
+      "images": 43
+    },
+    {
+      "url": "/vinf/pages/flazz-max.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 983,
+      "images": 43
+    },
+    {
+      "url": "/vinf/pages/zgoo.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 985,
+      "images": 43
+    },
+    {
+      "url": "/vinf/pages/evo-lite.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 997,
+      "images": 43
+    },
+    {
+      "url": "/vinf/pages/drgnfly.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1207,
+      "images": 43
+    },
+    {
+      "url": "/vinf/pages/evo-grand-lite.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1019,
+      "images": 43
+    },
+    {
+      "url": "/vinf/pages/evo-lite-neo.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1017,
+      "images": 43
+    },
+    {
+      "url": "/vinf/pages/car-documents.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 2469,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/scooter-maintenance.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1019,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/scooter-repair.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1005,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/scooter-documents.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1737,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/ebus-warranty.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 946,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/ebus-maintenance.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1124,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/ebus-repair.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1005,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/ebus-rescue.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 962,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/ebus-documents.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1106,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/locations.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 2211,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/on-road-cost.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1464,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/installment.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1460,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/buy-car.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1055,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/operating-cost.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1113,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/buy-scooter.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1152,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/vf-energy.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 826,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/company-news.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 806,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/car-news.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 722,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/scooter-news.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 830,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/privacy.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1088,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/shipping.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 924,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/returns.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 899,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/disclaimer.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 921,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/deposit-terms.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 971,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/contracts.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1022,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/complaints.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 997,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/estore.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 845,
+      "images": 40
+    },
+    {
+      "url": "/vinf/pages/minio-green.html",
+      "width": 768,
+      "status": "PASS",
+      "contentLength": 1198,
+      "images": 45
+    },
+    {
+      "url": "/vinf/pages/herio-green.html",
+      "width": 768,
+      "status": "PASS",
+      "contentLength": 1089,
+      "images": 45
+    },
+    {
+      "url": "/vinf/pages/nerio-green.html",
+      "width": 768,
+      "status": "PASS",
+      "contentLength": 1229,
+      "images": 44
+    },
+    {
+      "url": "/vinf/pages/limo-green.html",
+      "width": 768,
+      "status": "PASS",
+      "contentLength": 1102,
+      "images": 45
+    },
+    {
+      "url": "/vinf/pages/ec-van.html",
+      "width": 768,
+      "status": "PASS",
+      "contentLength": 1070,
+      "images": 45
+    },
+    {
+      "url": "/vinf/pages/ebus.html",
+      "width": 768,
+      "status": "PASS",
+      "contentLength": 1213,
+      "images": 45
+    },
+    {
+      "url": "/vinf/pages/fadil.html",
+      "width": 768,
+      "status": "PASS",
+      "contentLength": 1252,
+      "images": 45
+    },
+    {
+      "url": "/vinf/pages/lux-a.html",
+      "width": 768,
+      "status": "PASS",
+      "contentLength": 1224,
+      "images": 45
+    },
+    {
+      "url": "/vinf/pages/lux-sa.html",
+      "width": 768,
+      "status": "PASS",
+      "contentLength": 1261,
+      "images": 45
+    },
+    {
+      "url": "/vinf/pages/president.html",
+      "width": 768,
+      "status": "PASS",
+      "contentLength": 1261,
+      "images": 45
+    },
+    {
+      "url": "/vinf/pages/vero-x.html",
+      "width": 768,
+      "status": "PASS",
+      "contentLength": 1014,
+      "images": 43
+    },
+    {
+      "url": "/vinf/pages/kyo.html",
+      "width": 768,
+      "status": "PASS",
+      "contentLength": 1004,
+      "images": 43
+    },
+    {
+      "url": "/vinf/pages/feliz-ii.html",
+      "width": 768,
+      "status": "PASS",
+      "contentLength": 990,
+      "images": 43
+    },
+    {
+      "url": "/vinf/pages/feliz-2025.html",
+      "width": 768,
+      "status": "PASS",
+      "contentLength": 1006,
+      "images": 43
+    },
+    {
+      "url": "/vinf/pages/feliz-2027.html",
+      "width": 768,
+      "status": "PASS",
+      "contentLength": 988,
+      "images": 43
+    },
+    {
+      "url": "/vinf/pages/evo-grand-limited.html",
+      "width": 768,
+      "status": "PASS",
+      "contentLength": 1014,
+      "images": 43
+    },
+    {
+      "url": "/vinf/pages/evo-grand-ii.html",
+      "width": 768,
+      "status": "PASS",
+      "contentLength": 1001,
+      "images": 43
+    },
+    {
+      "url": "/vinf/pages/evo.html",
+      "width": 768,
+      "status": "PASS",
+      "contentLength": 982,
+      "images": 43
+    },
+    {
+      "url": "/vinf/pages/amio.html",
+      "width": 768,
+      "status": "PASS",
+      "contentLength": 971,
+      "images": 43
+    },
+    {
+      "url": "/vinf/pages/amio-s.html",
+      "width": 768,
+      "status": "PASS",
+      "contentLength": 977,
+      "images": 43
+    },
+    {
+      "url": "/vinf/pages/amio-s2.html",
+      "width": 768,
+      "status": "PASS",
+      "contentLength": 985,
+      "images": 43
+    },
+    {
+      "url": "/vinf/pages/flazz.html",
+      "width": 768,
+      "status": "PASS",
+      "contentLength": 975,
+      "images": 43
+    },
+    {
+      "url": "/vinf/pages/flazz-max.html",
+      "width": 768,
+      "status": "PASS",
+      "contentLength": 983,
+      "images": 43
+    },
+    {
+      "url": "/vinf/pages/zgoo.html",
+      "width": 768,
+      "status": "PASS",
+      "contentLength": 985,
+      "images": 43
+    },
+    {
+      "url": "/vinf/pages/evo-lite.html",
+      "width": 768,
+      "status": "PASS",
+      "contentLength": 997,
+      "images": 43
+    },
+    {
+      "url": "/vinf/pages/drgnfly.html",
+      "width": 768,
+      "status": "PASS",
+      "contentLength": 1207,
+      "images": 43
+    },
+    {
+      "url": "/vinf/pages/evo-grand-lite.html",
+      "width": 768,
+      "status": "PASS",
+      "contentLength": 1019,
+      "images": 43
+    },
+    {
+      "url": "/vinf/pages/evo-lite-neo.html",
+      "width": 768,
+      "status": "PASS",
+      "contentLength": 1017,
+      "images": 43
+    },
+    {
+      "url": "/vinf/pages/car-documents.html",
+      "width": 768,
+      "status": "PASS",
+      "contentLength": 2469,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/scooter-maintenance.html",
+      "width": 768,
+      "status": "PASS",
+      "contentLength": 1019,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/scooter-repair.html",
+      "width": 768,
+      "status": "PASS",
+      "contentLength": 1005,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/scooter-documents.html",
+      "width": 768,
+      "status": "PASS",
+      "contentLength": 1737,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/ebus-warranty.html",
+      "width": 768,
+      "status": "PASS",
+      "contentLength": 946,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/ebus-maintenance.html",
+      "width": 768,
+      "status": "PASS",
+      "contentLength": 1124,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/ebus-repair.html",
+      "width": 768,
+      "status": "PASS",
+      "contentLength": 1005,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/ebus-rescue.html",
+      "width": 768,
+      "status": "PASS",
+      "contentLength": 962,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/ebus-documents.html",
+      "width": 768,
+      "status": "PASS",
+      "contentLength": 1106,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/locations.html",
+      "width": 768,
+      "status": "PASS",
+      "contentLength": 2211,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/on-road-cost.html",
+      "width": 768,
+      "status": "PASS",
+      "contentLength": 1464,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/installment.html",
+      "width": 768,
+      "status": "PASS",
+      "contentLength": 1460,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/buy-car.html",
+      "width": 768,
+      "status": "PASS",
+      "contentLength": 1055,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/operating-cost.html",
+      "width": 768,
+      "status": "PASS",
+      "contentLength": 1113,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/buy-scooter.html",
+      "width": 768,
+      "status": "PASS",
+      "contentLength": 1152,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/vf-energy.html",
+      "width": 768,
+      "status": "PASS",
+      "contentLength": 826,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/company-news.html",
+      "width": 768,
+      "status": "PASS",
+      "contentLength": 806,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/car-news.html",
+      "width": 768,
+      "status": "PASS",
+      "contentLength": 722,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/scooter-news.html",
+      "width": 768,
+      "status": "PASS",
+      "contentLength": 830,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/privacy.html",
+      "width": 768,
+      "status": "PASS",
+      "contentLength": 1088,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/shipping.html",
+      "width": 768,
+      "status": "PASS",
+      "contentLength": 924,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/returns.html",
+      "width": 768,
+      "status": "PASS",
+      "contentLength": 899,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/disclaimer.html",
+      "width": 768,
+      "status": "PASS",
+      "contentLength": 921,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/deposit-terms.html",
+      "width": 768,
+      "status": "PASS",
+      "contentLength": 971,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/contracts.html",
+      "width": 768,
+      "status": "PASS",
+      "contentLength": 1022,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/complaints.html",
+      "width": 768,
+      "status": "PASS",
+      "contentLength": 997,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/estore.html",
+      "width": 768,
+      "status": "PASS",
+      "contentLength": 845,
+      "images": 40
+    },
+    {
+      "url": "/vinf/pages/minio-green.html",
+      "width": 390,
+      "status": "PASS",
+      "contentLength": 1198,
+      "images": 45
+    },
+    {
+      "url": "/vinf/pages/herio-green.html",
+      "width": 390,
+      "status": "PASS",
+      "contentLength": 1089,
+      "images": 45
+    },
+    {
+      "url": "/vinf/pages/nerio-green.html",
+      "width": 390,
+      "status": "PASS",
+      "contentLength": 1229,
+      "images": 44
+    },
+    {
+      "url": "/vinf/pages/limo-green.html",
+      "width": 390,
+      "status": "PASS",
+      "contentLength": 1102,
+      "images": 45
+    },
+    {
+      "url": "/vinf/pages/ec-van.html",
+      "width": 390,
+      "status": "PASS",
+      "contentLength": 1070,
+      "images": 45
+    },
+    {
+      "url": "/vinf/pages/ebus.html",
+      "width": 390,
+      "status": "PASS",
+      "contentLength": 1213,
+      "images": 45
+    },
+    {
+      "url": "/vinf/pages/fadil.html",
+      "width": 390,
+      "status": "PASS",
+      "contentLength": 1252,
+      "images": 45
+    },
+    {
+      "url": "/vinf/pages/lux-a.html",
+      "width": 390,
+      "status": "PASS",
+      "contentLength": 1224,
+      "images": 45
+    },
+    {
+      "url": "/vinf/pages/lux-sa.html",
+      "width": 390,
+      "status": "PASS",
+      "contentLength": 1261,
+      "images": 45
+    },
+    {
+      "url": "/vinf/pages/president.html",
+      "width": 390,
+      "status": "PASS",
+      "contentLength": 1261,
+      "images": 45
+    },
+    {
+      "url": "/vinf/pages/vero-x.html",
+      "width": 390,
+      "status": "PASS",
+      "contentLength": 1014,
+      "images": 43
+    },
+    {
+      "url": "/vinf/pages/kyo.html",
+      "width": 390,
+      "status": "PASS",
+      "contentLength": 1004,
+      "images": 43
+    },
+    {
+      "url": "/vinf/pages/feliz-ii.html",
+      "width": 390,
+      "status": "PASS",
+      "contentLength": 990,
+      "images": 43
+    },
+    {
+      "url": "/vinf/pages/feliz-2025.html",
+      "width": 390,
+      "status": "PASS",
+      "contentLength": 1006,
+      "images": 43
+    },
+    {
+      "url": "/vinf/pages/feliz-2027.html",
+      "width": 390,
+      "status": "PASS",
+      "contentLength": 988,
+      "images": 43
+    },
+    {
+      "url": "/vinf/pages/evo-grand-limited.html",
+      "width": 390,
+      "status": "PASS",
+      "contentLength": 1014,
+      "images": 43
+    },
+    {
+      "url": "/vinf/pages/evo-grand-ii.html",
+      "width": 390,
+      "status": "PASS",
+      "contentLength": 1001,
+      "images": 43
+    },
+    {
+      "url": "/vinf/pages/evo.html",
+      "width": 390,
+      "status": "PASS",
+      "contentLength": 982,
+      "images": 43
+    },
+    {
+      "url": "/vinf/pages/amio.html",
+      "width": 390,
+      "status": "PASS",
+      "contentLength": 971,
+      "images": 43
+    },
+    {
+      "url": "/vinf/pages/amio-s.html",
+      "width": 390,
+      "status": "PASS",
+      "contentLength": 977,
+      "images": 43
+    },
+    {
+      "url": "/vinf/pages/amio-s2.html",
+      "width": 390,
+      "status": "PASS",
+      "contentLength": 985,
+      "images": 43
+    },
+    {
+      "url": "/vinf/pages/flazz.html",
+      "width": 390,
+      "status": "PASS",
+      "contentLength": 975,
+      "images": 43
+    },
+    {
+      "url": "/vinf/pages/flazz-max.html",
+      "width": 390,
+      "status": "PASS",
+      "contentLength": 983,
+      "images": 43
+    },
+    {
+      "url": "/vinf/pages/zgoo.html",
+      "width": 390,
+      "status": "PASS",
+      "contentLength": 985,
+      "images": 43
+    },
+    {
+      "url": "/vinf/pages/evo-lite.html",
+      "width": 390,
+      "status": "PASS",
+      "contentLength": 997,
+      "images": 43
+    },
+    {
+      "url": "/vinf/pages/drgnfly.html",
+      "width": 390,
+      "status": "PASS",
+      "contentLength": 1207,
+      "images": 43
+    },
+    {
+      "url": "/vinf/pages/evo-grand-lite.html",
+      "width": 390,
+      "status": "PASS",
+      "contentLength": 1019,
+      "images": 43
+    },
+    {
+      "url": "/vinf/pages/evo-lite-neo.html",
+      "width": 390,
+      "status": "PASS",
+      "contentLength": 1017,
+      "images": 43
+    },
+    {
+      "url": "/vinf/pages/car-documents.html",
+      "width": 390,
+      "status": "PASS",
+      "contentLength": 2469,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/scooter-maintenance.html",
+      "width": 390,
+      "status": "PASS",
+      "contentLength": 1019,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/scooter-repair.html",
+      "width": 390,
+      "status": "PASS",
+      "contentLength": 1005,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/scooter-documents.html",
+      "width": 390,
+      "status": "PASS",
+      "contentLength": 1737,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/ebus-warranty.html",
+      "width": 390,
+      "status": "PASS",
+      "contentLength": 946,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/ebus-maintenance.html",
+      "width": 390,
+      "status": "PASS",
+      "contentLength": 1124,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/ebus-repair.html",
+      "width": 390,
+      "status": "PASS",
+      "contentLength": 1005,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/ebus-rescue.html",
+      "width": 390,
+      "status": "PASS",
+      "contentLength": 962,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/ebus-documents.html",
+      "width": 390,
+      "status": "PASS",
+      "contentLength": 1106,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/locations.html",
+      "width": 390,
+      "status": "PASS",
+      "contentLength": 2211,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/on-road-cost.html",
+      "width": 390,
+      "status": "PASS",
+      "contentLength": 1464,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/installment.html",
+      "width": 390,
+      "status": "PASS",
+      "contentLength": 1460,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/buy-car.html",
+      "width": 390,
+      "status": "PASS",
+      "contentLength": 1055,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/operating-cost.html",
+      "width": 390,
+      "status": "PASS",
+      "contentLength": 1113,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/buy-scooter.html",
+      "width": 390,
+      "status": "PASS",
+      "contentLength": 1152,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/vf-energy.html",
+      "width": 390,
+      "status": "PASS",
+      "contentLength": 826,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/company-news.html",
+      "width": 390,
+      "status": "PASS",
+      "contentLength": 806,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/car-news.html",
+      "width": 390,
+      "status": "PASS",
+      "contentLength": 722,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/scooter-news.html",
+      "width": 390,
+      "status": "PASS",
+      "contentLength": 830,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/privacy.html",
+      "width": 390,
+      "status": "PASS",
+      "contentLength": 1088,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/shipping.html",
+      "width": 390,
+      "status": "PASS",
+      "contentLength": 924,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/returns.html",
+      "width": 390,
+      "status": "PASS",
+      "contentLength": 899,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/disclaimer.html",
+      "width": 390,
+      "status": "PASS",
+      "contentLength": 921,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/deposit-terms.html",
+      "width": 390,
+      "status": "PASS",
+      "contentLength": 971,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/contracts.html",
+      "width": 390,
+      "status": "PASS",
+      "contentLength": 1022,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/complaints.html",
+      "width": 390,
+      "status": "PASS",
+      "contentLength": 997,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/estore.html",
+      "width": 390,
+      "status": "PASS",
+      "contentLength": 845,
+      "images": 40
+    },
+    {
+      "url": "/vinf/index.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 2169,
+      "images": 97
+    },
+    {
+      "url": "/vinf/pages/about.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 976,
+      "images": 42
+    },
+    {
+      "url": "/vinf/pages/vf2.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 978,
+      "images": 55
+    },
+    {
+      "url": "/vinf/pages/vf3.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 941,
+      "images": 50
+    },
+    {
+      "url": "/vinf/pages/vf5.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 833,
+      "images": 50
+    },
+    {
+      "url": "/vinf/pages/product.html?id=vf6",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 944,
+      "images": 51
+    },
+    {
+      "url": "/vinf/pages/vf7.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1011,
+      "images": 51
+    },
+    {
+      "url": "/vinf/pages/vf-mpv7.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 997,
+      "images": 56
+    },
+    {
+      "url": "/vinf/pages/vf8.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 997,
+      "images": 51
+    },
+    {
+      "url": "/vinf/pages/vf8-new.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1022,
+      "images": 56
+    },
+    {
+      "url": "/vinf/pages/vf9.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 966,
+      "images": 51
+    },
+    {
+      "url": "/vinf/pages/vf-wild.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1001,
+      "images": 48
+    },
+    {
+      "url": "/vinf/pages/compare.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 602,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/test-drive.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 700,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/product.html?id=kinet",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1074,
+      "images": 50
+    },
+    {
+      "url": "/vinf/pages/viper.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 855,
+      "images": 48
+    },
+    {
+      "url": "/vinf/pages/evo-grand-premia.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1538,
+      "images": 51
+    },
+    {
+      "url": "/vinf/pages/evo-grand.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1137,
+      "images": 50
+    },
+    {
+      "url": "/vinf/pages/accessories.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 511,
+      "images": 47
+    },
+    {
+      "url": "/vinf/pages/warranty.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 763,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/maintenance.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 957,
+      "images": 42
+    },
+    {
+      "url": "/vinf/pages/repair.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 759,
+      "images": 41
+    },
+    {
+      "url": "/vinf/pages/rescue.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 814,
+      "images": 41
+    },
+    {
+      "url": "/vinf/pages/scooter-warranty.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1013,
+      "images": 40
+    },
+    {
+      "url": "/vinf/pages/service-booking.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 267,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/battery.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 619,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/scooter-battery.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 692,
+      "images": 40
+    },
+    {
+      "url": "/vinf/pages/buy-car.html?model=minio",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1114,
+      "images": 40
+    },
+    {
+      "url": "/vinf/pages/vingroup.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 377,
+      "images": 43
+    },
+    {
+      "url": "/vinf/pages/buy-car.html?model=herio",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1114,
+      "images": 40
+    },
+    {
+      "url": "/vinf/pages/buy-car.html?model=nerio",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1111,
+      "images": 40
+    },
+    {
+      "url": "/vinf/pages/buy-car.html?model=limo",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1109,
+      "images": 40
+    },
+    {
+      "url": "/vinf/pages/buy-car.html?model=ecvan",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1101,
+      "images": 40
+    },
+    {
+      "url": "/vinf/pages/buy-scooter.html?model=vero-x",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1194,
+      "images": 40
+    },
+    {
+      "url": "/vinf/pages/buy-scooter.html?model=kyo",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1197,
+      "images": 40
+    },
+    {
+      "url": "/vinf/pages/buy-scooter.html?model=feliz-ii",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1200,
+      "images": 40
+    },
+    {
+      "url": "/vinf/pages/buy-scooter.html?model=feliz-2025",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1211,
+      "images": 40
+    },
+    {
+      "url": "/vinf/pages/buy-scooter.html?model=feliz-2027",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1211,
+      "images": 40
+    },
+    {
+      "url": "/vinf/pages/buy-scooter.html?model=evo-grand-limited",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1225,
+      "images": 40
+    },
+    {
+      "url": "/vinf/pages/buy-scooter.html?model=evo-grand-ii",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1215,
+      "images": 40
+    },
+    {
+      "url": "/vinf/pages/buy-scooter.html?model=evo",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1197,
+      "images": 40
+    },
+    {
+      "url": "/vinf/pages/buy-scooter.html?model=amio",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1199,
+      "images": 40
+    },
+    {
+      "url": "/vinf/pages/buy-scooter.html?model=amio-s",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1203,
+      "images": 40
+    },
+    {
+      "url": "/vinf/pages/buy-scooter.html?model=amio-s2",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1205,
+      "images": 40
+    },
+    {
+      "url": "/vinf/pages/buy-scooter.html?model=flazz",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1201,
+      "images": 40
+    },
+    {
+      "url": "/vinf/pages/buy-scooter.html?model=flazz-max",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1209,
+      "images": 40
+    },
+    {
+      "url": "/vinf/pages/buy-scooter.html?model=zgoo",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1199,
+      "images": 40
+    },
+    {
+      "url": "/vinf/pages/buy-scooter.html?model=evo-lite",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1207,
+      "images": 40
+    },
+    {
+      "url": "/vinf/pages/buy-scooter.html?model=drgnfly",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1211,
+      "images": 40
+    },
+    {
+      "url": "/vinf/pages/buy-scooter.html?model=evo-grand-lite",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1219,
+      "images": 40
+    },
+    {
+      "url": "/vinf/pages/buy-scooter.html?model=evo-lite-neo",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1215,
+      "images": 40
+    },
+    {
+      "url": "/vinf/pages/catalog.html",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 3611,
+      "images": 81
+    },
+    {
+      "url": "/vinf/pages/test-drive.html?model=vf2",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 700,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/test-drive.html?model=vf3",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 700,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/test-drive.html?model=vf5",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 700,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/catalog.html?group=personal",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 1087,
+      "images": 49
+    },
+    {
+      "url": "/vinf/pages/test-drive.html?model=vf6",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 700,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/test-drive.html?model=vf7",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 700,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/test-drive.html?model=vf-mpv7",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 700,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/test-drive.html?model=vf8",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 700,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/test-drive.html?model=vf8-new",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 700,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/test-drive.html?model=vf9",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 700,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/test-drive.html?model=vf-wild",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 700,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/catalog.html?group=scooter",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 2110,
+      "images": 61
+    },
+    {
+      "url": "/vinf/pages/test-drive.html?model=kinet",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 700,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/test-drive.html?model=viper",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 700,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/test-drive.html?model=evo-grand-premia",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 700,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/test-drive.html?model=evo-grand",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 700,
+      "images": 39
+    },
+    {
+      "url": "/vinf/pages/accessory.html?id=EEP71061000",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 732,
+      "images": 44
+    },
+    {
+      "url": "/vinf/pages/accessory.html?id=ACS10000246",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 667,
+      "images": 44
+    },
+    {
+      "url": "/vinf/pages/accessory.html?id=ACS40000094",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 733,
+      "images": 44
+    },
+    {
+      "url": "/vinf/pages/accessory.html?id=EEP69072176AB",
+      "width": 1440,
+      "status": "PASS",
+      "contentLength": 769,
+      "images": 44
+    }
+  ],
+  "interactions": [
+    {
+      "name": "Financial calculations: independent fixtures, boundaries and repayment conservation",
+      "status": "PASS"
+    },
+    {
+      "name": "minio-green: content, images, chrome and overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "name": "herio-green: content, images, chrome and overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "name": "nerio-green: content, images, chrome and overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "name": "limo-green: content, images, chrome and overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "name": "ec-van: content, images, chrome and overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "name": "ebus: content, images, chrome and overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "name": "fadil: content, images, chrome and overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "name": "lux-a: content, images, chrome and overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "name": "lux-sa: content, images, chrome and overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "name": "president: content, images, chrome and overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "name": "vero-x: content, images, chrome and overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "name": "kyo: content, images, chrome and overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "name": "feliz-ii: content, images, chrome and overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "name": "feliz-2025: content, images, chrome and overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "name": "feliz-2027: content, images, chrome and overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "name": "evo-grand-limited: content, images, chrome and overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "name": "evo-grand-ii: content, images, chrome and overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "name": "evo: content, images, chrome and overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "name": "amio: content, images, chrome and overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "name": "amio-s: content, images, chrome and overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "name": "amio-s2: content, images, chrome and overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "name": "flazz: content, images, chrome and overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "name": "flazz-max: content, images, chrome and overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "name": "zgoo: content, images, chrome and overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "name": "evo-lite: content, images, chrome and overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "name": "drgnfly: content, images, chrome and overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "name": "evo-grand-lite: content, images, chrome and overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "name": "evo-lite-neo: content, images, chrome and overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "name": "car-documents: content, images, chrome and overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "name": "scooter-maintenance: content, images, chrome and overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "name": "scooter-repair: content, images, chrome and overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "name": "scooter-documents: content, images, chrome and overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "name": "ebus-warranty: content, images, chrome and overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "name": "ebus-maintenance: content, images, chrome and overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "name": "ebus-repair: content, images, chrome and overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "name": "ebus-rescue: content, images, chrome and overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "name": "ebus-documents: content, images, chrome and overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "name": "locations: content, images, chrome and overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "name": "on-road-cost: content, images, chrome and overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "name": "installment: content, images, chrome and overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "name": "buy-car: content, images, chrome and overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "name": "operating-cost: content, images, chrome and overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "name": "buy-scooter: content, images, chrome and overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "name": "vf-energy: content, images, chrome and overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "name": "company-news: content, images, chrome and overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "name": "car-news: content, images, chrome and overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "name": "scooter-news: content, images, chrome and overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "name": "privacy: content, images, chrome and overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "name": "shipping: content, images, chrome and overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "name": "returns: content, images, chrome and overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "name": "disclaimer: content, images, chrome and overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "name": "deposit-terms: content, images, chrome and overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "name": "contracts: content, images, chrome and overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "name": "complaints: content, images, chrome and overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "name": "estore: content, images, chrome and overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "name": "minio-green: content, images, chrome and overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "herio-green: content, images, chrome and overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "nerio-green: content, images, chrome and overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "limo-green: content, images, chrome and overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "ec-van: content, images, chrome and overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "ebus: content, images, chrome and overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "fadil: content, images, chrome and overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "lux-a: content, images, chrome and overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "lux-sa: content, images, chrome and overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "president: content, images, chrome and overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "vero-x: content, images, chrome and overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "kyo: content, images, chrome and overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "feliz-ii: content, images, chrome and overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "feliz-2025: content, images, chrome and overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "feliz-2027: content, images, chrome and overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "evo-grand-limited: content, images, chrome and overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "evo-grand-ii: content, images, chrome and overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "evo: content, images, chrome and overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "amio: content, images, chrome and overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "amio-s: content, images, chrome and overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "amio-s2: content, images, chrome and overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "flazz: content, images, chrome and overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "flazz-max: content, images, chrome and overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "zgoo: content, images, chrome and overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "evo-lite: content, images, chrome and overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "drgnfly: content, images, chrome and overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "evo-grand-lite: content, images, chrome and overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "evo-lite-neo: content, images, chrome and overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "car-documents: content, images, chrome and overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "scooter-maintenance: content, images, chrome and overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "scooter-repair: content, images, chrome and overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "scooter-documents: content, images, chrome and overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "ebus-warranty: content, images, chrome and overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "ebus-maintenance: content, images, chrome and overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "ebus-repair: content, images, chrome and overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "ebus-rescue: content, images, chrome and overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "ebus-documents: content, images, chrome and overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "locations: content, images, chrome and overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "on-road-cost: content, images, chrome and overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "installment: content, images, chrome and overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "buy-car: content, images, chrome and overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "operating-cost: content, images, chrome and overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "buy-scooter: content, images, chrome and overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "vf-energy: content, images, chrome and overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "company-news: content, images, chrome and overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "car-news: content, images, chrome and overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "scooter-news: content, images, chrome and overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "privacy: content, images, chrome and overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "shipping: content, images, chrome and overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "returns: content, images, chrome and overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "disclaimer: content, images, chrome and overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "deposit-terms: content, images, chrome and overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "contracts: content, images, chrome and overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "complaints: content, images, chrome and overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "estore: content, images, chrome and overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "name": "minio-green: content, images, chrome and overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "herio-green: content, images, chrome and overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "nerio-green: content, images, chrome and overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "limo-green: content, images, chrome and overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "ec-van: content, images, chrome and overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "ebus: content, images, chrome and overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "fadil: content, images, chrome and overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "lux-a: content, images, chrome and overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "lux-sa: content, images, chrome and overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "president: content, images, chrome and overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "vero-x: content, images, chrome and overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "kyo: content, images, chrome and overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "feliz-ii: content, images, chrome and overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "feliz-2025: content, images, chrome and overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "feliz-2027: content, images, chrome and overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "evo-grand-limited: content, images, chrome and overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "evo-grand-ii: content, images, chrome and overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "evo: content, images, chrome and overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "amio: content, images, chrome and overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "amio-s: content, images, chrome and overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "amio-s2: content, images, chrome and overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "flazz: content, images, chrome and overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "flazz-max: content, images, chrome and overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "zgoo: content, images, chrome and overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "evo-lite: content, images, chrome and overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "drgnfly: content, images, chrome and overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "evo-grand-lite: content, images, chrome and overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "evo-lite-neo: content, images, chrome and overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "car-documents: content, images, chrome and overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "scooter-maintenance: content, images, chrome and overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "scooter-repair: content, images, chrome and overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "scooter-documents: content, images, chrome and overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "ebus-warranty: content, images, chrome and overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "ebus-maintenance: content, images, chrome and overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "ebus-repair: content, images, chrome and overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "ebus-rescue: content, images, chrome and overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "ebus-documents: content, images, chrome and overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "locations: content, images, chrome and overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "on-road-cost: content, images, chrome and overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "installment: content, images, chrome and overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "buy-car: content, images, chrome and overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "operating-cost: content, images, chrome and overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "buy-scooter: content, images, chrome and overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "vf-energy: content, images, chrome and overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "company-news: content, images, chrome and overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "car-news: content, images, chrome and overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "scooter-news: content, images, chrome and overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "privacy: content, images, chrome and overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "shipping: content, images, chrome and overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "returns: content, images, chrome and overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "disclaimer: content, images, chrome and overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "deposit-terms: content, images, chrome and overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "contracts: content, images, chrome and overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "complaints: content, images, chrome and overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "estore: content, images, chrome and overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/index.html",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/about.html",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/vf2.html",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/vf3.html",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/vf5.html",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/product.html?id=vf6",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/vf7.html",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/vf-mpv7.html",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/vf8.html",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/vf8-new.html",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/vf9.html",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/vf-wild.html",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/compare.html",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/test-drive.html",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/product.html?id=kinet",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/viper.html",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/evo-grand-premia.html",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/evo-grand.html",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/accessories.html",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/warranty.html",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/maintenance.html",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/repair.html",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/rescue.html",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/scooter-warranty.html",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/service-booking.html",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/battery.html",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/scooter-battery.html",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/buy-car.html?model=minio",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/vingroup.html",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/buy-car.html?model=herio",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/buy-car.html?model=nerio",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/buy-car.html?model=limo",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/buy-car.html?model=ecvan",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/buy-scooter.html?model=vero-x",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/buy-scooter.html?model=kyo",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/buy-scooter.html?model=feliz-ii",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/buy-scooter.html?model=feliz-2025",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/buy-scooter.html?model=feliz-2027",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/buy-scooter.html?model=evo-grand-limited",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/buy-scooter.html?model=evo-grand-ii",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/buy-scooter.html?model=evo",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/buy-scooter.html?model=amio",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/buy-scooter.html?model=amio-s",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/buy-scooter.html?model=amio-s2",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/buy-scooter.html?model=flazz",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/buy-scooter.html?model=flazz-max",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/buy-scooter.html?model=zgoo",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/buy-scooter.html?model=evo-lite",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/buy-scooter.html?model=drgnfly",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/buy-scooter.html?model=evo-grand-lite",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/buy-scooter.html?model=evo-lite-neo",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/catalog.html",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/test-drive.html?model=vf2",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/test-drive.html?model=vf3",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/test-drive.html?model=vf5",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/catalog.html?group=personal",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/test-drive.html?model=vf6",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/test-drive.html?model=vf7",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/test-drive.html?model=vf-mpv7",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/test-drive.html?model=vf8",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/test-drive.html?model=vf8-new",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/test-drive.html?model=vf9",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/test-drive.html?model=vf-wild",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/catalog.html?group=scooter",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/test-drive.html?model=kinet",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/test-drive.html?model=viper",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/test-drive.html?model=evo-grand-premia",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/test-drive.html?model=evo-grand",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/accessory.html?id=EEP71061000",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/accessory.html?id=ACS10000246",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/accessory.html?id=ACS40000094",
+      "status": "PASS"
+    },
+    {
+      "name": "Reachable route /vinf/pages/accessory.html?id=EEP69072176AB",
+      "status": "PASS"
+    },
+    {
+      "name": "All 55 legacy reference links redirect to their dedicated local page",
+      "status": "PASS"
+    },
+    {
+      "name": "Product tabs, accordions, color selector and galleries",
+      "status": "PASS"
+    },
+    {
+      "name": "Searches, empty states, reset and preserved official document links",
+      "status": "PASS"
+    },
+    {
+      "name": "Calculators: UI results, invalid loan, CSV export and stale-result reset",
+      "status": "PASS"
+    },
+    {
+      "name": "Shopping simulations: preselect, versions, review, export, reset and historical exclusion",
+      "status": "PASS"
+    },
+    {
+      "name": "No form submissions, account storage or payment requests",
+      "status": "PASS"
+    },
+    {
+      "name": "Existing home carousel still slides images and fades stationary details",
+      "status": "PASS"
+    },
+    {
+      "name": "Touch galleries, mobile navigation and narrow-screen calculators",
+      "status": "PASS"
+    },
+    {
+      "name": "All 37 home model links point to the corresponding product (1440/768/390px)",
+      "status": "PASS",
+      "assertedModels": 111
+    }
+  ],
+  "localLinks": [
+    "/vinf/index.html",
+    "/vinf/pages/about.html",
+    "/vinf/pages/accessories.html",
+    "/vinf/pages/accessory.html?id=ACS10000246",
+    "/vinf/pages/accessory.html?id=ACS40000094",
+    "/vinf/pages/accessory.html?id=EEP69072176AB",
+    "/vinf/pages/accessory.html?id=EEP71061000",
+    "/vinf/pages/amio-s.html",
+    "/vinf/pages/amio-s2.html",
+    "/vinf/pages/amio.html",
+    "/vinf/pages/battery.html",
+    "/vinf/pages/buy-car.html",
+    "/vinf/pages/buy-car.html?model=ecvan",
+    "/vinf/pages/buy-car.html?model=herio",
+    "/vinf/pages/buy-car.html?model=limo",
+    "/vinf/pages/buy-car.html?model=minio",
+    "/vinf/pages/buy-car.html?model=nerio",
+    "/vinf/pages/buy-scooter.html",
+    "/vinf/pages/buy-scooter.html?model=amio",
+    "/vinf/pages/buy-scooter.html?model=amio-s",
+    "/vinf/pages/buy-scooter.html?model=amio-s2",
+    "/vinf/pages/buy-scooter.html?model=drgnfly",
+    "/vinf/pages/buy-scooter.html?model=evo",
+    "/vinf/pages/buy-scooter.html?model=evo-grand-ii",
+    "/vinf/pages/buy-scooter.html?model=evo-grand-limited",
+    "/vinf/pages/buy-scooter.html?model=evo-grand-lite",
+    "/vinf/pages/buy-scooter.html?model=evo-lite",
+    "/vinf/pages/buy-scooter.html?model=evo-lite-neo",
+    "/vinf/pages/buy-scooter.html?model=feliz-2025",
+    "/vinf/pages/buy-scooter.html?model=feliz-2027",
+    "/vinf/pages/buy-scooter.html?model=feliz-ii",
+    "/vinf/pages/buy-scooter.html?model=flazz",
+    "/vinf/pages/buy-scooter.html?model=flazz-max",
+    "/vinf/pages/buy-scooter.html?model=kyo",
+    "/vinf/pages/buy-scooter.html?model=vero-x",
+    "/vinf/pages/buy-scooter.html?model=zgoo",
+    "/vinf/pages/car-documents.html",
+    "/vinf/pages/car-news.html",
+    "/vinf/pages/catalog.html",
+    "/vinf/pages/catalog.html?group=personal",
+    "/vinf/pages/catalog.html?group=scooter",
+    "/vinf/pages/company-news.html",
+    "/vinf/pages/compare.html",
+    "/vinf/pages/complaints.html",
+    "/vinf/pages/contracts.html",
+    "/vinf/pages/deposit-terms.html",
+    "/vinf/pages/disclaimer.html",
+    "/vinf/pages/drgnfly.html",
+    "/vinf/pages/ebus-documents.html",
+    "/vinf/pages/ebus-maintenance.html",
+    "/vinf/pages/ebus-repair.html",
+    "/vinf/pages/ebus-rescue.html",
+    "/vinf/pages/ebus-warranty.html",
+    "/vinf/pages/ebus.html",
+    "/vinf/pages/ec-van.html",
+    "/vinf/pages/estore.html",
+    "/vinf/pages/evo-grand-ii.html",
+    "/vinf/pages/evo-grand-limited.html",
+    "/vinf/pages/evo-grand-lite.html",
+    "/vinf/pages/evo-grand-premia.html",
+    "/vinf/pages/evo-grand.html",
+    "/vinf/pages/evo-lite-neo.html",
+    "/vinf/pages/evo-lite.html",
+    "/vinf/pages/evo.html",
+    "/vinf/pages/fadil.html",
+    "/vinf/pages/feliz-2025.html",
+    "/vinf/pages/feliz-2027.html",
+    "/vinf/pages/feliz-ii.html",
+    "/vinf/pages/flazz-max.html",
+    "/vinf/pages/flazz.html",
+    "/vinf/pages/herio-green.html",
+    "/vinf/pages/installment.html",
+    "/vinf/pages/kyo.html",
+    "/vinf/pages/limo-green.html",
+    "/vinf/pages/locations.html",
+    "/vinf/pages/lux-a.html",
+    "/vinf/pages/lux-sa.html",
+    "/vinf/pages/maintenance.html",
+    "/vinf/pages/minio-green.html",
+    "/vinf/pages/nerio-green.html",
+    "/vinf/pages/on-road-cost.html",
+    "/vinf/pages/operating-cost.html",
+    "/vinf/pages/president.html",
+    "/vinf/pages/privacy.html",
+    "/vinf/pages/product.html?id=kinet",
+    "/vinf/pages/product.html?id=vf6",
+    "/vinf/pages/repair.html",
+    "/vinf/pages/rescue.html",
+    "/vinf/pages/returns.html",
+    "/vinf/pages/scooter-battery.html",
+    "/vinf/pages/scooter-documents.html",
+    "/vinf/pages/scooter-maintenance.html",
+    "/vinf/pages/scooter-news.html",
+    "/vinf/pages/scooter-repair.html",
+    "/vinf/pages/scooter-warranty.html",
+    "/vinf/pages/service-booking.html",
+    "/vinf/pages/shipping.html",
+    "/vinf/pages/test-drive.html",
+    "/vinf/pages/test-drive.html?model=evo-grand",
+    "/vinf/pages/test-drive.html?model=evo-grand-premia",
+    "/vinf/pages/test-drive.html?model=kinet",
+    "/vinf/pages/test-drive.html?model=vf-mpv7",
+    "/vinf/pages/test-drive.html?model=vf-wild",
+    "/vinf/pages/test-drive.html?model=vf2",
+    "/vinf/pages/test-drive.html?model=vf3",
+    "/vinf/pages/test-drive.html?model=vf5",
+    "/vinf/pages/test-drive.html?model=vf6",
+    "/vinf/pages/test-drive.html?model=vf7",
+    "/vinf/pages/test-drive.html?model=vf8",
+    "/vinf/pages/test-drive.html?model=vf8-new",
+    "/vinf/pages/test-drive.html?model=vf9",
+    "/vinf/pages/test-drive.html?model=viper",
+    "/vinf/pages/vero-x.html",
+    "/vinf/pages/vf-energy.html",
+    "/vinf/pages/vf-mpv7.html",
+    "/vinf/pages/vf-wild.html",
+    "/vinf/pages/vf2.html",
+    "/vinf/pages/vf3.html",
+    "/vinf/pages/vf5.html",
+    "/vinf/pages/vf7.html",
+    "/vinf/pages/vf8-new.html",
+    "/vinf/pages/vf8.html",
+    "/vinf/pages/vf9.html",
+    "/vinf/pages/vingroup.html",
+    "/vinf/pages/viper.html",
+    "/vinf/pages/warranty.html",
+    "/vinf/pages/zgoo.html"
+  ],
+  "externalLinks": [
+    {
+      "url": "https://shop.vinfastauto.com/on/demandware.static/-/Sites-app_vinfast_vn-Library/default/dwe405bfd4/Document/250416_Brochure_Nerio_Green_VN.pdf",
+      "role": "official source / live service",
+      "label": "Brochure Nerio Green ↗"
+    },
+    {
+      "url": "https://shop.vinfastauto.com/vn_vi/chi-phi-lan-banh",
+      "role": "official source / live service",
+      "label": "Dự toán chi phí lăn bánh — nguồn VinFast ↗"
+    },
+    {
+      "url": "https://shop.vinfastauto.com/vn_vi/du-toan-chi-phi-tra-gop",
+      "role": "official source / live service",
+      "label": "Dự toán vay trả góp — nguồn VinFast ↗"
+    },
+    {
+      "url": "https://shop.vinfastauto.com/vn_vi/ebus.html",
+      "role": "official source / live service",
+      "label": "EBus — nguồn VinFast ↗"
+    },
+    {
+      "url": "https://shop.vinfastauto.com/vn_vi/nerio-green.html",
+      "role": "official source / live service",
+      "label": "Nerio Green — nguồn VinFast ↗"
+    },
+    {
+      "url": "https://shop.vinfastauto.com/vn_vi/o-to-vinfast-fadil.html",
+      "role": "official source / live service",
+      "label": "VinFast Fadil — nguồn VinFast ↗"
+    },
+    {
+      "url": "https://shop.vinfastauto.com/vn_vi/o-to-vinfast-lux-a.html",
+      "role": "official source / live service",
+      "label": "VinFast Lux A2.0 — nguồn VinFast ↗"
+    },
+    {
+      "url": "https://shop.vinfastauto.com/vn_vi/o-to-vinfast-lux-sa.html",
+      "role": "official source / live service",
+      "label": "VinFast Lux SA2.0 — nguồn VinFast ↗"
+    },
+    {
+      "url": "https://shop.vinfastauto.com/vn_vi/o-to-vinfast-president.html",
+      "role": "official source / live service",
+      "label": "VinFast President — nguồn VinFast ↗"
+    },
+    {
+      "url": "https://shop.vinfastauto.com/vn_vi/xe-dap-dien-drgnfly.html",
+      "role": "official source / live service",
+      "label": "Thông số và chính sách DrgnFly tại shop ↗"
+    },
+    {
+      "url": "https://static-cms-prod.vinfastauto.com/19092026_cam-ket-chuyen-doi-xanh-tu-19.09.2026.pdf",
+      "role": "official source / live service",
+      "label": "Mở PDF chính thức ↗"
+    },
+    {
+      "url": "https://static-cms-prod.vinfastauto.com/250312_wb_limogreen_vn_vi_250618.pdf",
+      "role": "official source / live service",
+      "label": "Mở Sổ bảo hành Limo Green ↗"
+    },
+    {
+      "url": "https://static-cms-prod.vinfastauto.com/250618_herio_vn_vn_1.2_svc73000217aa.pdf",
+      "role": "official source / live service",
+      "label": "Mở Sổ bảo hành Herio Green ↗"
+    },
+    {
+      "url": "https://static-cms-prod.vinfastauto.com/250618_nerio-green_vn_vi_1.1_svc20000368aa.pdf",
+      "role": "official source / live service",
+      "label": "Mở Sổ bảo hành Nerio Green ↗"
+    },
+    {
+      "url": "https://static-cms-prod.vinfastauto.com/250618_vf3_vn_vi_1.5_svc69000164aa.pdf",
+      "role": "official source / live service",
+      "label": "Mở Sổ bảo hành VF 3 ↗"
+    },
+    {
+      "url": "https://static-cms-prod.vinfastauto.com/250618_vf5_vn_vn_2.2_svc73000155aa.pdf",
+      "role": "official source / live service",
+      "label": "Mở Sổ bảo hành VF 5 ↗"
+    },
+    {
+      "url": "https://static-cms-prod.vinfastauto.com/250618_vf6_vn_vi_1.5_svc70001295aa.pdf",
+      "role": "official source / live service",
+      "label": "Mở Sổ bảo hành VF 6 ↗"
+    },
+    {
+      "url": "https://static-cms-prod.vinfastauto.com/250909_wb_ebus6m_vi_v1-svc43000000aa.pdf",
+      "role": "official source / live service",
+      "label": "Mở Sổ bảo hành EB6 ↗"
+    },
+    {
+      "url": "https://static-cms-prod.vinfastauto.com/251015_wb_ebus10_vi_svc40000017aa-wip.pdf",
+      "role": "official source / live service",
+      "label": "Mở Sổ bảo hành EB10 ↗"
+    },
+    {
+      "url": "https://static-cms-prod.vinfastauto.com/251015_wb_ebus8m_vi_svc42000001ab-wip.pdf",
+      "role": "official source / live service",
+      "label": "Mở Sổ bảo hành EB8 ↗"
+    },
+    {
+      "url": "https://static-cms-prod.vinfastauto.com/260115_ecvan-wb_vn_vi_v2.pdf",
+      "role": "official source / live service",
+      "label": "Mở Sổ bảo hành EC Van ↗"
+    },
+    {
+      "url": "https://static-cms-prod.vinfastauto.com/260325_wb_mpv7_vn_vi_1.0.pdf",
+      "role": "official source / live service",
+      "label": "Mở Sổ bảo hành VF MPV 7 ↗"
+    },
+    {
+      "url": "https://static-cms-prod.vinfastauto.com/260613_vf7_vn_vn_1.6_260810.pdf",
+      "role": "official source / live service",
+      "label": "Mở Sổ bảo hành VF 7 ↗"
+    },
+    {
+      "url": "https://static-cms-prod.vinfastauto.com/brochure/260309_VF9_VN_VI_2.0.pdf",
+      "role": "official source / live service",
+      "label": "Mở Sổ bảo hành VF 9 ↗"
+    },
+    {
+      "url": "https://static-cms-prod.vinfastauto.com/So%20bao%20Hanh%20-%20Fadil%20(FINAL)_1644573657.pdf",
+      "role": "official source / live service",
+      "label": "Mở Sổ bảo hành Fadil ↗"
+    },
+    {
+      "url": "https://static-cms-prod.vinfastauto.com/So%20bao%20Hanh%20-%20LUX%20A%20(FINAL)_1644573676.pdf",
+      "role": "official source / live service",
+      "label": "Mở Sổ bảo hành Lux A2.0 ↗"
+    },
+    {
+      "url": "https://static-cms-prod.vinfastauto.com/So%20bao%20Hanh%20-%20LUX%20SA%20(FINAL)_1644573699.pdf",
+      "role": "official source / live service",
+      "label": "Mở Sổ bảo hành Lux SA2.0 ↗"
+    },
+    {
+      "url": "https://static-cms-prod.vinfastauto.com/So%20bao%20Hanh%20-%20PRESIDENT%20(FINAL)_1644573719.pdf",
+      "role": "official source / live service",
+      "label": "Mở Sổ bảo hành President ↗"
+    },
+    {
+      "url": "https://static-cms-prod.vinfastauto.com/statics/owner-manual/e-scooter/ESPCMDABOL002-01-EVO_LITE_NEO_ESPC_BOL_OWNER_MANUAL.pdf",
+      "role": "official source / live service",
+      "label": "Mở Hướng dẫn sử dụng Evo Lite Neo ↗"
+    },
+    {
+      "url": "https://static-cms-prod.vinfastauto.com/statics/owner-manual/e-scooter/ESPCNE2BOL002-02-EVO_GRAND_LITE_ESPC_BOL_OWNER_MANUAL.pdf",
+      "role": "official source / live service",
+      "label": "Mở Hướng dẫn sử dụng Evo Grand Lite ↗"
+    },
+    {
+      "url": "https://static-cms-prod.vinfastauto.com/statics/owner-manual/e-scooter/ESPCNE6BOL003-02-FELIZ_2025_ESPC_BOL_OWNER_MANUAL_VIE.pdf",
+      "role": "official source / live service",
+      "label": "Mở Hướng dẫn sử dụng Feliz 2025 ↗"
+    },
+    {
+      "url": "https://static-cms-prod.vinfastauto.com/statics/owner-manual/e-scooter/ESPCNE7BOL002-01-VERO_X_ESPC_BOL_OWNER_MANUAL_VIE.pdf",
+      "role": "official source / live service",
+      "label": "Mở Hướng dẫn sử dụng Vero X ↗"
+    },
+    {
+      "url": "https://static-cms-prod.vinfastauto.com/statics/owner-manual/e-scooter/ESPCNE9BOL001-07-VINFAST_EVO_VN_ESPC_BOL_OWNER_MANUAL_VIE.pdf",
+      "role": "official source / live service",
+      "label": "Mở Hướng dẫn sử dụng Evo ↗"
+    },
+    {
+      "url": "https://static-cms-prod.vinfastauto.com/statics/owner-manual/e-scooter/ESPCNECBOL001-05-DG1_ZGOO_ESPC_BOL_OWNER_MANUAL.pdf",
+      "role": "official source / live service",
+      "label": "Mở Hướng dẫn sử dụng ZGoo ↗"
+    },
+    {
+      "url": "https://static-cms-prod.vinfastauto.com/statics/owner-manual/e-scooter/ESPCNEDBOL001-05-DG2_FLAZZ_ESPC_BOL_OWNER_MANUAL_VIE.pdf",
+      "role": "official source / live service",
+      "label": "Mở Hướng dẫn sử dụng Flazz ↗"
+    },
+    {
+      "url": "https://static-cms-prod.vinfastauto.com/statics/owner-manual/e-scooter/ESPCNEFBOL002-02-FELIZ_MAX_VN_ESPC_BOL_OWNER_MANUAL.pdf",
+      "role": "official source / live service",
+      "label": "Mở Hướng dẫn sử dụng Feliz II ↗"
+    },
+    {
+      "url": "https://static-cms-prod.vinfastauto.com/vf_pc01.81_mau-hd-mua-ban-xe-dien-vf_26.09.2025_0.pdf",
+      "role": "official source / live service",
+      "label": "Mở PDF chính thức ↗"
+    },
+    {
+      "url": "https://vinfast.ethicspoint.com/",
+      "role": "external navigation",
+      "label": "vinfast.ethicspoint.com ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/cap-nhat-mot-so-noi-dung-bao-duong-dinh-ky-xe-may-dien-vinfast",
+      "role": "official source / live service",
+      "label": "Đọc bài chính thức ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/chinh-sach-bao-hanh-ebus",
+      "role": "official source / live service",
+      "label": "Bảo hành EBus — nguồn VinFast ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/chinh-sach-bao-hanh-oto",
+      "role": "official source / live service",
+      "label": "Trang tham chiếu chính thức ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/dai-ly-xe-may-dien-vinfast-vung-dong-bang-song-hong",
+      "role": "official source / live service",
+      "label": "Bài công bố địa điểm ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/dich-vu-bao-duong-ebus",
+      "role": "official source / live service",
+      "label": "Bảo dưỡng EBus — nguồn VinFast ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/dich-vu-bao-duong-xe-may-dien",
+      "role": "official source / live service",
+      "label": "Bảo dưỡng xe máy điện — nguồn VinFast ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/dich-vu-pin-oto-dien",
+      "role": "official source / live service",
+      "label": "Trang tham chiếu chính thức ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/dich-vu-pin-xe-may-dien",
+      "role": "official source / live service",
+      "label": "Đọc biểu phí và điều kiện đúng phiên bản hợp đồng ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/dich-vu-sua-chua-ebus",
+      "role": "official source / live service",
+      "label": "Sửa chữa EBus — nguồn VinFast ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/dich-vu-sua-chua-xe-may-dien",
+      "role": "official source / live service",
+      "label": "Sửa chữa xe máy điện — nguồn VinFast ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/dieu-khoan-phap-ly?collapseId=collapse-10",
+      "role": "official source / live service",
+      "label": "Tiếp nhận và giải quyết khiếu nại — nguồn VinFast ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/dieu-khoan-phap-ly?collapseId=collapse-3",
+      "role": "official source / live service",
+      "label": "Miễn trừ trách nhiệm — nguồn VinFast ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/dieu-khoan-phap-ly?collapseId=collapse-4",
+      "role": "official source / live service",
+      "label": "Điều khoản thỏa thuận đặt cọc ô tô — nguồn VinFast ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/dieu-khoan-phap-ly?collapseId=collapse-5",
+      "role": "official source / live service",
+      "label": "Chính sách đổi trả — nguồn VinFast ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/dieu-khoan-phap-ly?collapseId=collapse-6",
+      "role": "official source / live service",
+      "label": "Chính sách vận chuyển — nguồn VinFast ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/don-cho-chuoi-su-kien-thu-xang-doi-dien-tai-34-tttm-vincom-tren-toan-quoc",
+      "role": "official source / live service",
+      "label": "Đọc bài chính thức ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/herio-green",
+      "role": "official source / live service",
+      "label": "Herio Green — nguồn VinFast ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/hop-dong-va-chinh-sach",
+      "role": "official source / live service",
+      "label": "Hợp đồng và chính sách — nguồn VinFast ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/limo-green",
+      "role": "official source / live service",
+      "label": "Limo Green — nguồn VinFast ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/minio-green",
+      "role": "official source / live service",
+      "label": "Minio Green — nguồn VinFast ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/mua-xe-may-dien-truc-tuyen",
+      "role": "official source / live service",
+      "label": "Mua xe máy điện trực tuyến — mô phỏng — nguồn VinFast ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/mua-xe-o-to-dien-truc-tuyen",
+      "role": "official source / live service",
+      "label": "Mua ô tô trực tuyến — mô phỏng — nguồn VinFast ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/privacy-policy",
+      "role": "official source / live service",
+      "label": "Bảo vệ dữ liệu cá nhân — nguồn VinFast ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/showroom-vinfast-nguyen-van-linh",
+      "role": "official source / live service",
+      "label": "Bài công bố địa điểm ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/tai-lieu-ebus",
+      "role": "official source / live service",
+      "label": "Tra cứu tài liệu EBus — nguồn VinFast ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/tai-lieu-o-to",
+      "role": "official source / live service",
+      "label": "Tra cứu tài liệu ô tô — nguồn VinFast ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/tai-lieu-xe-may-dien",
+      "role": "official source / live service",
+      "label": "Tra cứu tài liệu xe máy điện — nguồn VinFast ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/thong-tin-cuu-ho-ebus",
+      "role": "official source / live service",
+      "label": "Cứu hộ EBus — nguồn VinFast ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/tim-kiem-showroom-tram-sac",
+      "role": "official source / live service",
+      "label": "Showroom, đại lý, xưởng dịch vụ và trạm sạc — nguồn VinFast ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/tin-tuc/cong-ty",
+      "role": "official source / live service",
+      "label": "Tin công ty — nguồn VinFast ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/tin-tuc/o-to-dien",
+      "role": "official source / live service",
+      "label": "Tin ô tô — nguồn VinFast ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/tin-tuc/xe-may-dien",
+      "role": "official source / live service",
+      "label": "Tin xe máy điện — nguồn VinFast ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/tinh-chi-phi-su-dung-xmd",
+      "role": "official source / live service",
+      "label": "Tính chi phí sử dụng xe máy điện — nguồn VinFast ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/tram-sac-vinfast-ha-noi",
+      "role": "official source / live service",
+      "label": "Bài công bố địa điểm ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/ve-chung-toi",
+      "role": "official source / live service",
+      "label": "Lịch sử và giải thưởng tại nguồn VinFast ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/vf-energy",
+      "role": "official source / live service",
+      "label": "VF Energy — nguồn VinFast ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/vinfast-chinh-thuc-dung-kinh-doanh-xe-o-to-chay-xang",
+      "role": "official source / live service",
+      "label": "Thông báo dừng kinh doanh ô tô xăng ngày 15/07/2022 ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/vinfast-chinh-thuc-xuat-xuong-vf-mpv-7-tai-nha-may-subang-day-nhanh-chien-luoc-noi-dia-hoa-o-indonesia",
+      "role": "official source / live service",
+      "label": "Đọc bài chính thức ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/vinfast-dua-xe-buyt-dien-vao-thi-truong-my-mo-rong-he-sinh-thai-giao-thong-xanh",
+      "role": "official source / live service",
+      "label": "Đọc bài chính thức ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/vinfast-ecvan",
+      "role": "official source / live service",
+      "label": "EC Van — nguồn VinFast ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/vinfast-estore.html",
+      "role": "official source / live service",
+      "label": "VF eStore — nguồn VinFast ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/vinfast-ra-mat-vf-8-the-he-moi-nang-cap-trai-nghiem-toan-dien-cho-nguoi-dung",
+      "role": "official source / live service",
+      "label": "Đọc bài chính thức ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/vinfast-tai-trien-lam-quoc-te-vietbuild-ha-noi-2026-len-doi-xe-dien-chon-xe-chon-vinfast",
+      "role": "official source / live service",
+      "label": "Đọc bài chính thức ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/xe-dap-dien-drgnfly",
+      "role": "official source / live service",
+      "label": "VF DrgnFly — nguồn VinFast ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/xe-may-dien-evo",
+      "role": "official source / live service",
+      "label": "Evo — nguồn VinFast ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/xe-may-dien-evo-grand-limited",
+      "role": "official source / live service",
+      "label": "Evo Grand Limited — nguồn VinFast ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/xe-may-dien-evo-grand-lite",
+      "role": "official source / live service",
+      "label": "Evo Grand Lite — nguồn VinFast ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/xe-may-dien-evo-lite",
+      "role": "official source / live service",
+      "label": "Evo Lite — nguồn VinFast ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/xe-may-dien-evo-lite-neo",
+      "role": "official source / live service",
+      "label": "Evo Lite Neo — nguồn VinFast ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/xe-may-dien-feliz",
+      "role": "official source / live service",
+      "label": "Feliz 2025 — nguồn VinFast ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/xe-may-dien-feliz-the-he-moi",
+      "role": "official source / live service",
+      "label": "Feliz 2027 — nguồn VinFast ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/xe-may-dien-flazz",
+      "role": "official source / live service",
+      "label": "Flazz — nguồn VinFast ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/xe-may-dien-verox",
+      "role": "official source / live service",
+      "label": "Vero X — nguồn VinFast ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/xe-may-dien-vinfast-amio",
+      "role": "official source / live service",
+      "label": "Amio — nguồn VinFast ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/xe-may-dien-vinfast-amio-s",
+      "role": "official source / live service",
+      "label": "Amio S — nguồn VinFast ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/xe-may-dien-vinfast-amio-S2",
+      "role": "official source / live service",
+      "label": "Amio S2 — nguồn VinFast ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/xe-may-dien-vinfast-evo-grand-ii",
+      "role": "official source / live service",
+      "label": "Evo Grand II — nguồn VinFast ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/xe-may-dien-vinfast-feliz-II",
+      "role": "official source / live service",
+      "label": "Feliz II — nguồn VinFast ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/xe-may-dien-vinfast-flazz-max",
+      "role": "official source / live service",
+      "label": "Flazz Max — nguồn VinFast ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/xe-may-dien-vinfast-kyo",
+      "role": "official source / live service",
+      "label": "Kyo — nguồn VinFast ↗"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/xe-may-dien-zgoo",
+      "role": "official source / live service",
+      "label": "ZGoo — nguồn VinFast ↗"
+    },
+    {
+      "url": "https://vinhomes.vn/",
+      "role": "external navigation",
+      "label": "Vinhomes ↗"
+    },
+    {
+      "url": "https://vinmec.com/",
+      "role": "external navigation",
+      "label": "Vinmec ↗"
+    },
+    {
+      "url": "https://vinpearl.com/",
+      "role": "external navigation",
+      "label": "Vinpearl ↗"
+    },
+    {
+      "url": "https://www.google.com/maps/search/?api=1&query=NPP%203S%20VinFast%20Ph%C3%BA%20Th%C3%A0nh%20175%20Qu%E1%BB%91c%20l%E1%BB%99%201A%2C%20%C4%91%C6%B0%E1%BB%9Dng%20L%C3%AA%20Ho%C3%A0n%2C%20Quang%20Trung%2C%20Ph%E1%BB%A7%20L%C3%BD%2C%20H%C3%A0%20Nam",
+      "role": "official source / live service",
+      "label": "Tìm địa chỉ trên bản đồ ↗"
+    },
+    {
+      "url": "https://www.google.com/maps/search/?api=1&query=NPP%203S%20VinFast%20Th%E1%BB%8Bnh%20C%C6%B0%E1%BB%9Dng%20S%E1%BB%91%201%2FB1%20l%C3%B4%2026BC%2C%20L%C3%AA%20H%E1%BB%93ng%20Phong%2C%20H%E1%BA%A3i%20Ph%C3%B2ng",
+      "role": "official source / live service",
+      "label": "Tìm địa chỉ trên bản đồ ↗"
+    },
+    {
+      "url": "https://www.google.com/maps/search/?api=1&query=Tr%E1%BA%A1m%20s%E1%BA%A1c%20t%E1%BA%A1i%20Showroom%20Ph%E1%BA%A1m%20V%C4%83n%20%C4%90%E1%BB%93ng%20166%20Ph%E1%BA%A1m%20V%C4%83n%20%C4%90%E1%BB%93ng%2C%20Xu%C3%A2n%20%C4%90%E1%BB%89nh%2C%20H%C3%A0%20N%E1%BB%99i",
+      "role": "official source / live service",
+      "label": "Tìm địa chỉ trên bản đồ ↗"
+    },
+    {
+      "url": "https://www.google.com/maps/search/?api=1&query=Tr%E1%BA%A1m%20s%E1%BA%A1c%20Vincom%20Center%20Metropolis%20C%E1%BB%99t%20M6%2C%20h%E1%BA%A7m%20B3%2C%2029%20Li%E1%BB%85u%20Giai%2C%20H%C3%A0%20N%E1%BB%99i",
+      "role": "official source / live service",
+      "label": "Tìm địa chỉ trên bản đồ ↗"
+    },
+    {
+      "url": "https://www.google.com/maps/search/?api=1&query=VinFast%20H%C3%B2a%20Di%E1%BB%87p%20239%20L%E1%BA%A1ch%20Tray%2C%20Ng%C3%B4%20Quy%E1%BB%81n%2C%20H%E1%BA%A3i%20Ph%C3%B2ng",
+      "role": "official source / live service",
+      "label": "Tìm địa chỉ trên bản đồ ↗"
+    },
+    {
+      "url": "https://www.google.com/maps/search/?api=1&query=VinFast%20Nguy%E1%BB%85n%20V%C4%83n%20Linh%20S%E1%BB%91%201%20Nguy%E1%BB%85n%20V%C4%83n%20Linh%2C%20Gia%20Th%E1%BB%A5y%2C%20Long%20Bi%C3%AAn%2C%20H%C3%A0%20N%E1%BB%99i",
+      "role": "official source / live service",
+      "label": "Tìm địa chỉ trên bản đồ ↗"
+    },
+    {
+      "url": "tel:1900232389",
+      "role": "external navigation",
+      "label": "1900 23 23 89 - Nhánh 1"
+    }
+  ],
+  "failures": []
+}

@@ -26,11 +26,19 @@ export function renderReference(main) {
     }
   });
   main.innerHTML = /* HTML */ `
-  <section class="container narrow">
-    <h1></h1>
-  </section>
-`;
+    <section class="container narrow">
+      <h1></h1>
+      <p>
+        Đường dẫn này chưa có nội dung trong bản mô phỏng. Hãy dùng danh mục
+        hoặc điều hướng chính để chọn một trang đã triển khai.
+      </p>
+      <a class="button" href="${localURL('pages/catalog.html')}"
+        >Xem danh mục đã triển khai</a
+      >
+      <p><a href="${localURL('index.html')}">Về trang chủ</a></p>
+    </section>
+  `;
   main.querySelector('h1').textContent =
-    item?.name || 'Nội dung đang được hoàn thiện';
+    item?.name || 'Không tìm thấy nội dung';
   document.title = (item?.name || 'Chưa triển khai') + ' — VinFast mô phỏng';
 }

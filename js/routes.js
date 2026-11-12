@@ -1,3 +1,5 @@
+import { destinationRoutes } from '../data/destinations.js';
+
 // Resolve against the module, so /vinf/ is preserved on every entrypoint.
 export const siteRoot = new URL('../', import.meta.url);
 export const localURL = (path) => new URL(path, siteRoot).href;
@@ -44,13 +46,17 @@ export function resolveRoute(raw) {
   if (!slug) return localURL('index.html');
   return localURL(
     'pages/' +
-      (known[slug] ||
+      (destinationRoutes[(slug + url.search).toLowerCase()] ||
+        known[slug] ||
+        destinationRoutes[slug.toLowerCase()] ||
         'reference.html?route=' + encodeURIComponent(slug + url.search)),
   );
 }
 
 export function localizeLinks(root = document) {
   root.querySelectorAll('a[href]').forEach((a) => {
+    // Source documents and live official services must remain verifiable links.
+    if (a.hasAttribute('data-official')) return;
     if (/tham chiếu/.test(a.textContent) && /vinfastauto\.com/.test(a.href)) {
       const source = document.createElement('p');
       source.className = 'muted';

@@ -6,7 +6,9 @@ export function card(p) {
     ${p.image ? /* HTML */ `<img src="${prefix}assets/${p.image}" alt="${p.name}" loading="lazy" />` : ''}
     <p class="eyebrow">${p.segment}</p>
     <h3>${p.name}</h3>
-    <p>Từ ${money(p.price)}</p>
+    <p>
+      ${p.group === 'historical' ? 'Hồ sơ lịch sử · Đã dừng kinh doanh xe mới' : Number.isFinite(p.price) ? 'Giá snapshot: ' + money(p.price) : 'Xem cấu hình tại trang chi tiết'}
+    </p>
     ${p.detail || p.detailPath ? /* HTML */ `<a class="text-link" href="${p.detailPath ? pageURL(p.detailPath) : pageURL('product', '?id=' + p.id)}">Khám phá ${p.name} →</a>` : '<p class="muted">Đã có dữ liệu danh mục; chưa tái tạo trang chi tiết.</p>'}
   </article>`;
 }
@@ -18,7 +20,8 @@ export function renderCatalog(main) {
     <h1>Các dòng xe VinFast</h1>
     <p class="muted">
       Bộ lọc và tìm kiếm là chức năng bổ sung cho đồ án. Danh mục hiện có
-      ${products.length} mẫu; chưa bao phủ toàn bộ menu gốc.
+      ${products.length} mẫu trong dự án, gồm cả hồ sơ xe xăng lịch sử. Giá
+      snapshot không phải báo giá hiện tại.
     </p>
     <form class="filters" role="search">
       <label
@@ -34,6 +37,7 @@ export function renderCatalog(main) {
           <option value="personal">Xe cá nhân</option>
           <option value="service">Xe dịch vụ</option>
           <option value="scooter">Xe máy điện</option>
+          <option value="historical">Xe xăng lịch sử</option>
         </select></label
       ><label
         >Phân khúc<select id="segment">
