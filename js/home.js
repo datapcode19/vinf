@@ -141,11 +141,6 @@ export function renderHome(main) {
       type="video/mp4"
     />
   </video>
-        <div class="hero-copy">
-          <p class="eyebrow">VinFast VF 6</p>
-          <h2>VF 6</h2>
-          <a class="button" href="./pages/product.html?id=vf6">Khám phá</a>
-        </div>
       </div>
     </section>
     <section class="home-section home-cars" id="oto" aria-label="Danh mục ô tô">
