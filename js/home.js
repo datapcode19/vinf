@@ -128,18 +128,9 @@ export function renderHome(main) {
     </h1>
     <section class="home-hero" aria-label="Video giới thiệu VinFast">
       <div data-slide>
-  <video
-    id="vinfastIntro"
-    autoplay
-    muted
-    playsinline
-    preload="auto"
-  >
-    <source
-      src="./assets/videos/vinfast-intro.mp4"
-      type="video/mp4"
-    />
-  </video>
+        <video id="vinfastIntro" autoplay muted playsinline preload="auto">
+          <source src="./assets/videos/vinfast-intro.mp4" type="video/mp4" />
+        </video>
       </div>
     </section>
     <section class="home-section home-cars" id="oto" aria-label="Danh mục ô tô">
@@ -443,7 +434,9 @@ export function renderHome(main) {
       const panel = template.content.querySelector('.showcase-info');
       panels.push(panel);
       fields.forEach((field) => {
-        const node = template.content.querySelector('[data-model-' + field + ']');
+        const node = template.content.querySelector(
+          '[data-model-' + field + ']',
+        );
         node.removeAttribute('data-model-' + field);
         node.setAttribute('data-scene-' + field, '');
       });
@@ -505,11 +498,11 @@ export function renderHome(main) {
       .addEventListener('click', carousel.next);
   }
   const intro = main.querySelector('#vinfastIntro');
-if (intro) {
-  intro.addEventListener('ended', () => {
-    intro.pause();
-  });
-}
+  if (intro) {
+    intro.addEventListener('ended', () => {
+      intro.pause();
+    });
+  }
   initScrollMotion(main);
   const form = main.querySelector('#newsletter-form');
   form.addEventListener('submit', (e) => {

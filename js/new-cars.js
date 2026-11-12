@@ -69,7 +69,6 @@ export function renderNewCar(main, id) {
       <h2>Màu sắc ${model.name}</h2>
       ${photo('white', `${model.name} — Infinity Blanc`)}
       <p>Infinity Blanc</p>
-  
     </section>
     <section class="container">
       <h2>So sánh xe</h2>

@@ -1,7 +1,7 @@
 const motion = matchMedia('(prefers-reduced-motion: reduce)');
 const wrap = (index, length) => ((index % length) + length) % length;
 
-/** A looping carousel shared by banners, galleries and complete product scenes. */
+// Slider dùng chung: chuyển vòng giữa các ảnh, hỗ trợ nút bấm và thao tác vuốt.
 export function createSwipe(
   viewport,
   slides,
@@ -59,8 +59,8 @@ export function createSwipe(
   function measure() {
     const nextWidth = viewport.clientWidth;
     if (!nextWidth) return;
-    // Font/image readiness must never cancel a finger already dragging the scene.
-    // A genuine width change (rotation/resize) still resets obsolete coordinates.
+    // Ảnh hoặc phông chữ tải xong không được ngắt thao tác kéo đang diễn ra.
+    // Khi đổi kích thước màn hình, đo lại để vị trí ảnh không bị lệch.
     if (nextWidth === width && (drag || animation)) {
       needsMeasure = true;
       return;
@@ -147,7 +147,9 @@ export function createSwipe(
     if (target === current) return;
     settle(target, index < current ? -1 : 1);
   }
-  gestureTarget.addEventListener('dragstart', (event) => event.preventDefault());
+  gestureTarget.addEventListener('dragstart', (event) =>
+    event.preventDefault(),
+  );
   gestureTarget.addEventListener('pointerdown', (event) => {
     if (
       !event.isPrimary ||
@@ -236,7 +238,9 @@ export function createSwipe(
     );
   }
   window.addEventListener('pointerup', (event) => release(event));
-  gestureTarget.addEventListener('pointercancel', (event) => release(event, true));
+  gestureTarget.addEventListener('pointercancel', (event) =>
+    release(event, true),
+  );
   gestureTarget.addEventListener('lostpointercapture', (event) => {
     // Touch starts with implicit capture on the image/link. Transferring that
     // capture to the gesture target must not be mistaken for cancelling the gesture.

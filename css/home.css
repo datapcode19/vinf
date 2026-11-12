@@ -98,7 +98,6 @@ body[data-page='home'] {
   object-fit: contain;
 }
 
-
 /* Hai nút chuyển xe đồng bộ */
 .showcase-vehicle > button {
   width: 44px;
@@ -133,7 +132,6 @@ body[data-page='home'] {
     transform 0.2s ease;
 }
 
-
 /* Rê chuột vào: nút chuyển xanh */
 .showcase-vehicle > button:hover {
   background: #1464f4;
@@ -149,13 +147,11 @@ body[data-page='home'] {
   transform: scale(1.06);
 }
 
-
 /* Hỗ trợ điều hướng bàn phím */
 .showcase-vehicle > button:focus-visible {
   outline: 3px solid #174ea6;
   outline-offset: 3px;
 }
-
 
 .showcase-info {
   text-align: center;
