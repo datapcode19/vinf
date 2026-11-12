@@ -126,7 +126,7 @@ export function renderHome(main) {
   main.innerHTML = /* HTML */ `<h1 class="visually-hidden">
       VinFast Việt Nam — Bản mô phỏng học tập
     </h1>
-    <section class="home-hero" data-slider aria-label="Banner sản phẩm">
+    <section class="home-hero" aria-label="Video giới thiệu VinFast">
       <div data-slide>
   <video
     id="vinfastIntro"
@@ -146,42 +146,6 @@ export function renderHome(main) {
           <h2>VF 6</h2>
           <a class="button" href="./pages/product.html?id=vf6">Khám phá</a>
         </div>
-      </div>
-      <div data-slide hidden class="light-slide">
-        <img
-          src="./assets/home/vinfast-vf8-all-new-mau-do-home.webp"
-          alt="VF 8 Thế hệ mới — ảnh danh mục"
-        />
-        <div class="hero-copy">
-          <p class="eyebrow">VinFast</p>
-          <h2>VF 8 Thế hệ mới</h2>
-          <a
-            class="button"
-            href="${official('dat-coc-xe-vf8-the-all-new-2026')}"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Khám phá ↗</a
-          >
-        </div>
-      </div>
-      <div class="slider-controls">
-        <button type="button" data-prev aria-label="Banner trước">←</button
-        ><button
-          type="button"
-          data-slide-to="0"
-          aria-label="Đến banner 1"
-          aria-pressed="true"
-        >
-          01</button
-        ><button
-          type="button"
-          data-slide-to="1"
-          aria-label="Đến banner 2"
-          aria-pressed="false"
-        >
-          02</button
-        ><button type="button" data-next aria-label="Banner tiếp theo">→</button
-        ><span data-slide-status role="status"></span>
       </div>
     </section>
     <section class="home-section home-cars" id="oto" aria-label="Danh mục ô tô">
