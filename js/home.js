@@ -507,15 +507,15 @@ if (intro) {
 
   let currentVideo = 0;
 
+  intro.style.objectFit = 'contain';
+
   intro.addEventListener('ended', () => {
     currentVideo = (currentVideo + 1) % playlist.length;
 
     intro.src = playlist[currentVideo];
+    intro.style.objectFit = currentVideo === 0 ? 'contain' : 'cover';
     intro.load();
-
-    intro.play().catch((error) => {
-      console.warn('Không thể tự động phát video banner:', error);
-    });
+    intro.play().catch(console.warn);
   });
 }
   initScrollMotion(main);
