@@ -4,23 +4,23 @@
 
 ## Kết quả thực tế
 
-Tất cả trang hiện dùng **2D**. Không có trang xe nào được ghi nhận đã hoàn thành xoay 3D/360°. Chọn màu chỉ áp dụng ảnh đúng mẫu đã có nguồn trong repository; tên màu cơ bản mô tả ảnh, không phải mã sơn hoặc cam kết tùy chọn đặt mua. Ảnh quảng bá/phiên bản có thể khác góc chụp và trang bị. Xe xăng giữ nguyên thông báo đã dừng bán xe mới.
+Tất cả trang hiện dùng **2D**. Không có trang xe nào được ghi nhận đã hoàn thành xoay 3D/360°. Chọn màu chỉ áp dụng ảnh đúng mẫu đã có nguồn trong repository; tên màu cơ bản mô tả ảnh, không phải mã sơn hoặc cam kết tùy chọn đặt mua. Ảnh quảng bá/khác góc và ảnh Eco/Plus khác trang bị đã được loại khỏi bộ chuyển màu đồng bộ; vẫn có thể xuất hiện trong nội dung giới thiệu riêng của trang. Xe xăng giữ nguyên thông báo đã dừng bán xe mới.
 
 PASS trong bảng là kiểm thử chức năng đang cung cấp, không có nghĩa đã có đủ mọi màu chính thức hoặc tài nguyên xoay. Các màu không có ảnh xác minh không được tạo thêm hoặc tô lại bằng CSS. Chưa thể lập danh sách đầy đủ tên màu còn thiếu khi nguồn trực tiếp không truy cập được.
 
 | Xe | Route (dưới /vinf21/) | Chọn màu | Màu có ảnh triển khai | Chế độ | Nguồn ảnh | Tài nguyên thiếu | Kiểm thử |
 |---|---|---|---|---|---|---|---|
-| VF 8 Thế hệ mới | [pages/vf8-new.html](pages/vf8-new.html) | Hoạt động với ảnh sẵn có | Trắng, Đỏ | 2D | [Nguồn](https://vinfastauto.com/vn_vi/dat-coc-xe-vf8-the-all-new-2026); [ảnh/provenance](assets/vf8-new/manifest.json) | 3D/360°; các màu ngoài bộ ảnh chưa xác minh | PASS 1440/768/390 |
-| VF MPV 7 | [pages/vf-mpv7.html](pages/vf-mpv7.html) | Hoạt động với ảnh sẵn có | Trắng, Xanh, Nâu, Đỏ, Đen | 2D | [Nguồn](https://vinfastauto.com/vn_vi/dat-coc-xe-vf-mpv7); [ảnh/provenance](assets/vf-mpv7/manifest.json) | 3D/360°; các màu ngoài bộ ảnh chưa xác minh | PASS 1440/768/390 |
-| VF 2 | [pages/vf2.html](pages/vf2.html) | Hoạt động với ảnh sẵn có | Trắng, Vàng be | 2D | [Nguồn](https://vinfastauto.com/vn_vi/dat-coc-xe-vf2); [ảnh/provenance](assets/vf2/manifest.json) | 3D/360°; các màu ngoài bộ ảnh chưa xác minh | PASS 1440/768/390 |
+| VF 8 Thế hệ mới | [pages/vf8-new.html](pages/vf8-new.html) | Giới hạn: 1 ảnh đồng nhất | Trắng | 2D | [Nguồn](https://vinfastauto.com/vn_vi/dat-coc-xe-vf8-the-all-new-2026); [ảnh/provenance](assets/vf8-new/manifest.json) | Ảnh các màu khác cùng góc/bố cục/phiên bản; 3D/360° | PASS 1440/768/390 |
+| VF MPV 7 | [pages/vf-mpv7.html](pages/vf-mpv7.html) | Giới hạn: 1 ảnh đồng nhất | Trắng | 2D | [Nguồn](https://vinfastauto.com/vn_vi/dat-coc-xe-vf-mpv7); [ảnh/provenance](assets/vf-mpv7/manifest.json) | Ảnh các màu khác cùng góc/bố cục/phiên bản; 3D/360° | PASS 1440/768/390 |
+| VF 2 | [pages/vf2.html](pages/vf2.html) | Giới hạn: 1 ảnh đồng nhất | Trắng | 2D | [Nguồn](https://vinfastauto.com/vn_vi/dat-coc-xe-vf2); [ảnh/provenance](assets/vf2/manifest.json) | Ảnh các màu khác cùng góc/bố cục/phiên bản; 3D/360° | PASS 1440/768/390 |
 | VF Wild | [pages/vf-wild.html](pages/vf-wild.html) | Chưa có bộ màu xác minh | — | 2D | [Nguồn](https://vinfastauto.com/vn_vi/dat-coc-xe-vf-wild); [ảnh/provenance](assets/vf-wild/manifest.json) | Bộ ảnh theo màu; 3D/360° | PASS 1440/768/390 |
 | Evo Grand Premia | [pages/evo-grand-premia.html](pages/evo-grand-premia.html) | Hoạt động với ảnh sẵn có | Nâu Titanium, Xanh Oliu, Đen Bóng Mới | 2D | [Nguồn](https://vinfastauto.com/vn_vi/xe-may-dien-evo-grand-premia); [ảnh/provenance](assets/premia/manifest.json) | 3D/360°; các màu ngoài bộ ảnh chưa xác minh | PASS 1440/768/390 |
-| VF 3 | [pages/vf3.html](pages/vf3.html) | Hoạt động với ảnh sẵn có | Trắng, Đỏ, Vàng | 2D | [Nguồn](https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf3); [ảnh/provenance](assets/vf3/manifest.json) | 3D/360°; các màu ngoài bộ ảnh chưa xác minh | PASS 1440/768/390 |
-| VF 5 | [pages/vf5.html](pages/vf5.html) | Hoạt động với ảnh sẵn có | Trắng, Đỏ, Xám | 2D | [Nguồn](https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf5); [ảnh/provenance](assets/vf5/manifest.json) | 3D/360°; các màu ngoài bộ ảnh chưa xác minh | PASS 1440/768/390 |
-| VF 6 | [pages/product.html?id=vf6](pages/product.html?id=vf6) | Hoạt động với ảnh sẵn có | Đỏ, Xanh rêu | 2D | [Nguồn](https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf6); [ảnh/provenance](assets/vf6/manifest.json) | 3D/360°; các màu ngoài bộ ảnh chưa xác minh | PASS 1440/768/390 |
-| VF 7 | [pages/vf7.html](pages/vf7.html) | Hoạt động với ảnh sẵn có | Đen, Trắng | 2D | [Nguồn](https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf7); [ảnh/provenance](assets/vf7/manifest.json) | 3D/360°; các màu ngoài bộ ảnh chưa xác minh | PASS 1440/768/390 |
-| VF 8 | [pages/vf8.html](pages/vf8.html) | Hoạt động với ảnh sẵn có | Đỏ, Xanh rêu | 2D | [Nguồn](https://vinfastauto.com/vn_vi/dat-coc-xe-vf8); [ảnh/provenance](assets/vf8/manifest.json) | 3D/360°; các màu ngoài bộ ảnh chưa xác minh | PASS 1440/768/390 |
-| VF 9 | [pages/vf9.html](pages/vf9.html) | Hoạt động với ảnh sẵn có | Trắng, Xám | 2D | [Nguồn](https://vinfastauto.com/vn_vi/dat-coc-xe-vf9); [ảnh/provenance](assets/vf9/manifest.json) | 3D/360°; các màu ngoài bộ ảnh chưa xác minh | PASS 1440/768/390 |
+| VF 3 | [pages/vf3.html](pages/vf3.html) | Giới hạn: 1 ảnh đồng nhất | Trắng | 2D | [Nguồn](https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf3); [ảnh/provenance](assets/vf3/manifest.json) | Ảnh các màu khác cùng góc/bố cục/phiên bản; 3D/360° | PASS 1440/768/390 |
+| VF 5 | [pages/vf5.html](pages/vf5.html) | Giới hạn: 1 ảnh đồng nhất | Trắng | 2D | [Nguồn](https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf5); [ảnh/provenance](assets/vf5/manifest.json) | Ảnh các màu khác cùng góc/bố cục/phiên bản; 3D/360° | PASS 1440/768/390 |
+| VF 6 | [pages/product.html?id=vf6](pages/product.html?id=vf6) | Giới hạn: 1 ảnh đồng nhất | Đỏ | 2D | [Nguồn](https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf6); [ảnh/provenance](assets/vf6/manifest.json) | Ảnh các màu khác cùng góc/bố cục/phiên bản; 3D/360° | PASS 1440/768/390 |
+| VF 7 | [pages/vf7.html](pages/vf7.html) | Giới hạn: 1 ảnh đồng nhất | Đen | 2D | [Nguồn](https://vinfastauto.com/vn_vi/dat-coc-xe-dien-vf7); [ảnh/provenance](assets/vf7/manifest.json) | Ảnh các màu khác cùng góc/bố cục/phiên bản; 3D/360° | PASS 1440/768/390 |
+| VF 8 | [pages/vf8.html](pages/vf8.html) | Giới hạn: 1 ảnh đồng nhất | Xanh rêu | 2D | [Nguồn](https://vinfastauto.com/vn_vi/dat-coc-xe-vf8); [ảnh/provenance](assets/vf8/manifest.json) | Ảnh các màu khác cùng góc/bố cục/phiên bản; 3D/360° | PASS 1440/768/390 |
+| VF 9 | [pages/vf9.html](pages/vf9.html) | Giới hạn: 1 ảnh đồng nhất | Trắng | 2D | [Nguồn](https://vinfastauto.com/vn_vi/dat-coc-xe-vf9); [ảnh/provenance](assets/vf9/manifest.json) | Ảnh các màu khác cùng góc/bố cục/phiên bản; 3D/360° | PASS 1440/768/390 |
 | Minio Green | [pages/minio-green.html](pages/minio-green.html) | Giới hạn: 1 màu | Hồng | 2D | [Nguồn](https://vinfastauto.com/vn_vi/minio-green); [ảnh/provenance](assets/home/manifest.json) | Ảnh màu khác; 3D/360° | PASS 1440/768/390 |
 | Herio Green | [pages/herio-green.html](pages/herio-green.html) | Giới hạn: 1 màu | Xám | 2D | [Nguồn](https://vinfastauto.com/vn_vi/herio-green); [ảnh/provenance](assets/home/manifest.json) | Ảnh màu khác; 3D/360° | PASS 1440/768/390 |
 | Kinet | [pages/product.html?id=kinet](pages/product.html?id=kinet) | Hoạt động với ảnh sẵn có | Đỏ Đen, Xám Xi Măng, Trắng Ngọc Trai, Đen Bóng, Nâu Ánh Kim | 2D | [Nguồn](https://vinfastauto.com/vn_vi/xe-may-dien-vinfast-kinet); [ảnh/provenance](assets/kinet/manifest.json) | 3D/360°; các màu ngoài bộ ảnh chưa xác minh | PASS 1440/768/390 |
@@ -53,7 +53,7 @@ PASS trong bảng là kiểm thử chức năng đang cung cấp, không có ngh
 | Evo Grand Lite | [pages/evo-grand-lite.html](pages/evo-grand-lite.html) | Giới hạn: 1 màu | Tím | 2D | [Nguồn](https://vinfastauto.com/vn_vi/xe-may-dien-evo-grand-lite); [ảnh/provenance](assets/home/manifest.json) | Ảnh màu khác; 3D/360° | PASS 1440/768/390 |
 | Evo Lite Neo | [pages/evo-lite-neo.html](pages/evo-lite-neo.html) | Giới hạn: 1 màu | Xanh | 2D | [Nguồn](https://vinfastauto.com/vn_vi/xe-may-dien-evo-lite-neo); [ảnh/provenance](assets/home/manifest.json) | Ảnh màu khác; 3D/360° | PASS 1440/768/390 |
 
-**Tổng:** 17 mẫu đổi được nhiều màu, 21 mẫu chỉ có ảnh một màu, 4 mẫu chỉ có ảnh tham chiếu chưa xác minh tên/bộ màu.
+**Tổng:** 8 mẫu đổi được nhiều màu, 30 mẫu chỉ có ảnh một màu, 4 mẫu chỉ có ảnh tham chiếu chưa xác minh tên/bộ màu.
 
 ## Tìm tài nguyên xoay
 
@@ -83,3 +83,23 @@ PASS trong bảng là kiểm thử chức năng đang cung cấp, không có ngh
 - 41 file HTML trong bảng: chỉ đổi entrypoint từ app.js sang vehicle-detail.js (vẫn import app.js) và thêm stylesheet.
 - tests/vehicle-viewers.cjs, tests/vehicle-viewer-modes.cjs: kiểm thử trang và nhánh viewer.
 - Báo cáo này: bảng trạng thái và giới hạn thực tế.
+
+## Rà soát tính đồng nhất của ảnh
+
+Đã đối chiếu trực quan toàn bộ 17 bộ nhiều màu trước khi lọc. Giữ 8 bộ có góc nhìn tương ứng: Kinet, Viper, Evo Grand, Evo Grand Premia, Fadil, Lux A2.0, Lux SA2.0 và President. 25 mẫu còn lại vốn chỉ có một ảnh/màu hoặc không có bộ màu để đồng bộ.
+
+Giảm 14 ảnh khỏi bộ chọn màu của 9 mẫu; mỗi mẫu giữ một ảnh:
+
+| Mẫu | Giữ lại | Loại khỏi bộ chọn màu đồng bộ | Lý do |
+|---|---|---|---|
+| VF 2 | Trắng | Vàng be | Khác góc, nền và bố cục |
+| VF 3 | Trắng | Đỏ, Vàng | Ảnh ngang, trước và sau trong các bối cảnh khác nhau |
+| VF 5 | Trắng | Đỏ, Xám | Ảnh nhìn ngang trộn với góc trên cao/cận đầu xe |
+| VF 6 | Đỏ (ảnh Eco) | Xanh rêu (ảnh Plus) | Đổi phiên bản trang bị cùng với màu |
+| VF 7 | Đen (ảnh Eco) | Trắng (ảnh Plus) | Khác phiên bản và thiết kế mâm xe |
+| VF 8 | Xanh rêu | Đỏ | Ảnh tách nền trộn với ảnh quảng bá ngoài đường |
+| VF 9 | Trắng (ảnh Eco) | Xám (ảnh Plus) | Khác phiên bản và góc nhìn |
+| VF 8 thế hệ mới | Trắng | Đỏ | Góc ngang và góc thấp phía trước |
+| VF MPV 7 | Trắng | Xanh, Nâu, Đỏ, Đen | Khác góc/nền; có ảnh mở cốp |
+
+Các file ảnh gốc, nội dung giới thiệu, thông số và bộ chọn phiên bản được giữ nguyên. Không tạo ảnh giả hoặc biến các ảnh này thành chuỗi xoay. Đợt lọc này chỉ sửa data/vehicle-viewers.js và cập nhật báo cáo này.

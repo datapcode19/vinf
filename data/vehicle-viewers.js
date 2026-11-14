@@ -3,49 +3,19 @@ import { extendedProducts } from './extended-products.js';
 
 // Chỉ dùng ảnh đúng mẫu xe đã có nguồn trong các manifest của assets/.
 // Tên màu cơ bản mô tả ảnh tham chiếu, không phải mã sơn để đặt mua.
+// Không ghép ảnh quảng bá/khác góc hoặc ảnh Eco/Plus thành bộ đổi màu.
+// Chỉ mở thêm màu khi có ảnh cùng góc, bố cục và phiên bản trang bị.
 const color = (name, hex, image) => ({ name, hex, image: `assets/${image}` });
 const additionalColors = {
-  vf2: [
-    color('Trắng', '#eee', 'vf2/white.webp'),
-    color('Vàng be', '#d6bf78', 'vf2/front.webp'),
-  ],
-  vf3: [
-    color('Trắng', '#eee', 'vf3/white.webp'),
-    color('Đỏ', '#b82129', 'vf3/front.webp'),
-    color('Vàng', '#dfb429', 'vf3/rear.webp'),
-  ],
-  vf5: [
-    color('Trắng', '#eee', 'vf5/white.webp'),
-    color('Đỏ', '#b82129', 'vf5/exterior.webp'),
-    color('Xám', '#888', 'vf5/front.webp'),
-  ],
-  vf6: [
-    color('Đỏ', '#b82129', 'vf6/eco.webp'),
-    color('Xanh rêu', '#657661', 'vf6/plus.webp'),
-  ],
-  vf7: [
-    color('Đen', '#222', 'vf7/eco.webp'),
-    color('Trắng', '#eee', 'vf7/plus.webp'),
-  ],
-  vf8: [
-    color('Đỏ', '#b82129', 'vf8/hero.webp'),
-    color('Xanh rêu', '#657661', 'vf8/plus.webp'),
-  ],
-  vf9: [
-    color('Trắng', '#eee', 'vf9/eco.webp'),
-    color('Xám', '#888', 'vf9/plus.webp'),
-  ],
-  'vf8-new': [
-    color('Trắng', '#eee', 'vf8-new/white.webp'),
-    color('Đỏ', '#b82129', 'vf8-new/front.webp'),
-  ],
-  'vf-mpv7': [
-    color('Trắng', '#eee', 'vf-mpv7/white.webp'),
-    color('Xanh', '#497482', 'vf-mpv7/exterior-1.webp'),
-    color('Nâu', '#806950', 'vf-mpv7/exterior-2.webp'),
-    color('Đỏ', '#b82129', 'vf-mpv7/exterior-3.webp'),
-    color('Đen', '#222', 'vf-mpv7/exterior-5.webp'),
-  ],
+  vf2: [color('Trắng', '#eee', 'vf2/white.webp')],
+  vf3: [color('Trắng', '#eee', 'vf3/white.webp')],
+  vf5: [color('Trắng', '#eee', 'vf5/white.webp')],
+  vf6: [color('Đỏ', '#b82129', 'vf6/eco.webp')],
+  vf7: [color('Đen', '#222', 'vf7/eco.webp')],
+  vf8: [color('Xanh rêu', '#657661', 'vf8/plus.webp')],
+  vf9: [color('Trắng', '#eee', 'vf9/eco.webp')],
+  'vf8-new': [color('Trắng', '#eee', 'vf8-new/white.webp')],
+  'vf-mpv7': [color('Trắng', '#eee', 'vf-mpv7/white.webp')],
 };
 
 const singleColors = {
@@ -97,6 +67,10 @@ export const vehicleViewers = products.map((product) => {
       (singleColors[id] ? [color(...singleColors[id], product.image)] : []),
     // Chỉ điền model/frames sau khi kiểm tra đúng xe, giấy phép và đủ vòng xoay.
     model: null,
-    missing: 'Chưa có tệp 3D hoặc chuỗi ảnh đủ 360° đã xác minh để tích hợp.',
+    missing:
+      (additionalColors[id]
+        ? 'Chưa có bộ ảnh màu cùng góc nhìn, bố cục và phiên bản trang bị. '
+        : '') +
+      'Chưa có tệp 3D hoặc chuỗi ảnh đủ 360° đã xác minh để tích hợp.',
   };
 });
