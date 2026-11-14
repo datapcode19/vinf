@@ -410,9 +410,10 @@ select {
   font-size: 13px;
   color: var(--muted);
 }
-.product-hero {
+.home-hero [data-slide] {
+  height: auto;
+  aspect-ratio: 16 / 9;
   position: relative;
-  height: 580px;
 }
 .product-hero > img {
   width: 100%;
