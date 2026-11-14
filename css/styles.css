@@ -225,8 +225,13 @@ p {
   background: #edf0f3;
 }
 .home-hero [data-slide] {
-  height: 400px;
+  /* Giữ khung 450px trên desktop; thu theo tỉ lệ 16:9 ở màn hình nhỏ. */
+  height: min(450px, 56.25vw);
   position: relative;
+  overflow: hidden;
+  grid-area: 1 / 1;
+  width: 100%;
+  background: #000;
 }
 .home-hero [data-slide] > img {
   width: 100%;
@@ -409,11 +414,6 @@ select {
   padding-bottom: 22px;
   font-size: 13px;
   color: var(--muted);
-}
-.home-hero [data-slide] {
-  height: auto;
-  aspect-ratio: 16 / 9;
-  position: relative;
 }
 .product-hero > img {
   width: 100%;
@@ -680,11 +680,6 @@ main {
   .configuration {
     gap: 30px;
   }
-  .home-hero [data-slide] {
-  height: 520px;
-  position: relative;
-  overflow: hidden;
-}
 }
 @media (max-width: 768px) {
   .container {
@@ -716,9 +711,6 @@ main {
     left: 24px;
     right: 24px;
   }
-  .home-hero [data-slide] {
-    height: 500px;
-  }
   .hero-copy h2 {
     font-size: 2rem;
   }
@@ -747,9 +739,6 @@ main {
   }
   .container {
     padding: 36px 20px;
-  }
-  .home-hero [data-slide] {
-    height: 480px;
   }
   .home-hero [data-slide] > img {
     object-position: 60% center;
@@ -828,7 +817,6 @@ main {
     padding: 24px;
   }
 }
-.home-hero [data-slide]:not(.light-slide)::after,
 .product-hero::after {
   content: '';
   position: absolute;
@@ -860,11 +848,6 @@ main {
   display: grid;
   overflow: hidden;
   isolation: isolate;
-}
-.home-hero [data-slide] {
-  grid-area: 1 / 1;
-  width: 100%;
-  background: #edf0f3;
 }
 .home-hero .slider-controls {
   z-index: 2;

@@ -6,6 +6,7 @@
   font-display: swap;
 }
 body[data-page='home'] {
+  --header-height: 70px;
   --home-max: 1280px;
   --home-gutter: 64px;
   font-family: Mulish, Arial, sans-serif;
