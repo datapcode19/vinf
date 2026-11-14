@@ -498,11 +498,26 @@ export function renderHome(main) {
       .addEventListener('click', carousel.next);
   }
   const intro = main.querySelector('#vinfastIntro');
-  if (intro) {
-    intro.addEventListener('ended', () => {
-      intro.pause();
+
+if (intro) {
+  const playlist = [
+    './assets/videos/vinfast-intro.mp4',
+    './assets/videos/vinfast-intro2.mp4',
+  ];
+
+  let currentVideo = 0;
+
+  intro.addEventListener('ended', () => {
+    currentVideo = (currentVideo + 1) % playlist.length;
+
+    intro.src = playlist[currentVideo];
+    intro.load();
+
+    intro.play().catch((error) => {
+      console.warn('Không thể tự động phát video banner:', error);
     });
-  }
+  });
+}
   initScrollMotion(main);
   const form = main.querySelector('#newsletter-form');
   form.addEventListener('submit', (e) => {
