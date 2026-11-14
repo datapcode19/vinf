@@ -681,8 +681,10 @@ main {
     gap: 30px;
   }
   .home-hero [data-slide] {
-    height: 520px;
-  }
+  height: 520px;
+  position: relative;
+  overflow: hidden;
+}
 }
 @media (max-width: 768px) {
   .container {
