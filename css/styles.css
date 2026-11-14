@@ -226,7 +226,7 @@ p {
 }
 .home-hero [data-slide] {
   /* Giữ khung 450px trên desktop; thu theo tỉ lệ 16:9 ở màn hình nhỏ. */
-  height: min(500px, 56.25vw);
+  height: min(520px, 56.25vw);
   position: relative;
   overflow: hidden;
   grid-area: 1 / 1;
