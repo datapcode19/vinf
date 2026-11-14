@@ -225,7 +225,7 @@ p {
   background: #edf0f3;
 }
 .home-hero [data-slide] {
-  height: 650px;
+  height: 560px;
   position: relative;
 }
 .home-hero [data-slide] > img {

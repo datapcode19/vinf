@@ -166,7 +166,7 @@ body.shared-chrome .has-tools [role='tablist'] {
 }
 @media (min-width: 1051px) {
   body.shared-chrome .header-inner {
-    height: 84px;
+    height: 70px;
     padding-inline: 40px;
     gap: 22px;
   }
