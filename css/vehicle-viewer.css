@@ -1,0 +1,110 @@
+.vehicle-configurator {
+  text-align: center;
+}
+.vehicle-configurator .swatches {
+  justify-content: center;
+}
+.vehicle-configurator .color-gallery-stage > button {
+  min-width: 44px;
+  width: 44px;
+  padding: 8px;
+}
+.vehicle-configurator
+  .color-gallery:has(.swatches > button:only-child)
+  .color-gallery-stage {
+  grid-template-columns: minmax(0, 1fr);
+}
+.vehicle-configurator
+  .color-gallery:has(.swatches > button:only-child)
+  .gallery-arrow {
+  display: none;
+}
+.configuration[data-vehicle-viewer] > .viewer-controls,
+.configuration[data-vehicle-viewer] > .viewer-note {
+  grid-column: 1 / -1;
+  margin: 0;
+}
+[data-vehicle-viewer] {
+  min-width: 0;
+}
+[data-vehicle-viewer] .viewer-stage {
+  overflow: hidden;
+  position: relative;
+}
+.vehicle-configurator .color-gallery-stage {
+  display: grid;
+  grid-template-columns: 44px minmax(0, 1fr) 44px;
+  align-items: center;
+}
+.vehicle-configurator [data-color-viewport] {
+  min-width: 0;
+}
+.vehicle-configurator .color-gallery-stage img,
+.vehicle-configurator .vehicle-still img {
+  display: block;
+  width: 100%;
+  height: clamp(220px, 40vw, 500px);
+  object-fit: contain;
+}
+[data-vehicle-viewer] .viewer-stage img {
+  scale: var(--viewer-zoom, 1);
+  transform-origin: center;
+}
+[data-vehicle-viewer] .viewer-controls,
+[data-vehicle-viewer] .viewer-modes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin: 16px 0;
+}
+[data-vehicle-viewer] .viewer-controls button,
+[data-vehicle-viewer] .viewer-modes button {
+  border: 1px solid #bcc5ce;
+  border-radius: 4px;
+  padding: 10px 16px;
+  min-height: 44px;
+  background: white;
+  color: #16324c;
+  cursor: pointer;
+}
+[data-vehicle-viewer] button[aria-pressed='true'] {
+  outline: 2px solid #1464f4;
+  outline-offset: 2px;
+}
+[data-vehicle-viewer] button:focus-visible,
+[data-vehicle-viewer] [tabindex]:focus-visible {
+  outline: 3px solid #1464f4;
+  outline-offset: 3px;
+}
+[data-vehicle-viewer] .viewer-note {
+  text-align: center;
+  font-size: 14px;
+  color: #52606d;
+}
+[data-vehicle-viewer] .viewer-interactive {
+  width: 100%;
+  height: clamp(260px, 45vw, 550px);
+  position: relative;
+  touch-action: pan-y;
+  overflow: hidden;
+  background: #f5f7f9;
+}
+[data-vehicle-viewer] .viewer-interactive img,
+[data-vehicle-viewer] model-viewer {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+[data-vehicle-viewer] [hidden] {
+  display: none;
+}
+[data-vehicle-viewer] .swatches {
+  flex-wrap: wrap;
+}
+@media (prefers-reduced-motion: reduce) {
+  [data-vehicle-viewer] .viewer-stage img {
+    transition: none;
+  }
+}
